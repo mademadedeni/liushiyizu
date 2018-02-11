@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>刘氏一族</title>
+	<link rel="import" href="../common/common.html?__inline">
+</head>
+<body>
+	<div id="app">
+		<!-- header -->
+		<liu-header :tab-id="4" @to-login="toLogin"></liu-header>
+		
+		<liu-footer></liu-footer>
+		<liu-login :show-login="showLogin" @close-login="closeLogin" @to-login="toLogin"></liu-login>
+	</div>
+<script>
+	require("/static/js/index");
+</script>
+</body>
+</html>
