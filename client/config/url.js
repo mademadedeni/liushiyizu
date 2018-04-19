@@ -19,6 +19,5 @@ var url = {
 	url.html = path.join(url.dist,"/html");
 	url.static = path.join(url.dist,"/static");
 	url.views = path.join(url.dist,"/views");
-	url.upload = path.join(url.webApp,"/upload");
 
 module.exports = url;

@@ -19,6 +19,7 @@ const error_router = require('./routes/error/error');
 const upload_router = require('./routes/api/upload_router');
 const user = require('./routes/user/index');
 const game = require('./routes/game/index');
+const article = require('./routes/article/index');
 const misc = require('./routes/misc');
 
 // const test_router = require('./routes/api/test_router.js');
@@ -128,6 +129,7 @@ router.use('/api', api.routes(), api.allowedMethods());
 router.use(note.routes(), note.allowedMethods());
 router.use(user.routes(), user.allowedMethods());
 router.use(game.routes(), game.allowedMethods());
+router.use(article.routes(), article.allowedMethods());
 router.use(misc.routes(), misc.allowedMethods());
 app.use(router.routes(), router.allowedMethods());
 

@@ -1,0 +1,1308 @@
+[2018-04-18T11:05:21.032] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /robots.txt
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 16
+response status: 302
+response body: 
+"Redirecting to <a href=\"/error/404\">/error/404</a>."
+*************** response log end ***************
+
+[2018-04-18T11:05:21.062] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 53
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\dist\\html\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T11:05:21.066] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /error/404
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\html\\error\\404.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T11:05:21.468] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /img/captcha
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\static\\images\\captcha\\othsely.jpg","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T11:05:22.137] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 663
+response status: 200
+response body: 
+{"code":0,"message":"success","data":{"id":69,"name":"liu","nickname":"mademadedeni","headImg":"/head/head_1517300344018.jpg","permission":5,"sex":2,"age":26,"phone":"13478905686","email":"123423423@qq.com","address":"北京市海淀区苏州街亿方大厦","signature":"我就是我！每天都要开开心心的！不经历风雨怎能见彩虹。"}}
+*************** response log end ***************
+
+[2018-04-18T11:05:22.183] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /head/head_1517300344018.jpg
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/error/404\">/error/404</a>."
+*************** response log end ***************
+
+[2018-04-18T11:05:22.199] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /error/404
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\html\\error\\404.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T11:05:28.500] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /game
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\dist\\html\\game\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T11:05:28.932] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /img/captcha
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\static\\images\\captcha\\sunding.jpg","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T11:05:29.248] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 314
+response status: 200
+response body: 
+{"code":0,"message":"success","data":{"id":69,"name":"liu","nickname":"mademadedeni","headImg":"/head/head_1517300344018.jpg","permission":5,"sex":2,"age":26,"phone":"13478905686","email":"123423423@qq.com","address":"北京市海淀区苏州街亿方大厦","signature":"我就是我！每天都要开开心心的！不经历风雨怎能见彩虹。"}}
+*************** response log end ***************
+
+[2018-04-18T11:05:29.276] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /head/head_1517300344018.jpg
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/error/404\">/error/404</a>."
+*************** response log end ***************
+
+[2018-04-18T11:05:29.294] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /error/404
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\html\\error\\404.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T11:05:33.043] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /article
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/error/404\">/error/404</a>."
+*************** response log end ***************
+
+[2018-04-18T11:05:33.064] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /error/404
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\html\\error\\404.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T11:05:33.165] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /css/common.css
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-04-18T11:05:33.173] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /css/main.css
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-04-18T11:05:33.224] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 302
+response body: 
+"Redirecting to <a href=\"/error/404\">/error/404</a>."
+*************** response log end ***************
+
+[2018-04-18T11:05:33.239] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /images/Favicon.ico
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-04-18T11:05:33.276] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/error/404\">/error/404</a>."
+*************** response log end ***************
+
+[2018-04-18T11:05:33.281] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /images/Favicon.ico
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-04-18T11:05:33.297] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /error/404
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\html\\error\\404.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T11:05:39.135] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /user/private
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\dist\\html\\user\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T11:05:40.233] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 322
+response status: 200
+response body: 
+{"code":0,"message":"success","data":{"id":69,"name":"liu","nickname":"mademadedeni","headImg":"/head/head_1517300344018.jpg","permission":5,"sex":2,"age":26,"phone":"13478905686","email":"123423423@qq.com","address":"北京市海淀区苏州街亿方大厦","signature":"我就是我！每天都要开开心心的！不经历风雨怎能见彩虹。"}}
+*************** response log end ***************
+
+[2018-04-18T11:05:40.253] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /head/head_1517300344018.jpg
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 302
+response body: 
+"Redirecting to <a href=\"/error/404\">/error/404</a>."
+*************** response log end ***************
+
+[2018-04-18T11:05:40.275] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /error/404
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\html\\error\\404.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T11:06:37.176] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /user/private
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\dist\\html\\user\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T11:06:38.163] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 317
+response status: 200
+response body: 
+{"code":0,"message":"success","data":{"id":69,"name":"liu","nickname":"mademadedeni","headImg":"/head/head_1517300344018.jpg","permission":5,"sex":2,"age":26,"phone":"13478905686","email":"123423423@qq.com","address":"北京市海淀区苏州街亿方大厦","signature":"我就是我！每天都要开开心心的！不经历风雨怎能见彩虹。"}}
+*************** response log end ***************
+
+[2018-04-18T11:06:38.352] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /head/head_1517300344018.jpg
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/error/404\">/error/404</a>."
+*************** response log end ***************
+
+[2018-04-18T11:06:38.475] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /error/404
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\html\\error\\404.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T11:08:26.643] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /user/private
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 3
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\dist\\html\\user\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T11:08:29.857] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2491
+response status: 200
+response body: 
+{"code":0,"message":"success","data":{"id":69,"name":"liu","nickname":"mademadedeni","headImg":"/head/head_1517300344018.jpg","permission":5,"sex":2,"age":26,"phone":"13478905686","email":"123423423@qq.com","address":"北京市海淀区苏州街亿方大厦","signature":"我就是我！每天都要开开心心的！不经历风雨怎能见彩虹。"}}
+*************** response log end ***************
+
+[2018-04-18T11:08:29.907] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /head/head_1517300344018.jpg
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/error/404\">/error/404</a>."
+*************** response log end ***************
+
+[2018-04-18T11:08:29.950] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /error/404
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\html\\error\\404.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T11:29:10.272] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 4
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\dist\\html\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T11:29:10.719] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /img/captcha
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 4
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\static\\images\\captcha\\othsely.jpg","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T11:29:11.596] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 849
+response status: 200
+response body: 
+{"code":0,"message":"success","data":{"id":69,"name":"liu","nickname":"mademadedeni","headImg":"/head/head_1517300344018.jpg","permission":5,"sex":2,"age":26,"phone":"13478905686","email":"123423423@qq.com","address":"北京市海淀区苏州街亿方大厦","signature":"我就是我！每天都要开开心心的！不经历风雨怎能见彩虹。"}}
+*************** response log end ***************
+
+[2018-04-18T11:29:11.674] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /head/head_1517300344018.jpg
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 5
+response status: 302
+response body: 
+"Redirecting to <a href=\"/error/404\">/error/404</a>."
+*************** response log end ***************
+
+[2018-04-18T11:29:11.694] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /error/404
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\html\\error\\404.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T14:08:05.996] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 14
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\dist\\html\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T14:08:06.417] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /img/captcha
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 3
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\static\\images\\captcha\\ankthed.jpg","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T14:08:06.425] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"not login"}
+*************** response log end ***************
+
+[2018-04-18T14:08:39.551] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\dist\\html\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T14:08:39.945] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /img/captcha
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\static\\images\\captcha\\ankthed.jpg","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T14:08:39.954] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"not login"}
+*************** response log end ***************
+
+[2018-04-18T14:10:24.753] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\dist\\html\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T14:10:25.181] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /img/captcha
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\static\\images\\captcha\\detler.jpg","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T14:10:25.188] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"not login"}
+*************** response log end ***************
+
+[2018-04-18T14:10:47.093] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\dist\\html\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T14:10:47.489] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /img/captcha
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\static\\images\\captcha\\lauding.jpg","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T14:10:47.499] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"not login"}
+*************** response log end ***************
+
+[2018-04-18T14:22:45.375] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 4
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\dist\\html\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T14:22:45.947] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /img/captcha
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 3
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\static\\images\\captcha\\ankthed.jpg","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T14:22:45.975] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"not login"}
+*************** response log end ***************
+
+[2018-04-18T14:23:17.354] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 5
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\dist\\html\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T14:23:17.735] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /img/captcha
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\static\\images\\captcha\\angaly.jpg","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T14:23:17.750] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"not login"}
+*************** response log end ***************
+
+[2018-04-18T14:27:12.367] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 5
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\dist\\html\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T14:27:12.807] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /img/captcha
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\static\\images\\captcha\\coaines.jpg","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T14:28:43.031] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 6
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\dist\\html\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T14:28:43.446] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /img/captcha
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 5
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\static\\images\\captcha\\lauding.jpg","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T14:29:03.732] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\dist\\html\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T14:29:04.094] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /img/captcha
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\static\\images\\captcha\\cqphers.jpg","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T14:29:34.747] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /article
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\dist\\html\\article\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T14:29:35.169] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /img/captcha
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\static\\images\\captcha\\othsely.jpg","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T14:29:36.283] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /game
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\dist\\html\\game\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T14:29:36.691] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /img/captcha
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\static\\images\\captcha\\detler.jpg","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T14:29:37.512] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\dist\\html\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T14:29:37.916] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /img/captcha
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\static\\images\\captcha\\ankthed.jpg","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T14:29:38.651] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /user/private
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\dist\\html\\user\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T14:29:46.281] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /user/private
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\dist\\html\\user\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T14:30:06.652] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /user/private
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\dist\\html\\user\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T14:31:18.906] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /game
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\dist\\html\\game\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T14:31:19.323] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /img/captcha
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\static\\images\\captcha\\slohers.jpg","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T14:31:20.764] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /static/js/game/html5-mario/sounds/cannon.mp3
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-04-18T14:31:20.771] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /static/js/game/html5-mario/sounds/cannon.mp3
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-04-18T14:31:20.780] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /static/js/game/html5-mario/sounds/cannon.mp3
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-04-18T14:31:20.788] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /static/js/game/html5-mario/sounds/coin.mp3
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-04-18T14:31:20.800] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /static/js/game/html5-mario/sounds/coin.mp3
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-04-18T14:31:20.810] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /static/js/game/html5-mario/sounds/coin.mp3
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-04-18T14:31:20.820] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /static/js/game/html5-mario/sounds/coin.mp3
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-04-18T14:31:20.829] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /static/js/game/html5-mario/sounds/coin.mp3
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-04-18T14:31:20.842] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /static/js/game/html5-mario/sounds/death.mp3
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-04-18T14:31:20.856] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /static/js/game/html5-mario/sounds/exit.mp3
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-04-18T14:31:20.879] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /static/js/game/html5-mario/sounds/fireball.mp3
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-04-18T14:31:20.896] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /static/js/game/html5-mario/sounds/jump.mp3
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-04-18T14:31:20.906] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /static/js/game/html5-mario/sounds/jump.mp3
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-04-18T14:31:20.922] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /static/js/game/html5-mario/sounds/jump.mp3
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-04-18T14:31:20.932] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /static/js/game/html5-mario/sounds/kick.mp3
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-04-18T14:31:20.942] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /static/js/game/html5-mario/sounds/kick.mp3
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-04-18T14:31:20.953] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /static/js/game/html5-mario/sounds/kick.mp3
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-04-18T14:31:20.966] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /static/js/game/html5-mario/sounds/pipe.mp3
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-04-18T14:31:20.979] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /static/js/game/html5-mario/sounds/powerdown.mp3
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-04-18T14:31:20.991] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /static/js/game/html5-mario/sounds/powerup.mp3
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-04-18T14:31:21.004] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /static/js/game/html5-mario/sounds/sprout.mp3
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-04-18T14:31:21.016] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /static/js/game/html5-mario/sounds/stagestart.mp3
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-04-18T14:31:21.031] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /static/js/game/html5-mario/sounds/stomp.mp3
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-04-18T14:31:21.041] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /static/js/game/html5-mario/sounds/stomp.mp3
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-04-18T14:31:21.054] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /static/js/game/html5-mario/sounds/1-up.mp3
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-04-18T14:31:21.067] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /static/js/game/html5-mario/sounds/breakblock.mp3
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-04-18T14:31:21.080] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /static/js/game/html5-mario/sounds/breakblock.mp3
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-04-18T14:31:21.091] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /static/js/game/html5-mario/sounds/breakblock.mp3
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-04-18T14:31:21.108] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /static/js/game/html5-mario/sounds/bump.mp3
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-04-18T14:31:21.129] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /static/js/game/html5-mario/sounds/bump.mp3
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-04-18T14:31:21.149] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /static/js/game/html5-mario/sounds/bump.mp3
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-04-18T14:31:21.157] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /static/js/game/html5-mario/sounds/bump.mp3
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-04-18T14:32:13.232] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /game
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\dist\\html\\game\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T14:32:13.621] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /img/captcha
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\static\\images\\captcha\\cqphers.jpg","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T14:33:07.660] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\dist\\html\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-04-18T14:33:08.079] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /img/captcha
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\static\\images\\captcha\\inkfing.jpg","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+

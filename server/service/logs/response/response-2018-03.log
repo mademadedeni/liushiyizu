@@ -1,0 +1,721 @@
+[2018-03-06T10:52:44.919] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 4
+response status: 200
+response body: 
+{"code":0,"message":"not login"}
+*************** response log end ***************
+
+[2018-03-06T10:52:58.866] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"not login"}
+*************** response log end ***************
+
+[2018-03-06T10:53:06.912] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"not login"}
+*************** response log end ***************
+
+[2018-03-06T10:53:11.826] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"liu","password":"123456","seven":false}
+response time: 1004
+response status: 200
+response body: 
+{"code":0,"message":"success"}
+*************** response log end ***************
+
+[2018-03-06T10:53:13.094] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 769
+response status: 200
+response body: 
+{"code":0,"message":"success","data":{"id":69,"name":"liu","nickname":"mademadedeni","headImg":"/head/head_1517300344018.jpg","permission":5,"sex":0,"age":26,"phone":"13478905686","email":"123423423@qq.com","address":"北京市海淀区苏州街亿方大厦","signature":"我就是我！每天都要开开心心的！不经历风雨怎能见彩虹。"}}
+*************** response log end ***************
+
+[2018-03-06T10:53:14.664] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 610
+response status: 200
+response body: 
+{"code":0,"message":"success","data":{"id":69,"name":"liu","nickname":"mademadedeni","headImg":"/head/head_1517300344018.jpg","permission":5,"sex":0,"age":26,"phone":"13478905686","email":"123423423@qq.com","address":"北京市海淀区苏州街亿方大厦","signature":"我就是我！每天都要开开心心的！不经历风雨怎能见彩虹。"}}
+*************** response log end ***************
+
+[2018-03-06T10:53:30.841] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 771
+response status: 200
+response body: 
+{"code":0,"message":"success","data":{"id":69,"name":"liu","nickname":"mademadedeni","headImg":"/head/head_1517300344018.jpg","permission":5,"sex":0,"age":26,"phone":"13478905686","email":"123423423@qq.com","address":"北京市海淀区苏州街亿方大厦","signature":"我就是我！每天都要开开心心的！不经历风雨怎能见彩虹。"}}
+*************** response log end ***************
+
+[2018-03-06T10:54:02.622] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 478
+response status: 200
+response body: 
+{"code":0,"message":"success","data":{"id":69,"name":"liu","nickname":"mademadedeni","headImg":"/head/head_1517300344018.jpg","permission":5,"sex":0,"age":26,"phone":"13478905686","email":"123423423@qq.com","address":"北京市海淀区苏州街亿方大厦","signature":"我就是我！每天都要开开心心的！不经历风雨怎能见彩虹。"}}
+*************** response log end ***************
+
+[2018-03-06T10:54:12.016] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 480
+response status: 200
+response body: 
+{"code":0,"message":"success","data":{"id":69,"name":"liu","nickname":"mademadedeni","headImg":"/head/head_1517300344018.jpg","permission":5,"sex":0,"age":26,"phone":"13478905686","email":"123423423@qq.com","address":"北京市海淀区苏州街亿方大厦","signature":"我就是我！每天都要开开心心的！不经历风雨怎能见彩虹。"}}
+*************** response log end ***************
+
+[2018-03-06T10:54:26.082] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/eidtInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"nickname":"mademadedeni","sex":"1","age":"26","phone":"13478905686","email":"123423423@qq.com","address":"北京市海淀区苏州街亿方大厦","signature":"我就是我！每天都要开开心心的！不经历风雨怎能见彩虹。"}
+response time: 481
+response status: 200
+response body: 
+{"code":0,"message":"success"}
+*************** response log end ***************
+
+[2018-03-06T10:54:28.674] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 483
+response status: 200
+response body: 
+{"code":0,"message":"success","data":{"id":69,"name":"liu","nickname":"mademadedeni","headImg":"/head/head_1517300344018.jpg","permission":5,"sex":1,"age":26,"phone":"13478905686","email":"123423423@qq.com","address":"北京市海淀区苏州街亿方大厦","signature":"我就是我！每天都要开开心心的！不经历风雨怎能见彩虹。"}}
+*************** response log end ***************
+
+[2018-03-06T10:54:40.461] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/eidtInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"nickname":"mademadedeni","sex":"2","age":"26","phone":"13478905686","email":"123423423@qq.com","address":"北京市海淀区苏州街亿方大厦","signature":"我就是我！每天都要开开心心的！不经历风雨怎能见彩虹。"}
+response time: 475
+response status: 200
+response body: 
+{"code":0,"message":"success"}
+*************** response log end ***************
+
+[2018-03-06T10:54:43.005] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 477
+response status: 200
+response body: 
+{"code":0,"message":"success","data":{"id":69,"name":"liu","nickname":"mademadedeni","headImg":"/head/head_1517300344018.jpg","permission":5,"sex":2,"age":26,"phone":"13478905686","email":"123423423@qq.com","address":"北京市海淀区苏州街亿方大厦","signature":"我就是我！每天都要开开心心的！不经历风雨怎能见彩虹。"}}
+*************** response log end ***************
+
+[2018-03-06T10:55:04.195] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 478
+response status: 200
+response body: 
+{"code":0,"message":"success","data":{"id":69,"name":"liu","nickname":"mademadedeni","headImg":"/head/head_1517300344018.jpg","permission":5,"sex":2,"age":26,"phone":"13478905686","email":"123423423@qq.com","address":"北京市海淀区苏州街亿方大厦","signature":"我就是我！每天都要开开心心的！不经历风雨怎能见彩虹。"}}
+*************** response log end ***************
+
+[2018-03-06T10:55:30.331] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 478
+response status: 200
+response body: 
+{"code":0,"message":"success","data":{"id":69,"name":"liu","nickname":"mademadedeni","headImg":"/head/head_1517300344018.jpg","permission":5,"sex":2,"age":26,"phone":"13478905686","email":"123423423@qq.com","address":"北京市海淀区苏州街亿方大厦","signature":"我就是我！每天都要开开心心的！不经历风雨怎能见彩虹。"}}
+*************** response log end ***************
+
+[2018-03-06T11:05:51.187] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/exit
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"success"}
+*************** response log end ***************
+
+[2018-03-06T11:05:51.720] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"not login"}
+*************** response log end ***************
+
+[2018-03-06T11:06:00.876] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"admin","password":"123456","seven":false}
+response time: 484
+response status: 200
+response body: 
+{"code":0,"message":"failed"}
+*************** response log end ***************
+
+[2018-03-06T11:06:38.444] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"not login"}
+*************** response log end ***************
+
+[2018-03-06T11:06:49.799] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"admin","password":"liu123456x","seven":false}
+response time: 480
+response status: 200
+response body: 
+{"code":0,"message":"success"}
+*************** response log end ***************
+
+[2018-03-06T11:06:51.049] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 481
+response status: 200
+response body: 
+{"code":0,"message":"success","data":{"id":1,"name":"admin","nickname":null,"headImg":"/static/upload/head/liu.jpg","permission":1,"sex":0,"age":0,"phone":"0","email":"0","address":"0","signature":null}}
+*************** response log end ***************
+
+[2018-03-06T11:08:33.458] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 477
+response status: 200
+response body: 
+{"code":0,"message":"success","data":{"id":1,"name":"admin","nickname":null,"headImg":"/static/upload/head/liu.jpg","permission":1,"sex":0,"age":0,"phone":"0","email":"0","address":"0","signature":null}}
+*************** response log end ***************
+
+[2018-03-06T11:09:26.039] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/upload/head
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"fields":{},"files":{"file":{"size":98842,"path":"C:\\Users\\LIUJIA~1\\AppData\\Local\\Temp\\upload_25380cd742063fb862cf4ec2cc941b86","name":"liu.jpg","type":"image/jpeg","mtime":"2018-03-06T03:09:26.033Z"}}}
+response time: 4
+response status: 200
+response body: 
+{"code":0,"message":"error"}
+*************** response log end ***************
+
+[2018-03-06T11:09:56.621] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/upload/head
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"fields":{},"files":{"file":{"size":98842,"path":"C:\\Users\\LIUJIA~1\\AppData\\Local\\Temp\\upload_d4b6d6c72c0e36eda46f0f4890536231","name":"liu.jpg","type":"image/jpeg","mtime":"2018-03-06T03:09:51.719Z"}}}
+response time: 2
+response status: 200
+response body: 
+{"code":0,"message":"error"}
+*************** response log end ***************
+
+[2018-03-06T11:10:11.056] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 834
+response status: 200
+response body: 
+{"code":0,"message":"success","data":{"id":1,"name":"admin","nickname":null,"headImg":"/static/upload/head/liu.jpg","permission":1,"sex":0,"age":0,"phone":"0","email":"0","address":"0","signature":null}}
+*************** response log end ***************
+
+[2018-03-06T11:16:04.605] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/upload/head
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"fields":{},"files":{"file":{"size":98842,"path":"C:\\Users\\LIUJIA~1\\AppData\\Local\\Temp\\upload_d4cafb4656c9d81450076f90c02fc082","name":"liu.jpg","type":"image/jpeg","mtime":"2018-03-06T03:16:04.602Z"}}}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"error"}
+*************** response log end ***************
+
+[2018-03-06T11:26:25.683] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/upload/head
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"fields":{},"files":{"file":{"size":98842,"path":"C:\\Users\\LIUJIA~1\\AppData\\Local\\Temp\\upload_534949ea99a466ecfdd34ec169242f02","name":"liu.jpg","type":"image/jpeg","mtime":"2018-03-06T03:26:25.665Z"}}}
+response time: 10
+response status: 200
+response body: 
+{"code":0,"message":"error"}
+*************** response log end ***************
+
+[2018-03-06T11:35:12.894] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/exit
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"success"}
+*************** response log end ***************
+
+[2018-03-06T11:35:13.656] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"code":0,"message":"not login"}
+*************** response log end ***************
+
+[2018-03-06T11:35:16.784] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"liu","password":"123456","seven":false}
+response time: 999
+response status: 200
+response body: 
+{"code":0,"message":"success"}
+*************** response log end ***************
+
+[2018-03-06T11:35:17.960] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 483
+response status: 200
+response body: 
+{"code":0,"message":"success","data":{"id":69,"name":"liu","nickname":"mademadedeni","headImg":"/head/head_1517300344018.jpg","permission":5,"sex":2,"age":26,"phone":"13478905686","email":"123423423@qq.com","address":"北京市海淀区苏州街亿方大厦","signature":"我就是我！每天都要开开心心的！不经历风雨怎能见彩虹。"}}
+*************** response log end ***************
+
+[2018-03-06T11:42:55.751] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/exit
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 3
+response status: 200
+response body: 
+{"code":0,"message":"success"}
+*************** response log end ***************
+
+[2018-03-06T11:42:56.669] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"not login"}
+*************** response log end ***************
+
+[2018-03-06T11:43:06.335] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"admin","password":"liu123456x","seven":false}
+response time: 1002
+response status: 200
+response body: 
+{"code":0,"message":"success"}
+*************** response log end ***************
+
+[2018-03-06T11:43:07.570] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 488
+response status: 200
+response body: 
+{"code":0,"message":"success","data":{"id":1,"name":"admin","nickname":null,"headImg":"/static/upload/head/liu.jpg","permission":1,"sex":0,"age":0,"phone":"0","email":"0","address":"0","signature":null}}
+*************** response log end ***************
+
+[2018-03-06T11:43:09.879] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 484
+response status: 200
+response body: 
+{"code":0,"message":"success","data":{"id":1,"name":"admin","nickname":null,"headImg":"/static/upload/head/liu.jpg","permission":1,"sex":0,"age":0,"phone":"0","email":"0","address":"0","signature":null}}
+*************** response log end ***************
+
+[2018-03-06T11:43:14.677] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/upload/head
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"fields":{},"files":{"file":{"size":98842,"path":"C:\\Users\\LIUJIA~1\\AppData\\Local\\Temp\\upload_a16dd30e1c683c5133febc91b917df22","name":"liu.jpg","type":"image/jpeg","mtime":"2018-03-06T03:43:14.182Z"}}}
+response time: 493
+response status: 200
+response body: 
+{"code":0,"message":"success","data":"/head/liu.jpg"}
+*************** response log end ***************
+
+[2018-03-06T11:43:16.023] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 484
+response status: 200
+response body: 
+{"code":0,"message":"success","data":{"id":1,"name":"admin","nickname":null,"headImg":"/head/liu.jpg","permission":1,"sex":0,"age":0,"phone":"0","email":"0","address":"0","signature":null}}
+*************** response log end ***************
+
+[2018-03-06T11:43:32.390] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 485
+response status: 200
+response body: 
+{"code":0,"message":"success","data":{"id":1,"name":"admin","nickname":null,"headImg":"/head/liu.jpg","permission":1,"sex":0,"age":0,"phone":"0","email":"0","address":"0","signature":null}}
+*************** response log end ***************
+
+[2018-03-06T11:43:35.662] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/exit
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"success"}
+*************** response log end ***************
+
+[2018-03-06T11:43:36.429] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"not login"}
+*************** response log end ***************
+
+[2018-03-06T11:51:31.507] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"code":0,"message":"not login"}
+*************** response log end ***************
+
+[2018-03-06T11:51:32.506] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"liu","password":"123456","seven":false}
+response time: 1006
+response status: 200
+response body: 
+{"code":0,"message":"success"}
+*************** response log end ***************
+
+[2018-03-06T11:51:33.777] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 491
+response status: 200
+response body: 
+{"code":0,"message":"success","data":{"id":69,"name":"liu","nickname":"mademadedeni","headImg":"/head/head_1517300344018.jpg","permission":5,"sex":2,"age":26,"phone":"13478905686","email":"123423423@qq.com","address":"北京市海淀区苏州街亿方大厦","signature":"我就是我！每天都要开开心心的！不经历风雨怎能见彩虹。"}}
+*************** response log end ***************
+
+[2018-03-06T11:53:40.661] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /robots.txt
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 13
+response status: 302
+response body: 
+"Redirecting to <a href=\"/error/404\">/error/404</a>."
+*************** response log end ***************
+
+[2018-03-06T11:53:40.670] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 23
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\server\\service\\webApp\\dist\\html\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-03-06T11:53:40.678] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /error/404
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\server\\service\\webApp\\html\\error\\404.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-03-06T11:53:41.343] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /img/captcha
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\server\\service\\webApp\\static\\images\\captcha\\angaly.jpg","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-03-06T11:53:41.951] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 595
+response status: 200
+response body: 
+{"code":0,"message":"success","data":{"id":69,"name":"liu","nickname":"mademadedeni","headImg":"/head/head_1517300344018.jpg","permission":5,"sex":2,"age":26,"phone":"13478905686","email":"123423423@qq.com","address":"北京市海淀区苏州街亿方大厦","signature":"我就是我！每天都要开开心心的！不经历风雨怎能见彩虹。"}}
+*************** response log end ***************
+
+[2018-03-06T11:53:50.234] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\server\\service\\webApp\\dist\\html\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-03-06T11:53:50.853] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /img/captcha
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\server\\service\\webApp\\static\\images\\captcha\\lauding.jpg","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-03-06T11:53:51.406] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 489
+response status: 200
+response body: 
+{"code":0,"message":"success","data":{"id":69,"name":"liu","nickname":"mademadedeni","headImg":"/head/head_1517300344018.jpg","permission":5,"sex":2,"age":26,"phone":"13478905686","email":"123423423@qq.com","address":"北京市海淀区苏州街亿方大厦","signature":"我就是我！每天都要开开心心的！不经历风雨怎能见彩虹。"}}
+*************** response log end ***************
+
+[2018-03-06T11:54:02.529] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\server\\service\\webApp\\dist\\html\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-03-06T11:54:03.138] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /img/captcha
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\server\\service\\webApp\\static\\images\\captcha\\othsely.jpg","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-03-06T11:54:03.639] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 488
+response status: 200
+response body: 
+{"code":0,"message":"success","data":{"id":69,"name":"liu","nickname":"mademadedeni","headImg":"/head/head_1517300344018.jpg","permission":5,"sex":2,"age":26,"phone":"13478905686","email":"123423423@qq.com","address":"北京市海淀区苏州街亿方大厦","signature":"我就是我！每天都要开开心心的！不经历风雨怎能见彩虹。"}}
+*************** response log end ***************
+
+[2018-03-06T11:54:08.563] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/exit
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"code":0,"message":"success"}
+*************** response log end ***************
+
+[2018-03-06T11:54:08.758] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\server\\service\\webApp\\dist\\html\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-03-06T11:54:09.353] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /img/captcha
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\server\\service\\webApp\\static\\images\\captcha\\slohers.jpg","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-03-06T11:54:09.406] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"not login"}
+*************** response log end ***************
+

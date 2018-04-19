@@ -40,8 +40,9 @@ var upload = async (file, writePath, fileType, maxSize) => {
 		});
 		writeStream.on('error', (err) => {
 			message = "error";
-			writeStream.end();
+			console.log(err)
 			reject(err);
+			writeStream.end();
 		});
 	});
 }
@@ -57,8 +58,10 @@ exports.uploadHead = async (ctx, next) => {
 		const file = ctx.request.body.files.file;
 		const user = ctx.session.user;
 		var imgPath = user.headImg;
-		if (path.basename(user.headImg) == "default.jpg") {
+		if (path.basename(imgPath) == "default.jpg") {
 			imgPath = "/head/head_" + Date.now() + path.extname(file.name);
+		}else{
+			imgPath = "/head/"+path.basename(imgPath);
 		}
 		var savePath = path.join(url.upload, imgPath);
 		var writeState = "";
