@@ -5,7 +5,7 @@ const path = require("path");
 exports.captcha = async (ctx, next) => {
     ctx.type = "image/jpg";
     var randomNum = parseInt(Math.random()*10) + "";
-    var filePath = path.join(__dirname,"../webApp/static/images/captcha/");
+    var filePath = path.join(__dirname,"../webApp/captcha/");
     var files = fs.readdirSync(filePath);
     ctx.session.captcha = files[randomNum].split(".")[0];
     ctx.body = fs.createReadStream(filePath+files[randomNum]);

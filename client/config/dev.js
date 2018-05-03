@@ -4,7 +4,8 @@
 
 module.exports = {
     env: 'development_env', //环境名称
-    port: 8686,         //服务端口号
+    port: 8686,         //客户端口号
+    serverPort: 6868,         //服务端口号
     sql_host: '107.182.188.155',    //数据库地址
     sql_port: '3306',    //数据库端口
     sql_user:"admin", //数据库用户名

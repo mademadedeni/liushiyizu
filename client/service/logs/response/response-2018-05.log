@@ -1,0 +1,336 @@
+[2018-05-02T10:48:26.236] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 47
+response status: 200
+response body: 
+"<!DOCTYPE html>\r\n<html>\r\n<head>\r\n\t<title>刘氏一族</title>\r\n\t<meta charset=\"utf-8\">\r\n<link rel=\"shortcut icon\" href=\"/static/images/Favicon.ico\" type=\"image/x-icon\" />\r\n\r\n\r\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/js/plugin/element_ui/index.css\" />\r\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/js/plugin/element_ui/my.css\" />\r\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/css/components.css\" />\r\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/font/iconfont.css\" />\r\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/css/common.css\" />\r\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/css/main.css\" />\r\n</head>\r\n<body>\r\n\t<div id=\"app\" data-server-rendered=\"true\"><header class=\"liu_header\"><div class=\"content_box\"><a href=\"/\" class=\"p_ibt logo\"></a> <div class=\"p_ibt nav_box\"><a href=\"/\" class=\"p_ibt nav on\">首页</a> <!----> <a href=\"/game\" class=\"p_ibt nav\">游戏</a> <a href=\"/article\" class=\"p_ibt nav\">文章</a></div> <div class=\"right\"><div class=\"p_ibt search_box\"><input type=\"text\" name=\"search\" maxlength=\"30\" value=\"\" class=\"input0\"> <a href=\"/search?value=\" target=\"_blank\" class=\"iconfont icon-search\"></a> <div class=\"placeholder\" style=\"display:;\">我什么都不知道</div></div> <!----> <div class=\"p_ibt sign_box\"><a href=\"javascript:;\" class=\"sign_btn\">登陆</a> <a href=\"javascript:;\" class=\"sign_btn\">注册</a></div></div></div></header> <div class=\"index_banner_box\"><canvas id=\"canvas\" class=\"canvas\"></canvas></div> <liu-footer></liu-footer> <liu-login show-login=\"0\"></liu-login></div>\r\n\t<!-- <div id=\"app\">\r\n\t\t<liu-header :tab-id=\"1\" @to-login=\"toLogin\"></liu-header>\r\n\t\t<div class=\"index_banner_box\">\r\n\t\t\t<canvas id=\"canvas\" class=\"canvas\"></canvas>\r\n\t\t</div>\r\n\t\t<liu-footer></liu-footer>\r\n\t\t<liu-login :show-login=\"showLogin\" @close-login=\"closeLogin\" @to-login=\"toLogin\"></liu-login>\r\n\t</div> -->\r\n\r\n<script src=\"/static/js/common/mod_ccfcc2d.js\"></script>\r\n<script type=\"text/javascript\" src=\"/static/js/plugin/vue/vue_52c3e6c.js\"></script>\r\n<script type=\"text/javascript\" src=\"/static/js/plugin/element_ui/index_8e0e63f.js\"></script>\r\n<script type=\"text/javascript\" src=\"/static/js/plugin/jquery/jquery_f0283cb.js\"></script>\r\n<script type=\"text/javascript\" src=\"/static/js/components.js\"></script>\r\n<script type=\"text/javascript\" src=\"/static/js/index_100578c.js\"></script>\r\n<script src=\"/static/js/common/utils_a708fde.js\"></script>\r\n<script>\r\n\trequire(\"static/js/index\");\r\n</script>\r\n</body>\r\n</html>"
+*************** response log end ***************
+
+[2018-05-02T11:08:07.926] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 63
+response status: 200
+response body: 
+"<!DOCTYPE html>\r\n<html>\r\n<head>\r\n\t<title>刘氏一族</title>\r\n\t<meta charset=\"utf-8\">\r\n<link rel=\"shortcut icon\" href=\"/static/images/Favicon.ico\" type=\"image/x-icon\" />\r\n\r\n\r\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/js/plugin/element_ui/index.css\" />\r\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/js/plugin/element_ui/my.css\" />\r\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/css/components.css\" />\r\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/font/iconfont.css\" />\r\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/css/common.css\" />\r\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/css/main.css\" />\r\n</head>\r\n<body>\r\n\t<div id=\"app\" data-server-rendered=\"true\"><header class=\"liu_header\"><div class=\"content_box\"><a href=\"/\" class=\"p_ibt logo\"></a> <div class=\"p_ibt nav_box\"><a href=\"/\" class=\"p_ibt nav on\">首页</a> <!----> <a href=\"/game\" class=\"p_ibt nav\">游戏</a> <a href=\"/article\" class=\"p_ibt nav\">文章</a></div> <div class=\"right\"><div class=\"p_ibt search_box\"><input type=\"text\" name=\"search\" maxlength=\"30\" value=\"\" class=\"input0\"> <a href=\"/search?value=\" target=\"_blank\" class=\"iconfont icon-search\"></a> <div class=\"placeholder\" style=\"display:;\">我什么都不知道</div></div> <!----> <div class=\"p_ibt sign_box\"><a href=\"javascript:;\" class=\"sign_btn\">登陆</a> <a href=\"javascript:;\" class=\"sign_btn\">注册</a></div></div></div></header> <div class=\"index_banner_box\"><canvas id=\"canvas\" class=\"canvas\"></canvas></div> <liu-footer></liu-footer> <div class=\"liu_float_panel\" style=\"display:none;\"><div class=\"p_ibm liu_login\" style=\"display:none;\"><div class=\"title_box\"><span>登录</span> <a href=\"javascript:;\">去注册</a> <a href=\"javascript:;\" class=\"iconfont icon-close\"></a></div> <div><div><input type=\"text\" name=\"name\" placeholder=\"请输入用户名\" maxlength=\"16\" value=\"liu\" class=\"input0\"></div> <div><input type=\"password\" name=\"name\" placeholder=\"请输入密码\" maxlength=\"16\" value=\"123456\" class=\"input0\"></div> <div><div class=\"p_ibt iconfont icon-checkbox\"></div><span class=\"p_ibt\">七天自动登录</span></div> <div><a href=\"javascript:;\" class=\"button0\">登 录</a></div></div></div> <div class=\"p_ibm liu_login\" style=\"display:none;\"><div class=\"title_box\"><span>注册</span> <a href=\"javascript:;\">去登录</a> <a href=\"javascript:;\" class=\"iconfont icon-close\"></a></div> <div><div><input type=\"text\" name=\"name\" placeholder=\"用户名\" maxlength=\"16\" value=\"\" class=\"input0\"></div> <div><input type=\"password\" name=\"password\" placeholder=\"密码\" maxlength=\"16\" value=\"\" class=\"input0\"></div> <div><input type=\"text\" name=\"captcha\" placeholder=\"验证码\" maxlength=\"8\" value=\"\" class=\"input0\"> <img src=\"/api/captcha?norepeat=\" class=\"captcha\"> <a href=\"javascript:;\" class=\"iconfont icon-refresh\"></a></div> <div><a href=\"javascript:;\" class=\"button0\">注 册</a></div></div></div></div></div>\r\n\t<!-- <div id=\"app\">\r\n\t\t<liu-header :tab-id=\"1\" @to-login=\"toLogin\"></liu-header>\r\n\t\t<div class=\"index_banner_box\">\r\n\t\t\t<canvas id=\"canvas\" class=\"canvas\"></canvas>\r\n\t\t</div>\r\n\t\t<liu-footer></liu-footer>\r\n\t\t<liu-login :show-login=\"showLogin\" @close-login=\"closeLogin\" @to-login=\"toLogin\"></liu-login>\r\n\t</div> -->\r\n\r\n<script src=\"/static/js/common/mod_ccfcc2d.js\"></script>\r\n<script type=\"text/javascript\" src=\"/static/js/plugin/vue/vue_52c3e6c.js\"></script>\r\n<script type=\"text/javascript\" src=\"/static/js/plugin/element_ui/index_8e0e63f.js\"></script>\r\n<script type=\"text/javascript\" src=\"/static/js/plugin/jquery/jquery_f0283cb.js\"></script>\r\n<script type=\"text/javascript\" src=\"/static/js/components.js\"></script>\r\n<script type=\"text/javascript\" src=\"/static/js/index_100578c.js\"></script>\r\n<script src=\"/static/js/common/utils_a708fde.js\"></script>\r\n<script>\r\n\trequire(\"static/js/index\");\r\n</script>\r\n</body>\r\n</html>"
+*************** response log end ***************
+
+[2018-05-02T11:09:20.610] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 47
+response status: 200
+response body: 
+"<!DOCTYPE html>\r\n<html>\r\n<head>\r\n\t<title>刘氏一族</title>\r\n\t<meta charset=\"utf-8\">\r\n<link rel=\"shortcut icon\" href=\"/static/images/Favicon.ico\" type=\"image/x-icon\" />\r\n\r\n\r\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/js/plugin/element_ui/index.css\" />\r\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/js/plugin/element_ui/my.css\" />\r\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/css/components.css\" />\r\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/font/iconfont.css\" />\r\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/css/common.css\" />\r\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/css/main.css\" />\r\n</head>\r\n<body>\r\n\t<div id=\"app\" data-server-rendered=\"true\"><header class=\"liu_header\"><div class=\"content_box\"><a href=\"/\" class=\"p_ibt logo\"></a> <div class=\"p_ibt nav_box\"><a href=\"/\" class=\"p_ibt nav on\">首页</a> <!----> <a href=\"/game\" class=\"p_ibt nav\">游戏</a> <a href=\"/article\" class=\"p_ibt nav\">文章</a></div> <div class=\"right\"><div class=\"p_ibt search_box\"><input type=\"text\" name=\"search\" maxlength=\"30\" value=\"\" class=\"input0\"> <a href=\"/search?value=\" target=\"_blank\" class=\"iconfont icon-search\"></a> <div class=\"placeholder\" style=\"display:;\">我什么都不知道</div></div> <!----> <div class=\"p_ibt sign_box\"><a href=\"javascript:;\" class=\"sign_btn\">登陆</a> <a href=\"javascript:;\" class=\"sign_btn\">注册</a></div></div></div></header> <div class=\"index_banner_box\"><canvas id=\"canvas\" class=\"canvas\"></canvas></div> <liu-footer></liu-footer> <div class=\"liu_float_panel\" style=\"display:none;\"><div class=\"p_ibm liu_login\" style=\"display:none;\"><div class=\"title_box\"><span>登录</span> <a href=\"javascript:;\">去注册</a> <a href=\"javascript:;\" class=\"iconfont icon-close\"></a></div> <div><div><input type=\"text\" name=\"name\" placeholder=\"请输入用户名\" maxlength=\"16\" value=\"liu\" class=\"input0\"></div> <div><input type=\"password\" name=\"name\" placeholder=\"请输入密码\" maxlength=\"16\" value=\"123456\" class=\"input0\"></div> <div><div class=\"p_ibt iconfont icon-checkbox\"></div><span class=\"p_ibt\">七天自动登录</span></div> <div><a href=\"javascript:;\" class=\"button0\">登 录</a></div></div></div> <div class=\"p_ibm liu_login\" style=\"display:none;\"><div class=\"title_box\"><span>注册</span> <a href=\"javascript:;\">去登录</a> <a href=\"javascript:;\" class=\"iconfont icon-close\"></a></div> <div><div><input type=\"text\" name=\"name\" placeholder=\"用户名\" maxlength=\"16\" value=\"\" class=\"input0\"></div> <div><input type=\"password\" name=\"password\" placeholder=\"密码\" maxlength=\"16\" value=\"\" class=\"input0\"></div> <div><input type=\"text\" name=\"captcha\" placeholder=\"验证码\" maxlength=\"8\" value=\"\" class=\"input0\"> <img src=\"/api/captcha?norepeat=\" class=\"captcha\"> <a href=\"javascript:;\" class=\"iconfont icon-refresh\"></a></div> <div><a href=\"javascript:;\" class=\"button0\">注 册</a></div></div></div></div></div>\r\n\t<!-- <div id=\"app\">\r\n\t\t<liu-header :tab-id=\"1\" @to-login=\"toLogin\"></liu-header>\r\n\t\t<div class=\"index_banner_box\">\r\n\t\t\t<canvas id=\"canvas\" class=\"canvas\"></canvas>\r\n\t\t</div>\r\n\t\t<liu-footer></liu-footer>\r\n\t\t<liu-login :show-login=\"showLogin\" @close-login=\"closeLogin\" @to-login=\"toLogin\"></liu-login>\r\n\t</div> -->\r\n\r\n<script src=\"/static/js/common/mod_ccfcc2d.js\"></script>\r\n<script type=\"text/javascript\" src=\"/static/js/plugin/vue/vue_52c3e6c.js\"></script>\r\n<script type=\"text/javascript\" src=\"/static/js/plugin/element_ui/index_8e0e63f.js\"></script>\r\n<script type=\"text/javascript\" src=\"/static/js/plugin/jquery/jquery_f0283cb.js\"></script>\r\n<script type=\"text/javascript\" src=\"/static/js/components.js\"></script>\r\n<script type=\"text/javascript\" src=\"/static/js/index_100578c.js\"></script>\r\n<script src=\"/static/js/common/utils_a708fde.js\"></script>\r\n<script>\r\n\trequire(\"static/js/index\");\r\n</script>\r\n</body>\r\n</html>"
+*************** response log end ***************
+
+[2018-05-02T15:29:06.895] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 4
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\dist\\html\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-02T15:29:49.432] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\dist\\html\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-02T15:29:57.737] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\dist\\html\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-02T15:30:03.273] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /user/private
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 528
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\dist\\html\\user\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-02T15:30:20.216] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\dist\\html\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-02T15:30:24.901] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /article
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\dist\\html\\article\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-02T15:30:24.906] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /robots.txt
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 4
+response status: 302
+response body: 
+"Redirecting to <a href=\"/error/404\">/error/404</a>."
+*************** response log end ***************
+
+[2018-05-02T15:30:24.927] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /error/404
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 7
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\html\\error\\404.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-02T15:30:28.272] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /article
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\dist\\html\\article\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-02T15:36:37.593] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /article
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\dist\\html\\article\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-02T15:41:44.314] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /article
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 5
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\dist\\html\\article\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-02T15:43:36.689] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /article
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\dist\\html\\article\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-02T15:43:38.950] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /article
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\dist\\html\\article\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-02T15:44:31.891] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\dist\\html\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-02T15:44:39.710] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /game
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\dist\\html\\game\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-02T15:44:41.710] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\dist\\html\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-02T15:53:18.516] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\dist\\html\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-02T15:53:20.906] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\dist\\html\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-02T15:53:43.543] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\dist\\html\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-02T15:54:35.860] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\dist\\html\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-02T15:54:59.986] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 4
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\dist\\html\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-02T15:55:49.170] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /robots.txt
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 6
+response status: 302
+response body: 
+"Redirecting to <a href=\"/error/404\">/error/404</a>."
+*************** response log end ***************
+
+[2018-05-02T15:55:49.181] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 17
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\dist\\html\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-02T15:55:49.190] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /error/404
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 7
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\html\\error\\404.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-05-02T15:56:34.733] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 4
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\client\\service\\webApp\\dist\\html\\index.html","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+

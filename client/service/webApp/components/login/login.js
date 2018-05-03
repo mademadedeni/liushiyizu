@@ -21,7 +21,7 @@ module.exports = Vue.component("liu-login", {
 			isLogin:false,
 			isSignIn:false,
 			captcha:"",
-			ccapImg:"/img/captcha"
+			ccapImg:"/api/captcha?norepeat="
 		}
 	},
 	mounted: function() {
@@ -138,7 +138,7 @@ module.exports = Vue.component("liu-login", {
 		},
 		getCaptcha:function () {
 			var that = this;
-			that.ccapImg = "/img/captcha?norepeat="+new Date().getTime();
+			that.ccapImg = "/api/captcha?norepeat=" +new Date().getTime();
 		}
 	}
 })

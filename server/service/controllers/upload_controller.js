@@ -59,11 +59,11 @@ exports.uploadHead = async (ctx, next) => {
 		const user = ctx.session.user;
 		var imgPath = user.headImg;
 		if (path.basename(imgPath) == "default.jpg") {
-			imgPath = "/head/head_" + Date.now() + path.extname(file.name);
+			imgPath = "/upload/head/head_" + Date.now() + path.extname(file.name);
 		}else{
-			imgPath = "/head/"+path.basename(imgPath);
+			imgPath = "/upload/head/"+path.basename(imgPath);
 		}
-		var savePath = path.join(url.upload, imgPath);
+		var savePath = path.join(url.webApp, imgPath);
 		var writeState = "";
 		await upload(file, savePath, ["image/jpeg", "image/png"], 500)
 			.then(resolve => {

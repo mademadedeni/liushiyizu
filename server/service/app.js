@@ -1,6 +1,5 @@
 const Koa = require('koa');
 const app = new Koa();
-const views = require('koa-views');
 const onerror = require('koa-onerror');
 // const convert = require('koa-convert');
 const json = require('koa-json');
@@ -14,19 +13,13 @@ const logger = require('koa-logger');
 const koastatic = require('koa-static');
 const router = require('koa-router')();
 const api = require('./routes/api');
-const note = require('./routes/note');
-const error_router = require('./routes/error/error');
 const upload_router = require('./routes/api/upload_router');
-const user = require('./routes/user/index');
-const game = require('./routes/game/index');
-const article = require('./routes/article/index');
-const misc = require('./routes/misc');
+const misc = require('./routes/api/misc');
 
 // const test_router = require('./routes/api/test_router.js');
 //log工具
 const logUtil = require('./utils/log_util');
 
-const index = require('./routes/index');
 const response_formatter = require('./middlewares/response_formatter');
 const permission = require('./middlewares/permission');
 
@@ -87,15 +80,9 @@ app.use(session({
 }))
 app.use(permission());
 app.use(logger());
-app.use(koastatic(__dirname + '/webApp/upload'));
-app.use(koastatic(__dirname + '/webApp/dist'));
+// 静态资源
+app.use(koastatic(__dirname + '/webApp'));
 
-app.use(views(__dirname + '/webApp'), {
-   map: {
-      pug: 'pug',
-      html: 'pug'
-   }
-});
 //log4
 app.use(async (ctx, next) => {
 
@@ -123,13 +110,7 @@ app.use(async (ctx, next) => {
 //仅对/api开头的url进行格式化处理
 app.use(response_formatter('^/api'));
 
-app.use(index.routes(), index.allowedMethods());
-app.use(error_router.routes(), error_router.allowedMethods());
 router.use('/api', api.routes(), api.allowedMethods());
-router.use(note.routes(), note.allowedMethods());
-router.use(user.routes(), user.allowedMethods());
-router.use(game.routes(), game.allowedMethods());
-router.use(article.routes(), article.allowedMethods());
 router.use(misc.routes(), misc.allowedMethods());
 app.use(router.routes(), router.allowedMethods());
 

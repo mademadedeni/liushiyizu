@@ -7,6 +7,7 @@
   "dependencies": {
     "debug": "^2.6.3",
     "is-generator-function": "^1.0.6",
+    "jquery": "^3.3.1",
     "koa": "^2.3.0",
     "koa-body": "^2.5.0",
     "koa-bodyparser": "^3.2.0",
@@ -26,8 +27,10 @@
     "mysql": "^2.15.0",
     "pug": "^2.0.0-rc.1",
     "redis": "^2.8.0",
-    "vue": "^2.5.2",
-    "vue-server-renderer": "^2.5.13"
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2",
+    "vue": "^2.5.16",
+    "vue-server-renderer": "^2.5.16"
   },
   "devDependencies": {
     "fis3-hook-commonjs": "^0.1.26",

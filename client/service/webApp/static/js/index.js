@@ -146,3 +146,6 @@ var vm = new Vue({
         }
 	}
 });
+// vm.$mount('#app');
+// $("#app").remove();
+// $("body").prepend(vm.$mount().$el);

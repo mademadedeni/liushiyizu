@@ -21,7 +21,7 @@ var response_formatter = (ctx) => {
                         message: ctx.body.message,
                         data:ctx.body.data
                     }
-                }else{
+                }else if(ctx.type !== "image/jpg"){
                     ctx.body = {
                         code: 0,
                         message: 'success',
