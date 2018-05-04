@@ -5,9 +5,10 @@ koa2 vue2
   1. client目录
     这个目录主要是客户端项目。这个目录主要内容在webapp目录大部分是页面。
   2. server目录
-    这个目录是后端项目。主要提供前端的接口。所有接口地址都要以‘/api’开头，‘/head’开头为头像图片。
+    这个目录是后端项目。主要提供前端的接口。所有接口地址都要以‘/api’开头。
+    上传的图片以upload开头。
 
-#安装
+##安装
 1. 安装fis3 npm install -g fis3
 2. 安装fis3的相关插件 npm install -g fis3-hook-module fis-parser-typescript
 3. ./client/server/webApp/ fis3 release -d ./dist
