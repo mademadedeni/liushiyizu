@@ -1,0 +1,426 @@
+[2018-06-01T08:47:48.636] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/travelNotes/update
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 4
+response status: 200
+response body: 
+{"code":0,"message":"not login"}
+*************** response log end ***************
+
+[2018-06-01T08:47:48.663] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/captcha?norepeat=
+request client ip:  ::ffff:127.0.0.1
+request query:  {"norepeat":""}
+response time: 3
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\server\\service\\webApp\\captcha\\cqphers.jpg","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-06-01T08:47:48.667] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"code":0,"message":"not login"}
+*************** response log end ***************
+
+[2018-06-01T08:47:53.469] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"liu","password":"123456","seven":false}
+response time: 968
+response status: 200
+response body: 
+{"code":0,"message":"success"}
+*************** response log end ***************
+
+[2018-06-01T08:47:53.970] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/captcha?norepeat=
+request client ip:  ::ffff:127.0.0.1
+request query:  {"norepeat":""}
+response time: 1
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\work\\liushiyizu\\server\\service\\webApp\\captcha\\sunding.jpg","fd":null,"flags":"r","mode":438,"autoClose":true,"bytesRead":0}
+*************** response log end ***************
+
+[2018-06-01T08:47:54.412] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/travelNotes/update
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 426
+response status: 200
+response body: 
+{"code":0,"message":"success"}
+*************** response log end ***************
+
+[2018-06-01T08:47:54.862] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 873
+response status: 200
+response body: 
+{"code":0,"message":"success","data":{"id":69,"name":"liu","nickname":"mademadedeni","headImg":"/upload/head/head_1517300344018.jpg","permission":5,"sex":0,"age":26,"phone":"13478905686","email":"123423423@qq.com","address":"北京市海淀区苏州街亿方大厦","signature":"我就是我！每天都要开开心心的！不经历风雨怎能见彩虹。"}}
+*************** response log end ***************
+
+[2018-06-01T08:47:57.066] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/editor/ue?action=config&&noCache=1527814077050
+request client ip:  ::ffff:127.0.0.1
+request query:  {"action":"config","noCache":"1527814077050"}
+response time: 4
+response status: 302
+response body: 
+"Redirecting to <a href=\"/upload/config.json\">/upload/config.json</a>."
+*************** response log end ***************
+
+[2018-06-01T08:47:57.821] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 780
+response status: 200
+response body: 
+{"code":0,"message":"success","data":{"id":69,"name":"liu","nickname":"mademadedeni","headImg":"/upload/head/head_1517300344018.jpg","permission":5,"sex":0,"age":26,"phone":"13478905686","email":"123423423@qq.com","address":"北京市海淀区苏州街亿方大厦","signature":"我就是我！每天都要开开心心的！不经历风雨怎能见彩虹。"}}
+*************** response log end ***************
+
+[2018-06-01T08:48:05.411] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/editor/ue?action=uploadimage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"fields":{},"files":{"upfile":{"size":98842,"path":"C:\\Users\\LIUJIA~1\\AppData\\Local\\Temp\\upload_8fca06a1c07eef8da27fcca4255f9b31","name":"liu.jpg","type":"image/jpeg","mtime":"2018-06-01T00:48:05.396Z"}}}
+response time: 0
+response status: 200
+response body: 
+{"url":"/upload/travelNotes/liu.jpg","original":"liu.jpg","state":"SUCCESS"}
+*************** response log end ***************
+
+[2018-06-01T08:59:00.098] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/editor/ue?action=uploadimage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"fields":{},"files":{"upfile":{"size":98842,"path":"C:\\Users\\LIUJIA~1\\AppData\\Local\\Temp\\upload_1bfdb038aed3dfc113b41db493a006ba","name":"liu.jpg","type":"image/jpeg","mtime":"2018-06-01T00:59:00.067Z"}}}
+response time: 15
+response status: 302
+response body: 
+"Redirecting to <a href=\"/error/500\">/error/500</a>."
+*************** response log end ***************
+
+[2018-06-01T09:05:54.574] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/editor/ue?action=uploadimage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"fields":{},"files":{"upfile":{"size":98842,"path":"C:\\Users\\LIUJIA~1\\AppData\\Local\\Temp\\upload_4d6224aa1c2b739f1ca79ec55fa26852","name":"liu.jpg","type":"image/jpeg","mtime":"2018-06-01T01:05:54.558Z"}}}
+response time: 16
+response status: 302
+response body: 
+"Redirecting to <a href=\"/error/500\">/error/500</a>."
+*************** response log end ***************
+
+[2018-06-01T09:08:04.887] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/editor/ue?action=uploadimage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"fields":{},"files":{"upfile":{"size":98842,"path":"C:\\Users\\LIUJIA~1\\AppData\\Local\\Temp\\upload_e954e91602d9d625357718612a723abf","name":"liu.jpg","type":"image/jpeg","mtime":"2018-06-01T01:08:04.872Z"}}}
+response time: 15
+response status: 302
+response body: 
+"Redirecting to <a href=\"/error/500\">/error/500</a>."
+*************** response log end ***************
+
+[2018-06-01T09:11:43.983] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/editor/ue?action=uploadimage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"fields":{},"files":{"upfile":{"size":98842,"path":"C:\\Users\\LIUJIA~1\\AppData\\Local\\Temp\\upload_fea5d382b8f65f2c95105b71836a430d","name":"liu.jpg","type":"image/jpeg","mtime":"2018-06-01T01:11:43.952Z"}}}
+response time: 16
+response status: 302
+response body: 
+"Redirecting to <a href=\"/error/500\">/error/500</a>."
+*************** response log end ***************
+
+[2018-06-01T09:12:24.796] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/editor/ue?action=uploadimage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"fields":{},"files":{"upfile":{"size":98842,"path":"C:\\Users\\LIUJIA~1\\AppData\\Local\\Temp\\upload_c40cec7a8d229ef9a243cb9f7c830fed","name":"liu.jpg","type":"image/jpeg","mtime":"2018-06-01T01:12:24.780Z"}}}
+response time: 0
+response status: 302
+response body: 
+"Redirecting to <a href=\"/error/500\">/error/500</a>."
+*************** response log end ***************
+
+[2018-06-01T09:12:45.085] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/editor/ue?action=config&&noCache=1527815565072
+request client ip:  ::ffff:127.0.0.1
+request query:  {"action":"config","noCache":"1527815565072"}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/upload/config.json\">/upload/config.json</a>."
+*************** response log end ***************
+
+[2018-06-01T09:12:45.913] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 866
+response status: 200
+response body: 
+{"code":0,"message":"success","data":{"id":69,"name":"liu","nickname":"mademadedeni","headImg":"/upload/head/head_1517300344018.jpg","permission":5,"sex":0,"age":26,"phone":"13478905686","email":"123423423@qq.com","address":"北京市海淀区苏州街亿方大厦","signature":"我就是我！每天都要开开心心的！不经历风雨怎能见彩虹。"}}
+*************** response log end ***************
+
+[2018-06-01T09:12:47.861] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/editor/ue?action=uploadimage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"fields":{},"files":{"upfile":{"size":98842,"path":"C:\\Users\\LIUJIA~1\\AppData\\Local\\Temp\\upload_fc4ae51f2946411e3c9c7b6bccd35ed8","name":"liu.jpg","type":"image/jpeg","mtime":"2018-06-01T01:12:47.858Z"}}}
+response time: 1
+response status: 302
+response body: 
+"Redirecting to <a href=\"/error/500\">/error/500</a>."
+*************** response log end ***************
+
+[2018-06-01T09:13:30.056] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/editor/ue?action=config&&noCache=1527815610031
+request client ip:  ::ffff:127.0.0.1
+request query:  {"action":"config","noCache":"1527815610031"}
+response time: 7
+response status: 302
+response body: 
+"Redirecting to <a href=\"/upload/config.json\">/upload/config.json</a>."
+*************** response log end ***************
+
+[2018-06-01T09:13:30.879] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 848
+response status: 200
+response body: 
+{"code":0,"message":"success","data":{"id":69,"name":"liu","nickname":"mademadedeni","headImg":"/upload/head/head_1517300344018.jpg","permission":5,"sex":0,"age":26,"phone":"13478905686","email":"123423423@qq.com","address":"北京市海淀区苏州街亿方大厦","signature":"我就是我！每天都要开开心心的！不经历风雨怎能见彩虹。"}}
+*************** response log end ***************
+
+[2018-06-01T09:13:33.862] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/editor/ue?action=uploadimage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"fields":{},"files":{"upfile":{"size":98842,"path":"C:\\Users\\LIUJIA~1\\AppData\\Local\\Temp\\upload_d12a5ff65221ac9a69250cd39d5ac3dc","name":"liu.jpg","type":"image/jpeg","mtime":"2018-06-01T01:13:33.856Z"}}}
+response time: 3
+response status: 302
+response body: 
+"Redirecting to <a href=\"/error/500\">/error/500</a>."
+*************** response log end ***************
+
+[2018-06-01T09:14:24.299] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/editor/ue?action=uploadimage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"fields":{},"files":{"upfile":{"size":98842,"path":"C:\\Users\\LIUJIA~1\\AppData\\Local\\Temp\\upload_c5b1461de8820c7f3b8214b046262bb0","name":"liu.jpg","type":"image/jpeg","mtime":"2018-06-01T01:14:24.283Z"}}}
+response time: 0
+response status: 302
+response body: 
+"Redirecting to <a href=\"/error/500\">/error/500</a>."
+*************** response log end ***************
+
+[2018-06-01T09:14:50.424] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/editor/ue?action=uploadimage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"fields":{},"files":{"upfile":{"size":98842,"path":"C:\\Users\\LIUJIA~1\\AppData\\Local\\Temp\\upload_eb04036f644efea1896a75bf49e17491","name":"liu.jpg","type":"image/jpeg","mtime":"2018-06-01T01:14:50.408Z"}}}
+response time: 16
+response status: 302
+response body: 
+"Redirecting to <a href=\"/error/500\">/error/500</a>."
+*************** response log end ***************
+
+[2018-06-01T09:17:09.203] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/editor/ue?action=config&&noCache=1527815829190
+request client ip:  ::ffff:127.0.0.1
+request query:  {"action":"config","noCache":"1527815829190"}
+response time: 0
+response status: 302
+response body: 
+"Redirecting to <a href=\"/upload/config.json\">/upload/config.json</a>."
+*************** response log end ***************
+
+[2018-06-01T09:17:10.015] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 840
+response status: 200
+response body: 
+{"code":0,"message":"success","data":{"id":69,"name":"liu","nickname":"mademadedeni","headImg":"/upload/head/head_1517300344018.jpg","permission":5,"sex":0,"age":26,"phone":"13478905686","email":"123423423@qq.com","address":"北京市海淀区苏州街亿方大厦","signature":"我就是我！每天都要开开心心的！不经历风雨怎能见彩虹。"}}
+*************** response log end ***************
+
+[2018-06-01T09:17:17.957] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/editor/ue?action=uploadimage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"fields":{},"files":{"upfile":{"size":14527,"path":"C:\\Users\\LIUJIA~1\\AppData\\Local\\Temp\\upload_dd63ae04bb1578b14f6800c3632db0f0","name":"lufei.jpg","type":"image/jpeg","mtime":"2018-06-01T01:17:17.941Z"}}}
+response time: 0
+response status: 302
+response body: 
+"Redirecting to <a href=\"/error/500\">/error/500</a>."
+*************** response log end ***************
+
+[2018-06-01T09:19:08.895] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/editor/ue?action=uploadimage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"fields":{},"files":{"upfile":{"size":98842,"path":"C:\\Users\\LIUJIA~1\\AppData\\Local\\Temp\\upload_9c273644f4d7758289c60eb5c489e87b","name":"liu.jpg","type":"image/jpeg","mtime":"2018-06-01T01:19:08.879Z"}}}
+response time: 16
+response status: 200
+response body: 
+{"url":"/upload/travelNotes/liu.jpg","original":"liu.jpg","state":"SUCCESS"}
+*************** response log end ***************
+
+[2018-06-01T13:35:57.335] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/editor/ue?action=uploadimage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"fields":{},"files":{"upfile":{"size":169855,"path":"C:\\Users\\LIUJIA~1\\AppData\\Local\\Temp\\upload_b157c8c28997e6f593ea048fb3bebbbb","name":"liu.png","type":"image/png","mtime":"2018-06-01T05:35:57.326Z"}}}
+response time: 3
+response status: 200
+response body: 
+{"url":"/upload/travelNotes/liu.png","original":"liu.png","state":"SUCCESS"}
+*************** response log end ***************
+
+[2018-06-01T13:39:51.224] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 5051
+response status: 200
+response body: 
+{"code":0,"message":"success","data":{"id":69,"name":"liu","nickname":"mademadedeni","headImg":"/upload/head/head_1517300344018.jpg","permission":5,"sex":0,"age":26,"phone":"13478905686","email":"123423423@qq.com","address":"北京市海淀区苏州街亿方大厦","signature":"我就是我！每天都要开开心心的！不经历风雨怎能见彩虹。"}}
+*************** response log end ***************
+
+[2018-06-01T13:39:53.311] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1056
+response status: 200
+response body: 
+{"code":0,"message":"success","data":{"id":69,"name":"liu","nickname":"mademadedeni","headImg":"/upload/head/head_1517300344018.jpg","permission":5,"sex":0,"age":26,"phone":"13478905686","email":"123423423@qq.com","address":"北京市海淀区苏州街亿方大厦","signature":"我就是我！每天都要开开心心的！不经历风雨怎能见彩虹。"}}
+*************** response log end ***************
+
+[2018-06-01T13:40:06.022] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/upload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"fields":{},"files":{"file":{"size":14527,"path":"C:\\Users\\LIUJIA~1\\AppData\\Local\\Temp\\upload_41f493a64227d084a02ea7822893bce8","name":"lufei.jpg","type":"image/jpeg","mtime":"2018-06-01T05:40:05.110Z"}}}
+response time: 909
+response status: 200
+response body: 
+{"code":0,"message":"success","data":"/upload/head/head_1517300344018.jpg"}
+*************** response log end ***************
+
+[2018-06-01T13:40:08.553] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 451
+response status: 200
+response body: 
+{"code":0,"message":"success","data":{"id":69,"name":"liu","nickname":"mademadedeni","headImg":"/upload/head/head_1517300344018.jpg","permission":5,"sex":0,"age":26,"phone":"13478905686","email":"123423423@qq.com","address":"北京市海淀区苏州街亿方大厦","signature":"我就是我！每天都要开开心心的！不经历风雨怎能见彩虹。"}}
+*************** response log end ***************
+
+[2018-06-01T13:40:09.013] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/users/upload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"fields":{},"files":{"file":{"size":24019,"path":"C:\\Users\\LIUJIA~1\\AppData\\Local\\Temp\\upload_dba07e5bdf0b909cf58b6122a59f277d","name":"lufei_看图王.jpg","type":"image/jpeg","mtime":"2018-06-01T05:40:05.110Z"}}}
+response time: 3898
+response status: 200
+response body: 
+{"code":0,"message":"success","data":"/upload/head/head_1517300344018.jpg"}
+*************** response log end ***************
+
+[2018-06-01T13:40:09.755] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 447
+response status: 200
+response body: 
+{"code":0,"message":"success","data":{"id":69,"name":"liu","nickname":"mademadedeni","headImg":"/upload/head/head_1517300344018.jpg","permission":5,"sex":0,"age":26,"phone":"13478905686","email":"123423423@qq.com","address":"北京市海淀区苏州街亿方大厦","signature":"我就是我！每天都要开开心心的！不经历风雨怎能见彩虹。"}}
+*************** response log end ***************
+
