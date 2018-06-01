@@ -15,6 +15,8 @@ const error_router = require('./routes/error/error');
 const user = require('./routes/user/index');
 const game = require('./routes/game/index');
 const article = require('./routes/article/index');
+const travelNotes = require('./routes/travelNotes/index');
+const misc = require('./routes/misc');
 const urlFilter = require("./middlewares/urlFilter");
 //log工具
 const logUtil = require('./utils/log_util');
@@ -66,6 +68,8 @@ router.use(note.routes(), note.allowedMethods());
 router.use(user.routes(), user.allowedMethods());
 router.use(game.routes(), game.allowedMethods());
 router.use(article.routes(), article.allowedMethods());
+router.use(travelNotes.routes(), travelNotes.allowedMethods());
+router.use(misc.routes(), misc.allowedMethods());
 app.use(router.routes(), router.allowedMethods());
 
 // error-handling

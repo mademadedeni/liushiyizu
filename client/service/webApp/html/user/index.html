@@ -87,23 +87,23 @@
 		</div>
 		<liu-footer></liu-footer>
 		<el-dialog
-		  class="liu_dialog user_upload_head"
-		  title="更换头像"
-		  :visible.sync="showUploadHead"
-		  top="20vh"
-		  width="480px"
-		  :close-on-click-modal="false"
-		  :before-close="onCloseUploadHead" style="display:none;">
+		   class="liu_dialog user_upload_head"
+		   title="更换头像"
+		   :visible.sync="showUploadHead"
+		   top="20vh"
+		   width="480px"
+		   :close-on-click-modal="false"
+		   :before-close="onCloseUploadHead" style="display:none;">
 			<div class="dialog_content">
 				<img class="img" :src="uploadHeadImg">
 				<el-upload
-				  ref="upload"
-				  action="/api/upload/head"
-				  :show-file-list="false"
-				  :auto-upload="false"
-				  :on-success="onSuccess"
-				  :on-change="onChange">
-				  <span>上传头像</span>
+				   ref="upload"
+				   action="/api/users/upload"
+				   :show-file-list="false"
+				   :auto-upload="false"
+				   :on-success="onSuccess"
+				   :on-change="onChange">
+				   <span>上传头像</span>
 				</el-upload>
 			</div>
 			<span slot="footer" class="dialog-footer">
@@ -112,13 +112,13 @@
 			</span>
 		</el-dialog>
 		<el-dialog
-		  class="liu_dialog user_edit_info"
-		  title="编辑个人信息"
-		  :visible.sync="isUserEidtInfo"
-		  top="20vh"
-		  width="480px"
-		  :close-on-click-modal="false"
-		  :before-close="onCloseUserEdit" style="display:none;">
+		   class="liu_dialog user_edit_info"
+		   title="编辑个人信息"
+		   :visible.sync="isUserEidtInfo"
+		   top="20vh"
+		   width="480px"
+		   :close-on-click-modal="false"
+		   :before-close="onCloseUserEdit" style="display:none;">
 			<div class="dialog_content">
 				<div class="option_box">
 					<span class="p_ibt name">昵称：</span>

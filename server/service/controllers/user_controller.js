@@ -2,9 +2,12 @@ const ApiError = require('../error/ApiError');
 const ApiErrorNames = require('../error/ApiErrorNames');
 const user_sql = require('../lib/user_sql');
 const userModel = require('../models/user_model');
+const url = require("../../config/url");
 const utils = require('../utils/utils');
 const md5 = require('md5');
 const codeMd = require('../utils/codeMd');
+const upload_controller = require('./upload_controller');
+const path = require('path');
 
 //检查登录
 exports.checkLogin = async (ctx, next) =>{
@@ -295,4 +298,78 @@ exports.eidtInfo = async (ctx, next) => {
                 throw err;
             }
         });
+}
+
+//上传头像
+exports.uploadHead = async (ctx, next) => {
+    if (!ctx.session.user) {
+        ctx.body = {
+            message:"not login!"
+        }
+        return;
+    }
+    if (ctx.request.body) {
+        const file = ctx.request.body.files.file;
+        const user = ctx.session.user;
+        var imgPath = user.headImg;
+        var basename = path.basename(imgPath);
+        if (basename == "default.jpg") {
+            basename = "head_" + Date.now() + path.extname(file.name);
+            imgPath = path.join("/upload/head/", basename);
+        }
+        var savePath = path.join(url.webApp, "/upload/head");
+        var writeState = "";
+        await upload_controller.upload(file,{
+            writePath:savePath,
+            fileType:["image/jpeg", "image/png"],
+            fileName:basename,
+            maxSize:500
+        }).then(resolve => {
+                if (resolve == "success") {
+                    writeState = "success";
+                }else{
+                    writeState = resolve;
+                }
+            }).catch(err => {
+                ctx.response.status = 500;
+                console.log(err);
+                ctx.body = {
+                    message:err,
+                    data:false
+                }
+            });
+        if (writeState !== "success") {
+            ctx.body = {
+                message:writeState
+            }
+            return;
+        }
+        await user_sql.updateUser(user.id,userModel.updateUser({headImg:imgPath}))
+            .then(resolve => {
+                var res = JSON.parse(JSON.stringify(resolve));
+                if (res.affectedRows > 0) {
+                    user.headImg = imgPath;
+                    ctx.body = {
+                        message:'success',
+                        data:imgPath
+                    };
+                }else{
+                    ctx.body = {
+                        message:'save error',
+                        data:imgPath
+                    };
+                }
+            }).catch(err => {
+                console.log('error',err)
+                ctx.response.status = 500;
+                ctx.body = {
+                    message:err,
+                    data:false
+                }
+            });
+    } else {
+        ctx.body = {
+            message: false
+        }
+    }
 }

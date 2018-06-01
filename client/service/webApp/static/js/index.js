@@ -4,7 +4,7 @@ require("element_ui");
 require("header");
 require("footer");
 require("login");
-require("jquery");
+var $ = require("jquery");
 
 var vm = new Vue({
 	el: "#app",
@@ -15,6 +15,9 @@ var vm = new Vue({
 	mounted:function () {
 		this.$nextTick(function () {
 		    // this.init();
+		    $.post('/api/travelNotes/update',{},function (res) {
+		       console.log(res)
+		    })
 		});
 	},
 	methods: {

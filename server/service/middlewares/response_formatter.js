@@ -8,6 +8,9 @@ var response_formatter = (ctx) => {
     // 如果有返回数据，将返回数据添加到data中
     switch(ctx.response.status) {
         case 200:
+            if (new RegExp("^/api/editor").test(ctx.originalUrl)) {
+                return;
+            }
             if (ctx.body) {
                 if (ctx.body.code) {
                     ctx.body = {
@@ -21,7 +24,7 @@ var response_formatter = (ctx) => {
                         message: ctx.body.message,
                         data:ctx.body.data
                     }
-                }else if(ctx.type !== "image/jpg"){
+                }else if(ctx.type !== "image/jpg"){ // 验证码过滤
                     ctx.body = {
                         code: 0,
                         message: 'success',
@@ -68,6 +71,7 @@ var url_filter = (pattern) => {
     return async (ctx, next) => {
 
         var reg = new RegExp(pattern);
+        var loginReg = new RegExp("/update$");
 
         try {
             //先去执行路由
@@ -87,7 +91,7 @@ var url_filter = (pattern) => {
         
         //通过正则的url进行格式化处理
         if(reg.test(ctx.originalUrl)){
-            response_formatter(ctx);
+            response_formatter(ctx)
         }else{
             response_dispose(ctx);
         }

@@ -1,29 +1,38 @@
-var fs = require("fs");
-var path = require("path");
-var url = require("../../config/url");
-var utils = require("../utils/utils");
-const user_sql = require('../lib/user_sql');
-const userModel = require('../models/user_model');
+const fs = require("fs");
+const path = require("path");
+const utils = require("../utils/utils");
+const url = require("../../config/url");
 
 /**
  * 上传文件
  * @param  {file} file      上传的文件
  * @param  {string} writePath 写入路径
- * @param  {array} fileType  文件类型数组
+ * @param  {array} fileType  文件类型
+ * @param  {string} fileName  文件名称
  * @param  {number} maxSize   文件大小最大值 单位：kb
  * @return {}
  */
-var upload = async (file, writePath, fileType, maxSize) => {
+exports.upload = async (file,option) => {
+	var config ={
+		writePath:url.upload + "/images",
+		fileType:["image/jpeg", "image/png"],
+		fileName:new Date().getTime() + ".jpg",
+		maxSize:500
+	}
 	var message = "success";
-	if (typeof fileType === "string") {
-		fileType = [fileType];
+	// 合并配置
+	Object.assign(config,option);
+
+	if (!file) {
+		message = "file is null!"
 	}
-	if (!maxSize) {
-		maxSize = 500;
+
+	if (typeof config.fileType === "string") {
+		config.fileType = [config.fileType];
 	}
-	if (fileType.indexOf(file.type) < 0) {
+	if (config.fileType.indexOf(file.type) < 0) {
 		message = "The file type error";
-	} else if (file.size > 1024 * maxSize) {
+	} else if (file.size > 1024 * config.maxSize) {
 		message = "The file size error";
 	}
 
@@ -32,86 +41,26 @@ var upload = async (file, writePath, fileType, maxSize) => {
 			resolve(message);
 			return;
 		}
-		const reader = fs.createReadStream(file.path);
-		const writer = fs.createWriteStream(writePath);
-		var writeStream = reader.pipe(writer);
-		writeStream.on('finish', (chunk) => {
-			resolve(message);
-		});
-		writeStream.on('error', (err) => {
-			message = "error";
-			console.log(err)
-			reject(err);
-			writeStream.end();
+		fs.access(config.writePath, fs.constants.R_OK | fs.constants.W_OK, (err) => {
+		    if (!err) {
+			    const reader = fs.createReadStream(file.path);
+			    const writer = fs.createWriteStream(path.join(config.writePath,config.fileName));
+			    var writeStream = reader.pipe(writer);
+			    writeStream.on('finish', (chunk) => {
+			    	resolve(message);
+			    });
+			    writeStream.on('error', (err) => {
+			    	message = "error";
+			    	console.log(err)
+			    	reject(err);
+			    	writeStream.end();
+			    });
+
+		    }else{
+		    	console.log(path.join(config.writePath,config.fileName))
+		    	reject("diratory inexistence or no access!");
+		    }
 		});
 	});
 }
 
-exports.uploadHead = async (ctx, next) => {
-	if (!ctx.session.user) {
-		ctx.body = {
-			message:"not login!"
-		}
-		return;
-	}
-	if (ctx.request.body) {
-		const file = ctx.request.body.files.file;
-		const user = ctx.session.user;
-		var imgPath = user.headImg;
-		if (path.basename(imgPath) == "default.jpg") {
-			imgPath = "/upload/head/head_" + Date.now() + path.extname(file.name);
-		}else{
-			imgPath = "/upload/head/"+path.basename(imgPath);
-		}
-		var savePath = path.join(url.webApp, imgPath);
-		var writeState = "";
-		await upload(file, savePath, ["image/jpeg", "image/png"], 500)
-			.then(resolve => {
-				if (resolve == "success") {
-					writeState = "success";
-				}else{
-					writeState = resolve;
-				}
-			}).catch(err => {
-				ctx.response.status = 500;
-				console.log(err);
-				ctx.body = {
-				    message:err,
-				    data:false
-				}
-			});
-		if (writeState !== "success") {
-			ctx.body = {
-				message:writeState
-			}
-			return;
-		}
-		await user_sql.updateUser(user.id,userModel.updateUser({headImg:imgPath}))
-			.then(resolve => {
-				var res = JSON.parse(JSON.stringify(resolve));
-	            if (res.affectedRows > 0) {
-	            	user.headImg = imgPath;
-	                ctx.body = {
-	                	message:'success',
-	                	data:imgPath
-	                };
-	            }else{
-	            	ctx.body = {
-	                	message:'save error',
-	                	data:imgPath
-	                };
-	            }
-			}).catch(err => {
-				console.log('error',err)
-				ctx.response.status = 500;
-				ctx.body = {
-				    message:err,
-				    data:false
-				}
-			});
-	} else {
-		ctx.body = {
-			message: false
-		}
-	}
-}

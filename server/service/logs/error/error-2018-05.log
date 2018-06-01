@@ -1,0 +1,457 @@
+[2018-05-11T17:37:17.159] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/travelNotes/add
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 901
+err name: Error
+err message: ER_BAD_FIELD_ERROR: Unknown column 'author' in 'field list'
+err stack: Error: ER_BAD_FIELD_ERROR: Unknown column 'author' in 'field list'
+    at Query.Sequence._packetToError (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\work\liushiyizu\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    --------------------
+    at Protocol._enqueue (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:145:48)
+    at PoolConnection.query (D:\work\liushiyizu\server\node_modules\mysql\lib\Connection.js:208:25)
+    at D:\work\liushiyizu\server\service\lib\mysql.js:20:24
+    at Handshake.onConnect [as _callback] (D:\work\liushiyizu\server\node_modules\mysql\lib\Pool.js:64:7)
+    at Handshake.Sequence.end (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:88:24)
+    at Handshake.Sequence.OkPacket (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:97:8)
+    at Protocol._parsePacket (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\work\liushiyizu\server\node_modules\mysql\lib\Connection.js:103:28)
+*************** error log end ***************
+
+[2018-05-11T17:37:50.607] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/travelNotes/add
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 433
+err name: Error
+err message: ER_BAD_FIELD_ERROR: Unknown column 'author' in 'field list'
+err stack: Error: ER_BAD_FIELD_ERROR: Unknown column 'author' in 'field list'
+    at Query.Sequence._packetToError (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\work\liushiyizu\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    --------------------
+    at Protocol._enqueue (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:145:48)
+    at PoolConnection.query (D:\work\liushiyizu\server\node_modules\mysql\lib\Connection.js:208:25)
+    at D:\work\liushiyizu\server\service\lib\mysql.js:20:24
+    at Ping.onOperationComplete [as _callback] (D:\work\liushiyizu\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:88:24)
+    at Ping.Sequence.OkPacket (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:97:8)
+    at Protocol._parsePacket (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\work\liushiyizu\server\node_modules\mysql\lib\Connection.js:103:28)
+*************** error log end ***************
+
+[2018-05-11T17:42:04.113] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/travelNotes/add
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 368
+err name: Error
+err message: ER_BAD_FIELD_ERROR: Unknown column 'author' in 'field list'
+err stack: Error: ER_BAD_FIELD_ERROR: Unknown column 'author' in 'field list'
+    at Query.Sequence._packetToError (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\work\liushiyizu\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    --------------------
+    at Protocol._enqueue (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:145:48)
+    at PoolConnection.query (D:\work\liushiyizu\server\node_modules\mysql\lib\Connection.js:208:25)
+    at D:\work\liushiyizu\server\service\lib\mysql.js:20:24
+    at Ping.onOperationComplete [as _callback] (D:\work\liushiyizu\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:88:24)
+    at Ping.Sequence.OkPacket (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:97:8)
+    at Protocol._parsePacket (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\work\liushiyizu\server\node_modules\mysql\lib\Connection.js:103:28)
+*************** error log end ***************
+
+[2018-05-11T17:42:30.145] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/travelNotes/add
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 428
+err name: Error
+err message: ER_BAD_FIELD_ERROR: Unknown column 'author' in 'field list'
+err stack: Error: ER_BAD_FIELD_ERROR: Unknown column 'author' in 'field list'
+    at Query.Sequence._packetToError (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\work\liushiyizu\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    --------------------
+    at Protocol._enqueue (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:145:48)
+    at PoolConnection.query (D:\work\liushiyizu\server\node_modules\mysql\lib\Connection.js:208:25)
+    at D:\work\liushiyizu\server\service\lib\mysql.js:20:24
+    at Ping.onOperationComplete [as _callback] (D:\work\liushiyizu\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:88:24)
+    at Ping.Sequence.OkPacket (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:97:8)
+    at Protocol._parsePacket (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\work\liushiyizu\server\node_modules\mysql\lib\Connection.js:103:28)
+*************** error log end ***************
+
+[2018-05-14T09:37:17.494] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/travelNotes/add
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 353
+err name: Error
+err message: ER_BAD_FIELD_ERROR: Unknown column 'author' in 'field list'
+err stack: Error: ER_BAD_FIELD_ERROR: Unknown column 'author' in 'field list'
+    at Query.Sequence._packetToError (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\work\liushiyizu\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    --------------------
+    at Protocol._enqueue (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:145:48)
+    at PoolConnection.query (D:\work\liushiyizu\server\node_modules\mysql\lib\Connection.js:208:25)
+    at D:\work\liushiyizu\server\service\lib\mysql.js:20:24
+    at Ping.onOperationComplete [as _callback] (D:\work\liushiyizu\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:88:24)
+    at Ping.Sequence.OkPacket (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:97:8)
+    at Protocol._parsePacket (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\work\liushiyizu\server\node_modules\mysql\lib\Connection.js:103:28)
+*************** error log end ***************
+
+[2018-05-14T09:47:41.079] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/travelNotes/add
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 743
+err name: Error
+err message: ER_BAD_FIELD_ERROR: Unknown column 'author' in 'field list'
+err stack: Error: ER_BAD_FIELD_ERROR: Unknown column 'author' in 'field list'
+    at Query.Sequence._packetToError (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\work\liushiyizu\server\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    --------------------
+    at Protocol._enqueue (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:145:48)
+    at PoolConnection.query (D:\work\liushiyizu\server\node_modules\mysql\lib\Connection.js:208:25)
+    at D:\work\liushiyizu\server\service\lib\mysql.js:20:24
+    at Handshake.onConnect [as _callback] (D:\work\liushiyizu\server\node_modules\mysql\lib\Pool.js:64:7)
+    at Handshake.Sequence.end (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:88:24)
+    at Handshake.Sequence.OkPacket (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:97:8)
+    at Protocol._parsePacket (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\work\liushiyizu\server\node_modules\mysql\lib\Connection.js:103:28)
+*************** error log end ***************
+
+[2018-05-25T09:22:45.700] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/travelNotes/update
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 4
+err name: TypeError
+err message: travelNotesModel.updateValue is not a function
+err stack: TypeError: travelNotesModel.updateValue is not a function
+    at exports.updateTravelNotes (D:\work\liushiyizu\server\service\controllers\travelNotes_contolller.js:81:64)
+    at dispatch (D:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at D:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (D:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (D:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (D:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at D:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+*************** error log end ***************
+
+[2018-05-25T10:13:27.904] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/users/upload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"fields":{},"files":{"file":{"size":24019,"path":"C:\\Users\\LIUJIA~1\\AppData\\Local\\Temp\\upload_722369b5f7d2ad22870b5b2216cd6702","name":"lufei_看图王.jpg","type":"image/jpeg","mtime":"2018-05-25T02:13:24.885Z"}}}
+response time: 2
+err name: ReferenceError
+err message: path is not defined
+err stack: ReferenceError: path is not defined
+    at exports.uploadHead (D:\work\liushiyizu\server\service\controllers\user_controller.js:314:9)
+    at dispatch (D:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at D:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (D:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at D:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (D:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (D:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at D:\work\liushiyizu\server\service\middlewares\response_formatter.js:74:19
+*************** error log end ***************
+
+[2018-05-25T10:43:16.623] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/users/upload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"fields":{},"files":{"file":{"size":24019,"path":"C:\\Users\\LIUJIA~1\\AppData\\Local\\Temp\\upload_3baef30cc9426834d1143524ce14956c","name":"lufei_看图王.jpg","type":"image/jpeg","mtime":"2018-05-25T02:43:16.618Z"}}}
+response time: 1
+err name: ReferenceError
+err message: path is not defined
+err stack: ReferenceError: path is not defined
+    at exports.uploadHead (D:\work\liushiyizu\server\service\controllers\user_controller.js:314:9)
+    at dispatch (D:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at D:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (D:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at D:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (D:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (D:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at D:\work\liushiyizu\server\service\middlewares\response_formatter.js:74:19
+*************** error log end ***************
+
+[2018-05-25T10:43:50.260] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/users/upload
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"fields":{},"files":{"file":{"size":24019,"path":"C:\\Users\\LIUJIA~1\\AppData\\Local\\Temp\\upload_5a462b952bbb07485a8df1016b585445","name":"lufei_看图王.jpg","type":"image/jpeg","mtime":"2018-05-25T02:43:50.251Z"}}}
+response time: 2
+err name: ReferenceError
+err message: path is not defined
+err stack: ReferenceError: path is not defined
+    at exports.uploadHead (D:\work\liushiyizu\server\service\controllers\user_controller.js:314:9)
+    at dispatch (D:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at D:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (D:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at D:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (D:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (D:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at D:\work\liushiyizu\server\service\middlewares\response_formatter.js:74:19
+*************** error log end ***************
+
+[2018-05-31T11:26:14.177] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/editor/ue?action=config&&noCache=1527737174123
+request client ip:  ::ffff:127.0.0.1
+request query:  {"action":"config","noCache":"1527737174123"}
+response time: 25
+err name: TypeError
+err message: callback is not a function
+err stack: TypeError: callback is not a function
+    at D:\work\liushiyizu\server\node_modules\ueditor\lib\index.js:46:7
+    at D:\work\liushiyizu\server\node_modules\ueditor\lib\index.js:36:5
+    at dispatch (D:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at D:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (D:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at D:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (D:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (D:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at app.use (D:\work\liushiyizu\server\service\app.js:94:13)
+    at dispatch (D:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (D:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at send.then.done (D:\work\liushiyizu\server\node_modules\koa-static\index.js:43:20)
+    at <anonymous>
+*************** error log end ***************
+
+[2018-05-31T11:33:37.170] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/editor/ue?action=config&&noCache=1527737616425
+request client ip:  ::ffff:127.0.0.1
+request query:  {"action":"config","noCache":"1527737616425"}
+response time: 4
+err name: TypeError
+err message: callback is not a function
+err stack: TypeError: callback is not a function
+    at D:\work\liushiyizu\server\node_modules\ueditor\lib\index.js:46:7
+    at D:\work\liushiyizu\server\node_modules\ueditor\lib\index.js:36:5
+    at dispatch (D:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at D:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (D:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at D:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (D:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (D:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at app.use (D:\work\liushiyizu\server\service\app.js:94:13)
+    at dispatch (D:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (D:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at send.then.done (D:\work\liushiyizu\server\node_modules\koa-static\index.js:43:20)
+    at <anonymous>
+*************** error log end ***************
+
+[2018-05-31T11:34:19.120] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/editor/ue?action=config&&noCache=1527737658784
+request client ip:  ::ffff:127.0.0.1
+request query:  {"action":"config","noCache":"1527737658784"}
+response time: 3
+err name: ReferenceError
+err message: res is not defined
+err stack: ReferenceError: res is not defined
+    at D:\work\liushiyizu\server\service\routes\api\upload_router.js:36:6
+    at dispatch (D:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at D:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (D:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at D:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (D:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (D:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at app.use (D:\work\liushiyizu\server\service\app.js:94:13)
+    at dispatch (D:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (D:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at send.then.done (D:\work\liushiyizu\server\node_modules\koa-static\index.js:43:20)
+    at <anonymous>
+*************** error log end ***************
+
+[2018-05-31T11:35:18.408] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/editor/ue?action=config&&noCache=1527737718185
+request client ip:  ::ffff:127.0.0.1
+request query:  {"action":"config","noCache":"1527737718185"}
+response time: 6
+err name: TypeError
+err message: ctx.setHeader is not a function
+err stack: TypeError: ctx.setHeader is not a function
+    at D:\work\liushiyizu\server\service\routes\api\upload_router.js:36:10
+    at dispatch (D:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at D:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (D:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at D:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (D:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (D:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at app.use (D:\work\liushiyizu\server\service\app.js:94:13)
+    at dispatch (D:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (D:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at send.then.done (D:\work\liushiyizu\server\node_modules\koa-static\index.js:43:20)
+    at <anonymous>
+*************** error log end ***************
+
+[2018-05-31T11:37:59.273] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/editor/ue?action=config&&noCache=1527737879235
+request client ip:  ::ffff:127.0.0.1
+request query:  {"action":"config","noCache":"1527737879235"}
+response time: 2
+err name: TypeError
+err message: ctx.setHeader is not a function
+err stack: TypeError: ctx.setHeader is not a function
+    at D:\work\liushiyizu\server\service\routes\api\upload_router.js:37:10
+    at dispatch (D:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at D:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (D:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at D:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (D:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (D:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at app.use (D:\work\liushiyizu\server\service\app.js:94:13)
+    at dispatch (D:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (D:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at send.then.done (D:\work\liushiyizu\server\node_modules\koa-static\index.js:43:20)
+    at <anonymous>
+*************** error log end ***************
+
+[2018-05-31T11:42:19.987] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/editor/ue?action=uploadimage
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"fields":{},"files":{"upfile":{"size":14527,"path":"C:\\Users\\LIUJIA~1\\AppData\\Local\\Temp\\upload_bc61958f27e9a28dd55cad42037f9a15","name":"lufei.jpg","type":"image/jpeg","mtime":"2018-05-31T03:42:19.967Z"}}}
+response time: 14
+err name: TypeError
+err message: ctx.ue_up is not a function
+err stack: TypeError: ctx.ue_up is not a function
+    at D:\work\liushiyizu\server\service\routes\api\upload_router.js:26:10
+    at dispatch (D:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at D:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (D:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at D:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (D:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (D:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at app.use (D:\work\liushiyizu\server\service\app.js:94:13)
+    at dispatch (D:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (D:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at serve (D:\work\liushiyizu\server\node_modules\koa-static\index.js:47:14)
+    at dispatch (D:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (D:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logger (D:\work\liushiyizu\server\node_modules\koa-logger\index.js:50:12)
+*************** error log end ***************
+

@@ -2,8 +2,8 @@ const Koa = require('koa');
 const app = new Koa();
 const onerror = require('koa-onerror');
 // const convert = require('koa-convert');
-const json = require('koa-json');
-const bodyparser = require('koa-bodyparser');
+// const json = require('koa-json');
+// const bodyparser = require('koa-bodyparser');
 const koaBody = require('koa-body');
 var redisStore = require('koa-redis');
 var redis = require('redis');
@@ -82,7 +82,6 @@ app.use(permission());
 app.use(logger());
 // 静态资源
 app.use(koastatic(__dirname + '/webApp'));
-
 //log4
 app.use(async (ctx, next) => {
 

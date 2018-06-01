@@ -2,14 +2,12 @@
 <html>
 <head>
 	<title>笔记</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
 	<link rel="import" href="../common/common.html?__inline">
 	<script type="text/javascript" src="/static/js/plugin/lodash.js"></script>
 </head>
 <body>
 	<div id="app">
-		<liu-header></liu-header>
+		<liu-header :tab-id="2" @to-login="toLogin"></liu-header>
 		<div class="auto_box note_main_box">
 			<div>
 				<div>

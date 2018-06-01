@@ -1,4 +1,5 @@
 
+var _ = require("lodash");
 var Vue = require("vue");
 require("element_ui");
 require("header");

@@ -8,6 +8,7 @@ router.post('/login', user_controller.login);
 router.post('/eidtInfo', user_controller.eidtInfo);
 router.get('/exit', user_controller.exit);
 router.get('/checkLogin', user_controller.checkLogin);
+router.post('/upload', user_controller.uploadHead);
 
 
 // router.get('/getUsers', test_controller.getUser);

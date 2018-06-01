@@ -1,14 +1,19 @@
 // FIS3 会读取全部项目目录下的资源，如果有些资源不想被构建，通过以下方式排除。
 fis.set('project.ignore', [
   'upload/**',
-  'dist/**'
+  'dist/**',
+  "output/**",
+  "/fis-conf.js"
 ]);
 // default settings. fis3 release
 fis.hook('module', {
     mode: 'mod'
 });
-fis.match('*.js', {
+fis.match('/static/js/**.js', {
   parser: fis.plugin('typescript')
+});
+fis.match('/static/js/{plugin,common}/**', {
+  parser: false
 });
 fis.match('::packager', {
     postpackager: fis.plugin('loader', {
@@ -22,6 +27,10 @@ fis.match('/static/js/**/*.js', {
   useHash: true,
   // optimizer: fis.plugin('uglify-js'),
   isMod: true
+});
+fis.match('/static/js/plugin/**/*.js', {
+  useHash: false,
+  isMod: false
 });
 fis.match('/static/js/game/html5-mario/*.js', {
   useHash: false,
