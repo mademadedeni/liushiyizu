@@ -1,1 +1,6 @@
 /*可以在这里添加你自己的css*/
+body{font-size:14px;color: #253338;font: 16px "Microsoft Yahei", "Hiragino Sans GB", Helvetica, "Helvetica Neue", "微软雅黑", Tahoma, Arial, sans-serif;}
+p{margin:0;line-height:1.7;}
+a{color: #2ab9f9;text-decoration: none;}
+img{display:inline-block;vertical-align:top;}
+blockquote{background: url('./default/images/quotes_left.png') left top no-repeat, url('./default/images/quotes_right.png') right bottom no-repeat; margin:0; padding: 16px 40px;}>>>>>>> .r2352

@@ -3,16 +3,13 @@ const root = path.join(__dirname , "..");
 var url = {
 	root:root,
 	config: path.join(root,"/config"),
-	service:path.join(root,"/service"),
-	controllers:path.join(root,"/service/controllers"),
-	error:path.join(root,"/service/error"),
-	lib:path.join(root,"/service/lib"),
-	logs:path.join(root,"/service/logs"),
-	middlewares:path.join(root,"/service/middlewares"),
-	models:path.join(root,"/service/models"),
-	routes:path.join(root,"/service/routes"),
-	utils:path.join(root,"/service/utils"),
-	webApp:path.join(root,"/service/webApp")
+	controllers:path.join(root,"/controllers"),
+	error:path.join(root,"/error"),
+	logs:path.join(root,"/logs"),
+	middlewares:path.join(root,"/middlewares"),
+	routes:path.join(root,"/routes"),
+	utils:path.join(root,"/utils"),
+	webApp:path.join(root,"/webApp")
 }
 	url.dist = path.join(url.webApp,"/dist");
 	url.components = path.join(url.dist,"/components");

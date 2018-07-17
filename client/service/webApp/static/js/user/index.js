@@ -70,7 +70,7 @@ window.vm = new Vue({
       onSuccess: function(res, file) {
          if (res.message == "success") {
             this.showUploadHead = false;
-            window.location.reload();
+            // window.location.reload();
          } else {
             this.$message("上传失败!");
          }
