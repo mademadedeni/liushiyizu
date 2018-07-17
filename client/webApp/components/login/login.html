@@ -1,0 +1,46 @@
+<div v-show="showLogin !== 0" class="liu_float_panel" style="display:none;">
+	<div v-show="showLogin == 1" class="p_ibm liu_login">
+		<div class="title_box">
+			<span>登录</span>
+			<a @click="toLogin(2)" href="javascript:;">去注册</a>
+			<a @click="closeLogin" class="iconfont icon-close" href="javascript:;"></a>
+		</div>
+		<div>
+			<div>
+				<input @keyup.enter="onLogin" v-model.trim="userName" class="input0" type="text" name="name" placeholder="请输入用户名" maxlength="16">
+			</div>
+			<div>
+				<input @keyup.enter="onLogin" v-model.trim="userPwd" class="input0" type="password" name="name" placeholder="请输入密码" maxlength="16">
+			</div>
+			<div>
+				<div @click="onSeven" class="p_ibt iconfont icon-checkbox" :class="{'icon-checkbox_fill':seven}"></div><span class="p_ibt">七天自动登录</span>
+			</div>
+			<div>
+				<a @click="onLogin" :class="{'button_disable':isLogin}" class="button0" href="javascript:;">{{isLogin ? '登录中' : '登 录'}}</a>
+			</div>
+		</div>
+	</div>
+	<div v-show="showLogin == 2" class="p_ibm liu_login">
+		<div class="title_box">
+			<span>注册</span>
+			<a @click="toLogin(1)" href="javascript:;">去登录</a>
+			<a @click="closeLogin" class="iconfont icon-close" href="javascript:;"></a>
+		</div>
+		<div>
+			<div>
+				<input @keyup.enter="onSignIn" v-model.trim="signInName" class="input0" type="text" name="name" placeholder="用户名" maxlength="16">
+			</div>
+			<div>
+				<input @keyup.enter="onSignIn" v-model.trim="signInPwd" class="input0" type="password" name="password" placeholder="密码" maxlength="16">
+			</div>
+			<div>
+				<input @keyup.enter="onSignIn" v-model.trim="captcha" class="input0" type="text" name="captcha" placeholder="验证码" maxlength="8">
+				<img @click="getCaptcha" class="captcha" :src="ccapImg">
+				<a @click="getCaptcha" class="iconfont icon-refresh" href="javascript:;"></a>
+			</div>
+			<div>
+				<a @click="onSignIn" :class="{'button_disable':isSignIn}" class="button0" href="javascript:;">{{isSignIn ? '注册中' : '注 册'}}</a>
+			</div>
+		</div>
+	</div>
+</div>

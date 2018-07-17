@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>私人空间</title>
+	<link rel="import" href="../common/common.html?__inline">
+</head>
+<body>
+	<div id="app">
+		<liu-header @get-user="getUser" :tab-id="0" @to-login="toLogin"></liu-header>
+		<!-- top -->
+		<div class="article_top_box">
+			<div class="auto_box">
+				<div class="p_ibt head_box">
+					<img class="img" :src="user.headImg">
+					<!-- <a @click="uploadHeadbtn" class="set_head" href="javascript:;">更换头像</a> -->
+				</div>
+				<div class="p_ibt info_box">
+					<div class="name">{{user.nickname}}</div>
+					<div class="glory">
+						<span>性别：</span>
+						<span>{{user.sex}}</span>
+						<span class="Mlf5">年龄：</span>
+						<span>{{user.age}}</span>
+						<span class="Mlf5">地址：</span>
+						<span>{{user.address}}</span>
+					</div>
+					<div class="signature">{{user.signature}}</div>
+				</div>
+			</div>
+		</div>
+		<!-- content -->
+		<div class="auto_box user_main_box">
+			<div class="article_menu_box">
+				<a class="option active" href="">
+					<span class="iconfont icon-user"></span>
+					<span>个人信息</span>
+				</a>
+				<a class="option" href="">
+					<span></span>
+					<span>文章</span>
+				</a>
+			</div>
+			<div class="p_ibt user_content_box">
+				<div class="user_content_title">
+					<span class="title">个人信息</span>
+					<div class="right">
+						<a @click="editUserInfoBtn" class="iconfont icon-edit" href="javascript:;"> 编辑</a>
+					</div>
+				</div>
+				<div class="user_base_box">
+					<div class="item_box">
+						<span class="p_ibt name">头像</span>
+						<div class="p_ibt value box_sizing">
+							<a @click="uploadHeadbtn" href="javascript:;">更换头像</a>
+						</div>
+					</div>
+					<div class="item_box">
+						<span class="p_ibt name">昵称</span>
+						<div class="p_ibt value box_sizing">{{user.nickname}}</div>
+					</div>
+					<div class="item_box">
+						<span class="p_ibt name">性别</span>
+						<div class="p_ibt value box_sizing">{{userSex[user.sex]}}</div>
+					</div>
+					<div class="item_box">
+						<span class="p_ibt name">年龄</span>
+						<div class="p_ibt value box_sizing">{{user.age}}</div>
+					</div>
+					<div class="item_box">
+						<span class="p_ibt name">电话</span>
+						<div class="p_ibt value box_sizing">{{user.phone}}</div>
+					</div>
+					<div class="item_box">
+						<span class="p_ibt name">邮箱</span>
+						<div class="p_ibt value box_sizing">{{user.email}}</div>
+					</div>
+					<div class="item_box">
+						<span class="p_ibt name">住址</span>
+						<div class="p_ibt value box_sizing">{{user.address}}</div>
+					</div>
+					<div class="item_box">
+						<span class="p_ibt name">个性签名</span>
+						<div class="p_ibt value box_sizing">{{user.signature}}</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<liu-footer></liu-footer>
+		<el-dialog
+		   class="liu_dialog user_upload_head"
+		   title="更换头像"
+		   :visible.sync="showUploadHead"
+		   top="20vh"
+		   width="480px"
+		   :close-on-click-modal="false"
+		   :before-close="onCloseUploadHead" style="display:none;">
+			<div class="dialog_content">
+				<img class="img" :src="uploadHeadImg">
+				<el-upload
+				   ref="upload"
+				   action="/api/users/upload"
+				   :show-file-list="false"
+				   :auto-upload="false"
+				   :on-success="onSuccess"
+				   :on-change="onChange">
+				   <span>上传头像</span>
+				</el-upload>
+			</div>
+			<span slot="footer" class="dialog-footer">
+				<el-button @click="onCloseUploadHead">取 消</el-button>
+				<el-button type="primary" @click="onCommitHead">确 定</el-button>
+			</span>
+		</el-dialog>
+		<el-dialog
+		   class="liu_dialog user_edit_info"
+		   title="编辑个人信息"
+		   :visible.sync="isUserEidtInfo"
+		   top="20vh"
+		   width="480px"
+		   :close-on-click-modal="false"
+		   :before-close="onCloseUserEdit" style="display:none;">
+			<div class="dialog_content">
+				<div class="option_box">
+					<span class="p_ibt name">昵称：</span>
+					<div class="p_ibt">
+						<input v-model.trim="editUser.nickname" class="input0" type="text" name="nickname" maxlength="16">
+						<div class="error">{{nicknameError}}</div>
+					</div>
+				</div>
+				<div class="option_box">
+					<span class="p_ibt name type1">性别：</span>
+					<div class="p_ibt">
+						<div @click="editUser.sex = 0" class="p_ibt Mrt10">
+							<span class="iconfont icon-radio" :class="{'icon-radio_fill':editUser.sex == 0}"></span>
+							<span>男</span>
+						</div>
+						<div @click="editUser.sex = 1" class="p_ibt Mrt10">
+							<span class="iconfont icon-radio" :class="{'icon-radio_fill':editUser.sex == 1}"></span>
+							<span>女</span>
+						</div>
+						<div @click="editUser.sex = 2" class="p_ibt">
+							<span class="iconfont icon-radio" :class="{'icon-radio_fill':editUser.sex == 2}"></span>
+							<span>保密</span>
+						</div>
+					</div>
+				</div>
+				<div class="option_box">
+					<span class="p_ibt name">年龄：</span>
+					<div class="p_ibt">
+						<input v-model.trim="editUser.age" class="input0" type="text" name="age" maxlength="3">
+						<div class="error">{{ageError}}</div>
+					</div>
+				</div>
+				<div class="option_box">
+					<span class="p_ibt name">手机：</span>
+					<div class="p_ibt">
+						<input v-model.trim="editUser.phone" class="input0" type="text" name="phone" maxlength="11">
+						<div class="error">{{phoneError}}</div>
+					</div>
+				</div>
+				<div class="option_box">
+					<span class="p_ibt name">邮箱：</span>
+					<div class="p_ibt">
+						<input v-model.trim="editUser.email" class="input0" type="text" name="email" maxlength="50">
+						<div class="error">{{emailError}}</div>
+					</div>
+				</div>
+				<div class="option_box">
+					<span class="p_ibt name">住址：</span>
+					<div class="p_ibt">
+						<input v-model.trim="editUser.address" class="input0" type="text" name="address" maxlength="200">
+						<div class="error">{{addressError}}</div>
+					</div>
+				</div>
+				<div class="option_box">
+					<span class="p_ibt name">个性签名：</span>
+					<div class="p_ibt">
+						<textarea v-model.trim="editUser.signature" class="textarea0" maxlength="100"></textarea>
+						<div class="error">{{signatureError}}</div>
+					</div>
+				</div>
+			</div>
+			<span slot="footer" class="dialog-footer">
+				<el-button @click="onCloseUserEdit">取 消</el-button>
+				<el-button type="primary" @click="onCommitEidt">确 定</el-button>
+			</span>
+		</el-dialog>
+	</div>
+	<script type="text/javascript">
+		require("/webApp/static/js/user/index");
+	</script>
+</body>
+</html>
