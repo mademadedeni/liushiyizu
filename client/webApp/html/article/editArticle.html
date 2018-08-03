@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>文章-刘氏一族</title>
+	<link rel="import" href="../common/common.html?__inline">
+</head>
+<body>
+	<div id="app">
+		<!-- header -->
+		<liu-header :tab-id="4" @to-login="toLogin"></liu-header>
+		<div class="auto_box Ptp60">
+			<h2 class="Ptp30 Pbm30"><%=article_title%></h2>
+			<div>
+				<el-input
+				  placeholder="给个标题吧，亲！"
+				  v-model.trim="article.article_title"
+				  :maxlength="30"
+				  :minlength="3"
+				  clearable>
+				</el-input>
+			</div>
+			<div class="Ptp30">
+				<script id="container" name="content" type="text/plain">
+				</script>
+			</div>
+			<div class="Ptp30 Tright">
+				<el-button @click="onCommit" type="primary" round size='medium'>提 交</el-button>
+			</div>
+		</div>
+		<liu-footer></liu-footer>
+		<liu-login :show-login="showLogin" @close-login="closeLogin" @to-login="toLogin"></liu-login>
+	</div>
+	<script type="text/javascript" src="/static/js/plugin/ueditor/ueditor.config.js"></script>
+	<script type="text/javascript" src="/static/js/plugin/ueditor/ueditor.all.js"></script>
+	<script>
+		var article_id = <%=article_id%>
+		require("/webApp/static/js/article/editArticle");
+	</script>
+</body>
+</html>

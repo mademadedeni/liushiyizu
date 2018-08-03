@@ -1,0 +1,1025 @@
+[2018-07-24T15:48:55.895] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-24T15:48:57.112] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-24T15:48:58.456] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-24T15:49:00.036] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-24T15:49:02.023] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-24T15:49:04.696] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-24T15:49:08.541] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-24T15:49:14.374] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-24T15:49:23.591] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-24T15:49:38.553] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-24T15:49:57.425] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-24T15:49:58.644] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-24T15:49:59.991] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-24T15:50:01.576] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-24T15:50:03.565] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-24T15:50:06.243] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-24T15:50:10.093] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-24T17:01:20.711] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - read ECONNRESET
+[2018-07-24T17:01:21.928] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-24T17:01:23.281] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-24T17:01:24.869] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-24T17:01:26.862] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-24T17:01:29.545] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-24T17:01:33.397] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-24T17:01:39.236] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-24T17:01:48.457] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-24T17:33:08.865] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - read ECONNRESET
+[2018-07-24T17:33:10.080] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-24T17:33:11.434] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-24T17:33:13.023] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-24T17:33:15.016] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-24T17:33:17.700] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-24T17:33:21.550] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-24T17:33:27.388] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-24T17:37:27.386] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - read ECONNRESET
+[2018-07-24T17:37:28.593] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-24T17:37:29.940] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-25T10:15:23.310] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-25T10:15:24.527] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-25T10:15:25.876] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-25T10:15:27.461] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-25T10:15:29.448] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-25T10:15:32.127] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-25T10:15:35.976] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-25T10:15:41.815] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-25T10:15:51.037] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-25T10:33:29.807] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - read ECONNRESET
+[2018-07-25T10:33:31.013] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-25T10:33:32.358] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-25T10:33:33.941] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-25T10:33:35.933] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-25T10:33:38.613] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-25T10:33:42.464] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-25T10:33:48.304] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-26T14:03:39.721] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/articles
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 5
+err name: TypeError
+err message: Cannot convert object to primitive value
+err stack: TypeError: Cannot convert object to primitive value
+    at Object.selectArticle (C:\work\liushiyizu\server\lib\article_sql.js:15:56)
+    at exports.selectArticle (C:\work\liushiyizu\server\controllers\article_controller.js:13:23)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2018-07-26T15:18:43.817] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - read ECONNRESET
+[2018-07-26T15:44:02.416] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/article/delete/2
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+err name: ReferenceError
+err message: _ is not defined
+err stack: ReferenceError: _ is not defined
+    at exports.deleteArticle (C:\work\liushiyizu\server\controllers\article_controller.js:128:5)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+*************** error log end ***************
+
+[2018-07-26T15:44:20.764] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - read ECONNRESET
+[2018-07-26T15:44:21.985] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-26T15:44:23.344] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-26T15:44:24.940] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-26T15:44:36.728] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/article/delete/2
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+err name: ReferenceError
+err message: _ is not defined
+err stack: ReferenceError: _ is not defined
+    at exports.deleteArticle (C:\work\liushiyizu\server\controllers\article_controller.js:128:5)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+*************** error log end ***************
+
+[2018-07-26T15:50:26.497] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/article/delete/2
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 49912
+err name: ReferenceError
+err message: _ is not defined
+err stack: ReferenceError: _ is not defined
+    at exports.deleteArticle (C:\work\liushiyizu\server\controllers\article_controller.js:137:5)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+*************** error log end ***************
+
+[2018-07-26T16:11:38.047] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/article/delete/2
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+err name: ReferenceError
+err message: _ is not defined
+err stack: ReferenceError: _ is not defined
+    at exports.deleteArticle (C:\work\liushiyizu\server\controllers\article_controller.js:137:5)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+*************** error log end ***************
+
+[2018-07-26T16:11:39.961] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/article/delete/2
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+err name: ReferenceError
+err message: _ is not defined
+err stack: ReferenceError: _ is not defined
+    at exports.deleteArticle (C:\work\liushiyizu\server\controllers\article_controller.js:137:5)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+*************** error log end ***************
+
+[2018-07-26T16:11:56.230] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/article/delete/2
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 5474
+err name: ReferenceError
+err message: _ is not defined
+err stack: ReferenceError: _ is not defined
+    at exports.deleteArticle (C:\work\liushiyizu\server\controllers\article_controller.js:137:5)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+*************** error log end ***************
+
+[2018-07-26T16:30:17.630] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - read ECONNRESET
+[2018-07-26T16:30:18.850] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-26T16:30:20.204] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-26T16:46:48.066] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - read ECONNRESET
+[2018-07-26T16:46:49.289] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-26T16:46:50.648] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-26T17:16:11.991] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - read ECONNRESET
+[2018-07-26T17:16:13.196] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-26T17:16:14.552] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-27T16:48:38.656] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - read ECONNRESET
+[2018-07-27T16:48:39.872] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-27T17:56:23.632] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - read ECONNRESET
+[2018-07-27T17:56:24.841] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-27T17:56:26.187] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-27T17:56:28.332] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-30T15:47:02.052] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/articles/3
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 8
+err name: TypeError
+err message: article_sql.selectArticleById is not a function
+err stack: TypeError: article_sql.selectArticleById is not a function
+    at exports.selectArticleById (C:\work\liushiyizu\server\controllers\article_controller.js:21:23)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+*************** error log end ***************
+
+[2018-07-30T15:48:18.914] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/articles/3
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 58501
+err name: TypeError
+err message: article_sql.selectArticleById is not a function
+err stack: TypeError: article_sql.selectArticleById is not a function
+    at exports.selectArticleById (C:\work\liushiyizu\server\controllers\article_controller.js:21:23)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+*************** error log end ***************
+
+[2018-07-30T15:48:36.443] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/articles/3
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+err name: TypeError
+err message: article_sql.selectArticleById is not a function
+err stack: TypeError: article_sql.selectArticleById is not a function
+    at exports.selectArticleById (C:\work\liushiyizu\server\controllers\article_controller.js:21:23)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+*************** error log end ***************
+
+[2018-07-30T15:48:43.450] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/articles/3
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+err name: TypeError
+err message: article_sql.selectArticleById is not a function
+err stack: TypeError: article_sql.selectArticleById is not a function
+    at exports.selectArticleById (C:\work\liushiyizu\server\controllers\article_controller.js:21:23)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+*************** error log end ***************
+
+[2018-07-30T15:48:45.404] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/articles/3
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+err name: TypeError
+err message: article_sql.selectArticleById is not a function
+err stack: TypeError: article_sql.selectArticleById is not a function
+    at exports.selectArticleById (C:\work\liushiyizu\server\controllers\article_controller.js:21:23)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+*************** error log end ***************
+
+[2018-07-30T15:48:46.150] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/articles/3
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+err name: TypeError
+err message: article_sql.selectArticleById is not a function
+err stack: TypeError: article_sql.selectArticleById is not a function
+    at exports.selectArticleById (C:\work\liushiyizu\server\controllers\article_controller.js:21:23)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+*************** error log end ***************
+
+[2018-07-30T15:48:54.473] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/articles/3
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+err name: TypeError
+err message: article_sql.selectArticleById is not a function
+err stack: TypeError: article_sql.selectArticleById is not a function
+    at exports.selectArticleById (C:\work\liushiyizu\server\controllers\article_controller.js:21:23)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+*************** error log end ***************
+
+[2018-07-30T15:48:55.514] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/articles/3
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+err name: TypeError
+err message: article_sql.selectArticleById is not a function
+err stack: TypeError: article_sql.selectArticleById is not a function
+    at exports.selectArticleById (C:\work\liushiyizu\server\controllers\article_controller.js:21:23)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+*************** error log end ***************
+
+[2018-07-30T15:49:00.420] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/articles/3
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+err name: TypeError
+err message: article_sql.selectArticleById is not a function
+err stack: TypeError: article_sql.selectArticleById is not a function
+    at exports.selectArticleById (C:\work\liushiyizu\server\controllers\article_controller.js:21:23)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+*************** error log end ***************
+
+[2018-07-30T15:49:02.108] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/articles/3
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+err name: TypeError
+err message: article_sql.selectArticleById is not a function
+err stack: TypeError: article_sql.selectArticleById is not a function
+    at exports.selectArticleById (C:\work\liushiyizu\server\controllers\article_controller.js:21:23)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+*************** error log end ***************
+
+[2018-07-30T15:49:22.902] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/articles/3
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 15022
+err name: TypeError
+err message: article_sql.selectArticleById is not a function
+err stack: TypeError: article_sql.selectArticleById is not a function
+    at exports.selectArticleById (C:\work\liushiyizu\server\controllers\article_controller.js:21:23)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+*************** error log end ***************
+
+[2018-07-30T16:15:46.850] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/articles?pageSize=2&pageNum=1
+request client ip:  ::ffff:127.0.0.1
+request query:  {"pageSize":"2","pageNum":"1"}
+response time: 39072
+err name: TypeError
+err message: article_sql.selectArticleCount is not a function
+err stack: TypeError: article_sql.selectArticleCount is not a function
+    at exports.selectArticle (C:\work\liushiyizu\server\controllers\article_controller.js:122:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+*************** error log end ***************
+
+[2018-07-30T16:16:32.207] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/articles?pageSize=4&pageNum=1
+request client ip:  ::ffff:127.0.0.1
+request query:  {"pageSize":"4","pageNum":"1"}
+response time: 6100
+err name: TypeError
+err message: article_sql.selectArticleCount is not a function
+err stack: TypeError: article_sql.selectArticleCount is not a function
+    at exports.selectArticle (C:\work\liushiyizu\server\controllers\article_controller.js:122:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+*************** error log end ***************
+
+[2018-07-30T16:19:37.735] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/articles
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1132
+err name: TypeError
+err message: article_sql.selectArticleCount is not a function
+err stack: TypeError: article_sql.selectArticleCount is not a function
+    at exports.selectArticle (C:\work\liushiyizu\server\controllers\article_controller.js:124:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+*************** error log end ***************
+
+[2018-07-30T16:19:44.102] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/articles
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 549
+err name: TypeError
+err message: article_sql.selectArticleCount is not a function
+err stack: TypeError: article_sql.selectArticleCount is not a function
+    at exports.selectArticle (C:\work\liushiyizu\server\controllers\article_controller.js:124:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+*************** error log end ***************
+
+[2018-07-30T16:20:12.591] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/articles
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2327
+err name: TypeError
+err message: article_sql.selectArticleCount is not a function
+err stack: TypeError: article_sql.selectArticleCount is not a function
+    at exports.selectArticle (C:\work\liushiyizu\server\controllers\article_controller.js:124:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+*************** error log end ***************
+
+[2018-07-30T16:30:13.901] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/articles
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1242
+err name: TypeError
+err message: article_sql.selectArticleCount is not a function
+err stack: TypeError: article_sql.selectArticleCount is not a function
+    at exports.selectArticle (C:\work\liushiyizu\server\controllers\article_controller.js:124:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+*************** error log end ***************
+
+[2018-07-30T16:30:42.802] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/articles
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 10238
+err name: TypeError
+err message: article_sql.selectArticleCount is not a function
+err stack: TypeError: article_sql.selectArticleCount is not a function
+    at exports.selectArticle (C:\work\liushiyizu\server\controllers\article_controller.js:124:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+*************** error log end ***************
+
+[2018-07-30T17:07:57.587] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - read ECONNRESET
+[2018-07-30T17:07:58.808] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-07-30T17:10:25.848] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/article/edit/1
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"articleId":"1","title":"service","content":"#查看mysql日志\r\ncat /var/log/mysqld.log\r\n\r\n#删除mysql\r\nyum remove mysql-server\r\n\r\n#安装mysql\r\nyum install  mysql-server\r\n\r\n#查看mysql-server的版本\r\nrpm -qi mysql-server\r\n#查看mysql 的启动状态\r\nservice mysqld status\r\n\r\n#设置mysqld服务开机自动启动\r\nchkconfig mysqld on\r\n\r\n#通过该命令给root账号设置密码为 root\r\nmysqladmin -u root password 'root'\r\n\r\n#登录mysql数据库\r\nmysql -u root -p\r\n\r\n/etc/my.cnf 这是mysql的主配置文件\r\n/var/lib/mysql   mysql数据库的数据库文件存放位置\r\n\r\n#查看Linux系统是否在监听 3306 这个端口号\r\nnetstat -anp | more\r\n\r\n\r\n#安全模式登陆mysql 跳过验证\r\nmysqld_safe --skip-grant-tables &\r\n#设置新密码\r\nupdate mysql.user set authentication_string=password('root') where user='root'\r\n#保存\r\nflush privileges;\r\n#退出\r\nquit;\r\n\r\n\r\n\r\n#授权任意ip远程连接数据库\r\nGRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'root' WITH GRANT OPTION;\r\nFLUSH PRIVILEGES;//保存生效\r\n#处理安全模式登陆后修改密码，再次登陆后可能出现的错误\r\n#ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO) \r\nSET PASSWORD = PASSWORD('123456');\r\n\r\n#pm2路径\r\n/opt/node-v8.6.0-linux-x86/bin/pm2\r\n\r\n#淘宝镜像地址\r\nnpm install packageName --registry=https://registry.npm.taobao.org\r\n\r\n//查看文件 -500 从倒数500行开始读\r\ntail -500f log.log\r\n//pm2常用命令\r\nhttp://www.jianshu.com/p/e709b71f12da\r\n\r\n#nginx命令\r\n启动：nginx\r\n# 强制停止nginx服务器，如果有未处理的数据，丢弃\r\n停止：nginx -s stop\r\n# 优雅的停止nginx服务器，如果有未处理的数据，等待处理完成之后停止\r\nnginx -s quit\r\n\r\n#linux下nginx命令\r\n启动\r\ncd /usr/local/nginx/sbin\r\n./nginx\r\n停止\r\n#查询nginx主进程号\r\nps -ef | grep nginx\r\n#停止进程\r\nkill -QUIT 主进程号\r\n#快速停止\r\nkill -TERM 主进程号\r\n#强制停止\r\npkill -9 nginx\r\n\r\n\r\n#git 生成ssh秘钥\r\n1.打开git bash 输入 ssh-keygen -t rsa -C \"1623685118@qq.com\"\r\n2.打开C:\\Users\\liujianzeng\\.ssh 目录下id_rsa.pub文件复制秘钥\r\n3.登陆gitHub 进入个人中心（Personal settings）选择 SSH and GPG keys \r\n4.然后点击New SSH key 新建一个key title随意写，粘贴key确定即可。\r\n3.测试是否成功在git bash输入ssh -T git@github.com\r\n如果是第一次的会提示是否continue，输入yes回车再输入密码后就会看到：You’ve successfully authenticated, but GitHub does not provide shell access 。这就表示已成功连上github。\r\n\r\n#git 提交项目\r\n1.git add [file name or .]点代表所有\r\n2.git status 查看添加状态\r\n3.git commit -a -m 提交；-a提交修改不需要add命令，-m注释\r\n4.git push origin master 提交到服务器\r\n\r\n\r\n#vim\r\n命令行出入 u 为撤销上一步输入\r\n命令行Ctrl+r 恢复上一步被撤销的操作\r\n\r\n\r\n#linux\r\nls -a可以显示该目录下的所有文件（包括隐藏文件）。\r\nrmdir -rf filename 删除文件或文件夹命令（-r：递归删除  -f：忽略不存在文件，从不提示）\r\n\r\n#检查服务是否都启动了\r\nps -ef | grep nginx  //nginx 是两个进程\r\nps -ef | grep redis  //redis 是一个进程\r\nservice mysqld status //mysql running...\r\n\r\n#正常状态\r\n┌──────────┬────┬──────┬───────┬────────┬─────────┬────────┬─────┬───────────┬──────┬──────────┐\r\n│ App name │ id │ mode │ pid   │ status │ restart │ uptime │ cpu │ mem       │ user │ watching │\r\n├──────────┼────┼──────┼───────┼────────┼─────────┼────────┼─────┼───────────┼──────┼──────────┤\r\n│ redis    │ 2  │ fork │ 19548 │ online │ 0       │ 3m     │ 0%  │ 1.9 MB    │ root │ disabled │\r\n│ server   │ 1  │ fork │ 16507 │ online │ 0       │ 49m    │ 0%  │ 26.6 MB   │ root │ disabled │\r\n│ www      │ 0  │ fork │ 3806  │ online │ 0       │ 3D     │ 0%  │ 41.9 MB   │ root │ disabled │\r\n└──────────┴────┴──────┴───────┴────────┴─────────┴────────┴─────┴───────────┴──────┴──────────┘\r\n","editDate":1532941825846}
+response time: 2
+err name: TypeError
+err message: Cannot read property 'type' of undefined
+err stack: TypeError: Cannot read property 'type' of undefined
+    at Object.updateValue (C:\work\liushiyizu\server\models\article_model.js:54:21)
+    at exports.editArticle (C:\work\liushiyizu\server\controllers\article_controller.js:191:66)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2018-07-30T17:17:31.538] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/article/edit/1
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"articleId":"1","title":"service","content":"#查看mysql日志\r\ncat /var/log/mysqld.log\r\n\r\n#删除mysql\r\nyum remove mysql-server\r\n\r\n#安装mysql\r\nyum install  mysql-server\r\n\r\n#查看mysql-server的版本\r\nrpm -qi mysql-server\r\n#查看mysql 的启动状态\r\nservice mysqld status\r\n\r\n#设置mysqld服务开机自动启动\r\nchkconfig mysqld on\r\n\r\n#通过该命令给root账号设置密码为 root\r\nmysqladmin -u root password 'root'\r\n\r\n#登录mysql数据库\r\nmysql -u root -p\r\n\r\n/etc/my.cnf 这是mysql的主配置文件\r\n/var/lib/mysql   mysql数据库的数据库文件存放位置\r\n\r\n#查看Linux系统是否在监听 3306 这个端口号\r\nnetstat -anp | more\r\n\r\n\r\n#安全模式登陆mysql 跳过验证\r\nmysqld_safe --skip-grant-tables &\r\n#设置新密码\r\nupdate mysql.user set authentication_string=password('root') where user='root'\r\n#保存\r\nflush privileges;\r\n#退出\r\nquit;\r\n\r\n\r\n\r\n#授权任意ip远程连接数据库\r\nGRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'root' WITH GRANT OPTION;\r\nFLUSH PRIVILEGES;//保存生效\r\n#处理安全模式登陆后修改密码，再次登陆后可能出现的错误\r\n#ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO) \r\nSET PASSWORD = PASSWORD('123456');\r\n\r\n#pm2路径\r\n/opt/node-v8.6.0-linux-x86/bin/pm2\r\n\r\n#淘宝镜像地址\r\nnpm install packageName --registry=https://registry.npm.taobao.org\r\n\r\n//查看文件 -500 从倒数500行开始读\r\ntail -500f log.log\r\n//pm2常用命令\r\nhttp://www.jianshu.com/p/e709b71f12da\r\n\r\n#nginx命令\r\n启动：nginx\r\n# 强制停止nginx服务器，如果有未处理的数据，丢弃\r\n停止：nginx -s stop\r\n# 优雅的停止nginx服务器，如果有未处理的数据，等待处理完成之后停止\r\nnginx -s quit\r\n\r\n#linux下nginx命令\r\n启动\r\ncd /usr/local/nginx/sbin\r\n./nginx\r\n停止\r\n#查询nginx主进程号\r\nps -ef | grep nginx\r\n#停止进程\r\nkill -QUIT 主进程号\r\n#快速停止\r\nkill -TERM 主进程号\r\n#强制停止\r\npkill -9 nginx\r\n\r\n\r\n#git 生成ssh秘钥\r\n1.打开git bash 输入 ssh-keygen -t rsa -C \"1623685118@qq.com\"\r\n2.打开C:\\Users\\liujianzeng\\.ssh 目录下id_rsa.pub文件复制秘钥\r\n3.登陆gitHub 进入个人中心（Personal settings）选择 SSH and GPG keys \r\n4.然后点击New SSH key 新建一个key title随意写，粘贴key确定即可。\r\n3.测试是否成功在git bash输入ssh -T git@github.com\r\n如果是第一次的会提示是否continue，输入yes回车再输入密码后就会看到：You’ve successfully authenticated, but GitHub does not provide shell access 。这就表示已成功连上github。\r\n\r\n#git 提交项目\r\n1.git add [file name or .]点代表所有\r\n2.git status 查看添加状态\r\n3.git commit -a -m 提交；-a提交修改不需要add命令，-m注释\r\n4.git push origin master 提交到服务器\r\n\r\n\r\n#vim\r\n命令行出入 u 为撤销上一步输入\r\n命令行Ctrl+r 恢复上一步被撤销的操作\r\n\r\n\r\n#linux\r\nls -a可以显示该目录下的所有文件（包括隐藏文件）。\r\nrmdir -rf filename 删除文件或文件夹命令（-r：递归删除  -f：忽略不存在文件，从不提示）\r\n\r\n#检查服务是否都启动了\r\nps -ef | grep nginx  //nginx 是两个进程\r\nps -ef | grep redis  //redis 是一个进程\r\nservice mysqld status //mysql running...\r\n\r\n#正常状态\r\n┌──────────┬────┬──────┬───────┬────────┬─────────┬────────┬─────┬───────────┬──────┬──────────┐\r\n│ App name │ id │ mode │ pid   │ status │ restart │ uptime │ cpu │ mem       │ user │ watching │\r\n├──────────┼────┼──────┼───────┼────────┼─────────┼────────┼─────┼───────────┼──────┼──────────┤\r\n│ redis    │ 2  │ fork │ 19548 │ online │ 0       │ 3m     │ 0%  │ 1.9 MB    │ root │ disabled │\r\n│ server   │ 1  │ fork │ 16507 │ online │ 0       │ 49m    │ 0%  │ 26.6 MB   │ root │ disabled │\r\n│ www      │ 0  │ fork │ 3806  │ online │ 0       │ 3D     │ 0%  │ 41.9 MB   │ root │ disabled │\r\n└──────────┴────┴──────┴───────┴────────┴─────────┴────────┴─────┴───────────┴──────┴──────────┘\r\n","editDate":1532942206810}
+response time: 99236
+err name: TypeError
+err message: Cannot read property 'type' of undefined
+err stack: TypeError: Cannot read property 'type' of undefined
+    at Object.updateValue (C:\work\liushiyizu\server\models\article_model.js:54:21)
+    at exports.editArticle (C:\work\liushiyizu\server\controllers\article_controller.js:191:66)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2018-07-30T17:19:09.903] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/article/edit/1
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"articleId":"1","title":"service","content":"#查看mysql日志\r\ncat /var/log/mysqld.log\r\n\r\n#删除mysql\r\nyum remove mysql-server\r\n\r\n#安装mysql\r\nyum install  mysql-server\r\n\r\n#查看mysql-server的版本\r\nrpm -qi mysql-server\r\n#查看mysql 的启动状态\r\nservice mysqld status\r\n\r\n#设置mysqld服务开机自动启动\r\nchkconfig mysqld on\r\n\r\n#通过该命令给root账号设置密码为 root\r\nmysqladmin -u root password 'root'\r\n\r\n#登录mysql数据库\r\nmysql -u root -p\r\n\r\n/etc/my.cnf 这是mysql的主配置文件\r\n/var/lib/mysql   mysql数据库的数据库文件存放位置\r\n\r\n#查看Linux系统是否在监听 3306 这个端口号\r\nnetstat -anp | more\r\n\r\n\r\n#安全模式登陆mysql 跳过验证\r\nmysqld_safe --skip-grant-tables &\r\n#设置新密码\r\nupdate mysql.user set authentication_string=password('root') where user='root'\r\n#保存\r\nflush privileges;\r\n#退出\r\nquit;\r\n\r\n\r\n\r\n#授权任意ip远程连接数据库\r\nGRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'root' WITH GRANT OPTION;\r\nFLUSH PRIVILEGES;//保存生效\r\n#处理安全模式登陆后修改密码，再次登陆后可能出现的错误\r\n#ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO) \r\nSET PASSWORD = PASSWORD('123456');\r\n\r\n#pm2路径\r\n/opt/node-v8.6.0-linux-x86/bin/pm2\r\n\r\n#淘宝镜像地址\r\nnpm install packageName --registry=https://registry.npm.taobao.org\r\n\r\n//查看文件 -500 从倒数500行开始读\r\ntail -500f log.log\r\n//pm2常用命令\r\nhttp://www.jianshu.com/p/e709b71f12da\r\n\r\n#nginx命令\r\n启动：nginx\r\n# 强制停止nginx服务器，如果有未处理的数据，丢弃\r\n停止：nginx -s stop\r\n# 优雅的停止nginx服务器，如果有未处理的数据，等待处理完成之后停止\r\nnginx -s quit\r\n\r\n#linux下nginx命令\r\n启动\r\ncd /usr/local/nginx/sbin\r\n./nginx\r\n停止\r\n#查询nginx主进程号\r\nps -ef | grep nginx\r\n#停止进程\r\nkill -QUIT 主进程号\r\n#快速停止\r\nkill -TERM 主进程号\r\n#强制停止\r\npkill -9 nginx\r\n\r\n\r\n#git 生成ssh秘钥\r\n1.打开git bash 输入 ssh-keygen -t rsa -C \"1623685118@qq.com\"\r\n2.打开C:\\Users\\liujianzeng\\.ssh 目录下id_rsa.pub文件复制秘钥\r\n3.登陆gitHub 进入个人中心（Personal settings）选择 SSH and GPG keys \r\n4.然后点击New SSH key 新建一个key title随意写，粘贴key确定即可。\r\n3.测试是否成功在git bash输入ssh -T git@github.com\r\n如果是第一次的会提示是否continue，输入yes回车再输入密码后就会看到：You’ve successfully authenticated, but GitHub does not provide shell access 。这就表示已成功连上github。\r\n\r\n#git 提交项目\r\n1.git add [file name or .]点代表所有\r\n2.git status 查看添加状态\r\n3.git commit -a -m 提交；-a提交修改不需要add命令，-m注释\r\n4.git push origin master 提交到服务器\r\n\r\n\r\n#vim\r\n命令行出入 u 为撤销上一步输入\r\n命令行Ctrl+r 恢复上一步被撤销的操作\r\n\r\n\r\n#linux\r\nls -a可以显示该目录下的所有文件（包括隐藏文件）。\r\nrmdir -rf filename 删除文件或文件夹命令（-r：递归删除  -f：忽略不存在文件，从不提示）\r\n\r\n#检查服务是否都启动了\r\nps -ef | grep nginx  //nginx 是两个进程\r\nps -ef | grep redis  //redis 是一个进程\r\nservice mysqld status //mysql running...\r\n\r\n#正常状态\r\n┌──────────┬────┬──────┬───────┬────────┬─────────┬────────┬─────┬───────────┬──────┬──────────┐\r\n│ App name │ id │ mode │ pid   │ status │ restart │ uptime │ cpu │ mem       │ user │ watching │\r\n├──────────┼────┼──────┼───────┼────────┼─────────┼────────┼─────┼───────────┼──────┼──────────┤\r\n│ redis    │ 2  │ fork │ 19548 │ online │ 0       │ 3m     │ 0%  │ 1.9 MB    │ root │ disabled │\r\n│ server   │ 1  │ fork │ 16507 │ online │ 0       │ 49m    │ 0%  │ 26.6 MB   │ root │ disabled │\r\n│ www      │ 0  │ fork │ 3806  │ online │ 0       │ 3D     │ 0%  │ 41.9 MB   │ root │ disabled │\r\n└──────────┴────┴──────┴───────┴────────┴─────────┴────────┴─────┴───────────┴──────┴──────────┘\r\n","editDate":1532942346855}
+response time: 7026
+err name: TypeError
+err message: Cannot read property 'type' of undefined
+err stack: TypeError: Cannot read property 'type' of undefined
+    at Object.updateValue (C:\work\liushiyizu\server\models\article_model.js:54:21)
+    at exports.editArticle (C:\work\liushiyizu\server\controllers\article_controller.js:191:66)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2018-07-30T17:20:58.568] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/article/edit/1
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"articleId":"1","title":"service","content":"#查看mysql日志\r\ncat /var/log/mysqld.log\r\n\r\n#删除mysql\r\nyum remove mysql-server\r\n\r\n#安装mysql\r\nyum install  mysql-server\r\n\r\n#查看mysql-server的版本\r\nrpm -qi mysql-server\r\n#查看mysql 的启动状态\r\nservice mysqld status\r\n\r\n#设置mysqld服务开机自动启动\r\nchkconfig mysqld on\r\n\r\n#通过该命令给root账号设置密码为 root\r\nmysqladmin -u root password 'root'\r\n\r\n#登录mysql数据库\r\nmysql -u root -p\r\n\r\n/etc/my.cnf 这是mysql的主配置文件\r\n/var/lib/mysql   mysql数据库的数据库文件存放位置\r\n\r\n#查看Linux系统是否在监听 3306 这个端口号\r\nnetstat -anp | more\r\n\r\n\r\n#安全模式登陆mysql 跳过验证\r\nmysqld_safe --skip-grant-tables &\r\n#设置新密码\r\nupdate mysql.user set authentication_string=password('root') where user='root'\r\n#保存\r\nflush privileges;\r\n#退出\r\nquit;\r\n\r\n\r\n\r\n#授权任意ip远程连接数据库\r\nGRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'root' WITH GRANT OPTION;\r\nFLUSH PRIVILEGES;//保存生效\r\n#处理安全模式登陆后修改密码，再次登陆后可能出现的错误\r\n#ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO) \r\nSET PASSWORD = PASSWORD('123456');\r\n\r\n#pm2路径\r\n/opt/node-v8.6.0-linux-x86/bin/pm2\r\n\r\n#淘宝镜像地址\r\nnpm install packageName --registry=https://registry.npm.taobao.org\r\n\r\n//查看文件 -500 从倒数500行开始读\r\ntail -500f log.log\r\n//pm2常用命令\r\nhttp://www.jianshu.com/p/e709b71f12da\r\n\r\n#nginx命令\r\n启动：nginx\r\n# 强制停止nginx服务器，如果有未处理的数据，丢弃\r\n停止：nginx -s stop\r\n# 优雅的停止nginx服务器，如果有未处理的数据，等待处理完成之后停止\r\nnginx -s quit\r\n\r\n#linux下nginx命令\r\n启动\r\ncd /usr/local/nginx/sbin\r\n./nginx\r\n停止\r\n#查询nginx主进程号\r\nps -ef | grep nginx\r\n#停止进程\r\nkill -QUIT 主进程号\r\n#快速停止\r\nkill -TERM 主进程号\r\n#强制停止\r\npkill -9 nginx\r\n\r\n\r\n#git 生成ssh秘钥\r\n1.打开git bash 输入 ssh-keygen -t rsa -C \"1623685118@qq.com\"\r\n2.打开C:\\Users\\liujianzeng\\.ssh 目录下id_rsa.pub文件复制秘钥\r\n3.登陆gitHub 进入个人中心（Personal settings）选择 SSH and GPG keys \r\n4.然后点击New SSH key 新建一个key title随意写，粘贴key确定即可。\r\n3.测试是否成功在git bash输入ssh -T git@github.com\r\n如果是第一次的会提示是否continue，输入yes回车再输入密码后就会看到：You’ve successfully authenticated, but GitHub does not provide shell access 。这就表示已成功连上github。\r\n\r\n#git 提交项目\r\n1.git add [file name or .]点代表所有\r\n2.git status 查看添加状态\r\n3.git commit -a -m 提交；-a提交修改不需要add命令，-m注释\r\n4.git push origin master 提交到服务器\r\n\r\n\r\n#vim\r\n命令行出入 u 为撤销上一步输入\r\n命令行Ctrl+r 恢复上一步被撤销的操作\r\n\r\n\r\n#linux\r\nls -a可以显示该目录下的所有文件（包括隐藏文件）。\r\nrmdir -rf filename 删除文件或文件夹命令（-r：递归删除  -f：忽略不存在文件，从不提示）\r\n\r\n#检查服务是否都启动了\r\nps -ef | grep nginx  //nginx 是两个进程\r\nps -ef | grep redis  //redis 是一个进程\r\nservice mysqld status //mysql running...\r\n\r\n#正常状态\r\n┌──────────┬────┬──────┬───────┬────────┬─────────┬────────┬─────┬───────────┬──────┬──────────┐\r\n│ App name │ id │ mode │ pid   │ status │ restart │ uptime │ cpu │ mem       │ user │ watching │\r\n├──────────┼────┼──────┼───────┼────────┼─────────┼────────┼─────┼───────────┼──────┼──────────┤\r\n│ redis    │ 2  │ fork │ 19548 │ online │ 0       │ 3m     │ 0%  │ 1.9 MB    │ root │ disabled │\r\n│ server   │ 1  │ fork │ 16507 │ online │ 0       │ 49m    │ 0%  │ 26.6 MB   │ root │ disabled │\r\n│ www      │ 0  │ fork │ 3806  │ online │ 0       │ 3D     │ 0%  │ 41.9 MB   │ root │ disabled │\r\n└──────────┴────┴──────┴───────┴────────┴─────────┴────────┴─────┴───────────┴──────┴──────────┘\r\n","editDate":1532942429012}
+response time: 31497
+err name: TypeError
+err message: Cannot read property 'type' of undefined
+err stack: TypeError: Cannot read property 'type' of undefined
+    at Object.updateValue (C:\work\liushiyizu\server\models\article_model.js:54:21)
+    at exports.editArticle (C:\work\liushiyizu\server\controllers\article_controller.js:191:66)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2018-07-30T17:22:03.336] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/article/edit/1
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"articleId":"1","title":"service","content":"#查看mysql日志\r\ncat /var/log/mysqld.log\r\n\r\n#删除mysql\r\nyum remove mysql-server\r\n\r\n#安装mysql\r\nyum install  mysql-server\r\n\r\n#查看mysql-server的版本\r\nrpm -qi mysql-server\r\n#查看mysql 的启动状态\r\nservice mysqld status\r\n\r\n#设置mysqld服务开机自动启动\r\nchkconfig mysqld on\r\n\r\n#通过该命令给root账号设置密码为 root\r\nmysqladmin -u root password 'root'\r\n\r\n#登录mysql数据库\r\nmysql -u root -p\r\n\r\n/etc/my.cnf 这是mysql的主配置文件\r\n/var/lib/mysql   mysql数据库的数据库文件存放位置\r\n\r\n#查看Linux系统是否在监听 3306 这个端口号\r\nnetstat -anp | more\r\n\r\n\r\n#安全模式登陆mysql 跳过验证\r\nmysqld_safe --skip-grant-tables &\r\n#设置新密码\r\nupdate mysql.user set authentication_string=password('root') where user='root'\r\n#保存\r\nflush privileges;\r\n#退出\r\nquit;\r\n\r\n\r\n\r\n#授权任意ip远程连接数据库\r\nGRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'root' WITH GRANT OPTION;\r\nFLUSH PRIVILEGES;//保存生效\r\n#处理安全模式登陆后修改密码，再次登陆后可能出现的错误\r\n#ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO) \r\nSET PASSWORD = PASSWORD('123456');\r\n\r\n#pm2路径\r\n/opt/node-v8.6.0-linux-x86/bin/pm2\r\n\r\n#淘宝镜像地址\r\nnpm install packageName --registry=https://registry.npm.taobao.org\r\n\r\n//查看文件 -500 从倒数500行开始读\r\ntail -500f log.log\r\n//pm2常用命令\r\nhttp://www.jianshu.com/p/e709b71f12da\r\n\r\n#nginx命令\r\n启动：nginx\r\n# 强制停止nginx服务器，如果有未处理的数据，丢弃\r\n停止：nginx -s stop\r\n# 优雅的停止nginx服务器，如果有未处理的数据，等待处理完成之后停止\r\nnginx -s quit\r\n\r\n#linux下nginx命令\r\n启动\r\ncd /usr/local/nginx/sbin\r\n./nginx\r\n停止\r\n#查询nginx主进程号\r\nps -ef | grep nginx\r\n#停止进程\r\nkill -QUIT 主进程号\r\n#快速停止\r\nkill -TERM 主进程号\r\n#强制停止\r\npkill -9 nginx\r\n\r\n\r\n#git 生成ssh秘钥\r\n1.打开git bash 输入 ssh-keygen -t rsa -C \"1623685118@qq.com\"\r\n2.打开C:\\Users\\liujianzeng\\.ssh 目录下id_rsa.pub文件复制秘钥\r\n3.登陆gitHub 进入个人中心（Personal settings）选择 SSH and GPG keys \r\n4.然后点击New SSH key 新建一个key title随意写，粘贴key确定即可。\r\n3.测试是否成功在git bash输入ssh -T git@github.com\r\n如果是第一次的会提示是否continue，输入yes回车再输入密码后就会看到：You’ve successfully authenticated, but GitHub does not provide shell access 。这就表示已成功连上github。\r\n\r\n#git 提交项目\r\n1.git add [file name or .]点代表所有\r\n2.git status 查看添加状态\r\n3.git commit -a -m 提交；-a提交修改不需要add命令，-m注释\r\n4.git push origin master 提交到服务器\r\n\r\n\r\n#vim\r\n命令行出入 u 为撤销上一步输入\r\n命令行Ctrl+r 恢复上一步被撤销的操作\r\n\r\n\r\n#linux\r\nls -a可以显示该目录下的所有文件（包括隐藏文件）。\r\nrmdir -rf filename 删除文件或文件夹命令（-r：递归删除  -f：忽略不存在文件，从不提示）\r\n\r\n#检查服务是否都启动了\r\nps -ef | grep nginx  //nginx 是两个进程\r\nps -ef | grep redis  //redis 是一个进程\r\nservice mysqld status //mysql running...\r\n\r\n#正常状态\r\n┌──────────┬────┬──────┬───────┬────────┬─────────┬────────┬─────┬───────────┬──────┬──────────┐\r\n│ App name │ id │ mode │ pid   │ status │ restart │ uptime │ cpu │ mem       │ user │ watching │\r\n├──────────┼────┼──────┼───────┼────────┼─────────┼────────┼─────┼───────────┼──────┼──────────┤\r\n│ redis    │ 2  │ fork │ 19548 │ online │ 0       │ 3m     │ 0%  │ 1.9 MB    │ root │ disabled │\r\n│ server   │ 1  │ fork │ 16507 │ online │ 0       │ 49m    │ 0%  │ 26.6 MB   │ root │ disabled │\r\n│ www      │ 0  │ fork │ 3806  │ online │ 0       │ 3D     │ 0%  │ 41.9 MB   │ root │ disabled │\r\n└──────────┴────┴──────┴───────┴────────┴─────────┴────────┴─────┴───────────┴──────┴──────────┘\r\n","editDate":1532942488611}
+response time: 38284
+err name: TypeError
+err message: Cannot read property 'type' of undefined
+err stack: TypeError: Cannot read property 'type' of undefined
+    at Object.updateValue (C:\work\liushiyizu\server\models\article_model.js:54:21)
+    at exports.editArticle (C:\work\liushiyizu\server\controllers\article_controller.js:191:66)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2018-07-30T17:35:15.891] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/article/edit/1
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"articleId":"1","title":"service","content":"#查看mysql日志\r\ncat /var/log/mysqld.log\r\n\r\n#删除mysql\r\nyum remove mysql-server\r\n\r\n#安装mysql\r\nyum install  mysql-server\r\n\r\n#查看mysql-server的版本\r\nrpm -qi mysql-server\r\n#查看mysql 的启动状态\r\nservice mysqld status\r\n\r\n#设置mysqld服务开机自动启动\r\nchkconfig mysqld on\r\n\r\n#通过该命令给root账号设置密码为 root\r\nmysqladmin -u root password 'root'\r\n\r\n#登录mysql数据库\r\nmysql -u root -p\r\n\r\n/etc/my.cnf 这是mysql的主配置文件\r\n/var/lib/mysql   mysql数据库的数据库文件存放位置\r\n\r\n#查看Linux系统是否在监听 3306 这个端口号\r\nnetstat -anp | more\r\n\r\n\r\n#安全模式登陆mysql 跳过验证\r\nmysqld_safe --skip-grant-tables &\r\n#设置新密码\r\nupdate mysql.user set authentication_string=password('root') where user='root'\r\n#保存\r\nflush privileges;\r\n#退出\r\nquit;\r\n\r\n\r\n\r\n#授权任意ip远程连接数据库\r\nGRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'root' WITH GRANT OPTION;\r\nFLUSH PRIVILEGES;//保存生效\r\n#处理安全模式登陆后修改密码，再次登陆后可能出现的错误\r\n#ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO) \r\nSET PASSWORD = PASSWORD('123456');\r\n\r\n#pm2路径\r\n/opt/node-v8.6.0-linux-x86/bin/pm2\r\n\r\n#淘宝镜像地址\r\nnpm install packageName --registry=https://registry.npm.taobao.org\r\n\r\n//查看文件 -500 从倒数500行开始读\r\ntail -500f log.log\r\n//pm2常用命令\r\nhttp://www.jianshu.com/p/e709b71f12da\r\n\r\n#nginx命令\r\n启动：nginx\r\n# 强制停止nginx服务器，如果有未处理的数据，丢弃\r\n停止：nginx -s stop\r\n# 优雅的停止nginx服务器，如果有未处理的数据，等待处理完成之后停止\r\nnginx -s quit\r\n\r\n#linux下nginx命令\r\n启动\r\ncd /usr/local/nginx/sbin\r\n./nginx\r\n停止\r\n#查询nginx主进程号\r\nps -ef | grep nginx\r\n#停止进程\r\nkill -QUIT 主进程号\r\n#快速停止\r\nkill -TERM 主进程号\r\n#强制停止\r\npkill -9 nginx\r\n\r\n\r\n#git 生成ssh秘钥\r\n1.打开git bash 输入 ssh-keygen -t rsa -C \"1623685118@qq.com\"\r\n2.打开C:\\Users\\liujianzeng\\.ssh 目录下id_rsa.pub文件复制秘钥\r\n3.登陆gitHub 进入个人中心（Personal settings）选择 SSH and GPG keys \r\n4.然后点击New SSH key 新建一个key title随意写，粘贴key确定即可。\r\n3.测试是否成功在git bash输入ssh -T git@github.com\r\n如果是第一次的会提示是否continue，输入yes回车再输入密码后就会看到：You’ve successfully authenticated, but GitHub does not provide shell access 。这就表示已成功连上github。\r\n\r\n#git 提交项目\r\n1.git add [file name or .]点代表所有\r\n2.git status 查看添加状态\r\n3.git commit -a -m 提交；-a提交修改不需要add命令，-m注释\r\n4.git push origin master 提交到服务器\r\n\r\n\r\n#vim\r\n命令行出入 u 为撤销上一步输入\r\n命令行Ctrl+r 恢复上一步被撤销的操作\r\n\r\n\r\n#linux\r\nls -a可以显示该目录下的所有文件（包括隐藏文件）。\r\nrmdir -rf filename 删除文件或文件夹命令（-r：递归删除  -f：忽略不存在文件，从不提示）\r\n\r\n#检查服务是否都启动了\r\nps -ef | grep nginx  //nginx 是两个进程\r\nps -ef | grep redis  //redis 是一个进程\r\nservice mysqld status //mysql running...\r\n\r\n#正常状态\r\n┌──────────┬────┬──────┬───────┬────────┬─────────┬────────┬─────┬───────────┬──────┬──────────┐\r\n│ App name │ id │ mode │ pid   │ status │ restart │ uptime │ cpu │ mem       │ user │ watching │\r\n├──────────┼────┼──────┼───────┼────────┼─────────┼────────┼─────┼───────────┼──────┼──────────┤\r\n│ redis    │ 2  │ fork │ 19548 │ online │ 0       │ 3m     │ 0%  │ 1.9 MB    │ root │ disabled │\r\n│ server   │ 1  │ fork │ 16507 │ online │ 0       │ 49m    │ 0%  │ 26.6 MB   │ root │ disabled │\r\n│ www      │ 0  │ fork │ 3806  │ online │ 0       │ 3D     │ 0%  │ 41.9 MB   │ root │ disabled │\r\n└──────────┴────┴──────┴───────┴────────┴─────────┴────────┴─────┴───────────┴──────┴──────────┘\r\n"}
+response time: 549
+err name: Error
+err message: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'root'
+
+#登录mysql数据库
+mysql -u root -p
+
+/etc/my.cnf 这是mysql的' at line 1
+err stack: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'root'
+
+#登录mysql数据库
+mysql -u root -p
+
+/etc/my.cnf 这是mysql的' at line 1
+    at Query.Sequence._packetToError (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (C:\work\liushiyizu\server\node_modules\mysql\lib\Connection.js:103:28)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at TCP.onread (net.js:638:20)
+    --------------------
+    at Protocol._enqueue (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:145:48)
+    at PoolConnection.query (C:\work\liushiyizu\server\node_modules\mysql\lib\Connection.js:208:25)
+    at C:\work\liushiyizu\server\lib\mysql.js:19:24
+    at Ping.onOperationComplete [as _callback] (C:\work\liushiyizu\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:88:24)
+    at Ping.Sequence.OkPacket (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:97:8)
+    at Protocol._parsePacket (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (C:\work\liushiyizu\server\node_modules\mysql\lib\Connection.js:103:28)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at TCP.onread (net.js:638:20)
+*************** error log end ***************
+
+[2018-07-30T17:35:57.201] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/article/edit/1
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"articleId":"1","title":"service","content":"#查看mysql日志\r\ncat /var/log/mysqld.log\r\n\r\n#删除mysql\r\nyum remove mysql-server\r\n\r\n#安装mysql\r\nyum install  mysql-server\r\n\r\n#查看mysql-server的版本\r\nrpm -qi mysql-server\r\n#查看mysql 的启动状态\r\nservice mysqld status\r\n\r\n#设置mysqld服务开机自动启动\r\nchkconfig mysqld on\r\n\r\n#通过该命令给root账号设置密码为 root\r\nmysqladmin -u root password 'root'\r\n\r\n#登录mysql数据库\r\nmysql -u root -p\r\n\r\n/etc/my.cnf 这是mysql的主配置文件\r\n/var/lib/mysql   mysql数据库的数据库文件存放位置\r\n\r\n#查看Linux系统是否在监听 3306 这个端口号\r\nnetstat -anp | more\r\n\r\n\r\n#安全模式登陆mysql 跳过验证\r\nmysqld_safe --skip-grant-tables &\r\n#设置新密码\r\nupdate mysql.user set authentication_string=password('root') where user='root'\r\n#保存\r\nflush privileges;\r\n#退出\r\nquit;\r\n\r\n\r\n\r\n#授权任意ip远程连接数据库\r\nGRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'root' WITH GRANT OPTION;\r\nFLUSH PRIVILEGES;//保存生效\r\n#处理安全模式登陆后修改密码，再次登陆后可能出现的错误\r\n#ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO) \r\nSET PASSWORD = PASSWORD('123456');\r\n\r\n#pm2路径\r\n/opt/node-v8.6.0-linux-x86/bin/pm2\r\n\r\n#淘宝镜像地址\r\nnpm install packageName --registry=https://registry.npm.taobao.org\r\n\r\n//查看文件 -500 从倒数500行开始读\r\ntail -500f log.log\r\n//pm2常用命令\r\nhttp://www.jianshu.com/p/e709b71f12da\r\n\r\n#nginx命令\r\n启动：nginx\r\n# 强制停止nginx服务器，如果有未处理的数据，丢弃\r\n停止：nginx -s stop\r\n# 优雅的停止nginx服务器，如果有未处理的数据，等待处理完成之后停止\r\nnginx -s quit\r\n\r\n#linux下nginx命令\r\n启动\r\ncd /usr/local/nginx/sbin\r\n./nginx\r\n停止\r\n#查询nginx主进程号\r\nps -ef | grep nginx\r\n#停止进程\r\nkill -QUIT 主进程号\r\n#快速停止\r\nkill -TERM 主进程号\r\n#强制停止\r\npkill -9 nginx\r\n\r\n\r\n#git 生成ssh秘钥\r\n1.打开git bash 输入 ssh-keygen -t rsa -C \"1623685118@qq.com\"\r\n2.打开C:\\Users\\liujianzeng\\.ssh 目录下id_rsa.pub文件复制秘钥\r\n3.登陆gitHub 进入个人中心（Personal settings）选择 SSH and GPG keys \r\n4.然后点击New SSH key 新建一个key title随意写，粘贴key确定即可。\r\n3.测试是否成功在git bash输入ssh -T git@github.com\r\n如果是第一次的会提示是否continue，输入yes回车再输入密码后就会看到：You’ve successfully authenticated, but GitHub does not provide shell access 。这就表示已成功连上github。\r\n\r\n#git 提交项目\r\n1.git add [file name or .]点代表所有\r\n2.git status 查看添加状态\r\n3.git commit -a -m 提交；-a提交修改不需要add命令，-m注释\r\n4.git push origin master 提交到服务器\r\n\r\n\r\n#vim\r\n命令行出入 u 为撤销上一步输入\r\n命令行Ctrl+r 恢复上一步被撤销的操作\r\n\r\n\r\n#linux\r\nls -a可以显示该目录下的所有文件（包括隐藏文件）。\r\nrmdir -rf filename 删除文件或文件夹命令（-r：递归删除  -f：忽略不存在文件，从不提示）\r\n\r\n#检查服务是否都启动了\r\nps -ef | grep nginx  //nginx 是两个进程\r\nps -ef | grep redis  //redis 是一个进程\r\nservice mysqld status //mysql running...\r\n\r\n#正常状态\r\n┌──────────┬────┬──────┬───────┬────────┬─────────┬────────┬─────┬───────────┬──────┬──────────┐\r\n│ App name │ id │ mode │ pid   │ status │ restart │ uptime │ cpu │ mem       │ user │ watching │\r\n├──────────┼────┼──────┼───────┼────────┼─────────┼────────┼─────┼───────────┼──────┼──────────┤\r\n│ redis    │ 2  │ fork │ 19548 │ online │ 0       │ 3m     │ 0%  │ 1.9 MB    │ root │ disabled │\r\n│ server   │ 1  │ fork │ 16507 │ online │ 0       │ 49m    │ 0%  │ 26.6 MB   │ root │ disabled │\r\n│ www      │ 0  │ fork │ 3806  │ online │ 0       │ 3D     │ 0%  │ 41.9 MB   │ root │ disabled │\r\n└──────────┴────┴──────┴───────┴────────┴─────────┴────────┴─────┴───────────┴──────┴──────────┘\r\n"}
+response time: 548
+err name: Error
+err message: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'root'
+
+#登录mysql数据库
+mysql -u root -p
+
+/etc/my.cnf 这是mysql的' at line 1
+err stack: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'root'
+
+#登录mysql数据库
+mysql -u root -p
+
+/etc/my.cnf 这是mysql的' at line 1
+    at Query.Sequence._packetToError (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (C:\work\liushiyizu\server\node_modules\mysql\lib\Connection.js:103:28)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at TCP.onread (net.js:638:20)
+    --------------------
+    at Protocol._enqueue (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:145:48)
+    at PoolConnection.query (C:\work\liushiyizu\server\node_modules\mysql\lib\Connection.js:208:25)
+    at C:\work\liushiyizu\server\lib\mysql.js:19:24
+    at Ping.onOperationComplete [as _callback] (C:\work\liushiyizu\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:88:24)
+    at Ping.Sequence.OkPacket (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:97:8)
+    at Protocol._parsePacket (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (C:\work\liushiyizu\server\node_modules\mysql\lib\Connection.js:103:28)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at TCP.onread (net.js:638:20)
+*************** error log end ***************
+
+[2018-07-30T17:42:27.666] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/article/edit/1
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"articleId":"1","title":"service","content":"#查看mysql日志\r\ncat /var/log/mysqld.log\r\n\r\n#删除mysql\r\nyum remove mysql-server\r\n\r\n#安装mysql\r\nyum install  mysql-server\r\n\r\n#查看mysql-server的版本\r\nrpm -qi mysql-server\r\n#查看mysql 的启动状态\r\nservice mysqld status\r\n\r\n#设置mysqld服务开机自动启动\r\nchkconfig mysqld on\r\n\r\n#通过该命令给root账号设置密码为 root\r\nmysqladmin -u root password 'root'\r\n\r\n#登录mysql数据库\r\nmysql -u root -p\r\n\r\n/etc/my.cnf 这是mysql的主配置文件\r\n/var/lib/mysql   mysql数据库的数据库文件存放位置\r\n\r\n#查看Linux系统是否在监听 3306 这个端口号\r\nnetstat -anp | more\r\n\r\n\r\n#安全模式登陆mysql 跳过验证\r\nmysqld_safe --skip-grant-tables &\r\n#设置新密码\r\nupdate mysql.user set authentication_string=password('root') where user='root'\r\n#保存\r\nflush privileges;\r\n#退出\r\nquit;\r\n\r\n\r\n\r\n#授权任意ip远程连接数据库\r\nGRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'root' WITH GRANT OPTION;\r\nFLUSH PRIVILEGES;//保存生效\r\n#处理安全模式登陆后修改密码，再次登陆后可能出现的错误\r\n#ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO) \r\nSET PASSWORD = PASSWORD('123456');\r\n\r\n#pm2路径\r\n/opt/node-v8.6.0-linux-x86/bin/pm2\r\n\r\n#淘宝镜像地址\r\nnpm install packageName --registry=https://registry.npm.taobao.org\r\n\r\n//查看文件 -500 从倒数500行开始读\r\ntail -500f log.log\r\n//pm2常用命令\r\nhttp://www.jianshu.com/p/e709b71f12da\r\n\r\n#nginx命令\r\n启动：nginx\r\n# 强制停止nginx服务器，如果有未处理的数据，丢弃\r\n停止：nginx -s stop\r\n# 优雅的停止nginx服务器，如果有未处理的数据，等待处理完成之后停止\r\nnginx -s quit\r\n\r\n#linux下nginx命令\r\n启动\r\ncd /usr/local/nginx/sbin\r\n./nginx\r\n停止\r\n#查询nginx主进程号\r\nps -ef | grep nginx\r\n#停止进程\r\nkill -QUIT 主进程号\r\n#快速停止\r\nkill -TERM 主进程号\r\n#强制停止\r\npkill -9 nginx\r\n\r\n\r\n#git 生成ssh秘钥\r\n1.打开git bash 输入 ssh-keygen -t rsa -C \"1623685118@qq.com\"\r\n2.打开C:\\Users\\liujianzeng\\.ssh 目录下id_rsa.pub文件复制秘钥\r\n3.登陆gitHub 进入个人中心（Personal settings）选择 SSH and GPG keys \r\n4.然后点击New SSH key 新建一个key title随意写，粘贴key确定即可。\r\n3.测试是否成功在git bash输入ssh -T git@github.com\r\n如果是第一次的会提示是否continue，输入yes回车再输入密码后就会看到：You’ve successfully authenticated, but GitHub does not provide shell access 。这就表示已成功连上github。\r\n\r\n#git 提交项目\r\n1.git add [file name or .]点代表所有\r\n2.git status 查看添加状态\r\n3.git commit -a -m 提交；-a提交修改不需要add命令，-m注释\r\n4.git push origin master 提交到服务器\r\n\r\n\r\n#vim\r\n命令行出入 u 为撤销上一步输入\r\n命令行Ctrl+r 恢复上一步被撤销的操作\r\n\r\n\r\n#linux\r\nls -a可以显示该目录下的所有文件（包括隐藏文件）。\r\nrmdir -rf filename 删除文件或文件夹命令（-r：递归删除  -f：忽略不存在文件，从不提示）\r\n\r\n#检查服务是否都启动了\r\nps -ef | grep nginx  //nginx 是两个进程\r\nps -ef | grep redis  //redis 是一个进程\r\nservice mysqld status //mysql running...\r\n\r\n#正常状态\r\n┌──────────┬────┬──────┬───────┬────────┬─────────┬────────┬─────┬───────────┬──────┬──────────┐\r\n│ App name │ id │ mode │ pid   │ status │ restart │ uptime │ cpu │ mem       │ user │ watching │\r\n├──────────┼────┼──────┼───────┼────────┼─────────┼────────┼─────┼───────────┼──────┼──────────┤\r\n│ redis    │ 2  │ fork │ 19548 │ online │ 0       │ 3m     │ 0%  │ 1.9 MB    │ root │ disabled │\r\n│ server   │ 1  │ fork │ 16507 │ online │ 0       │ 49m    │ 0%  │ 26.6 MB   │ root │ disabled │\r\n│ www      │ 0  │ fork │ 3806  │ online │ 0       │ 3D     │ 0%  │ 41.9 MB   │ root │ disabled │\r\n└──────────┴────┴──────┴───────┴────────┴─────────┴────────┴─────┴───────────┴──────┴──────────┘\r\n"}
+response time: 196900
+err name: Error
+err message: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'root'
+
+#登录mysql数据库
+mysql -u root -p
+
+/etc/my.cnf 这是mysql的' at line 1
+err stack: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'root'
+
+#登录mysql数据库
+mysql -u root -p
+
+/etc/my.cnf 这是mysql的' at line 1
+    at Query.Sequence._packetToError (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (C:\work\liushiyizu\server\node_modules\mysql\lib\Connection.js:103:28)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at TCP.onread (net.js:638:20)
+    --------------------
+    at Protocol._enqueue (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:145:48)
+    at PoolConnection.query (C:\work\liushiyizu\server\node_modules\mysql\lib\Connection.js:208:25)
+    at C:\work\liushiyizu\server\lib\mysql.js:19:24
+    at Ping.onOperationComplete [as _callback] (C:\work\liushiyizu\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:88:24)
+    at Ping.Sequence.OkPacket (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:97:8)
+    at Protocol._parsePacket (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (C:\work\liushiyizu\server\node_modules\mysql\lib\Connection.js:103:28)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at TCP.onread (net.js:638:20)
+*************** error log end ***************
+
+[2018-07-30T17:43:15.848] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/article/edit/1
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"articleId":"1","title":"service","content":"#查看mysql日志\r\ncat /var/log/mysqld.log\r\n\r\n#删除mysql\r\nyum remove mysql-server\r\n\r\n#安装mysql\r\nyum install  mysql-server\r\n\r\n#查看mysql-server的版本\r\nrpm -qi mysql-server\r\n#查看mysql 的启动状态\r\nservice mysqld status\r\n\r\n#设置mysqld服务开机自动启动\r\nchkconfig mysqld on\r\n\r\n#通过该命令给root账号设置密码为 root\r\nmysqladmin -u root password 'root'\r\n\r\n#登录mysql数据库\r\nmysql -u root -p\r\n\r\n/etc/my.cnf 这是mysql的主配置文件\r\n/var/lib/mysql   mysql数据库的数据库文件存放位置\r\n\r\n#查看Linux系统是否在监听 3306 这个端口号\r\nnetstat -anp | more\r\n\r\n\r\n#安全模式登陆mysql 跳过验证\r\nmysqld_safe --skip-grant-tables &\r\n#设置新密码\r\nupdate mysql.user set authentication_string=password('root') where user='root'\r\n#保存\r\nflush privileges;\r\n#退出\r\nquit;\r\n\r\n\r\n\r\n#授权任意ip远程连接数据库\r\nGRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'root' WITH GRANT OPTION;\r\nFLUSH PRIVILEGES;//保存生效\r\n#处理安全模式登陆后修改密码，再次登陆后可能出现的错误\r\n#ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO) \r\nSET PASSWORD = PASSWORD('123456');\r\n\r\n#pm2路径\r\n/opt/node-v8.6.0-linux-x86/bin/pm2\r\n\r\n#淘宝镜像地址\r\nnpm install packageName --registry=https://registry.npm.taobao.org\r\n\r\n//查看文件 -500 从倒数500行开始读\r\ntail -500f log.log\r\n//pm2常用命令\r\nhttp://www.jianshu.com/p/e709b71f12da\r\n\r\n#nginx命令\r\n启动：nginx\r\n# 强制停止nginx服务器，如果有未处理的数据，丢弃\r\n停止：nginx -s stop\r\n# 优雅的停止nginx服务器，如果有未处理的数据，等待处理完成之后停止\r\nnginx -s quit\r\n\r\n#linux下nginx命令\r\n启动\r\ncd /usr/local/nginx/sbin\r\n./nginx\r\n停止\r\n#查询nginx主进程号\r\nps -ef | grep nginx\r\n#停止进程\r\nkill -QUIT 主进程号\r\n#快速停止\r\nkill -TERM 主进程号\r\n#强制停止\r\npkill -9 nginx\r\n\r\n\r\n#git 生成ssh秘钥\r\n1.打开git bash 输入 ssh-keygen -t rsa -C \"1623685118@qq.com\"\r\n2.打开C:\\Users\\liujianzeng\\.ssh 目录下id_rsa.pub文件复制秘钥\r\n3.登陆gitHub 进入个人中心（Personal settings）选择 SSH and GPG keys \r\n4.然后点击New SSH key 新建一个key title随意写，粘贴key确定即可。\r\n3.测试是否成功在git bash输入ssh -T git@github.com\r\n如果是第一次的会提示是否continue，输入yes回车再输入密码后就会看到：You’ve successfully authenticated, but GitHub does not provide shell access 。这就表示已成功连上github。\r\n\r\n#git 提交项目\r\n1.git add [file name or .]点代表所有\r\n2.git status 查看添加状态\r\n3.git commit -a -m 提交；-a提交修改不需要add命令，-m注释\r\n4.git push origin master 提交到服务器\r\n\r\n\r\n#vim\r\n命令行出入 u 为撤销上一步输入\r\n命令行Ctrl+r 恢复上一步被撤销的操作\r\n\r\n\r\n#linux\r\nls -a可以显示该目录下的所有文件（包括隐藏文件）。\r\nrmdir -rf filename 删除文件或文件夹命令（-r：递归删除  -f：忽略不存在文件，从不提示）\r\n\r\n#检查服务是否都启动了\r\nps -ef | grep nginx  //nginx 是两个进程\r\nps -ef | grep redis  //redis 是一个进程\r\nservice mysqld status //mysql running...\r\n\r\n#正常状态\r\n┌──────────┬────┬──────┬───────┬────────┬─────────┬────────┬─────┬───────────┬──────┬──────────┐\r\n│ App name │ id │ mode │ pid   │ status │ restart │ uptime │ cpu │ mem       │ user │ watching │\r\n├──────────┼────┼──────┼───────┼────────┼─────────┼────────┼─────┼───────────┼──────┼──────────┤\r\n│ redis    │ 2  │ fork │ 19548 │ online │ 0       │ 3m     │ 0%  │ 1.9 MB    │ root │ disabled │\r\n│ server   │ 1  │ fork │ 16507 │ online │ 0       │ 49m    │ 0%  │ 26.6 MB   │ root │ disabled │\r\n│ www      │ 0  │ fork │ 3806  │ online │ 0       │ 3D     │ 0%  │ 41.9 MB   │ root │ disabled │\r\n└──────────┴────┴──────┴───────┴────────┴─────────┴────────┴─────┴───────────┴──────┴──────────┘\r\n"}
+response time: 7412
+err name: Error
+err message: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'root'
+
+#登录mysql数据库
+mysql -u root -p
+
+/etc/my.cnf 这是mysql的' at line 1
+err stack: Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'root'
+
+#登录mysql数据库
+mysql -u root -p
+
+/etc/my.cnf 这是mysql的' at line 1
+    at Query.Sequence._packetToError (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (C:\work\liushiyizu\server\node_modules\mysql\lib\Connection.js:103:28)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at TCP.onread (net.js:638:20)
+    --------------------
+    at Protocol._enqueue (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:145:48)
+    at PoolConnection.query (C:\work\liushiyizu\server\node_modules\mysql\lib\Connection.js:208:25)
+    at C:\work\liushiyizu\server\lib\mysql.js:19:24
+    at Ping.onOperationComplete [as _callback] (C:\work\liushiyizu\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:88:24)
+    at Ping.Sequence.OkPacket (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:97:8)
+    at Protocol._parsePacket (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (C:\work\liushiyizu\server\node_modules\mysql\lib\Connection.js:103:28)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at TCP.onread (net.js:638:20)
+*************** error log end ***************
+
+[2018-07-30T17:47:56.120] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - read ECONNRESET
+[2018-07-30T17:47:57.340] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379

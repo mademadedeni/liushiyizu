@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>文章-刘氏一族</title>
+    <link rel="import" href="../common/common.html?__inline">
+</head>
+
+<body>
+    <div id="app">
+        <!-- header -->
+        <liu-header @get-user="getUser" :tab-id="4" @to-login="toLogin"></liu-header>
+        <div class="auto_box">
+            <div class="Ptp30">
+                <h1 class="p_ibt co_333">{{article.article_title}}</h1>
+                <div class="article_author">
+                    <img class="img" :src="article.user_head_img">
+                    <div class="p_ibt Mlf20">
+                        <span class="p_ibt Mtp10">{{article.user_nickname}}</span>
+                        <div class="signature">{{article.user_signature}}</div>
+                    </div>
+                    <div class="date_box">
+                        <span>创建时间：</span>
+                        <span>{{dateFormat(article.article_create_date)}}</span>
+                        <span class="Mlf20">修改时间：</span>
+                        <span>{{dateFormat(article.article_edit_date)}}</span>
+                        <a class="Mlf20" :href="'/article/editor/'+article.article_id" target="_blank">编辑</a>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="content" v-html="article.article_content"></div>
+            </div>
+        </div>
+        <liu-footer></liu-footer>
+        <liu-login :show-login="showLogin" @close-login="closeLogin" @to-login="toLogin"></liu-login>
+    </div>
+</body>
+<script>
+    var article_id = <%=article_id%>
+require("/webApp/static/js/article/article");
+</script>
+
+</html>
