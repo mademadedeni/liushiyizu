@@ -6,13 +6,9 @@ const json = require('koa-json');
 const koaBody = require('koa-body');
 const koastatic = require('koa-static');
 const router = require('koa-router')();
-const note = require('./routes/note');
-const error_router = require('./routes/error/error');
-const user = require('./routes/user/index');
-const game = require('./routes/game/index');
-const article = require('./routes/article/index');
-const travelNotes = require('./routes/travelNotes/index');
-const misc = require('./routes/misc');
+
+const routers = require('./routes/index.js');
+
 const urlFilter = require("./middlewares/urlFilter");
 //log工具
 const logUtil = require('./utils/log_util');
@@ -33,38 +29,11 @@ const map = {
 }
 app.use(views(__dirname + '/dist', map));
 //log4
-app.use(async (ctx, next) => {
+app.use(logUtil.logs);
+// 在app.use(router)之前调用
+app.use(urlFilter);
 
-   //响应开始时间
-   const start = new Date();
-   //响应间隔时间
-   var ms;
-   try {
-      //开始进入到下一个中间件
-      await next();
-
-      ms = new Date() - start;
-      //记录响应日志
-      logUtil.logResponse(ctx, ms);
-
-   } catch (error) {
-
-      ms = new Date() - start;
-      //记录异常日志
-      logUtil.logError(ctx, error, ms);
-   }
-});
-
-app.use(urlFilter('/'));
-app.use(index.routes(), index.allowedMethods());
-app.use(error_router.routes(), error_router.allowedMethods());
-router.use(note.routes(), note.allowedMethods());
-router.use(user.routes(), user.allowedMethods());
-router.use(game.routes(), game.allowedMethods());
-router.use(article.routes(), article.allowedMethods());
-router.use(travelNotes.routes(), travelNotes.allowedMethods());
-router.use(misc.routes(), misc.allowedMethods());
-app.use(router.routes(), router.allowedMethods());
+app.use(routers.routes(), routers.allowedMethods());
 
 // error-handling
 app.on('error', (err, ctx) => {

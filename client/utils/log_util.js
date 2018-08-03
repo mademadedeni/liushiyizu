@@ -11,21 +11,21 @@ var errorLogger = log4js.getLogger('errorLogger');
 var resLogger = log4js.getLogger('resLogger');
 
 //封装错误日志
-logUtil.logError = function (ctx, error, resTime) {
+logUtil.logError = function(ctx, error, resTime) {
     if (ctx && error) {
         errorLogger.error(formatError(ctx, error, resTime));
     }
 };
 
 //封装响应日志
-logUtil.logResponse = function (ctx, resTime) {
+logUtil.logResponse = function(ctx, resTime) {
     if (ctx) {
         resLogger.info(formatRes(ctx, resTime));
     }
 };
 
 //格式化响应日志
-var formatRes = function (ctx, resTime) {
+var formatRes = function(ctx, resTime) {
     var logText = new String();
 
     //响应日志开始
@@ -48,7 +48,7 @@ var formatRes = function (ctx, resTime) {
 }
 
 //格式化错误日志
-var formatError = function (ctx, err, resTime) {
+var formatError = function(ctx, err, resTime) {
     var logText = new String();
 
     //错误信息开始
@@ -71,7 +71,7 @@ var formatError = function (ctx, err, resTime) {
 };
 
 //格式化请求日志
-var formatReqLog = function (req, resTime) {
+var formatReqLog = function(req, resTime) {
 
     var logText = new String();
 
@@ -99,6 +99,28 @@ var formatReqLog = function (req, resTime) {
     logText += "response time: " + resTime + "\n";
 
     return logText;
+}
+
+logUtil.logs = async (ctx, next) => {
+
+    //响应开始时间
+    const start = new Date();
+    //响应间隔时间
+    var ms;
+    try {
+        //开始进入到下一个中间件
+        await next();
+
+        ms = new Date() - start;
+        //记录响应日志
+        logUtil.logResponse(ctx, ms);
+
+    } catch (error) {
+
+        ms = new Date() - start;
+        //记录异常日志
+        logUtil.logError(ctx, error, ms);
+    }
 }
 
 module.exports = logUtil;

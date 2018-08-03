@@ -13,7 +13,7 @@
 				<input @keyup.enter="onLogin" v-model.trim="userPwd" class="input0" type="password" name="name" placeholder="请输入密码" maxlength="16">
 			</div>
 			<div>
-				<div @click="onSeven" class="p_ibt iconfont icon-checkbox" :class="{'icon-checkbox_fill':seven}"></div><span class="p_ibt">七天自动登录</span>
+				<div @click="onSeven" class="p_ibt iconfont icon-checkbox" :class="{'icon-checkbox_fill':user_seven}"></div><span class="p_ibt">七天自动登录</span>
 			</div>
 			<div>
 				<a @click="onLogin" :class="{'button_disable':isLogin}" class="button0" href="javascript:;">{{isLogin ? '登录中' : '登 录'}}</a>

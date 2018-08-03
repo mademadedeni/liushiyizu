@@ -12,16 +12,16 @@
 			<div>
 				<div>
 					<span>姓名：</span>
-					<input v-model.trim="currentNote.name" class="input0" type="text" name="name" placeholder="请输入姓名" maxlength="16">
+					<input v-model.trim="currentNote.user_name" class="input0" type="text" name="name" placeholder="请输入姓名" maxlength="16">
 				</div>
 				<div>
 					<span>密码：</span>
-					<input v-model.trim="currentNote.password" class="input0" type="text" name="name" placeholder="请输入密码" maxlength="16">
+					<input v-model.trim="currentNote.user_password" class="input0" type="text" name="name" placeholder="请输入密码" maxlength="16">
 				</div>
 				<div>
 					<span>权限：</span>
 					<div class="p_ibm posr">
-						<select class="select0" v-model="currentNote.permission">
+						<select class="select0" v-model="currentNote.user_permission">
 							<option v-for="permit in permission">{{permit}}</option>
 						</select>
 						<span class="select_icon0"></span>
@@ -30,29 +30,29 @@
 				<div>
 					<span>姓别：</span>
 					<div class="p_ibt">
-						<div @click="onRadioBtn(0)" class="p_ibt iconfont icon-radio" :class="{'icon-radio_fill':currentNote.sex==0}"></div>
+						<div @click="onRadioBtn(0)" class="p_ibt iconfont icon-radio" :class="{'icon-radio_fill':currentNote.user_sex==0}"></div>
 						<span class="p_ibt">男</span>
-						<div @click="onRadioBtn(1)" class="p_ibt iconfont icon-radio" :class="{'icon-radio_fill':currentNote.sex==1}"></div>
+						<div @click="onRadioBtn(1)" class="p_ibt iconfont icon-radio" :class="{'icon-radio_fill':currentNote.user_sex==1}"></div>
 						<span class="p_ibt">女</span>
-						<div @click="onRadioBtn(2)" class="p_ibt iconfont icon-radio" :class="{'icon-radio_fill':currentNote.sex==2}"></div>
+						<div @click="onRadioBtn(2)" class="p_ibt iconfont icon-radio" :class="{'icon-radio_fill':currentNote.user_sex==2}"></div>
 						<span class="p_ibt">未知</span>
 					</div>
 				</div>
 				<div>
 					<span>年龄：</span>
-					<input v-model.trim="currentNote.age" class="input0" type="text" name="name" placeholder="请输入年龄" maxlength="3">
+					<input v-model.trim="currentNote.user_age" class="input0" type="text" name="name" placeholder="请输入年龄" maxlength="3">
 				</div>
 				<div>
 					<span>手机：</span>
-					<input v-model.trim="currentNote.phone" class="input0" type="text" name="name" placeholder="请输入手机号" maxlength="11">
+					<input v-model.trim="currentNote.user_phone" class="input0" type="text" name="name" placeholder="请输入手机号" maxlength="11">
 				</div>
 				<div>
 					<span>邮箱：</span>
-					<input v-model.trim="currentNote.email" class="input0" type="text" name="name" placeholder="请输入邮箱" maxlength="40">
+					<input v-model.trim="currentNote.user_email" class="input0" type="text" name="name" placeholder="请输入邮箱" maxlength="40">
 				</div>
 				<div>
 					<span>住址：</span>
-					<input v-model.trim="currentNote.address" class="input0" type="text" name="name" placeholder="请输入住址" maxlength="50">
+					<input v-model.trim="currentNote.user_address" class="input0" type="text" name="name" placeholder="请输入住址" maxlength="50">
 				</div>
 				<div>
 					<a @click="onResetBtn" class="button0" href="javascript:;">重 置</a>
@@ -74,14 +74,14 @@
 						<div class="p_ibt td wido10 Center">操作</div>
 					</div>
 					<div v-for="note in noteList" class="tr">
-						<div class="p_ibt td wido15 Center">{{note.code}}</div>
-						<div class="p_ibt td wido15">{{note.name}}</div>
-						<div class="p_ibt td wido5">{{note.permission}}</div>
-						<div class="p_ibt td wido5">{{sexMap[note.sex]}}</div>
-						<div class="p_ibt td wido5">{{note.age}}</div>
-						<div class="p_ibt td wido10">{{note.phone}}</div>
-						<div class="p_ibt td wido15">{{note.email}}</div>
-						<div class="p_ibt td wido20">{{note.address}}</div>
+						<div class="p_ibt td wido15 Center">{{note.user_code}}</div>
+						<div class="p_ibt td wido15">{{note.user_name}}</div>
+						<div class="p_ibt td wido5">{{note.user_permission}}</div>
+						<div class="p_ibt td wido5">{{sexMap[note.user_sex]}}</div>
+						<div class="p_ibt td wido5">{{note.user_age}}</div>
+						<div class="p_ibt td wido10">{{note.user_phone}}</div>
+						<div class="p_ibt td wido15">{{note.user_email}}</div>
+						<div class="p_ibt td wido20">{{note.user_address}}</div>
 						<div class="p_ibt td wido10 Center">
 							<a @click="onEditBtn(note)" class="Mrt10" href="javascript:;">编辑</a>
 							<a @click="onDeleteBtn(note)" href="javascript:;">删除</a>

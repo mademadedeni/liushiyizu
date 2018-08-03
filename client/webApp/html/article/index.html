@@ -1,19 +1,49 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>文章-刘氏一族</title>
-	<link rel="import" href="../common/common.html?__inline">
+    <title>文章-刘氏一族</title>
+    <link rel="import" href="../common/common.html?__inline">
 </head>
+
 <body>
-	<div id="app">
-		<!-- header -->
-		<liu-header :tab-id="4" @to-login="toLogin"></liu-header>
-		
-		<liu-footer></liu-footer>
-		<liu-login :show-login="showLogin" @close-login="closeLogin" @to-login="toLogin"></liu-login>
-	</div>
-<script>
-	require("/webApp/static/js/index");
-</script>
+    <div id="app">
+        <!-- header -->
+        <liu-header @get-user="getUser" :tab-id="4" @to-login="toLogin"></liu-header>
+        <div class="auto_box">
+            <div class="Ptp30">
+                <h2 class="p_ibt">最新文章</h2>
+                <a class="right" href="/article/editor" target="_blank">我也写一篇</a>
+            </div>
+            <div class="Ptp20">
+                <div v-for="article in articles" class="article_list_box">
+                	<div class="head_box">
+                	    <img class="img" :src="article.user_head_img">
+                	    <span class="p_ibt Mtp10 Mlf20">{{article.user_nickname}}</span>
+                	</div>
+                    <div class="title_box">
+                        <a :href="'/article/'+article.article_id" class="title">{{article.article_title}}</a>
+                        <div class="right">
+                            <a @click="delArticle(article.article_id,article.user_id)" href="javascript:;">删除</a>
+                            <a class="Mlf20" :href="'/article/editor/'+article.article_id" target="_blank">编辑</a>
+                        </div>
+                    </div>
+                    <div class="content" v-html="article.article_content"></div>
+                    <div class="date_box">
+                    	<span>创建时间：</span>
+                        <span>{{dateFormat(article.article_create_date)}}</span>
+                    	<span class="Mlf20">修改时间：</span>
+                        <span>{{dateFormat(article.article_edit_date)}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <liu-footer></liu-footer>
+        <liu-login :show-login="showLogin" @close-login="closeLogin" @to-login="toLogin"></liu-login>
+    </div>
 </body>
+<script>
+require("/webApp/static/js/article/index");
+</script>
+
 </html>

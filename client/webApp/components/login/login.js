@@ -15,7 +15,7 @@ module.exports = Vue.component("liu-login", {
 		return {
 			userName:"liu",
 			userPwd:"123456",
-			seven:false,
+			user_seven:false,
 			signInName:"",
 			signInPwd:"",
 			isLogin:false,
@@ -47,33 +47,33 @@ module.exports = Vue.component("liu-login", {
 				that.isLogin = true;
 			}
 			var param = {
-				name:that.userName,
-				password:that.userPwd,
-				seven:that.seven
+				user_name:that.userName,
+				user_password:that.userPwd,
+				user_seven:that.user_seven
 			};
 
-			if (!param.name || param.name.split(" ").length > 1) {
+			if (!param.user_name || param.user_name.split(" ").length > 1) {
 				that.$message.error("用户名不合法");
-				that.isLogin = true;
+				that.isLogin = false;
 				return;
 			}
-			if (!param.password || param.password.split(" ").length > 1 || param.password.length < 6) {
+			if (!param.user_password || param.user_password.split(" ").length > 1 || param.user_password.length < 6) {
 				that.$message.error("密码不合法");
-				that.isLogin = true;
+				that.isLogin = false;
 				return;
 			}
 			$.post('/api/users/login',param,function (res) {
 				if (res.message == "success") {
 					window.location.reload();
 				}
-				that.isLogin = true;
+				that.isLogin = false;
 			});
 		},
 		closeLogin:function () {
 			this.$emit("close-login");
 		},
 		onSeven:function () {
-			this.seven = !this.seven;
+			this.user_seven = !this.user_seven;
 		},
 		//注册
 		onSignIn:function () {
@@ -82,25 +82,25 @@ module.exports = Vue.component("liu-login", {
 				that.isSignIn = true;
 			}
 			var param = {
-				name:that.signInName,
-				password:that.signInPwd,
+				user_name:that.signInName,
+				user_password:that.signInPwd,
 				captcha:that.captcha
 			}
 
-			if (!param.name) {
+			if (!param.user_name) {
 				that.$message.error("用户名不能为空！");
 				that.isSignIn = false;
 				return;
-			}else if(param.name.split(" ").length > 1){
+			}else if(param.user_name.split(" ").length > 1){
 				that.$message.error("用户名不合法！");
 				that.isSignIn = false;
 				return;
 			}
-			if (!param.password) {
+			if (!param.user_password) {
 				that.$message.error("密码不能为空！");
 				that.isSignIn = false;
 				return;
-			}else if (param.password.split(" ").length > 1 || param.password.length < 6) {
+			}else if (param.user_password.split(" ").length > 1 || param.user_password.length < 6) {
 				that.$message.error("密码不合法！");
 				that.isSignIn = false;
 				return;

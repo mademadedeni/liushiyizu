@@ -10,17 +10,17 @@ window.vm = new Vue({
    el: "#app",
    data: {
       user: {
-         id: null,
-         name: "",
-         nickname: "",
-         headImg: "",
-         permission: 5,
-         sex: 2,
-         age: "",
-         phone: "",
-         email: "",
-         address: "",
-         signature: "你怎么这么懒，什么都没有写！"
+         user_id: null,
+         user_name: "",
+         user_nickname: "",
+         user_headImg: "",
+         user_permission: 5,
+         user_sex: 2,
+         user_age: "",
+         user_phone: "",
+         user_email: "",
+         user_address: "",
+         user_signature: "你怎么这么懒，什么都没有写！"
       },
       userSex: ["男", "女", "保密"],
       articles: [],
@@ -29,13 +29,13 @@ window.vm = new Vue({
       uploadHeadImg: "",
       isUserEidtInfo: false,
       editUser: {
-         nickname: "",
-         sex: 0,
-         age: "",
-         phone: "",
-         email: "",
-         address: "",
-         signature: ""
+         user_nickname: "",
+         user_sex: 0,
+         user_age: "",
+         user_phone: "",
+         user_email: "",
+         user_address: "",
+         user_signature: ""
       },
       nicknameError: "",
       ageError: "",
@@ -90,7 +90,7 @@ window.vm = new Vue({
          this.uploadHeadImg = file.url;
       },
       uploadHeadbtn: function() {
-         this.uploadHeadImg = this.user.headImg;
+         this.uploadHeadImg = this.user.user_head_img;
          this.showUploadHead = true;
       },
       getUser: function(user) {
@@ -103,39 +103,39 @@ window.vm = new Vue({
       onCommitEidt: function() {
          var that = this;
          var param = {
-            nickname: that.editUser.nickname,
-            sex: that.editUser.sex,
-            age: that.editUser.age,
-            phone: that.editUser.phone,
-            email: that.editUser.email,
-            address: that.editUser.address,
-            signature: that.editUser.signature
+            nickname: that.editUser.user_nickname,
+            sex: that.editUser.user_sex,
+            age: that.editUser.user_age,
+            phone: that.editUser.user_phone,
+            email: that.editUser.user_email,
+            address: that.editUser.user_address,
+            signature: that.editUser.user_signature
          }
-         if (param.nickname !== "" && (param.nickname.toString().split(" ").length > 1 || !/[a-zA-Z0-9_\.@]/.test(param.nickname))) {
+         if (param.user_nickname !== "" && (param.user_nickname.toString().split(" ").length > 1 || !/[a-zA-Z0-9_\.@]/.test(param.user_nickname))) {
             that.nicknameError = "昵称规则2-16位中英文、数字及下划线！";
             return;
          } else {
             that.nicknameError = "";
          }
-         if (param.age !== "" && (param.age.toString().split(" ").length > 1 || !utils.isInteger(param.age))) {
+         if (param.user_age !== "" && (param.user_age.toString().split(" ").length > 1 || !utils.isInteger(param.user_age))) {
             that.ageError = "年龄不符合规则！";
             return;
          } else {
             that.ageError = "";
          }
-         if (!utils.isPhone(param.phone)) {
+         if (!utils.isPhone(param.user_phone)) {
             that.phoneError = "手机号不符合规则！";
             return;
          } else {
             that.phoneError = "";
          }
-         if (!utils.isEmail(param.email)) {
+         if (!utils.isEmail(param.user_email)) {
             that.emailError = "邮箱不符合规则！";
             return;
          } else {
             that.emailError = "";
          }
-         if (/\n/g.test(param.signature)) {
+         if (/\n/g.test(param.user_signature)) {
             that.signatureError = "个性签名不符合规则！";
             return;
          } else {

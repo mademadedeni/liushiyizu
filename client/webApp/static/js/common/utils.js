@@ -8,6 +8,9 @@ var utils = {
 	dateFormat:function (dateTime,dateDivider,time,timeDivider) {
 		var dateDivider = dateDivider || "-";
 		var timeDivider = timeDivider || ":";
+		if (typeof dateTime === "string" && typeof (dateTime-0) !== NaN) {
+			dateTime = dateTime - 0;
+		}
 		var date = new Date(dateTime);
 		var yy = date.getFullYear();
 		var mm = date.getMonth()+1;

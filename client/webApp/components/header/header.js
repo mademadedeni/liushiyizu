@@ -15,17 +15,17 @@ module.exports = Vue.component("liu-header", {
 			isShowAsk:true,
 			searchUrl:"/search?value=",
 			user:{
-				id:null,
-				name:"",
-				nickname:"",
-				headImg:"",
-				permission:5,
-				sex:2,
-				age:null,
-				phone:"",
-				email:"",
-				address:"",
-				signatrue:""
+				user_id:null,
+				user_name:"",
+				user_nickname:"",
+				user_headImg:"",
+				user_permission:5,
+				user_sex:2,
+				user_age:null,
+				user_phone:"",
+				user_email:"",
+				user_address:"",
+				user_signatrue:""
 			}
 		}
 	},

@@ -10,16 +10,16 @@ window.vm = new Vue({
 	el: "#app",
 	data: {
 		currentNote:{
-			id:"",
-			code:"",
-			name:"",
-			password:'123456',
-			permission:5,
-			sex:0,
-			age:"",
-			phone:"",
-			email:"",
-			address:""
+			user_id:"",
+			user_code:"",
+			user_name:"",
+			user_password:'123456',
+			user_permission:5,
+			user_sex:0,
+			user_age:"",
+			user_phone:"",
+			user_email:"",
+			user_address:""
 		},
 		sexMap:['男','女',"未知"],
 		noteList: [],
@@ -52,65 +52,65 @@ window.vm = new Vue({
 		},
 		onResetBtn:function () {
 			var that = this;
-			that.currentNote.id = "";
-			that.currentNote.code = "";
-			that.currentNote.name = "";
-			that.currentNote.password = "123456";
-			that.currentNote.permission = 5;
-			that.currentNote.sex = 0;
-			that.currentNote.age = "";
-			that.currentNote.phone = "";
-			that.currentNote.email = "";
-			that.currentNote.address = "";
+			that.currentNote.user_id = "";
+			that.currentNote.user_code = "";
+			that.currentNote.user_name = "";
+			that.currentNote.user_password = "123456";
+			that.currentNote.user_permission = 5;
+			that.currentNote.user_sex = 0;
+			that.currentNote.user_age = "";
+			that.currentNote.user_phone = "";
+			that.currentNote.user_email = "";
+			that.currentNote.user_address = "";
 
 			that.isPwdReadonly = false;
 			this.isUpdate = false;
 		},
 		onRadioBtn:function (i) {
-			this.currentNote.sex = i;
+			this.currentNote.user_sex = i;
 		},
 		checkField:function (user) {
 			var that = this;
-			if (!user.name || user.name === "") {
+			if (!user.user_name || user.user_name === "") {
 				that.$message.error("姓名不能为空！");
 				return false;
-			}else if(!user.password || user.password === ""){
+			}else if(!user.user_password || user.user_password === ""){
 				that.$message.error("密码不能为空！");
 				return false;
-			}else if(user.name.length > 16){
+			}else if(user.user_name.length > 16){
 				that.$message.error("姓名长度超过16为");
 				return false;
-			}else if(user.password.length >16){
+			}else if(user.user_password.length >16){
 				that.$message.error("密码不能超过16位！");
 				return false;
-			}else if(user.password.length < 6){
+			}else if(user.user_password.length < 6){
 				that.$message.error("密码不能少于6位！");
 				return false;
-			}else if(user.password.split(' ').length > 1){
+			}else if(user.user_password.split(' ').length > 1){
 				that.$message.error("密码不合法！");
 				return false;
-			}else if(that.permission.indexOf(user.permission - 0) < 0){
+			}else if(that.permission.indexOf(user.user_permission - 0) < 0){
 				that.$message.error("权限不合法！");
 				return false;
-			}else if(!utils.isInteger(user.sex)){
+			}else if(!utils.isInteger(user.user_sex)){
 				that.$message.error("性别不合法！");
 				return false;
-			}else if(user.age !== "" && user.age !== null){
-				if(user.age === 0 || !utils.isInteger(user.age)){
+			}else if(user.user_age !== "" && user.user_age !== null){
+				if(user.user_age === 0 || !utils.isInteger(user.user_age)){
 					that.$message.error("年龄不合法！");
 					return false;
 				}
 			}
-			if(user.phone !== null && user.phone !== '' && !utils.isPhone(user.phone)){
+			if(user.user_phone !== null && user.user_phone !== '' && !utils.isPhone(user.user_phone)){
 				that.$message.error("手机不合法！");
 				return false;
-			}else if(user.email !== null && user.email !== '' && !utils.isEmail(user.email)){
+			}else if(user.user_email !== null && user.user_email !== '' && !utils.isEmail(user.user_email)){
 				that.$message.error("邮箱不合法！");
 				return false;
-			}else if(user.email !== null && user.email.length > 50){
+			}else if(user.user_email !== null && user.user_email.length > 50){
 				that.$message.error("邮箱太长，最多40字符！");
 				return false;
-			}else if(user.address !== null && user.address.length > 50){
+			}else if(user.user_address !== null && user.user_address.length > 50){
 				that.$message.error("地址太长，最多50字符！");
 				return false;
 			}
@@ -129,15 +129,15 @@ window.vm = new Vue({
 			}
 
 			var params = {
-				code :that.currentNote.code,
-				name :that.currentNote.name,
-				password :that.currentNote.password,
-				permission :that.currentNote.permission,
-				sex :that.currentNote.sex,
-				age :that.currentNote.age,
-				phone :that.currentNote.phone,
-				email :that.currentNote.email,
-				address :that.currentNote.address
+				user_code :that.currentNote.user_code,
+				user_name :that.currentNote.user_name,
+				user_password :that.currentNote.user_password,
+				user_permission :that.currentNote.user_permission,
+				user_sex :that.currentNote.user_sex,
+				user_age :that.currentNote.user_age,
+				user_phone :that.currentNote.user_phone,
+				user_email :that.currentNote.user_email,
+				user_address :that.currentNote.user_address
 			}
 			$.post("/api/note/addNote",params,function (res) {
 				if (res.message == 'success') {
@@ -172,16 +172,16 @@ window.vm = new Vue({
 				return ;
 			}
 			var params = {
-				id:that.currentNote.id,
-				code :that.currentNote.code,
-				name :that.currentNote.name,
-				password :that.currentNote.password,
-				permission :that.currentNote.permission,
-				sex :that.currentNote.sex,
-				age :that.currentNote.age,
-				phone :that.currentNote.phone,
-				email :that.currentNote.email,
-				address :that.currentNote.address
+				user_id:that.currentNote.user_id,
+				user_code :that.currentNote.user_code,
+				user_name :that.currentNote.user_name,
+				user_password :that.currentNote.user_password,
+				user_permission :that.currentNote.user_permission,
+				user_sex :that.currentNote.user_sex,
+				user_age :that.currentNote.user_age,
+				user_phone :that.currentNote.user_phone,
+				user_email :that.currentNote.user_email,
+				user_address :that.currentNote.user_address
 			}
 			$.post("/api/note/updateNote",params,function (res) {
 				if (res.message == 'success') {
@@ -203,7 +203,7 @@ window.vm = new Vue({
 			});
 		},
 		onEditBtn:function (note) {
-			if (note.id == 1) {
+			if (note.user_id == 1) {
 				this.$message.error("禁止编辑admin账户!");
 				return false;
 			}
@@ -220,12 +220,12 @@ window.vm = new Vue({
 			} else {
 				return;
 			}
-			if (note.id == 1) {
+			if (note.user_id == 1) {
 				that.$message.error("禁止删除admin账户!");
 				return false;
 			}
 			var params = {
-				id:[note.id]
+				user_id:[note.user_id]
 			}
 			$.post("/api/note/deleteNote",params,function (res) {
 				if (res.message == 'success') {

@@ -3,7 +3,7 @@
 		<a class="p_ibt logo" href="/"></a>
 		<div class="p_ibt nav_box">
 			<a :class="{on:tabId == 1}" class="p_ibt nav" href="/">首页</a>
-			<a v-if="user.permission == 1" :class="{on:tabId == 2}" class="p_ibt nav" href="/note">笔记</a>
+			<a v-if="user.user_permission == 1" :class="{on:tabId == 2}" class="p_ibt nav" href="/note">笔记</a>
 			<a :class="{on:tabId == 3}" class="p_ibt nav" href="/game">游戏</a>
 			<a :class="{on:tabId == 4}" class="p_ibt nav" href="/article">文章</a>
 			<a :class="{on:tabId == 5}" class="p_ibt nav" href="/travelNotes">游记</a>
@@ -17,7 +17,7 @@
 			<div v-if="isLogin" class="p_ibt liu_header_box">
 				<div class="menu_box">
 					<a class="p_ibt head" href="/user/private">
-						<img :src="user.headImg" :title="user.name">
+						<img :src="user.user_head_img" :title="user.user_name">
 					</a>
 					<div class="menu_conent">
 						<div>

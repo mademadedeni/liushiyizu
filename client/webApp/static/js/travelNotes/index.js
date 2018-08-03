@@ -64,7 +64,7 @@ window.vm = new Vue({
          this.uploadHeadImg = file.url;
       },
       uploadHeadbtn: function() {
-         this.uploadHeadImg = this.user.headImg;
+         this.uploadHeadImg = this.user.user_head_img;
          this.showUploadHead = true;
       },
       getUser: function(user) {
