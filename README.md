@@ -26,7 +26,7 @@ koa2 vue2
    //CONFIG get requirepass
    //CONFIG set requirepass "runoob"
 ```
-##安装
+##  安装
 1. 安装fis3 npm install -g fis3
 2. 安装fis3的相关插件 npm install -g fis3-hook-module fis-parser-typescript fis3-postpackager-loader
 3. ./client/server/webApp/ fis3 release -d ./dist
