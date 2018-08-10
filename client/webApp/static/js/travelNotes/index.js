@@ -18,14 +18,19 @@ window.vm = new Vue({
    },
    methods: {
       init: function() {
+         var that = this;
          // $.post('/api/travelNotes/update',{},function (res) {
          //    console.log(res)
          // });
 
-         window.um = UE.getEditor('container', {
-           toolbar: [
-             'image'
-           ]
+         that.um = UE.getEditor('container', {
+             toolbars: [
+                 ['forecolor','bold','italic','|','inserttitle','blockquote','insertcode','insertorderedlist','insertunorderedlist','|','link','unlink','simpleupload','underline','horizontal','|','removeformat']
+             ],
+             zIndex: 0,
+             maximumWords:5000,
+             elementPathEnabled:false,
+             initialFrameHeight:300
          });
       },
       toLogin: function(i) {

@@ -1,5 +1,6 @@
 /**
  * @require login.css
+ * @require element_ui
  */
 var Vue = require("vue");
 var $ = require("jquery");

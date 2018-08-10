@@ -1,3 +1,12 @@
-.liu_login{min-width:400px;min-height:300px;background-color:#fff;border-radius:5px;box-shadow:0px 0px 10px 0px rgba(9,9,9,0.5);text-align:left;}
-
-
+.liu_login{min-width:320px;min-height:300px;background-color:#fff;border-radius:5px;box-shadow:0px 0px 10px 0px rgba(9,9,9,0.5);text-align:left;padding:10px 20px;position:relative;}
+.liu_login .title_box .title{font-size:16px;color:#333;}
+.liu_login .icon-close{position:absolute;right:10px;top:10px;font-size: 24px;}
+.liu_login .content_box .value_box{margin-top:20px;}
+.liu_login .content_box .value_box .input0{height:40px;width:100%;text-indent: 10px;}
+.liu_login .content_box .option_box{margin-top:20px;color:#999;font-size:12px;}
+.liu_login .content_box .option_box .input0{height:40px;text-indent:10px;}
+.liu_login .content_box .login_box{margin-top:20px;}
+.liu_login .content_box .login_box .button0{width:100%;height:40px;line-height:40px;font-size:16px;}
+.liu_login .content_box .option_box .icon-checkbox_fill{color:#09f;}
+.liu_login .content_box .option_box .captcha{height: 40px;}
+.liu_login .content_box .to_login{color:#999;font-size:12px;margin-top:10px;}

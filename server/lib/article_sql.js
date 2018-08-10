@@ -20,9 +20,9 @@ let selectArticleById = function(id) {
 let selectArticle = function(params) {
     let _sql;
     if (params.where.length > 0) {
-        _sql = `SELECT * FROM t_article INNER JOIN t_user ON t_article.article_author = t_user.user_id WHERE ${params.where.join(" AND ")} LIMIT ${params.pageIndex},${params.pageSize}`;
+        _sql = `SELECT * FROM t_article INNER JOIN t_user ON t_article.article_author = t_user.user_id WHERE ${params.where.join(" AND ")} ${params.orderBy} LIMIT ${params.pageIndex},${params.pageSize}`;
     } else {
-        _sql = `SELECT * FROM t_article INNER JOIN t_user ON t_article.article_author = t_user.user_id LIMIT ${params.pageIndex},${params.pageSize}`;
+        _sql = `SELECT * FROM t_article INNER JOIN t_user ON t_article.article_author = t_user.user_id ${params.orderBy} LIMIT ${params.pageIndex},${params.pageSize}`;
     }
 
     return query(_sql);

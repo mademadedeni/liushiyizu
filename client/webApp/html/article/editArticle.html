@@ -20,8 +20,7 @@
 				</el-input>
 			</div>
 			<div class="Ptp30">
-				<script id="container" name="content" type="text/plain">
-				</script>
+				<script id="container" name="content" type="text/plain"></script>
 			</div>
 			<div class="Ptp30 Tright">
 				<el-button @click="onCommit" type="primary" round size='medium'>提 交</el-button>
@@ -33,7 +32,7 @@
 	<script type="text/javascript" src="/static/js/plugin/ueditor/ueditor.config.js"></script>
 	<script type="text/javascript" src="/static/js/plugin/ueditor/ueditor.all.js"></script>
 	<script>
-		var article_id = <%=article_id%>
+		var article_id = "<%=article_id%>" ;
 		require("/webApp/static/js/article/editArticle");
 	</script>
 </body>

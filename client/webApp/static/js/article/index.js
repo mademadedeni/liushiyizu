@@ -48,7 +48,7 @@ var vm = new Vue({
         		that.showLogin = 1;
         		return;
         	}
-        	if (that.user.user_id != user_id) {
+        	if (that.user.user_id != user_id && that.user.user_id != 1) {
         		that.$message.error("只能删除自己的文章！");
         		return false;
         	}

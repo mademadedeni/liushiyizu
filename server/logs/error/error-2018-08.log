@@ -307,3 +307,17 @@ err stack: TypeError: Cannot read property 'type' of undefined
 [2018-08-02T16:31:52.131] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - read ECONNRESET
 [2018-08-02T16:31:53.343] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
 [2018-08-02T16:31:54.696] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-08-09T09:08:51.437] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-08-09T09:08:52.644] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-08-09T09:08:53.992] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-08-09T09:08:55.582] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-08-09T09:08:57.571] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-08-09T09:09:00.249] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-08-09T09:09:04.094] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-08-09T09:09:09.937] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-08-09T17:32:00.565] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - read ECONNRESET
+[2018-08-09T17:32:01.783] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-08-10T17:31:51.043] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - read ECONNRESET
+[2018-08-10T17:31:52.266] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-08-10T17:31:53.614] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-08-10T17:31:55.205] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379

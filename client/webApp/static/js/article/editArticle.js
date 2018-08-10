@@ -27,10 +27,13 @@ var vm = new Vue({
             var that = this;
             // ³õÊ¼»¯±à¼­Æ÷
             that.um = UE.getEditor('container', {
-                toolbar: [
-                    'image'
+                toolbars: [
+                    ['forecolor','bold','italic','|','inserttitle','blockquote','insertcode','insertorderedlist','insertunorderedlist','|','link','unlink','simpleupload','underline','horizontal','|','removeformat']
                 ],
-                zIndex: 0
+                zIndex: 0,
+                maximumWords:5000,
+                elementPathEnabled:false,
+                initialFrameHeight:300
             });
 
             that.um.ready(function() {

@@ -25,17 +25,17 @@ exports.selectArticleById = async(ctx, next) => {
                 var article = res[0];
                 ctx.body = {
                     message: 'success',
-                    data:{
-                        article_id:article.article_id,
-                        article_title:article.article_title,
-                        article_content:article.article_content,
-                        article_create_date:article.article_create_date,
-                        article_edit_date:article.article_edit_date,
-                        user_id:article.user_id,
-                        user_name:article.user_name,
-                        user_nickname:article.user_nickname,
-                        user_head_img:article.user_head_img,
-                        user_signature:article.user_signature,
+                    data: {
+                        article_id: article.article_id,
+                        article_title: article.article_title,
+                        article_content: article.article_content,
+                        article_create_date: article.article_create_date,
+                        article_edit_date: article.article_edit_date,
+                        user_id: article.user_id,
+                        user_name: article.user_name,
+                        user_nickname: article.user_nickname,
+                        user_head_img: article.user_head_img,
+                        user_signature: article.user_signature,
                     }
                 }
             } else {
@@ -67,6 +67,7 @@ exports.selectArticle = async(ctx, next) => {
         where: [],
         pageSize: query.pageSize ? query.pageSize : 10, //每页条数
         pageIndex: 0, //从第几条开始取值
+        orderBy: ''
     }
 
     if (!params.pageSize || !utils.isInteger(params.pageSize)) {
@@ -100,6 +101,16 @@ exports.selectArticle = async(ctx, next) => {
         } else {
             return ctx.body = {
                 message: "title error"
+            }
+        }
+    }
+
+    if (query.orderBy !== undefined && query.orderBy !== '') {
+        if (query.orderBy === article_model.article_edit_date.name || query.orderBy === article_model.article_create_date.name) {
+            params.orderBy = `ORDER BY t_article.${query.orderBy} DESC`;
+        }else{
+            return ctx.body = {
+                message: 'orderBy error'
             }
         }
     }
@@ -254,39 +265,40 @@ exports.deleteArticle = async(ctx, next) => {
         }
     }
     let article_id = ctx.params.article_id;
-
-    await article_sql.selectArticleById(article_id)
-        .then(result => {
-            var res = JSON.parse(JSON.stringify(result));
-            if (res.length > 0) {
-                if (res[0].article_author == user.user_id) {
-                    ctx.body = {
-                        message: 'success'
+    if (user.user_id !== 1) {
+        await article_sql.selectArticleById(article_id)
+            .then(result => {
+                var res = JSON.parse(JSON.stringify(result));
+                if (res.length > 0) {
+                    if (res[0].article_author == user.user_id) {
+                        ctx.body = {
+                            message: 'success'
+                        }
+                    } else {
+                        ctx.body = {
+                            message: 'You can only delete your own article.'
+                        }
                     }
                 } else {
                     ctx.body = {
-                        message: 'You can only delete your own article.'
+                        message: 'not found'
                     }
                 }
-            } else {
-                ctx.body = {
-                    message: 'not found'
+            }).catch(err => {
+                if (err) {
+                    ctx.response.status = 500;
+                    console.log(err)
+                    ctx.body = {
+                        message: err,
+                        data: false
+                    }
                 }
-            }
-        }).catch(err => {
-            if (err) {
-                ctx.response.status = 500;
-                console.log(err)
-                ctx.body = {
-                    message: err,
-                    data: false
-                }
-            }
-        });
+            });
 
-    if (ctx.body.message !== 'success') {
-        return ctx.body = {
-            message: '没有权限'
+        if (ctx.body.message !== 'success') {
+            return ctx.body = {
+                message: '没有权限'
+            }
         }
     }
 
@@ -339,14 +351,14 @@ exports.deleteArticles = async(ctx, next) => {
     if (!_.isArray(article_id)) {
         return ctx.body = {
             message: 'id error',
-            data:article_id
+            data: article_id
         }
     }
     _.each(article_id, function(value) {
         if (!utils.isInteger(value)) {
             return ctx.body = {
                 message: 'id error',
-                data:value
+                data: value
             }
         }
     });

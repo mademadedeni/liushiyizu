@@ -5,5 +5,9 @@ router.get('/search', async (ctx, next) => {
 	await ctx.render("./html/misc/search.html");
 });
 
+router.get('/login', async (ctx, next) => {
+	await ctx.render("./html/misc/login.html");
+});
+
 
 module.exports = router

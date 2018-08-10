@@ -34,13 +34,13 @@ let t_article = {
 		}
 	},
 	article_create_date:{
-		name:'article_createDate',
+		name:'article_create_date',
 		type:'string',
 		isNull:true,
 		length:0
 	},
 	article_edit_date:{
-		name:'article_createDate',
+		name:'article_edit_date',
 		type:'string',
 		isNull:true,
 		length:0
