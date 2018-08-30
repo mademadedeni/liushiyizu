@@ -82,3 +82,11 @@ transition:bottom 0.3s ease;
 .article_list .item_box .h3{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#333;font-size:16px;}
 .article_list .item_box .content{height:60px;overflow:hidden;margin-top:10px;line-height:20px;color: #666;}
 .article_list .item_box .option_box{font-size:12px;color:#999;margin-top:10px;}
+
+/*game*/
+/*snake game*/
+.snake_game_main .snake{background-color:#ffffff;border: 1px solid #ccc;}
+
+
+
+

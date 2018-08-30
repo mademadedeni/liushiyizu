@@ -31,10 +31,10 @@ fis.match('/webApp/static/js/plugin/{**/*.js,*.js}', {
   isMod: false
 });
 
-fis.match('/webApp/static/js/game/**/*.js', {
-  useHash: false,
-  isMod: false
-});
+// fis.match('/webApp/static/js/game/**/*.js', {
+//   useHash: false,
+//   isMod: false
+// });
 
 fis.match('/webApp/static/js/common/*.js', {
   isMod: false

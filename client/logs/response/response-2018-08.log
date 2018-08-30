@@ -5818,3 +5818,231 @@ response body:
 "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n\t<title>游戏中心</title>\r\n\t<meta charset=\"utf-8\">\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui\">\r\n<link rel=\"shortcut icon\" href=\"/static/images/favicon.ico\" type=\"image/x-icon\" />\r\n\r\n\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/js/plugin/element_ui/index.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/js/plugin/element_ui/my.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/components/header/header.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/components/footer/footer.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/components/login/login.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/font/iconfont.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/css/common.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/css/main.css\" />\n</head>\r\n<body>\r\n\t<div id=\"app\">\r\n\t\t<liu-header :tab-id=\"3\" @to-login=\"toLogin\"></liu-header>\r\n\t\t<div>\r\n\t\t\t<a href=\"/static/js/game/html5-mario/index.html\">超级玛丽</a>\r\n\t\t</div>\r\n\t\t<liu-footer></liu-footer>\r\n\t\t<liu-login :show-login=\"showLogin\" @close-login=\"closeLogin\" @to-login=\"toLogin\"></liu-login>\r\n\t</div>\r\n\n<script data-loader src=\"/static/js/common/mod.js\"></script>\n<script data-loader src=\"/static/js/common/utils.js\"></script>\n<script type=\"text/javascript\" src=\"/static/js/plugin/vue/vue.js\"></script>\n<script type=\"text/javascript\" src=\"/static/js/plugin/element_ui/index.js\"></script>\n<script type=\"text/javascript\" src=\"/static/js/plugin/jquery/jquery.js\"></script>\n<script type=\"text/javascript\" src=\"/components/header/header.js\"></script>\n<script type=\"text/javascript\" src=\"/components/footer/footer.js\"></script>\n<script type=\"text/javascript\" src=\"/components/login/login.js\"></script>\n<script type=\"text/javascript\" src=\"/static/js/game/index.js\"></script>\n<script type=\"text/javascript\">\r\n\t\trequire(\"webApp/static/js/game/index\");\r\n\t</script>\n</body>\r\n</html>"
 *************** response log end ***************
 
+[2018-08-30T11:31:41.304] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /game/gluttonousSnake
+request client ip:  ::1
+request query:  {}
+response time: 13
+response status: 200
+response body: 
+"<!DOCTYPE html>\r\n<html>\r\n\r\n<head>\r\n    <title>贪吃蛇-游戏-刘氏一族</title>\r\n    <meta charset=\"utf-8\">\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui\">\r\n<link rel=\"shortcut icon\" href=\"/static/images/favicon.ico\" type=\"image/x-icon\" />\r\n\r\n\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/font/iconfont.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/css/common.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/css/main.css\" />\n</head>\r\n\r\n<body>\r\n    <div id=\"app\" class=\"auto_box\">\r\n        <div>\r\n            <span>长度：</span>\r\n            <span>{{snakes.length}}</span>\r\n            <span>等级：</span>\r\n            <span>{{grade}}</span>\r\n        </div>\r\n        <canvas id=\"panel\" width=\"1200\" height=\"500\"></canvas>\r\n        <div>\r\n            <button class=\"button0\" @click=\"start\">开始</button>\r\n            <button class=\"button0\" @click=\"reStart\">重新开始</button>\r\n            <button class=\"button0\" @click=\"pause\">暂停</button>\r\n            <button class=\"button0\" @click=\"add\">变长</button>\r\n            <button class=\"button0\" @click=\"rate--\">加速</button>\r\n            <button class=\"button0\" @click=\"rate++\">减速</button>\r\n        </div>\r\n    </div>\r\n\n<script data-loader src=\"/static/js/common/mod.js\"></script>\n<script data-loader src=\"/static/js/common/utils.js\"></script>\n<script type=\"text/javascript\" src=\"/static/js/plugin/vue/vue.js\"></script>\n<script type=\"text/javascript\" src=\"/static/js/game/snake.js\"></script>\n</body>\r\n\r\n</html>"
+*************** response log end ***************
+
+[2018-08-30T11:31:42.514] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+"<!DOCTYPE html>\r\n<html>\r\n<head>\r\n\t<title>404</title>\r\n\t<meta charset=\"utf-8\">\r\n\t<link rel=\"shortcut icon\" href=\"/images/Favicon.ico\" type=\"image/x-icon\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/css/common.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/css/main.css\" />\n</head>\r\n<body>\r\n\t<h1>404</h1>\r\n\n\n\n\n</body>\r\n</html>"
+*************** response log end ***************
+
+[2018-08-30T11:32:11.101] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /game/gluttonousSnake
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"<!DOCTYPE html>\r\n<html>\r\n\r\n<head>\r\n    <title>贪吃蛇-游戏-刘氏一族</title>\r\n    <meta charset=\"utf-8\">\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui\">\r\n<link rel=\"shortcut icon\" href=\"/static/images/favicon.ico\" type=\"image/x-icon\" />\r\n\r\n\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/font/iconfont.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/css/common.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/css/main.css\" />\n</head>\r\n\r\n<body>\r\n    <div id=\"app\" class=\"auto_box\">\r\n        <div>\r\n            <span>长度：</span>\r\n            <span>{{snakes.length}}</span>\r\n            <span>等级：</span>\r\n            <span>{{grade}}</span>\r\n        </div>\r\n        <canvas id=\"panel\" width=\"1200\" height=\"500\"></canvas>\r\n        <div>\r\n            <button class=\"button0\" @click=\"start\">开始</button>\r\n            <button class=\"button0\" @click=\"reStart\">重新开始</button>\r\n            <button class=\"button0\" @click=\"pause\">暂停</button>\r\n            <button class=\"button0\" @click=\"add\">变长</button>\r\n            <button class=\"button0\" @click=\"rate--\">加速</button>\r\n            <button class=\"button0\" @click=\"rate++\">减速</button>\r\n        </div>\r\n    </div>\r\n\n<script data-loader src=\"/static/js/common/mod.js\"></script>\n<script data-loader src=\"/static/js/common/utils.js\"></script>\n<script type=\"text/javascript\" src=\"/static/js/plugin/vue/vue.js\"></script>\n<script type=\"text/javascript\" src=\"/static/js/game/snake.js\"></script>\n</body>\r\n\r\n</html>"
+*************** response log end ***************
+
+[2018-08-30T11:32:13.327] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /game/gluttonousSnake
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"<!DOCTYPE html>\r\n<html>\r\n\r\n<head>\r\n    <title>贪吃蛇-游戏-刘氏一族</title>\r\n    <meta charset=\"utf-8\">\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui\">\r\n<link rel=\"shortcut icon\" href=\"/static/images/favicon.ico\" type=\"image/x-icon\" />\r\n\r\n\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/font/iconfont.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/css/common.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/css/main.css\" />\n</head>\r\n\r\n<body>\r\n    <div id=\"app\" class=\"auto_box\">\r\n        <div>\r\n            <span>长度：</span>\r\n            <span>{{snakes.length}}</span>\r\n            <span>等级：</span>\r\n            <span>{{grade}}</span>\r\n        </div>\r\n        <canvas id=\"panel\" width=\"1200\" height=\"500\"></canvas>\r\n        <div>\r\n            <button class=\"button0\" @click=\"start\">开始</button>\r\n            <button class=\"button0\" @click=\"reStart\">重新开始</button>\r\n            <button class=\"button0\" @click=\"pause\">暂停</button>\r\n            <button class=\"button0\" @click=\"add\">变长</button>\r\n            <button class=\"button0\" @click=\"rate--\">加速</button>\r\n            <button class=\"button0\" @click=\"rate++\">减速</button>\r\n        </div>\r\n    </div>\r\n\n<script data-loader src=\"/static/js/common/mod.js\"></script>\n<script data-loader src=\"/static/js/common/utils.js\"></script>\n<script type=\"text/javascript\" src=\"/static/js/plugin/vue/vue.js\"></script>\n<script type=\"text/javascript\" src=\"/static/js/game/snake.js\"></script>\n</body>\r\n\r\n</html>"
+*************** response log end ***************
+
+[2018-08-30T11:33:25.224] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /game/gluttonousSnake
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"<!DOCTYPE html>\r\n<html>\r\n\r\n<head>\r\n    <title>贪吃蛇-游戏-刘氏一族</title>\r\n    <meta charset=\"utf-8\">\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui\">\r\n<link rel=\"shortcut icon\" href=\"/static/images/favicon.ico\" type=\"image/x-icon\" />\r\n\r\n\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/font/iconfont.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/css/common.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/css/main.css\" />\n</head>\r\n\r\n<body>\r\n    <div id=\"app\" class=\"auto_box\">\r\n        <div>\r\n            <span>长度：</span>\r\n            <span>{{snakes.length}}</span>\r\n            <span>等级：</span>\r\n            <span>{{grade}}</span>\r\n        </div>\r\n        <canvas id=\"panel\" width=\"1200\" height=\"500\"></canvas>\r\n        <div>\r\n            <button class=\"button0\" @click=\"start\">开始</button>\r\n            <button class=\"button0\" @click=\"reStart\">重新开始</button>\r\n            <button class=\"button0\" @click=\"pause\">暂停</button>\r\n            <button class=\"button0\" @click=\"add\">变长</button>\r\n            <button class=\"button0\" @click=\"rate--\">加速</button>\r\n            <button class=\"button0\" @click=\"rate++\">减速</button>\r\n        </div>\r\n    </div>\r\n\n<script data-loader src=\"/static/js/common/mod.js\"></script>\n<script data-loader src=\"/static/js/common/utils.js\"></script>\n<script type=\"text/javascript\" src=\"/static/js/plugin/vue/vue.js\"></script>\n<script type=\"text/javascript\" src=\"/static/js/game/snake.js\"></script>\n</body>\r\n\r\n</html>"
+*************** response log end ***************
+
+[2018-08-30T11:34:37.905] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /game/gluttonousSnake
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"<!DOCTYPE html>\r\n<html>\r\n\r\n<head>\r\n    <title>贪吃蛇-游戏-刘氏一族</title>\r\n    <meta charset=\"utf-8\">\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui\">\r\n<link rel=\"shortcut icon\" href=\"/static/images/favicon.ico\" type=\"image/x-icon\" />\r\n\r\n\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/font/iconfont.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/css/common.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/css/main.css\" />\n</head>\r\n\r\n<body>\r\n    <div id=\"app\" class=\"auto_box\">\r\n        <div>\r\n            <span>长度：</span>\r\n            <span>{{snakes.length}}</span>\r\n            <span>等级：</span>\r\n            <span>{{grade}}</span>\r\n        </div>\r\n        <canvas id=\"panel\" width=\"1200\" height=\"500\"></canvas>\r\n        <div>\r\n            <button class=\"button0\" @click=\"start\">开始</button>\r\n            <button class=\"button0\" @click=\"reStart\">重新开始</button>\r\n            <button class=\"button0\" @click=\"pause\">暂停</button>\r\n            <button class=\"button0\" @click=\"add\">变长</button>\r\n            <button class=\"button0\" @click=\"rate--\">加速</button>\r\n            <button class=\"button0\" @click=\"rate++\">减速</button>\r\n        </div>\r\n    </div>\r\n\n<script data-loader src=\"/static/js/common/mod.js\"></script>\n<script data-loader src=\"/static/js/common/utils.js\"></script>\n<script type=\"text/javascript\" src=\"/static/js/plugin/vue/vue.js\"></script>\n<script type=\"text/javascript\" src=\"/static/js/game/snake.js\"></script>\n<script type=\"text/javascript\">\r\n    require(\"webApp/static/js/game/snake\");\r\n</script>\n</body>\r\n\r\n</html>"
+*************** response log end ***************
+
+[2018-08-30T11:41:46.266] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /game/gluttonousSnake
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"<!DOCTYPE html>\r\n<html>\r\n\r\n<head>\r\n    <title>贪吃蛇-游戏-刘氏一族</title>\r\n    <meta charset=\"utf-8\">\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui\">\r\n<link rel=\"shortcut icon\" href=\"/static/images/favicon.ico\" type=\"image/x-icon\" />\r\n\r\n\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/font/iconfont.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/css/common.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/css/main.css\" />\n</head>\r\n\r\n<body>\r\n    <div id=\"app\" class=\"auto_box snake_game_main\">\r\n        <div>\r\n            <span>长度：</span>\r\n            <span>{{snakes.length}}</span>\r\n            <span>等级：</span>\r\n            <span>{{grade}}</span>\r\n        </div>\r\n        <canvas class=\"snake\" id=\"panel\" width=\"1200\" height=\"500\"></canvas>\r\n        <div>\r\n            <button class=\"button0\" @click=\"start\">开始</button>\r\n            <button class=\"button0\" @click=\"reStart\">重新开始</button>\r\n            <button class=\"button0\" @click=\"pause\">暂停</button>\r\n            <button class=\"button0\" @click=\"add\">变长</button>\r\n            <button class=\"button0\" @click=\"rate--\">加速</button>\r\n            <button class=\"button0\" @click=\"rate++\">减速</button>\r\n        </div>\r\n    </div>\r\n\n<script data-loader src=\"/static/js/common/mod.js\"></script>\n<script data-loader src=\"/static/js/common/utils.js\"></script>\n<script type=\"text/javascript\" src=\"/static/js/plugin/vue/vue.js\"></script>\n<script type=\"text/javascript\" src=\"/static/js/game/snake.js\"></script>\n<script type=\"text/javascript\">\r\n    require(\"webApp/static/js/game/snake\");\r\n</script>\n</body>\r\n\r\n</html>"
+*************** response log end ***************
+
+[2018-08-30T14:04:13.596] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /game/gluttonousSnake
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"<!DOCTYPE html>\r\n<html>\r\n\r\n<head>\r\n    <title>贪吃蛇-游戏-刘氏一族</title>\r\n    <meta charset=\"utf-8\">\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui\">\r\n<link rel=\"shortcut icon\" href=\"/static/images/favicon.ico\" type=\"image/x-icon\" />\r\n\r\n\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/font/iconfont.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/css/common.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/css/main.css\" />\n</head>\r\n\r\n<body>\r\n    <div id=\"app\" class=\"auto_box snake_game_main\">\r\n        <div>\r\n            <span>长度：</span>\r\n            <span>{{snakes.length}}</span>\r\n            <span>等级：</span>\r\n            <span>{{grade}}</span>\r\n        </div>\r\n        <canvas class=\"snake\" id=\"panel\" width=\"1200\" height=\"500\"></canvas>\r\n        <div>\r\n            <button class=\"button0\" @click=\"start\">开始</button>\r\n            <button class=\"button0\" @click=\"reStart\">重新开始</button>\r\n            <button class=\"button0\" @click=\"pause\">暂停</button>\r\n            <button class=\"button0\" @click=\"add\">变长</button>\r\n            <button class=\"button0\" @click=\"rate--\">加速</button>\r\n            <button class=\"button0\" @click=\"rate++\">减速</button>\r\n        </div>\r\n    </div>\r\n\n<script data-loader src=\"/static/js/common/mod.js\"></script>\n<script data-loader src=\"/static/js/common/utils.js\"></script>\n<script type=\"text/javascript\" src=\"/static/js/plugin/vue/vue.js\"></script>\n<script type=\"text/javascript\" src=\"/static/js/game/snake.js\"></script>\n<script type=\"text/javascript\">\r\n    require(\"webApp/static/js/game/snake\");\r\n</script>\n</body>\r\n\r\n</html>"
+*************** response log end ***************
+
+[2018-08-30T14:08:17.052] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /game/gluttonousSnake
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"<!DOCTYPE html>\r\n<html>\r\n\r\n<head>\r\n    <title>贪吃蛇-游戏-刘氏一族</title>\r\n    <meta charset=\"utf-8\">\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui\">\r\n<link rel=\"shortcut icon\" href=\"/static/images/favicon.ico\" type=\"image/x-icon\" />\r\n\r\n\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/font/iconfont.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/css/common.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/css/main.css\" />\n</head>\r\n\r\n<body>\r\n    <div id=\"app\" class=\"auto_box snake_game_main\">\r\n        <div>\r\n            <span>长度：</span>\r\n            <span>{{snakes.length}}</span>\r\n            <span>等级：</span>\r\n            <span>{{grade}}</span>\r\n        </div>\r\n        <canvas class=\"snake\" id=\"panel\" width=\"1200\" height=\"500\"></canvas>\r\n        <div>\r\n            <button class=\"button0\" @click=\"start\">开始</button>\r\n            <button class=\"button0\" @click=\"reStart\">重新开始</button>\r\n            <button class=\"button0\" @click=\"pause\">暂停</button>\r\n            <button class=\"button0\" @click=\"add\">变长</button>\r\n            <button class=\"button0\" @click=\"rate--\">加速</button>\r\n            <button class=\"button0\" @click=\"rate++\">减速</button>\r\n        </div>\r\n    </div>\r\n\n<script data-loader src=\"/static/js/common/mod.js\"></script>\n<script data-loader src=\"/static/js/common/utils.js\"></script>\n<script type=\"text/javascript\" src=\"/static/js/plugin/vue/vue.js\"></script>\n<script type=\"text/javascript\" src=\"/static/js/game/snake.js\"></script>\n<script type=\"text/javascript\">\r\n    require(\"webApp/static/js/game/snake\");\r\n</script>\n</body>\r\n\r\n</html>"
+*************** response log end ***************
+
+[2018-08-30T14:09:18.664] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /game/gluttonousSnake
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"<!DOCTYPE html>\r\n<html>\r\n\r\n<head>\r\n    <title>贪吃蛇-游戏-刘氏一族</title>\r\n    <meta charset=\"utf-8\">\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui\">\r\n<link rel=\"shortcut icon\" href=\"/static/images/favicon.ico\" type=\"image/x-icon\" />\r\n\r\n\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/font/iconfont.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/css/common.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/css/main.css\" />\n</head>\r\n\r\n<body>\r\n    <div id=\"app\" class=\"auto_box snake_game_main\">\r\n        <div>\r\n            <span>长度：</span>\r\n            <span>{{snakes.length}}</span>\r\n            <span>等级：</span>\r\n            <span>{{grade}}</span>\r\n        </div>\r\n        <canvas class=\"snake\" id=\"panel\" width=\"1200\" height=\"500\"></canvas>\r\n        <div>\r\n            <button class=\"button0\" @click=\"start\">开始</button>\r\n            <button class=\"button0\" @click=\"reStart\">重新开始</button>\r\n            <!-- <button class=\"button0\" @click=\"pause\">暂停</button>\r\n            <button class=\"button0\" @click=\"add\">变长</button>\r\n            <button class=\"button0\" @click=\"rate--\">加速</button>\r\n            <button class=\"button0\" @click=\"rate++\">减速</button> -->\r\n        </div>\r\n    </div>\r\n\n<script data-loader src=\"/static/js/common/mod.js\"></script>\n<script data-loader src=\"/static/js/common/utils.js\"></script>\n<script type=\"text/javascript\" src=\"/static/js/plugin/vue/vue.js\"></script>\n<script type=\"text/javascript\" src=\"/static/js/game/snake.js\"></script>\n<script type=\"text/javascript\">\r\n    require(\"webApp/static/js/game/snake\");\r\n</script>\n</body>\r\n\r\n</html>"
+*************** response log end ***************
+
+[2018-08-30T14:09:55.538] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 1042
+response status: 200
+response body: 
+"<!DOCTYPE html>\r\n<html>\r\n\r\n<head>\r\n    <title>刘氏一族</title>\r\n    <meta charset=\"utf-8\">\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui\">\r\n<link rel=\"shortcut icon\" href=\"/static/images/favicon.ico\" type=\"image/x-icon\" />\r\n\r\n\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/js/plugin/swiper/swiper-4.3.3.min.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/js/plugin/element_ui/index.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/js/plugin/element_ui/my.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/components/header/header.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/components/footer/footer.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/components/login/login.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/font/iconfont.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/css/common.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/css/main.css\" />\n</head>\r\n\r\n<body>\r\n    <div id=\"app\">\r\n        <liu-header :tab-id=\"1\" @to-login=\"toLogin\"></liu-header>\r\n        <div class=\"index_banner_box\">\r\n            <div id=\"swiper\" class=\"swiper-container\">\r\n                <div class=\"swiper-wrapper\">\r\n                    <div class=\"swiper-slide\">\r\n                        <a class=\"banner\" href=\"/articles/16\" target=\"_blank\" style=\"background-image:url('/static/images/index/hai_zei_wang.jpg');\"></a>\r\n                    </div>\r\n                    <div class=\"swiper-slide\">\r\n                        <a class=\"banner\" href=\"/articles/17\" target=\"_blank\" style=\"background-image:url('/static/images/index/tian_xing_jiu_ge.png');\"></a>\r\n                    </div>\r\n                </div>\r\n                <div class=\"swiper-pagination\"></div>\r\n                <div class=\"swiper-button-prev\"></div>\r\n                <div class=\"swiper-button-next\"></div>\r\n            </div>\r\n        </div>\r\n        <div class=\"auto_box Ptp40 vh60\">\r\n            <div>\r\n                <h2>最新文章</h2>\r\n                <div class=\"article_list Ptp30\">\r\n                    <div class=\"hidden_tag\">\r\n                        \r\n                    </div>\r\n                    <div v-for=\"article in articles\" class=\"p_ibt item_box\">\r\n                        <a :href=\"'/articles/'+article.article_id\" target=\"_blank\">\r\n                            <h3 class=\"h3\">{{article.article_title}}</h3>\r\n                            <div class=\"content\" v-html=\"article.article_content\"></div>\r\n                            <div class=\"option_box\">\r\n                                <span>作者：</span>\r\n                                <span class=\"Mrt20 p_ibt WTO max_wid70\">{{article.user_name}}</span>\r\n                                <span>时间：</span>\r\n                                <span>{{dateFormat(article.article_edit_date)}}</span>\r\n                            </div>\r\n                        </a>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <liu-footer></liu-footer>\r\n        <liu-login :show-login=\"showLogin\" @close-login=\"closeLogin\" @to-login=\"toLogin\"></liu-login>\r\n    </div>\r\n\n<script data-loader src=\"/static/js/common/mod.js\"></script>\n<script data-loader src=\"/static/js/common/utils.js\"></script>\n<script type=\"text/javascript\" src=\"/static/js/plugin/jquery/jquery.js\"></script>\n<script type=\"text/javascript\" src=\"/static/js/plugin/swiper/swiper-4.3.3.min.js\"></script>\n<script type=\"text/javascript\" src=\"/static/js/plugin/vue/vue.js\"></script>\n<script type=\"text/javascript\" src=\"/static/js/plugin/element_ui/index.js\"></script>\n<script type=\"text/javascript\" src=\"/components/header/header.js\"></script>\n<script type=\"text/javascript\" src=\"/components/footer/footer.js\"></script>\n<script type=\"text/javascript\" src=\"/components/login/login.js\"></script>\n<script type=\"text/javascript\" src=\"/static/js/index.js\"></script>\n<script>\r\n        var $ = require('jquery');\r\n        $('.hidden_tag').remove();\r\n    require(\"webApp/static/js/index\");\r\n    </script>\n</body>\r\n\r\n</html>"
+*************** response log end ***************
+
+[2018-08-30T14:09:56.018] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /static/js/plugin/swiper/swiper.min.js.map
+request client ip:  ::1
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-30T14:09:56.054] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/captcha?norepeat=
+request client ip:  ::1
+request query:  {"norepeat":""}
+response time: 1
+response status: 200
+response body: 
+"<!DOCTYPE html>\r\n<html>\r\n<head>\r\n\t<title>404</title>\r\n\t<meta charset=\"utf-8\">\r\n\t<link rel=\"shortcut icon\" href=\"/images/Favicon.ico\" type=\"image/x-icon\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/css/common.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/css/main.css\" />\n</head>\r\n<body>\r\n\t<h1>404</h1>\r\n\n\n\n\n</body>\r\n</html>"
+*************** response log end ***************
+
+[2018-08-30T14:09:56.070] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"<!DOCTYPE html>\r\n<html>\r\n<head>\r\n\t<title>404</title>\r\n\t<meta charset=\"utf-8\">\r\n\t<link rel=\"shortcut icon\" href=\"/images/Favicon.ico\" type=\"image/x-icon\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/css/common.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/css/main.css\" />\n</head>\r\n<body>\r\n\t<h1>404</h1>\r\n\n\n\n\n</body>\r\n</html>"
+*************** response log end ***************
+
+[2018-08-30T14:09:56.092] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/articles?pageSize=8&pageNum=1&orderBy=article_edit_date
+request client ip:  ::1
+request query:  {"pageSize":"8","pageNum":"1","orderBy":"article_edit_date"}
+response time: 2
+response status: 200
+response body: 
+"<!DOCTYPE html>\r\n<html>\r\n<head>\r\n\t<title>404</title>\r\n\t<meta charset=\"utf-8\">\r\n\t<link rel=\"shortcut icon\" href=\"/images/Favicon.ico\" type=\"image/x-icon\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/css/common.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/css/main.css\" />\n</head>\r\n<body>\r\n\t<h1>404</h1>\r\n\n\n\n\n</body>\r\n</html>"
+*************** response log end ***************
+
+[2018-08-30T14:09:58.075] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /game
+request client ip:  ::1
+request query:  {}
+response time: 3
+response status: 200
+response body: 
+"<!DOCTYPE html>\r\n<html>\r\n<head>\r\n\t<title>游戏中心-刘氏一族</title>\r\n\t<meta charset=\"utf-8\">\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui\">\r\n<link rel=\"shortcut icon\" href=\"/static/images/favicon.ico\" type=\"image/x-icon\" />\r\n\r\n\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/js/plugin/element_ui/index.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/js/plugin/element_ui/my.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/components/header/header.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/components/footer/footer.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/components/login/login.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/font/iconfont.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/css/common.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/css/main.css\" />\n</head>\r\n<body>\r\n\t<div id=\"app\">\r\n\t\t<liu-header :tab-id=\"3\" @to-login=\"toLogin\"></liu-header>\r\n\t\t<div>\r\n\t\t\t<a href=\"/game/gluttonousSnake\">贪吃蛇</a>\r\n\t\t</div>\r\n\t\t<liu-footer></liu-footer>\r\n\t\t<liu-login :show-login=\"showLogin\" @close-login=\"closeLogin\" @to-login=\"toLogin\"></liu-login>\r\n\t</div>\r\n\n<script data-loader src=\"/static/js/common/mod.js\"></script>\n<script data-loader src=\"/static/js/common/utils.js\"></script>\n<script type=\"text/javascript\" src=\"/static/js/plugin/vue/vue.js\"></script>\n<script type=\"text/javascript\" src=\"/static/js/plugin/element_ui/index.js\"></script>\n<script type=\"text/javascript\" src=\"/static/js/plugin/jquery/jquery.js\"></script>\n<script type=\"text/javascript\" src=\"/components/header/header.js\"></script>\n<script type=\"text/javascript\" src=\"/components/footer/footer.js\"></script>\n<script type=\"text/javascript\" src=\"/components/login/login.js\"></script>\n<script type=\"text/javascript\" src=\"/static/js/game/index.js\"></script>\n<script type=\"text/javascript\">\r\n\t\trequire(\"webApp/static/js/game/index\");\r\n\t</script>\n</body>\r\n</html>"
+*************** response log end ***************
+
+[2018-08-30T14:09:58.470] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/captcha?norepeat=
+request client ip:  ::1
+request query:  {"norepeat":""}
+response time: 1
+response status: 200
+response body: 
+"<!DOCTYPE html>\r\n<html>\r\n<head>\r\n\t<title>404</title>\r\n\t<meta charset=\"utf-8\">\r\n\t<link rel=\"shortcut icon\" href=\"/images/Favicon.ico\" type=\"image/x-icon\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/css/common.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/css/main.css\" />\n</head>\r\n<body>\r\n\t<h1>404</h1>\r\n\n\n\n\n</body>\r\n</html>"
+*************** response log end ***************
+
+[2018-08-30T14:09:58.478] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"<!DOCTYPE html>\r\n<html>\r\n<head>\r\n\t<title>404</title>\r\n\t<meta charset=\"utf-8\">\r\n\t<link rel=\"shortcut icon\" href=\"/images/Favicon.ico\" type=\"image/x-icon\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/css/common.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/css/main.css\" />\n</head>\r\n<body>\r\n\t<h1>404</h1>\r\n\n\n\n\n</body>\r\n</html>"
+*************** response log end ***************
+
+[2018-08-30T14:10:02.195] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /game/gluttonousSnake
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+"<!DOCTYPE html>\r\n<html>\r\n\r\n<head>\r\n    <title>贪吃蛇-游戏-刘氏一族</title>\r\n    <meta charset=\"utf-8\">\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui\">\r\n<link rel=\"shortcut icon\" href=\"/static/images/favicon.ico\" type=\"image/x-icon\" />\r\n\r\n\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/font/iconfont.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/css/common.css\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/css/main.css\" />\n</head>\r\n\r\n<body>\r\n    <div id=\"app\" class=\"auto_box snake_game_main\">\r\n        <div>\r\n            <span>长度：</span>\r\n            <span>{{snakes.length}}</span>\r\n            <span>等级：</span>\r\n            <span>{{grade}}</span>\r\n        </div>\r\n        <canvas class=\"snake\" id=\"panel\" width=\"1200\" height=\"500\"></canvas>\r\n        <div>\r\n            <button class=\"button0\" @click=\"start\">开始</button>\r\n            <button class=\"button0\" @click=\"reStart\">重新开始</button>\r\n            <!-- <button class=\"button0\" @click=\"pause\">暂停</button>\r\n            <button class=\"button0\" @click=\"add\">变长</button>\r\n            <button class=\"button0\" @click=\"rate--\">加速</button>\r\n            <button class=\"button0\" @click=\"rate++\">减速</button> -->\r\n        </div>\r\n    </div>\r\n\n<script data-loader src=\"/static/js/common/mod.js\"></script>\n<script data-loader src=\"/static/js/common/utils.js\"></script>\n<script type=\"text/javascript\" src=\"/static/js/plugin/vue/vue.js\"></script>\n<script type=\"text/javascript\" src=\"/static/js/game/snake.js\"></script>\n<script type=\"text/javascript\">\r\n    require(\"webApp/static/js/game/snake\");\r\n</script>\n</body>\r\n\r\n</html>"
+*************** response log end ***************
+
