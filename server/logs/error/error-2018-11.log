@@ -1,0 +1,1186 @@
+[2018-11-23T10:52:54.392] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-23T10:52:55.613] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-23T10:52:56.961] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-23T13:29:42.804] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - read ECONNRESET
+[2018-11-23T13:29:44.014] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-23T13:29:45.360] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-23T13:29:46.962] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-23T13:29:48.958] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-23T13:29:51.643] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-23T13:29:55.499] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-23T13:30:01.343] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-26T11:49:22.573] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-26T11:49:23.790] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-26T11:49:25.141] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-26T11:49:26.725] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-26T11:49:28.715] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-26T11:49:31.396] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-26T11:49:35.246] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-26T18:22:59.186] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - read ECONNRESET
+[2018-11-26T18:22:59.225] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - read ECONNRESET
+[2018-11-26T18:23:00.396] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-26T18:23:00.447] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-26T18:23:01.794] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-26T18:23:03.377] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-26T18:23:05.364] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-26T18:23:08.039] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-26T18:23:11.884] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-26T18:23:17.718] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-26T18:23:26.597] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-26T18:23:26.933] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-27T09:21:10.987] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-27T09:21:12.241] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-27T09:21:13.615] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-27T09:21:15.253] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-27T09:21:17.277] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-27T09:21:20.001] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-27T09:21:23.876] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-27T09:21:29.756] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-27T17:48:24.889] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 3
+err name: TypeError
+err message: Cannot set property 'user_name' of undefined
+err stack: TypeError: Cannot set property 'user_name' of undefined
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:23:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:52:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+*************** error log end ***************
+
+[2018-11-27T17:56:53.384] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 41522
+err name: TypeError
+err message: Cannot set property 'user_name' of undefined
+err stack: TypeError: Cannot set property 'user_name' of undefined
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:23:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:52:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+*************** error log end ***************
+
+[2018-11-27T18:15:59.026] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+err name: TypeError
+err message: Cannot read property 'split' of undefined
+err stack: TypeError: Cannot read property 'split' of undefined
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:16:45)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:52:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+*************** error log end ***************
+
+[2018-11-27T18:20:30.046] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+err name: TypeError
+err message: Cannot read property 'split' of undefined
+err stack: TypeError: Cannot read property 'split' of undefined
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:16:45)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:52:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+*************** error log end ***************
+
+[2018-11-27T18:23:28.690] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+err name: TypeError
+err message: Cannot read property 'split' of undefined
+err stack: TypeError: Cannot read property 'split' of undefined
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:16:45)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:52:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+*************** error log end ***************
+
+[2018-11-27T18:23:32.302] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+err name: TypeError
+err message: Cannot read property 'split' of undefined
+err stack: TypeError: Cannot read property 'split' of undefined
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:16:45)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:52:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+*************** error log end ***************
+
+[2018-11-27T18:23:36.109] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+err name: TypeError
+err message: Cannot read property 'split' of undefined
+err stack: TypeError: Cannot read property 'split' of undefined
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:16:45)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:52:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+*************** error log end ***************
+
+[2018-11-27T18:25:13.474] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 8520
+err name: TypeError
+err message: Cannot read property 'split' of undefined
+err stack: TypeError: Cannot read property 'split' of undefined
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:16:45)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:52:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+*************** error log end ***************
+
+[2018-11-27T18:27:11.865] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+err name: TypeError
+err message: Cannot read property 'split' of undefined
+err stack: TypeError: Cannot read property 'split' of undefined
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:16:45)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:52:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+*************** error log end ***************
+
+[2018-11-27T18:30:26.910] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+err name: TypeError
+err message: Cannot read property 'split' of undefined
+err stack: TypeError: Cannot read property 'split' of undefined
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:16:45)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:52:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+*************** error log end ***************
+
+[2018-11-27T18:30:32.169] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+err name: TypeError
+err message: Cannot read property 'split' of undefined
+err stack: TypeError: Cannot read property 'split' of undefined
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:16:45)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:52:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+*************** error log end ***************
+
+[2018-11-27T18:30:43.086] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+err name: TypeError
+err message: Cannot read property 'split' of undefined
+err stack: TypeError: Cannot read property 'split' of undefined
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:16:45)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:52:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+*************** error log end ***************
+
+[2018-11-27T18:30:57.200] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+err name: TypeError
+err message: Cannot read property 'split' of undefined
+err stack: TypeError: Cannot read property 'split' of undefined
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:16:45)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:52:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+*************** error log end ***************
+
+[2018-11-27T18:31:31.441] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+err name: TypeError
+err message: Cannot read property 'split' of undefined
+err stack: TypeError: Cannot read property 'split' of undefined
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:16:45)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:52:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+*************** error log end ***************
+
+[2018-11-27T18:37:48.412] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+err name: TypeError
+err message: Cannot read property 'split' of undefined
+err stack: TypeError: Cannot read property 'split' of undefined
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:16:45)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:52:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+*************** error log end ***************
+
+[2018-11-27T18:38:40.770] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+err name: TypeError
+err message: Cannot read property 'split' of undefined
+err stack: TypeError: Cannot read property 'split' of undefined
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:16:45)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:52:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+*************** error log end ***************
+
+[2018-11-27T18:38:55.181] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+err name: TypeError
+err message: Cannot read property 'split' of undefined
+err stack: TypeError: Cannot read property 'split' of undefined
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:16:45)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:52:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+*************** error log end ***************
+
+[2018-11-27T18:39:12.768] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+err name: TypeError
+err message: Cannot read property 'split' of undefined
+err stack: TypeError: Cannot read property 'split' of undefined
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:16:45)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:52:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+*************** error log end ***************
+
+[2018-11-27T18:49:14.102] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 3
+err name: TypeError
+err message: Cannot read property 'user_name' of undefined
+err stack: TypeError: Cannot read property 'user_name' of undefined
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:29:62)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:52:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+*************** error log end ***************
+
+[2018-11-27T18:49:39.311] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+err name: TypeError
+err message: Cannot read property 'split' of undefined
+err stack: TypeError: Cannot read property 'split' of undefined
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:16:45)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:52:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+*************** error log end ***************
+
+[2018-11-27T18:49:45.143] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+err name: TypeError
+err message: Cannot read property 'split' of undefined
+err stack: TypeError: Cannot read property 'split' of undefined
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:16:45)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:52:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+*************** error log end ***************
+
+[2018-11-27T18:50:42.791] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+err name: TypeError
+err message: Cannot read property 'split' of undefined
+err stack: TypeError: Cannot read property 'split' of undefined
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:16:45)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:52:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+*************** error log end ***************
+
+[2018-11-27T18:50:55.500] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+err name: TypeError
+err message: Cannot read property 'user_name' of undefined
+err stack: TypeError: Cannot read property 'user_name' of undefined
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:29:62)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:52:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+*************** error log end ***************
+
+[2018-11-27T18:51:18.383] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+err name: TypeError
+err message: Cannot read property 'split' of undefined
+err stack: TypeError: Cannot read property 'split' of undefined
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:16:45)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:52:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+*************** error log end ***************
+
+[2018-11-27T18:53:36.862] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+err name: TypeError
+err message: Cannot read property 'user_name' of undefined
+err stack: TypeError: Cannot read property 'user_name' of undefined
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:29:62)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:52:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+*************** error log end ***************
+
+[2018-11-27T18:56:17.776] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+err name: TypeError
+err message: Cannot read property 'split' of undefined
+err stack: TypeError: Cannot read property 'split' of undefined
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:16:45)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:52:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+*************** error log end ***************
+
+[2018-11-27T19:00:20.283] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 3
+err name: TypeError
+err message: Cannot read property 'split' of undefined
+err stack: TypeError: Cannot read property 'split' of undefined
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:16:45)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:52:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+*************** error log end ***************
+
+[2018-11-27T19:01:22.528] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+err name: TypeError
+err message: Cannot read property 'split' of undefined
+err stack: TypeError: Cannot read property 'split' of undefined
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:16:45)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:52:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+*************** error log end ***************
+
+[2018-11-27T19:02:13.014] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+err name: TypeError
+err message: Cannot read property 'split' of undefined
+err stack: TypeError: Cannot read property 'split' of undefined
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:16:45)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:52:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+*************** error log end ***************
+
+[2018-11-27T19:10:49.751] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+err name: TypeError
+err message: Cannot read property 'split' of undefined
+err stack: TypeError: Cannot read property 'split' of undefined
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:15:41)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:52:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+*************** error log end ***************
+
+[2018-11-27T19:10:59.673] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+err name: TypeError
+err message: Cannot read property 'split' of undefined
+err stack: TypeError: Cannot read property 'split' of undefined
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:15:41)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:52:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+*************** error log end ***************
+
+[2018-11-27T19:11:30.980] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+err name: TypeError
+err message: Cannot read property 'split' of undefined
+err stack: TypeError: Cannot read property 'split' of undefined
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:15:41)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:52:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+*************** error log end ***************
+
+[2018-11-27T19:11:46.300] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+err name: TypeError
+err message: Cannot read property 'split' of undefined
+err stack: TypeError: Cannot read property 'split' of undefined
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:15:41)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:52:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+*************** error log end ***************
+
+[2018-11-27T19:11:54.491] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+err name: TypeError
+err message: Cannot read property 'split' of undefined
+err stack: TypeError: Cannot read property 'split' of undefined
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:15:41)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:52:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+*************** error log end ***************
+
+[2018-11-27T19:12:46.535] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+err name: TypeError
+err message: Cannot read property 'split' of undefined
+err stack: TypeError: Cannot read property 'split' of undefined
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:15:41)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:52:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+*************** error log end ***************
+
+[2018-11-27T19:13:11.815] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+err name: TypeError
+err message: Cannot read property 'split' of undefined
+err stack: TypeError: Cannot read property 'split' of undefined
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:15:41)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:52:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+*************** error log end ***************
+
+[2018-11-27T19:13:33.334] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 4
+err name: TypeError
+err message: Cannot read property 'split' of undefined
+err stack: TypeError: Cannot read property 'split' of undefined
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:15:41)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:52:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+*************** error log end ***************
+
+[2018-11-27T19:18:54.439] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 15855
+err name: TypeError
+err message: Cannot read property 'split' of undefined
+err stack: TypeError: Cannot read property 'split' of undefined
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:15:41)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:52:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+*************** error log end ***************
+
+[2018-11-27T19:20:08.569] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 6397
+err name: TypeError
+err message: Cannot read property 'user_name' of undefined
+err stack: TypeError: Cannot read property 'user_name' of undefined
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:32:62)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:52:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+*************** error log end ***************
+
+[2018-11-27T19:26:26.427] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+err name: TypeError
+err message: Cannot read property 'user_name' of undefined
+err stack: TypeError: Cannot read property 'user_name' of undefined
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:32:62)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:52:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+*************** error log end ***************
+
+[2018-11-27T19:27:48.245] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+err name: TypeError
+err message: Cannot read property 'user_name' of undefined
+err stack: TypeError: Cannot read property 'user_name' of undefined
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:32:62)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:52:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+*************** error log end ***************
+

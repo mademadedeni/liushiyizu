@@ -21,7 +21,7 @@ app.use(koaBody({
    // formLimit:'56kb',    //限制表单请求体的大小    String / Integer 56kb
    // textLimit:'56kb',   //限制 text body 的大小   String / Integer  56kb
    // encoding:'utf-8',    //表单的默认编码         String   utf-8
-   multipart: true,     //是否支持 multipart-formdate 的表单(文件上传)     Boolean  false
+   multipart: true, //是否支持 multipart-formdate 的表单(文件上传)     Boolean  false
    // stict:true,         //严格模式,启用后不会解析 GET, HEAD, DELETE 请求   Boolean  true
    onError: function(err, context) {
       throw err;
@@ -38,20 +38,25 @@ app.use(koaBody({
 }));
 
 // session存储配置
-var redisClient = redis.createClient({password:'root'});
-redisClient.on("error", function (err) {
-   console.log(err);
-    logUtil.errorLogger.error("Error " + err);
+var redisClient = redis.createClient({
+   password: 'root'
 });
-redisClient.on("connect", function () {
-    console.log('connect redis');
+redisClient.on("error", function(err) {
+   console.log(err);
+   logUtil.errorLogger.error("Error " + err);
+});
+redisClient.on("connect", function() {
+   console.log('connect redis');
 });
 app.use(session({
-   key: 'liushiyizu', 
+   key: 'liushiyizu',
    cookie: function(ctx) {
       var maxAge = 0;
-      if (ctx.originalUrl == "/api/user/login" && ctx.session.user && ctx.session.user.seven) {
-         maxAge = 1000 * 3600 * 24 * 7;
+      if (ctx.session.user) {
+         ctx.cookies.set("koaID",'1',{
+             maxAge:1000*3600*0.5
+             // maxAge:1000*3600*0.5
+         });
       }
       return {
          // domain: '10.0.0.100',
@@ -62,9 +67,9 @@ app.use(session({
       }
    },
    store: new redisStore({
-      client:redisClient
+      client: redisClient
    })
-}))
+}));
 //权限
 app.use(permission());
 // 静态资源

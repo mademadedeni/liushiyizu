@@ -45,8 +45,11 @@ fis.match('/webApp/components/**/*.html', {
 });
 
 //插件id简写
-fis.match('/webApp/static/js/plugin/vue/*.js', {
+fis.match('/webApp/static/js/plugin/vue/vue.js', {
   id: "vue"
+});
+fis.match('/webApp/static/js/plugin/vue/vue-resource-1.5.1.js', {
+  id: "vue-resource"
 });
 fis.match('/webApp/static/js/plugin/element_ui/*.js', {
   id: "element_ui"
