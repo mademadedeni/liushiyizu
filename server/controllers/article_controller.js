@@ -173,6 +173,9 @@ exports.selectArticle = async(ctx, next) => {
 exports.editArticle = async(ctx, next) => {
     //检查登录
     var user = ctx.session.user;
+    var article_id = ctx.params.article_id;
+    var article = ctx.request.body;
+    //验证标题和内容
     if (!user) {
         return ctx.body = {
             code: 1,
@@ -181,23 +184,17 @@ exports.editArticle = async(ctx, next) => {
         }
     }
 
-    //权限验证
-    /*if (ctx.session.user.permission) {
+    //权限验证 是否编辑，是否编辑自己文章||是否管理员
+    if (article_id && (user.user_id != article.user_id && user.user_permission !==1)) {
         return ctx.body = {
             code:2,
             message:"not permission",
             data:false
         }
-    }*/
+    }
 
-    //验证标题和内容
-    var article = {
-        article_title: ctx.request.body.article_title,
-        article_content: ctx.request.body.article_content,
-    };
-    var params = ctx.params;
     //如果是更新验证id
-    if (params.article_id && !article_model.checkField(article_model.article_id.name, params.article_id)) {
+    if (article_id && !article_model.checkField(article_model.article_id.name, article_id)) {
         return ctx.body = {
             code: 4,
             message: "unkown error",
@@ -212,12 +209,12 @@ exports.editArticle = async(ctx, next) => {
         }
     }
 
-    if (params.article_id) {
-
-        article.article_edit_date = Date.now();
-
-        await article_sql.updateArticle(params.article_id, article_model.updateValue(article))
-            .then(result => {
+    if (article_id) {
+        await article_sql.updateArticle(article_id, article_model.updateValue({
+            article_title:article.article_title,
+            article_content:article.article_content,
+            article_edit_date:Date.now(),
+        })).then(result => {
                 var res = JSON.parse(JSON.stringify(result));
                 if (res.affectedRows > 0) {
                     ctx.body = {

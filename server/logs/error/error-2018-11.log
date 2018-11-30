@@ -1184,3 +1184,1671 @@ err stack: TypeError: Cannot read property 'user_name' of undefined
     at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
 *************** error log end ***************
 
+[2018-11-28T10:49:32.006] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-28T10:49:33.226] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-28T10:49:34.578] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-28T10:49:36.172] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-28T10:49:38.159] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-28T10:51:29.733] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+err name: TypeError
+err message: Cannot read property 'success' of undefined
+err stack: TypeError: Cannot read property 'success' of undefined
+    at Promise (C:\work\liushiyizu\server\middlewares\urlFilter.js:60:26)
+    at new Promise (<anonymous>)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:58:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at send.then.done (C:\work\liushiyizu\server\node_modules\koa-static\index.js:43:20)
+*************** error log end ***************
+
+[2018-11-28T10:53:01.523] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 30730
+err name: TypeError
+err message: Cannot read property 'success' of undefined
+err stack: TypeError: Cannot read property 'success' of undefined
+    at Promise (C:\work\liushiyizu\server\middlewares\urlFilter.js:60:26)
+    at new Promise (<anonymous>)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:58:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at send.then.done (C:\work\liushiyizu\server\node_modules\koa-static\index.js:43:20)
+*************** error log end ***************
+
+[2018-11-28T11:04:18.691] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 129461
+err name: TypeError
+err message: Cannot read property 'success' of undefined
+err stack: TypeError: Cannot read property 'success' of undefined
+    at Promise (C:\work\liushiyizu\server\middlewares\urlFilter.js:60:26)
+    at new Promise (<anonymous>)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:58:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at send.then.done (C:\work\liushiyizu\server\node_modules\koa-static\index.js:43:20)
+*************** error log end ***************
+
+[2018-11-28T11:08:38.331] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 5241
+err name: ReferenceError
+err message: result is not defined
+err stack: ReferenceError: result is not defined
+    at Promise (C:\work\liushiyizu\server\middlewares\urlFilter.js:63:17)
+    at new Promise (<anonymous>)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:58:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at send.then.done (C:\work\liushiyizu\server\node_modules\koa-static\index.js:43:20)
+*************** error log end ***************
+
+[2018-11-28T11:13:25.272] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"user_name":"liu","user_password":"123456","user_seven":"false"}
+response time: 0
+err name: ReferenceError
+err message: result is not defined
+err stack: ReferenceError: result is not defined
+    at Promise (C:\work\liushiyizu\server\middlewares\urlFilter.js:63:17)
+    at new Promise (<anonymous>)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:58:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at serve (C:\work\liushiyizu\server\node_modules\koa-static\index.js:47:14)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at C:\work\liushiyizu\server\middlewares\permission.js:14:15
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+*************** error log end ***************
+
+[2018-11-28T11:13:41.023] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/users/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"user_name":"liu","user_password":"123456","user_seven":"false"}
+response time: 0
+err name: ReferenceError
+err message: result is not defined
+err stack: ReferenceError: result is not defined
+    at Promise (C:\work\liushiyizu\server\middlewares\urlFilter.js:63:17)
+    at new Promise (<anonymous>)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:58:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at serve (C:\work\liushiyizu\server\node_modules\koa-static\index.js:47:14)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at C:\work\liushiyizu\server\middlewares\permission.js:14:15
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+*************** error log end ***************
+
+[2018-11-28T11:26:25.588] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 3
+err name: ReferenceError
+err message: result is not defined
+err stack: ReferenceError: result is not defined
+    at Promise (C:\work\liushiyizu\server\middlewares\urlFilter.js:72:17)
+    at new Promise (<anonymous>)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:67:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at send.then.done (C:\work\liushiyizu\server\node_modules\koa-static\index.js:43:20)
+*************** error log end ***************
+
+[2018-11-28T11:26:32.067] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+err name: TypeError
+err message: Cannot read property 'success' of undefined
+err stack: TypeError: Cannot read property 'success' of undefined
+    at Promise (C:\work\liushiyizu\server\middlewares\urlFilter.js:69:26)
+    at new Promise (<anonymous>)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:67:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at send.then.done (C:\work\liushiyizu\server\node_modules\koa-static\index.js:43:20)
+*************** error log end ***************
+
+[2018-11-28T11:26:45.634] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+err name: TypeError
+err message: Cannot read property 'success' of undefined
+err stack: TypeError: Cannot read property 'success' of undefined
+    at Promise (C:\work\liushiyizu\server\middlewares\urlFilter.js:69:26)
+    at new Promise (<anonymous>)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:67:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at send.then.done (C:\work\liushiyizu\server\node_modules\koa-static\index.js:43:20)
+*************** error log end ***************
+
+[2018-11-28T11:30:59.337] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 92382
+err name: TypeError
+err message: Cannot read property 'success' of undefined
+err stack: TypeError: Cannot read property 'success' of undefined
+    at Promise (C:\work\liushiyizu\server\middlewares\urlFilter.js:69:26)
+    at new Promise (<anonymous>)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:67:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at send.then.done (C:\work\liushiyizu\server\node_modules\koa-static\index.js:43:20)
+*************** error log end ***************
+
+[2018-11-28T11:33:05.513] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2518
+err name: TypeError
+err message: Cannot read property 'success' of undefined
+err stack: TypeError: Cannot read property 'success' of undefined
+    at Promise (C:\work\liushiyizu\server\middlewares\urlFilter.js:69:26)
+    at new Promise (<anonymous>)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:67:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at send.then.done (C:\work\liushiyizu\server\node_modules\koa-static\index.js:43:20)
+*************** error log end ***************
+
+[2018-11-28T11:36:51.213] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 8280
+err name: TypeError
+err message: Cannot read property 'success' of undefined
+err stack: TypeError: Cannot read property 'success' of undefined
+    at Promise (C:\work\liushiyizu\server\middlewares\urlFilter.js:69:26)
+    at new Promise (<anonymous>)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:67:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at send.then.done (C:\work\liushiyizu\server\node_modules\koa-static\index.js:43:20)
+*************** error log end ***************
+
+[2018-11-28T11:38:07.244] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 4993
+err name: TypeError
+err message: Cannot read property 'success' of undefined
+err stack: TypeError: Cannot read property 'success' of undefined
+    at Promise (C:\work\liushiyizu\server\middlewares\urlFilter.js:69:26)
+    at new Promise (<anonymous>)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:67:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at send.then.done (C:\work\liushiyizu\server\node_modules\koa-static\index.js:43:20)
+*************** error log end ***************
+
+[2018-11-28T11:40:04.502] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 26022
+err name: TypeError
+err message: Cannot read property 'success' of undefined
+err stack: TypeError: Cannot read property 'success' of undefined
+    at Promise (C:\work\liushiyizu\server\middlewares\urlFilter.js:69:26)
+    at new Promise (<anonymous>)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:67:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at logUtil.logs (C:\work\liushiyizu\server\utils\log_util.js:113:13)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at views (C:\work\liushiyizu\server\node_modules\koa-views\lib\index.js:61:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at send.then.done (C:\work\liushiyizu\server\node_modules\koa-static\index.js:43:20)
+*************** error log end ***************
+
+[2018-11-28T14:14:08.185] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 3
+err name: TypeError
+err message: Cannot read property 'user' of null
+err stack: TypeError: Cannot read property 'user' of null
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:14:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:86:15)
+*************** error log end ***************
+
+[2018-11-28T14:21:22.470] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+err name: userNotExist
+err message: 用户不存在
+err stack: userNotExist: 用户不存在
+    at exports.getUser (C:\work\liushiyizu\server\controllers\user_controller.js:216:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:86:15)
+*************** error log end ***************
+
+[2018-11-28T19:23:33.665] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 4
+err name: userNotExist
+err message: 用户不存在
+err stack: userNotExist: 用户不存在
+    at exports.getUser (C:\work\liushiyizu\server\controllers\user_controller.js:216:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:86:15)
+*************** error log end ***************
+
+[2018-11-28T19:23:41.467] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+err name: userNotExist
+err message: 用户不存在
+err stack: userNotExist: 用户不存在
+    at exports.getUser (C:\work\liushiyizu\server\controllers\user_controller.js:216:15)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:86:15)
+*************** error log end ***************
+
+[2018-11-28T19:24:38.551] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser?user_id=1
+request client ip:  ::ffff:127.0.0.1
+request query:  {"user_id":"1"}
+response time: 2
+err name: TypeError
+err message: userModel.selectUserByName is not a function
+err stack: TypeError: userModel.selectUserByName is not a function
+    at exports.getUser (C:\work\liushiyizu\server\controllers\user_controller.js:218:21)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:86:15)
+*************** error log end ***************
+
+[2018-11-28T19:25:17.235] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser?user_id=1
+request client ip:  ::ffff:127.0.0.1
+request query:  {"user_id":"1"}
+response time: 1
+err name: TypeError
+err message: userModel.selectUserByName is not a function
+err stack: TypeError: userModel.selectUserByName is not a function
+    at exports.getUser (C:\work\liushiyizu\server\controllers\user_controller.js:218:21)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:86:15)
+*************** error log end ***************
+
+[2018-11-28T19:25:39.736] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser?user_id=1
+request client ip:  ::ffff:127.0.0.1
+request query:  {"user_id":"1"}
+response time: 6132
+err name: TypeError
+err message: userModel.selectUserByName is not a function
+err stack: TypeError: userModel.selectUserByName is not a function
+    at exports.getUser (C:\work\liushiyizu\server\controllers\user_controller.js:218:21)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:86:15)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+*************** error log end ***************
+
+[2018-11-28T19:25:52.203] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser?user_id=1
+request client ip:  ::ffff:127.0.0.1
+request query:  {"user_id":"1"}
+response time: 392
+err name: TypeError
+err message: userModel.selectUserByName is not a function
+err stack: TypeError: userModel.selectUserByName is not a function
+    at exports.getUser (C:\work\liushiyizu\server\controllers\user_controller.js:218:21)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:86:15)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+*************** error log end ***************
+
+[2018-11-28T19:26:34.924] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser?user_id=1
+request client ip:  ::ffff:127.0.0.1
+request query:  {"user_id":"1"}
+response time: 505
+err name: TypeError
+err message: userModel.selectUserByName is not a function
+err stack: TypeError: userModel.selectUserByName is not a function
+    at exports.getUser (C:\work\liushiyizu\server\controllers\user_controller.js:218:21)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:86:15)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+*************** error log end ***************
+
+[2018-11-28T19:27:01.872] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser?user_id=1
+request client ip:  ::ffff:127.0.0.1
+request query:  {"user_id":"1"}
+response time: 0
+err name: TypeError
+err message: userModel.selectUserByName is not a function
+err stack: TypeError: userModel.selectUserByName is not a function
+    at exports.getUser (C:\work\liushiyizu\server\controllers\user_controller.js:218:21)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:86:15)
+*************** error log end ***************
+
+[2018-11-28T19:27:14.200] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - read ECONNRESET
+[2018-11-28T19:27:15.421] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-29T09:03:37.622] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-29T09:03:38.872] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-29T09:03:40.259] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-29T09:03:41.872] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-29T09:03:43.887] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-29T09:03:46.604] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-29T09:03:50.495] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-29T09:03:56.376] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-29T09:04:05.626] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-29T09:05:25.553] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 3
+err name: TypeError
+err message: Cannot read property 'user' of null
+err stack: TypeError: Cannot read property 'user' of null
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:14:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:86:15)
+*************** error log end ***************
+
+[2018-11-29T09:06:27.509] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+err name: TypeError
+err message: Cannot read property 'user' of null
+err stack: TypeError: Cannot read property 'user' of null
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:14:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:86:15)
+*************** error log end ***************
+
+[2018-11-29T09:06:57.233] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+err name: TypeError
+err message: Cannot read property 'user' of null
+err stack: TypeError: Cannot read property 'user' of null
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:14:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:86:15)
+*************** error log end ***************
+
+[2018-11-29T09:09:22.391] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+err name: TypeError
+err message: Cannot read property 'user' of null
+err stack: TypeError: Cannot read property 'user' of null
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:14:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:86:15)
+*************** error log end ***************
+
+[2018-11-29T09:09:41.190] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+err name: TypeError
+err message: Cannot read property 'user' of null
+err stack: TypeError: Cannot read property 'user' of null
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:14:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:86:15)
+*************** error log end ***************
+
+[2018-11-29T09:11:38.225] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+err name: TypeError
+err message: Cannot read property 'user' of null
+err stack: TypeError: Cannot read property 'user' of null
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:14:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:86:15)
+*************** error log end ***************
+
+[2018-11-29T09:12:19.008] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+err name: TypeError
+err message: Cannot read property 'user' of null
+err stack: TypeError: Cannot read property 'user' of null
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:14:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:86:15)
+*************** error log end ***************
+
+[2018-11-29T09:12:48.027] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+err name: TypeError
+err message: Cannot read property 'user' of null
+err stack: TypeError: Cannot read property 'user' of null
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:14:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:86:15)
+*************** error log end ***************
+
+[2018-11-29T09:17:03.668] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 3
+err name: TypeError
+err message: Cannot read property 'user' of null
+err stack: TypeError: Cannot read property 'user' of null
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:14:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:86:15)
+*************** error log end ***************
+
+[2018-11-29T09:23:00.988] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 3
+err name: TypeError
+err message: Cannot read property 'user' of null
+err stack: TypeError: Cannot read property 'user' of null
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:14:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:86:15)
+*************** error log end ***************
+
+[2018-11-29T09:23:06.794] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+err name: TypeError
+err message: Cannot read property 'user' of null
+err stack: TypeError: Cannot read property 'user' of null
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:14:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:86:15)
+*************** error log end ***************
+
+[2018-11-29T09:23:13.748] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+err name: TypeError
+err message: Cannot read property 'user' of null
+err stack: TypeError: Cannot read property 'user' of null
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:14:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:86:15)
+*************** error log end ***************
+
+[2018-11-29T09:26:35.836] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 3
+err name: TypeError
+err message: Cannot read property 'user' of null
+err stack: TypeError: Cannot read property 'user' of null
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:14:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:86:15)
+*************** error log end ***************
+
+[2018-11-29T09:26:35.838] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+err name: TypeError
+err message: Cannot read property 'user' of null
+err stack: TypeError: Cannot read property 'user' of null
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:14:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:86:15)
+*************** error log end ***************
+
+[2018-11-29T09:26:35.843] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+err name: TypeError
+err message: Cannot read property 'user' of null
+err stack: TypeError: Cannot read property 'user' of null
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:14:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:86:15)
+*************** error log end ***************
+
+[2018-11-29T09:26:35.846] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+err name: TypeError
+err message: Cannot read property 'user' of null
+err stack: TypeError: Cannot read property 'user' of null
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:14:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:86:15)
+*************** error log end ***************
+
+[2018-11-29T09:26:35.850] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+err name: TypeError
+err message: Cannot read property 'user' of null
+err stack: TypeError: Cannot read property 'user' of null
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:14:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:86:15)
+*************** error log end ***************
+
+[2018-11-29T09:26:35.853] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+err name: TypeError
+err message: Cannot read property 'user' of null
+err stack: TypeError: Cannot read property 'user' of null
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:14:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:86:15)
+*************** error log end ***************
+
+[2018-11-29T09:26:35.858] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+err name: TypeError
+err message: Cannot read property 'user' of null
+err stack: TypeError: Cannot read property 'user' of null
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:14:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:86:15)
+*************** error log end ***************
+
+[2018-11-29T09:27:15.998] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+err name: TypeError
+err message: Cannot read property 'user' of null
+err stack: TypeError: Cannot read property 'user' of null
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:14:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:86:15)
+*************** error log end ***************
+
+[2018-11-29T09:27:31.457] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+err name: TypeError
+err message: Cannot read property 'user' of null
+err stack: TypeError: Cannot read property 'user' of null
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:14:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:86:15)
+*************** error log end ***************
+
+[2018-11-29T09:27:50.077] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser?user_id=1
+request client ip:  ::ffff:127.0.0.1
+request query:  {"user_id":"1"}
+response time: 1
+err name: TypeError
+err message: userModel.selectUserByName is not a function
+err stack: TypeError: userModel.selectUserByName is not a function
+    at exports.getUser (C:\work\liushiyizu\server\controllers\user_controller.js:218:21)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:86:15)
+*************** error log end ***************
+
+[2018-11-29T09:28:28.662] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser?user_id=1
+request client ip:  ::ffff:127.0.0.1
+request query:  {"user_id":"1"}
+response time: 323
+err name: TypeError
+err message: userModel.selectUserByName is not a function
+err stack: TypeError: userModel.selectUserByName is not a function
+    at exports.getUser (C:\work\liushiyizu\server\controllers\user_controller.js:218:21)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:86:15)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+*************** error log end ***************
+
+[2018-11-29T09:28:51.164] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser?user_id=1
+request client ip:  ::ffff:127.0.0.1
+request query:  {"user_id":"1"}
+response time: 1
+err name: TypeError
+err message: userModel.selectUserByName is not a function
+err stack: TypeError: userModel.selectUserByName is not a function
+    at exports.getUser (C:\work\liushiyizu\server\controllers\user_controller.js:218:21)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:86:15)
+*************** error log end ***************
+
+[2018-11-29T09:29:10.964] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser?user_id=1
+request client ip:  ::ffff:127.0.0.1
+request query:  {"user_id":"1"}
+response time: 0
+err name: TypeError
+err message: userModel.selectUserByName is not a function
+err stack: TypeError: userModel.selectUserByName is not a function
+    at exports.getUser (C:\work\liushiyizu\server\controllers\user_controller.js:218:21)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:86:15)
+*************** error log end ***************
+
+[2018-11-29T09:30:32.931] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser?user_id=1
+request client ip:  ::ffff:127.0.0.1
+request query:  {"user_id":"1"}
+response time: 0
+err name: TypeError
+err message: userModel.selectUserByName is not a function
+err stack: TypeError: userModel.selectUserByName is not a function
+    at exports.getUser (C:\work\liushiyizu\server\controllers\user_controller.js:218:21)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:86:15)
+*************** error log end ***************
+
+[2018-11-29T09:45:38.129] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+err name: TypeError
+err message: Cannot read property 'user' of null
+err stack: TypeError: Cannot read property 'user' of null
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:14:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:86:15)
+*************** error log end ***************
+
+[2018-11-29T09:51:26.261] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 5
+err name: TypeError
+err message: Cannot read property 'user' of null
+err stack: TypeError: Cannot read property 'user' of null
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:14:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:87:15)
+*************** error log end ***************
+
+[2018-11-29T10:07:51.986] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 5
+err name: TypeError
+err message: Cannot read property 'user' of null
+err stack: TypeError: Cannot read property 'user' of null
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:14:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:88:15)
+*************** error log end ***************
+
+[2018-11-29T10:07:58.347] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 4
+err name: TypeError
+err message: Cannot read property 'user' of null
+err stack: TypeError: Cannot read property 'user' of null
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:14:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:88:15)
+*************** error log end ***************
+
+[2018-11-29T10:08:40.513] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 10
+err name: TypeError
+err message: Cannot read property 'user' of null
+err stack: TypeError: Cannot read property 'user' of null
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:14:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:88:15)
+*************** error log end ***************
+
+[2018-11-29T10:08:54.008] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 7
+err name: TypeError
+err message: Cannot read property 'user' of null
+err stack: TypeError: Cannot read property 'user' of null
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:14:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:88:15)
+*************** error log end ***************
+
+[2018-11-29T10:09:06.981] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 8
+err name: TypeError
+err message: Cannot read property 'user' of null
+err stack: TypeError: Cannot read property 'user' of null
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:14:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:88:15)
+*************** error log end ***************
+
+[2018-11-29T10:09:15.589] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 6
+err name: TypeError
+err message: Cannot read property 'user' of null
+err stack: TypeError: Cannot read property 'user' of null
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:14:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:88:15)
+*************** error log end ***************
+
+[2018-11-29T10:09:30.757] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 7
+err name: TypeError
+err message: Cannot read property 'user' of null
+err stack: TypeError: Cannot read property 'user' of null
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:14:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:88:15)
+*************** error log end ***************
+
+[2018-11-29T10:09:50.752] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 7
+err name: TypeError
+err message: Cannot read property 'user' of null
+err stack: TypeError: Cannot read property 'user' of null
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:14:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:88:15)
+*************** error log end ***************
+
+[2018-11-29T10:10:15.304] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 7
+err name: TypeError
+err message: Cannot read property 'user' of null
+err stack: TypeError: Cannot read property 'user' of null
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:14:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:88:15)
+*************** error log end ***************
+
+[2018-11-29T10:10:31.240] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 10
+err name: TypeError
+err message: Cannot read property 'user' of null
+err stack: TypeError: Cannot read property 'user' of null
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:14:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:88:15)
+*************** error log end ***************
+
+[2018-11-29T10:10:42.853] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 7
+err name: TypeError
+err message: Cannot read property 'user' of null
+err stack: TypeError: Cannot read property 'user' of null
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:14:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:88:15)
+*************** error log end ***************
+
+[2018-11-29T10:20:37.229] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 3
+err name: TypeError
+err message: Cannot read property 'user' of null
+err stack: TypeError: Cannot read property 'user' of null
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:14:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:85:15)
+*************** error log end ***************
+
+[2018-11-29T10:25:52.432] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 3
+err name: TypeError
+err message: Cannot read property 'user' of null
+err stack: TypeError: Cannot read property 'user' of null
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:14:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:85:15)
+*************** error log end ***************
+
+[2018-11-29T10:29:43.398] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+err name: TypeError
+err message: Cannot read property 'user' of null
+err stack: TypeError: Cannot read property 'user' of null
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:14:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:85:15)
+*************** error log end ***************
+
+[2018-11-29T10:36:03.296] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+err name: TypeError
+err message: Cannot read property 'user' of null
+err stack: TypeError: Cannot read property 'user' of null
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:14:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:85:15)
+*************** error log end ***************
+
+[2018-11-29T10:57:12.606] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+err name: TypeError
+err message: Cannot read property 'user' of null
+err stack: TypeError: Cannot read property 'user' of null
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:14:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:85:15)
+*************** error log end ***************
+
+[2018-11-29T11:04:58.594] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 11
+err name: TypeError
+err message: Cannot read property 'user' of null
+err stack: TypeError: Cannot read property 'user' of null
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:14:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:85:15)
+*************** error log end ***************
+
+[2018-11-29T17:24:13.440] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 4
+err name: TypeError
+err message: Cannot read property 'user' of null
+err stack: TypeError: Cannot read property 'user' of null
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:14:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:85:15)
+*************** error log end ***************
+
+[2018-11-29T18:28:21.526] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - read ECONNRESET
+[2018-11-29T18:28:22.743] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-29T18:28:24.093] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-29T18:28:25.811] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-11-30T10:18:30.189] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 3
+err name: TypeError
+err message: Cannot read property 'user' of null
+err stack: TypeError: Cannot read property 'user' of null
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:14:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:85:15)
+*************** error log end ***************
+
+[2018-11-30T13:45:22.385] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 5
+err name: TypeError
+err message: Cannot read property 'user' of null
+err stack: TypeError: Cannot read property 'user' of null
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:14:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:85:15)
+*************** error log end ***************
+
+[2018-11-30T15:36:02.725] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/checkLogin
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 12
+err name: TypeError
+err message: Cannot read property 'user' of null
+err stack: TypeError: Cannot read property 'user' of null
+    at exports.checkLogin (C:\work\liushiyizu\server\controllers\user_controller.js:14:28)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+    at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:85:15)
+*************** error log end ***************
+

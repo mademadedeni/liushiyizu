@@ -22,7 +22,12 @@ exports.checkLogin = async(ctx, next) => {
             }
         }
     } else if (user && !ctx.cookies.get('koaID')) {
-        ctx.session = null;
+        clearCookie(ctx, next);
+        ctx.body = {
+            message: 'not login'
+        }
+        return;
+    }else if(!user){
         ctx.body = {
             message: 'not login'
         }
@@ -30,7 +35,7 @@ exports.checkLogin = async(ctx, next) => {
     }
     
     if (!userModel.checkField(userModel.user_name.name, user.user_name)) {
-        ctx.session.user = null;
+        clearCookie(ctx, next);
         ctx.body = {
             message: 'user is illegal'
         }
@@ -205,7 +210,7 @@ exports.keepLogin = async(ctx, next) => {
 //获取用户
 exports.getUser = async(ctx, next) => {
 
-    //如果id != 1抛出API 异常
+    
     var user_id = ctx.query.user_id;
     if (typeof user_id == "undefined") {
         throw new ApiError(ApiErrorNames.USER_NOT_EXIST);
@@ -228,10 +233,13 @@ exports.getUser = async(ctx, next) => {
         })
 }
 //退出
-exports.exit = async(ctx, next) => {
+var clearCookie = function (ctx,next) {
     ctx.session = null;
-    ctx.cookies.set('reid',null,{maxAge:0});
-    ctx.cookies.set('koaID',null,{maxAge:0});
+    ctx.cookies.set('reid',null);
+    ctx.cookies.set('koaID',null);
+}
+exports.exit = async(ctx, next) => {
+    clearCookie(ctx, next);
     ctx.body = {
         message: 'success'
     }

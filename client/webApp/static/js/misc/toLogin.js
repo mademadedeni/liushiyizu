@@ -1,6 +1,7 @@
 
 var Vue = require("vue");
 require("header");
+require("main");
 require("footer");
 require("login");
 

@@ -1,20 +1,19 @@
-<header class="liu_header">
+<header id="liuHeader" class="liu_header">
 	<div class="content_box">
 		<a class="p_ibt logo" href="/"></a>
 		<div class="p_ibt nav_box">
 			<a :class="{on:tabId == 1}" class="p_ibt nav" href="/">首页</a>
-			<a v-if="user.user_permission == 1" :class="{on:tabId == 2}" class="p_ibt nav" href="/note">笔记</a>
-			<a :class="{on:tabId == 3}" class="p_ibt nav" href="/game">游戏</a>
-			<a :class="{on:tabId == 4}" class="p_ibt nav" href="/article">文章</a>
+			<a v-if="user.user_permission == 1" :class="{on:tabId == 2}" class="p_ibt nav" href="/notes">笔记</a>
+			<a :class="{on:tabId == 3}" class="p_ibt nav" href="/games">游戏</a>
+			<a :class="{on:tabId == 4}" class="p_ibt nav" href="/articles">文章</a>
 			<a :class="{on:tabId == 5}" class="p_ibt nav" href="/travelNotes">游记</a>
 		</div>
 		<div class="right">
 			<div class="p_ibt search_box">
-				<input @input="onSearchInput" v-model.trim="searchValue" class="input0" type="text" name="search" maxlength="30">
+				<input v-model.trim="searchValue" class="input0" type="text" name="search" maxlength="30">
 				<a class="iconfont icon-search" :href="searchUrl+searchValue" target="_blank"></a>
-				<div v-show="isShowAsk" class="placeholder">我什么都不知道</div>
 			</div>
-			<div v-if="isLogin" class="p_ibt liu_header_box">
+			<div v-if="user.user_id" class="p_ibt liu_header_box">
 				<div class="menu_box">
 					<a class="p_ibt head" href="/user/private">
 						<img :src="user.user_head_img" :title="user.user_name">
@@ -32,7 +31,7 @@
 					</div>
 				</div>
 			</div>
-			<div v-if="!isLogin" class="p_ibt sign_box">
+			<div v-if="!user.user_id" class="p_ibt sign_box">
 				<a @click="toLoginBtn(1)" class="sign_btn" href="javascript:;">登陆</a>
 				<a @click="toLoginBtn(2)" class="sign_btn" href="javascript:;">注册</a>
 			</div>

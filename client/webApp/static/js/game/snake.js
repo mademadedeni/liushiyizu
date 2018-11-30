@@ -1,4 +1,7 @@
 var Vue = require("vue");
+require("header");
+require("main");
+require("footer");
 var vm = new Vue({
     el: '#app',
     data: {
@@ -20,6 +23,7 @@ var vm = new Vue({
         panelWidth: 1200, //画板宽度
         panelHeight: 500, //画板长度
         food: { x: 0, y: 0, fillStyle: "#0000ff" }, //食物
+        overText:"Game Over!",
     },
     mounted: function() {
         var that = this;
@@ -80,7 +84,7 @@ var vm = new Vue({
             that.grade = 0;
             that.rate = that.maxGrade - that.grade;
             that.tempRate = that.rate;
-            that.direction.x = that.direction.x || that.size;
+            that.direction.x = that.size;
             that.direction.y = 0;
             for (var i = 0; i < that.initLength; i++) {
                 if (i == 0) {
@@ -235,7 +239,7 @@ var vm = new Vue({
             window.cancelAnimationFrame(that.rafId);
             that.panel.font = "40px Georgia";
             that.panel.textBaseline = "top";
-            that.panel.fillText("Game Over!", that.panelWidth/2-104, that.panelHeight/2-20);
+            that.panel.fillText(that.overText, that.panelWidth/2-104, that.panelHeight/2-20);
         },
         start: function() {
             var that = this;

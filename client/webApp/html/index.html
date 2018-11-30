@@ -8,64 +8,64 @@
 
 <body>
     <div id="app">
-        <liu-header :tab-id="1" @to-login="toLogin"></liu-header>
-        <div class="index_banner_box">
-            <div id="swiper" class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <a class="banner" href="/articles/16" target="_blank" style="background-image:url('/static/images/index/hai_zei_wang.jpg');"></a>
+        <liu-header :tab-id="1"></liu-header>
+        <liu-main>
+            <div class="index_banner_box">
+                <div id="swiper" class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a class="banner" href="/articles/16" target="_blank" style="background-image:url('/static/images/index/hai_zei_wang.jpg');"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a class="banner" href="/articles/17" target="_blank" style="background-image:url('/static/images/index/tian_xing_jiu_ge.png');"></a>
+                        </div>
                     </div>
-                    <div class="swiper-slide">
-                        <a class="banner" href="/articles/17" target="_blank" style="background-image:url('/static/images/index/tian_xing_jiu_ge.png');"></a>
-                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
-                <div class="swiper-pagination"></div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
             </div>
-        </div>
-        <div class="auto_box Ptp40 vh60">
-            <div>
-                <h2>最新文章</h2>
-                <div class="article_list Ptp30">
-                    <div class="hidden_tag">
-                        <% _.forEach(articles, function(article) { %>
-                        <div class="p_ibt item_box">
-                            <a href="/articles/<%= article.article_id %>" target="_blank">
-                                <h3 class="h3"><%= article.article_title %></h3>
-                                <div class="content"><%= article.article_content %></div>
+            <div class="auto_box Ptp40">
+                <div>
+                    <h2>最新文章</h2>
+                    <div class="article_list Ptp30">
+                        <div class="hidden_tag">
+                            <% _.forEach(articles, function(article) { %>
+                            <div class="p_ibt item_box">
+                                <a href="/articles/<%= article.article_id %>" target="_blank">
+                                    <h3 class="h3"><%= article.article_title %></h3>
+                                    <div class="content"><%= article.article_content %></div>
+                                    <div class="option_box">
+                                        <span>作者：</span>
+                                        <span class="Mrt20 p_ibt WTO max_wid70"><%= article.user_name %></span>
+                                        <span>时间：</span>
+                                        <span><%= dateFormat(article.article_edit_date) %></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <% }); %>
+                        </div>
+                        <div v-for="article in articles" class="p_ibt item_box">
+                            <a :href="'/articles/'+article.article_id" target="_blank">
+                                <h3 class="h3">{{article.article_title}}</h3>
+                                <div class="content" v-html="article.article_content"></div>
                                 <div class="option_box">
                                     <span>作者：</span>
-                                    <span class="Mrt20 p_ibt WTO max_wid70"><%= article.user_name %></span>
+                                    <span class="Mrt20 p_ibt WTO max_wid70">{{article.user_name}}</span>
                                     <span>时间：</span>
-                                    <span><%= dateFormat(article.article_edit_date) %></span>
+                                    <span>{{dateFormat(article.article_edit_date)}}</span>
                                 </div>
                             </a>
                         </div>
-                        <% }); %>
-                    </div>
-                    <div v-for="article in articles" class="p_ibt item_box">
-                        <a :href="'/articles/'+article.article_id" target="_blank">
-                            <h3 class="h3">{{article.article_title}}</h3>
-                            <div class="content" v-html="article.article_content"></div>
-                            <div class="option_box">
-                                <span>作者：</span>
-                                <span class="Mrt20 p_ibt WTO max_wid70">{{article.user_name}}</span>
-                                <span>时间：</span>
-                                <span>{{dateFormat(article.article_edit_date)}}</span>
-                            </div>
-                        </a>
                     </div>
                 </div>
             </div>
-        </div>
+        </liu-main>
         <liu-footer></liu-footer>
-        <liu-login :show-login="showLogin" @close-login="closeLogin" @to-login="toLogin"></liu-login>
     </div>
     <script>
-        var $ = require('jquery');
-        $('.hidden_tag').remove();
-    require("/webApp/static/js/index");
+        require('jquery')('.hidden_tag').remove();
+        require("/webApp/static/js/index");
     </script>
 </body>
 

@@ -5,9 +5,10 @@
 var Vue = require("vue");
 var $ = require("jquery");
 module.exports = Vue.component("liu-login", {
+	name:"liuLogin",
 	template: __inline("login.html"),
 	props: {
-		showLogin:{
+		visible:{
 			type:Number,
 			default:0
 		}
@@ -22,11 +23,17 @@ module.exports = Vue.component("liu-login", {
 			isLogin:false,
 			isSignIn:false,
 			captcha:"",
-			ccapImg:"/api/captcha?norepeat="
+			ccapImg:"/api/captcha?norepeat=",
+			isShow:0
 		}
 	},
 	mounted: function() {
 		this.init();
+	},
+	watch:{
+		visible:function (val) {
+			this.isShow = val;
+		}
 	},
 	methods: {
 		init:function () {
@@ -70,8 +77,13 @@ module.exports = Vue.component("liu-login", {
 				that.isLogin = false;
 			});
 		},
-		closeLogin:function () {
-			this.$emit("close-login");
+		onClose:function () {
+			this.isShow = 0
+			this.$emit("update:visible",0);
+		},
+		onShow:function (i) {
+			this.isShow = i;
+			this.$emit("update:visible",i);
 		},
 		onSeven:function () {
 			this.user_seven = !this.user_seven;
@@ -133,9 +145,6 @@ module.exports = Vue.component("liu-login", {
 				}
 				that.isSignIn = false;
 			});
-		},
-		toLogin:function (i) {
-			this.$emit("to-login",i);
 		},
 		getCaptcha:function () {
 			var that = this;

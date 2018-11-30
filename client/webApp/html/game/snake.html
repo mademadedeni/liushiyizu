@@ -7,22 +7,28 @@
 </head>
 
 <body>
-    <div id="app" class="auto_box snake_game_main">
-        <div>
-            <span>长度：</span>
-            <span>{{snakes.length}}</span>
-            <span>等级：</span>
-            <span>{{grade}}</span>
-        </div>
-        <canvas class="snake" id="panel" width="1200" height="500"></canvas>
-        <div>
-            <button class="button0" @click="start">开始</button>
-            <button class="button0" @click="reStart">重新开始</button>
-            <!-- <button class="button0" @click="pause">暂停</button>
-            <button class="button0" @click="add">变长</button>
-            <button class="button0" @click="rate--">加速</button>
-            <button class="button0" @click="rate++">减速</button> -->
-        </div>
+    <div id="app">
+        <liu-header :tab-id="3"></liu-header>
+        <liu-main>
+            <div class="auto_box snake_game_main">
+                <div>
+                    <span>长度：</span>
+                    <span>{{snakes.length}}</span>
+                    <span>等级：</span>
+                    <span>{{grade}}</span>
+                </div>
+                <canvas class="snake" id="panel" width="1200" height="500"></canvas>
+                <div>
+                    <button class="button0" @click="start">开始</button>
+                    <button class="button0" @click="reStart">重新开始</button>
+                    <!-- <button class="button0" @click="pause">暂停</button>
+                    <button class="button0" @click="add">变长</button>
+                    <button class="button0" @click="rate--">加速</button>
+                    <button class="button0" @click="rate++">减速</button> -->
+                </div>
+            </div>
+        </liu-main>
+        <liu-footer></liu-footer>
     </div>
 </body>
 <script type="text/javascript">

@@ -2,6 +2,7 @@
 var Vue = require("vue");
 require("element_ui");
 require("header");
+require("main");
 require("footer");
 require("login");
 var $ = require("jquery");
@@ -14,6 +15,7 @@ var vm = new Vue({
 			article_edit_date:Date.now()
 		},
 		showLogin:0,
+		user:{},
 	},
 	mounted:function () {
 		this.$nextTick(function () {

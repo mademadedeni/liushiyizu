@@ -1,8 +1,8 @@
-<div v-show="showLogin !== 0" class="liu_float_panel" style="display:none;">
-	<div v-show="showLogin == 1" class="p_ibm liu_login">
+<div v-show="isShow !== 0" class="liu_float_panel" style="display:none;">
+	<div v-show="isShow == 1" class="p_ibm liu_login">
 		<div class="title_box">
 			<span class="title">登录</span>
-			<a @click="closeLogin" class="iconfont icon-close" href="javascript:;"></a>
+			<a @click="onClose" class="iconfont icon-close" href="javascript:;"></a>
 		</div>
 		<div class="content_box">
 			<div class="value_box">
@@ -23,14 +23,14 @@
 			</div>
 			<div class="Tright to_login">
 				<span>没有账号，</span>
-				<a class="co_09f" @click="toLogin(2)" href="javascript:;">去注册？</a>
+				<a class="co_09f" @click="onShow(2)" href="javascript:;">去注册？</a>
 			</div>
 		</div>
 	</div>
-	<div v-show="showLogin == 2" class="p_ibm liu_login">
+	<div v-show="isShow == 2" class="p_ibm liu_login">
 		<div class="title_box">
 			<span class="title">注册</span>
-			<a @click="closeLogin" class="iconfont icon-close" href="javascript:;"></a>
+			<a @click="onClose" class="iconfont icon-close" href="javascript:;"></a>
 		</div>
 		<div class="content_box">
 			<div class="value_box">
@@ -48,7 +48,7 @@
 			</div>
 			<div class="Tright to_login">
 				<span>已有账号，</span>
-				<a class="co_09f" @click="toLogin(1)" href="javascript:;">去登录？</a>
+				<a class="co_09f" @click="onShow(1)" href="javascript:;">去登录？</a>
 			</div>
 		</div>
 	</div>

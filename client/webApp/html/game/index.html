@@ -7,9 +7,11 @@
 <body>
 	<div id="app">
 		<liu-header :tab-id="3" @to-login="toLogin"></liu-header>
-		<div>
-			<a href="/game/gluttonousSnake">贪吃蛇</a>
-		</div>
+		<liu-main>
+			<div>
+				<a href="/games/gluttonousSnake">贪吃蛇</a>
+			</div>
+		</liu-main>
 		<liu-footer></liu-footer>
 		<liu-login :show-login="showLogin" @close-login="closeLogin" @to-login="toLogin"></liu-login>
 	</div>

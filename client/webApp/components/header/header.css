@@ -7,7 +7,6 @@
 .liu_header .content_box .search_box{position:relative;margin-right: 20px;}
 .liu_header .content_box .search_box .input0{border:none;height:40px;padding-right:30px;width:250px;padding-left:10px;}
 .liu_header .content_box .search_box .icon-search{position:absolute;right:10px;top:13px;cursor:pointer;}
-.liu_header .content_box .search_box .placeholder{position:absolute;left:10px;top:10px;pointer-events:none;}
 .liu_header_box{margin-right:20px;position: relative;height:40px;width:40px;}
 .liu_header_box .head{position:relative;z-index:3;width:40px;height:40px;}
 .liu_header_box .head img{width:100%;height:100%;border-radius:50%;}

@@ -1,13 +1,13 @@
 const router = require("koa-router")();
 const proxy = require("../../utils/proxy");
 
-router.get("/article", async (ctx, next) => {
+router.get("/articles", async (ctx, next) => {
 	await ctx.render("./html/article/index.html");
 });
 router.get("/articles/:article_id", async (ctx, next) => {
 	await ctx.render("./html/article/article.html",{article_id:ctx.params.article_id});
 });
-router.get(["/article/editor","/article/editor/:article_id"], async (ctx, next) => {
+router.get(["/articles/editor","/articles/editor/:article_id"], async (ctx, next) => {
 	var isLogin = false;
 	await proxy.request({
 			uri:'/api/users/checkLogin',

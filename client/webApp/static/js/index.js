@@ -6,8 +6,8 @@
 var Vue = require("vue");
 require("element_ui");
 require("header");
+require("main");
 require("footer");
-require("login");
 var $ = require("jquery");
 
 var vm = new Vue({
@@ -47,12 +47,6 @@ var vm = new Vue({
                     that.articles = res.data.articles;
                 }
             });
-        },
-        toLogin: function(i) {
-            this.showLogin = i;
-        },
-        closeLogin: function() {
-            this.showLogin = 0;
         },
         dateFormat: function(date) {
             return utils.dateFormat(date);

@@ -1,9 +1,9 @@
 const router = require('koa-router')()
 
-router.get('/game', async (ctx, next) => {
+router.get('/games', async (ctx, next) => {
 	await ctx.render("./html/game/index.html");
 });
-router.get('/game/gluttonousSnake', async (ctx, next) => {
+router.get('/games/gluttonousSnake', async (ctx, next) => {
 	await ctx.render("./html/game/snake.html");
 });
 

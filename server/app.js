@@ -52,7 +52,11 @@ app.use(session({
    key: 'liushiyizu',
    cookie: function(ctx) {
       var maxAge = 0;
-      if (ctx.session.user) {
+      if (!ctx.session.user) {
+         if (ctx.cookies.get('koaID')) {
+            ctx.cookies.set('koaID',null);
+         }
+      }else if(ctx.cookies.get('koaID')){
          ctx.cookies.set("koaID",'1',{
              maxAge:1000*3600*0.5
              // maxAge:1000*3600*0.5

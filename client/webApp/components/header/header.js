@@ -2,17 +2,21 @@
  * @require header.css
  */
 var Vue = require("vue");
+var login = require("login");
 var $ = require("jquery");
 module.exports = Vue.component("liu-header", {
+	name:'liuHeader',
 	template: __inline("header.html"),
 	props: {
-		tabId:[String, Number]
+		tabId:[String, Number],
+		isShowLogin:{
+			type:Number,
+			default:0
+		}
 	},
 	data: function() {
 		return {
-			isLogin:false,
-			searchValue:"",
-			isShowAsk:true,
+			searchValue:"",//搜索内容
 			searchUrl:"/search?value=",
 			user:{
 				user_id:null,
@@ -26,11 +30,19 @@ module.exports = Vue.component("liu-header", {
 				user_email:"",
 				user_address:"",
 				user_signatrue:""
-			}
+			},
+			login:{},
 		}
 	},
 	mounted: function() {
-		this.init();
+		this.$nextTick(function () {
+			this.init();
+			var el = document.createElement("div");
+			document.body.appendChild(el);
+			this.login = new login();
+			this.login.$mount(el);
+			this.login.isShow = this.isShowLogin;
+		});
 	},
 	methods: {
 		init:function () {
@@ -51,14 +63,7 @@ module.exports = Vue.component("liu-header", {
 			})
 		},
 		toLoginBtn:function (i) {
-			this.$emit("to-login",i);
-		},
-		onSearchInput:function () {
-			if (this.searchValue !== "") {
-				this.isShowAsk = false;
-			}else{
-				this.isShowAsk = true;
-			}
+			this.login.isShow = i;
 		},
 		onSearchBtn:function () {
 			

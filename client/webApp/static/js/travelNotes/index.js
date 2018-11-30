@@ -1,6 +1,7 @@
 var Vue = require("vue");
 require("element_ui");
 require("header");
+require("main");
 require("footer");
 require("login");
 var $ = require("jquery");

@@ -1,6 +1,7 @@
 var Vue = require("vue");
 require("element_ui");
 require("header");
+require("main");
 require("footer");
 require("login");
 var $ = require("jquery");
@@ -11,11 +12,13 @@ var vm = new Vue({
         article: {
             article_id: article_id,
             article_title: '',
-            article_content: ''
+            article_content: '',
+            user_id:undefined
         },
         showLogin: 0,
         showUploadHead: true,
-        um: {}
+        um: {},
+        user:{},
     },
     mounted: function() {
         this.$nextTick(function() {
@@ -44,13 +47,12 @@ var vm = new Vue({
                             that.article.article_id = res.data.article_id;
                             that.article.article_title = res.data.article_title;
                             that.article.article_content = res.data.article_content;
+                            that.article.user_id = res.data.user_id;
                             that.um.setContent(that.article.article_content);
                         }
                     })
                 }
             }, 2);
-
-
         },
         toLogin: function(i) {
             this.showLogin = i;
@@ -71,7 +73,11 @@ var vm = new Vue({
             }
 
             if (that.article.article_id) {
-                $.post('/api/article/edit/' + that.article.article_id, that.article, function(res) {
+                /*if (that.user.user_id !== that.article.user_id || that.user.user_permistion !== 1) {
+                    that.$message.error("没有权限！");
+                    return;
+                }*/
+                $.post('/api/articles/edit/' + that.article.article_id, that.article, function(res) {
                     if (res.message == "success") {
                         that.$message.success("保存成功！");
                     } else {
@@ -80,7 +86,7 @@ var vm = new Vue({
                     }
                 });
             } else {
-                $.post('/api/article/edit', that.article, function(res) {
+                $.post('/api/articles/edit', that.article, function(res) {
                     if (res.message == "success") {
                         that.$message.success("保存成功！");
                         window.location.href = "/article";
@@ -90,6 +96,9 @@ var vm = new Vue({
                     }
                 });
             }
+        },
+        getUser:function (user) {
+            this.user = user;
         }
     }
 });

@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>游记-刘氏一族</title>
-		<link rel="import" href="../common/common.html?__inline">
-		<link type="text/css" rel="stylesheet" href="/static/js/plugin/ueditor/themes/default/css/ueditor.css">
-	</head>
-	<body>
-		<div id="app">
-		<liu-header :tab-id="5"></liu-header>
-		<div class="auto_box">
-			<script id="container" name="content" type="text/plain">
-			</script>
-		</div>
-	<liu-footer></liu-footer>
-</div>
-<script type="text/javascript" src="/static/js/plugin/ueditor/ueditor.config.js"></script>
-<script type="text/javascript" src="/static/js/plugin/ueditor/ueditor.all.js"></script>
-<script>
-	require("/webApp/static/js/travelNotes/index");
-</script>
+<head>
+    <title>游记-刘氏一族</title>
+    <link rel="import" href="../common/common.html?__inline">
+    <link type="text/css" rel="stylesheet" href="/static/js/plugin/ueditor/themes/default/css/ueditor.css">
+</head>
+<body>
+    <div id="app">
+        <liu-header :tab-id="5"></liu-header>
+        <liu-main>
+            <div class="auto_box">
+                <script id="container" name="content" type="text/plain">
+                </script>
+            </div>
+        </liu-main>
+        <liu-footer></liu-footer>
+    </div>
+    <script type="text/javascript" src="/static/js/plugin/ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" src="/static/js/plugin/ueditor/ueditor.all.js"></script>
+    <script>
+    require("/webApp/static/js/travelNotes/index");
+    </script>
 </body>
 </html>

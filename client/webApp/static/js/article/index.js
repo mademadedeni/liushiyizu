@@ -1,6 +1,7 @@
 var Vue = require("vue");
 require("element_ui");
 require("header");
+require("main");
 require("footer");
 require("login");
 var $ = require("jquery");
@@ -15,7 +16,7 @@ var vm = new Vue({
     },
     mounted: function() {
         this.$nextTick(function() {
-            this.initArticle();
+            this.initArticles();
         });
     },
     methods: {
@@ -28,9 +29,9 @@ var vm = new Vue({
         closeLogin: function() {
             this.showLogin = 0;
         },
-        initArticle: function() {
+        initArticles: function() {
             var that = this;
-            $.get('/api/articles?type=1', { pageNum: 1, pageSize: 10 }, function(res) {
+            $.get('/api/articles', { pageNum: 1, pageSize: 10,orderBy:"article_edit_date" }, function(res) {
                 if (res.message == 'success') {
                     that.articles = res.data.articles;
                 }
@@ -52,10 +53,10 @@ var vm = new Vue({
         		that.$message.error("只能删除自己的文章！");
         		return false;
         	}
-        	$.get('/api/article/delete/'+articles_id,{},function (res) {
+        	$.get('/api/articles/delete/'+articles_id,{},function (res) {
         		if (res.message == 'success') {
         			that.$message.success("删除成功！");
-        			that.initArticle();
+        			that.initArticles();
         		}
         	});
         }
