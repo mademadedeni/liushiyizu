@@ -213,7 +213,7 @@ exports.getPermission = async (ctx, next) =>{
                 var data = [];
                 for(var i=0;i<res.length;i++){
                     if (i!=0) {
-                        data.push(res[i].id);
+                        data.push(res[i].permission_id);
                     }
                 }
                 ctx.body = data;

@@ -2852,3 +2852,410 @@ err stack: TypeError: Cannot read property 'user' of null
     at url_filter (C:\work\liushiyizu\server\middlewares\urlFilter.js:85:15)
 *************** error log end ***************
 
+[2018-11-30T17:17:28.986] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/note/updateNote
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"user_id":"69","user_code":"zNDU2MTI","user_name":"liu","user_password":"123456","user_permission":"5","user_sex":"1","user_age":"26","user_phone":"13478905686","user_email":"123423423@qq.com","user_address":"北京市海淀区苏州街亿方大厦"}
+response time: 2
+err name: TypeError
+err message: Cannot read property 'name' of undefined
+err stack: TypeError: Cannot read property 'name' of undefined
+    at Object.getColumns (C:\work\liushiyizu\server\models\user_model.js:164:305)
+    at exports.updateNote (C:\work\liushiyizu\server\controllers\note_controller.js:101:29)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+*************** error log end ***************
+
+[2018-11-30T17:18:19.355] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/note/updateNote
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"user_id":"69","user_code":"zNDU2MTI","user_name":"liu","user_password":"123456","user_permission":"5","user_sex":"1","user_age":"26","user_phone":"13478905686","user_email":"123423423@qq.com","user_address":"北京市海淀区苏州街亿方大厦"}
+response time: 334
+err name: TypeError
+err message: Cannot read property 'name' of undefined
+err stack: TypeError: Cannot read property 'name' of undefined
+    at Object.getColumns (C:\work\liushiyizu\server\models\user_model.js:164:305)
+    at exports.updateNote (C:\work\liushiyizu\server\controllers\note_controller.js:101:29)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+*************** error log end ***************
+
+[2018-11-30T17:18:36.904] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/note/updateNote
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"user_id":"69","user_code":"zNDU2MTI","user_name":"liu","user_password":"123456","user_permission":"5","user_sex":"0","user_age":"26","user_phone":"13478905686","user_email":"123423423@qq.com","user_address":"北京市海淀区苏州街亿方大厦"}
+response time: 332
+err name: TypeError
+err message: Cannot read property 'name' of undefined
+err stack: TypeError: Cannot read property 'name' of undefined
+    at Object.getColumns (C:\work\liushiyizu\server\models\user_model.js:164:305)
+    at exports.updateNote (C:\work\liushiyizu\server\controllers\note_controller.js:101:29)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+*************** error log end ***************
+
+[2018-11-30T17:19:38.750] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/note/updateNote
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"user_id":"69","user_code":"zNDU2MTI","user_name":"liu","user_password":"123456","user_permission":"5","user_sex":"1","user_age":"26","user_phone":"13478905686","user_email":"123423423@qq.com","user_address":"北京市海淀区苏州街亿方大厦"}
+response time: 333
+err name: TypeError
+err message: Cannot read property 'name' of undefined
+err stack: TypeError: Cannot read property 'name' of undefined
+    at Object.getColumns (C:\work\liushiyizu\server\models\user_model.js:164:305)
+    at exports.updateNote (C:\work\liushiyizu\server\controllers\note_controller.js:101:29)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+*************** error log end ***************
+
+[2018-11-30T17:19:56.010] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/note/updateNote
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"user_id":"69","user_code":"zNDU2MTI","user_name":"liu","user_password":"123456","user_permission":"5","user_sex":"1","user_age":"27","user_phone":"13478905686","user_email":"123423423@qq.com","user_address":"北京市海淀区苏州街亿方大厦"}
+response time: 333
+err name: TypeError
+err message: Cannot read property 'name' of undefined
+err stack: TypeError: Cannot read property 'name' of undefined
+    at Object.getColumns (C:\work\liushiyizu\server\models\user_model.js:164:305)
+    at exports.updateNote (C:\work\liushiyizu\server\controllers\note_controller.js:101:29)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+*************** error log end ***************
+
+[2018-11-30T17:30:34.926] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/note/updateNote
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"user_id":"69","user_code":"zNDU2MTI","user_name":"liu","user_password":"123456","user_permission":"5","user_sex":"0","user_age":"26","user_phone":"13478905686","user_email":"123423423@qq.com","user_address":"北京市海淀区苏州街亿方大厦"}
+response time: 51545
+err name: TypeError
+err message: Cannot read property 'name' of undefined
+err stack: TypeError: Cannot read property 'name' of undefined
+    at Object.getColumns (C:\work\liushiyizu\server\models\user_model.js:164:305)
+    at exports.updateNote (C:\work\liushiyizu\server\controllers\note_controller.js:101:29)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+*************** error log end ***************
+
+[2018-11-30T17:32:44.684] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/note/updateNote
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"user_id":"69","user_code":"zNDU2MTI","user_name":"liu","user_password":"123456","user_permission":"5","user_sex":"0","user_age":"26","user_phone":"13478905686","user_email":"123423423@qq.com","user_address":"北京市海淀区苏州街亿方大厦"}
+response time: 14193
+err name: TypeError
+err message: Cannot read property 'name' of undefined
+err stack: TypeError: Cannot read property 'name' of undefined
+    at Object.getColumns (C:\work\liushiyizu\server\models\user_model.js:164:305)
+    at exports.updateNote (C:\work\liushiyizu\server\controllers\note_controller.js:101:29)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+*************** error log end ***************
+
+[2018-11-30T17:35:11.448] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/note/updateNote
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"user_id":"69","user_code":"zNDU2MTI","user_name":"liu","user_password":"123456","user_permission":"5","user_sex":"0","user_age":"26","user_phone":"13478905686","user_email":"123423423@qq.com","user_address":"北京市海淀区苏州街亿方大厦"}
+response time: 35403
+err name: TypeError
+err message: Cannot read property 'name' of undefined
+err stack: TypeError: Cannot read property 'name' of undefined
+    at Object.getColumns (C:\work\liushiyizu\server\models\user_model.js:164:305)
+    at exports.updateNote (C:\work\liushiyizu\server\controllers\note_controller.js:101:29)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+*************** error log end ***************
+
+[2018-11-30T17:35:21.332] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/note/updateNote
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"user_id":"69","user_code":"zNDU2MTI","user_name":"liu","user_password":"123456","user_permission":"5","user_sex":"0","user_age":"26","user_phone":"13478905686","user_email":"123423423@qq.com","user_address":"北京市海淀区苏州街亿方大厦"}
+response time: 2479
+err name: TypeError
+err message: Cannot read property 'name' of undefined
+err stack: TypeError: Cannot read property 'name' of undefined
+    at Object.getColumns (C:\work\liushiyizu\server\models\user_model.js:164:305)
+    at exports.updateNote (C:\work\liushiyizu\server\controllers\note_controller.js:101:29)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+*************** error log end ***************
+
+[2018-11-30T17:38:10.342] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/note/updateNote
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"user_id":"69","user_code":"zNDU2MTI","user_name":"liu","user_password":"123456","user_permission":"5","user_sex":"0","user_age":"26","user_phone":"13478905686","user_email":"123423423@qq.com","user_address":"北京市海淀区苏州街亿方大厦"}
+response time: 798
+err name: TypeError
+err message: Cannot read property 'name' of undefined
+err stack: TypeError: Cannot read property 'name' of undefined
+    at Object.getColumns (C:\work\liushiyizu\server\models\user_model.js:164:305)
+    at exports.updateNote (C:\work\liushiyizu\server\controllers\note_controller.js:101:29)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+*************** error log end ***************
+
+[2018-11-30T17:38:25.066] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/note/updateNote
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"user_id":"69","user_code":"zNDU2MTI","user_name":"liu","user_password":"123456","user_permission":"5","user_sex":"0","user_age":"26","user_phone":"13478905686","user_email":"123423423@qq.com","user_address":"北京市海淀区苏州街亿方大厦"}
+response time: 333
+err name: TypeError
+err message: Cannot read property 'name' of undefined
+err stack: TypeError: Cannot read property 'name' of undefined
+    at Object.getColumns (C:\work\liushiyizu\server\models\user_model.js:164:305)
+    at exports.updateNote (C:\work\liushiyizu\server\controllers\note_controller.js:101:29)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+*************** error log end ***************
+
+[2018-11-30T17:38:42.280] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/note/updateNote
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"user_id":"69","user_code":"zNDU2MTI","user_name":"liu","user_password":"123456","user_permission":"5","user_sex":"0","user_age":"26","user_phone":"13478905686","user_email":"123423423@qq.com","user_address":"北京市海淀区苏州街亿方大厦"}
+response time: 338
+err name: TypeError
+err message: Cannot read property 'name' of undefined
+err stack: TypeError: Cannot read property 'name' of undefined
+    at Object.getColumns (C:\work\liushiyizu\server\models\user_model.js:164:305)
+    at exports.updateNote (C:\work\liushiyizu\server\controllers\note_controller.js:101:29)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+*************** error log end ***************
+
+[2018-11-30T17:39:09.730] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/note/updateNote
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"user_id":"69","user_code":"zNDU2MTI","user_name":"liu","user_password":"123456","user_permission":"5","user_sex":"0","user_age":"26","user_phone":"13478905686","user_email":"123423423@qq.com","user_address":"北京市海淀区苏州街亿方大厦"}
+response time: 322
+err name: TypeError
+err message: Cannot read property 'name' of undefined
+err stack: TypeError: Cannot read property 'name' of undefined
+    at Object.getColumns (C:\work\liushiyizu\server\models\user_model.js:164:305)
+    at exports.updateNote (C:\work\liushiyizu\server\controllers\note_controller.js:101:29)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+*************** error log end ***************
+
+[2018-11-30T17:40:09.743] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/note/updateNote
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"user_id":"69","user_code":"zNDU2MTI","user_name":"liu","user_password":"123456","user_permission":"5","user_sex":"0","user_age":"26","user_phone":"13478905686","user_email":"123423423@qq.com","user_address":"北京市海淀区苏州街亿方大厦"}
+response time: 31936
+err name: TypeError
+err message: Cannot read property 'name' of undefined
+err stack: TypeError: Cannot read property 'name' of undefined
+    at Object.getColumns (C:\work\liushiyizu\server\models\user_model.js:164:305)
+    at exports.updateNote (C:\work\liushiyizu\server\controllers\note_controller.js:101:29)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at C:\work\liushiyizu\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:350:31)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa\node_modules\koa-compose\index.js:43:18)
+*************** error log end ***************
+
+[2018-11-30T17:47:47.508] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - read ECONNRESET

@@ -73,7 +73,7 @@ let t_user = {
 		length: 50
 	},
 	user_head_img: {
-		name: "user_headImg",
+		name: "user_head_img",
 		type: "string",
 		isNull: true,
 		default: "/static/upload/head/default.jpg",
@@ -85,8 +85,8 @@ let t_user = {
 		isNull: true,
 		length: 100
 	},
-	user_createDate: {
-		name: "user_createDate",
+	user_create_date: {
+		name: "user_create_date",
 		type: "string",
 		isNull: true,
 		length: 20
@@ -161,7 +161,7 @@ let t_user = {
 	 * @return  user字段名数组
 	 */
 	getColumns: function() {
-		return [this.user_id.name, this.user_code.name, this.user_name.name, this.user_password.name, this.user_permission.name, this.user_sex.name, this.user_age.name, this.user_phone.name, this.user_email.name, this.user_address.name, this.user_head_img.name, this.user_signature.name, this.user_create_date.name]
+		return [this.user_id.name, this.user_code.name, this.user_name.name, this.user_password.name, this.user_permission.name, this.user_sex.name, this.user_age.name, this.user_phone.name, this.user_email.name, this.user_address.name, this.user_head_img.name, this.user_signature.name, this.user_create_date.name];
 	},
 	/**
 	 * 验证字段是否合法

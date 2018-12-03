@@ -14,12 +14,10 @@ const urlFilter = require("./middlewares/urlFilter");
 const logUtil = require('./utils/log_util');
 
 const index = require('./routes/index');
-const permission = require('./middlewares/permission');
 
 // error handler
 onerror(app);
 
-app.use(permission());
 app.use(koastatic(__dirname + '/dist'));
 
 const map = {
