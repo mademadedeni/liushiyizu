@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>写文章-刘氏一族</title>
+	<link rel="import" href="/webApp/mobile/html/common.html?__inline">
+	<meta name="description" content="刘氏一族-刘氏家族">
+</head>
+<body>
+	<div id="app">
+		<liu-header :active="'article'" @get-user="getUser"></liu-header>
+		<div class="write_article_main">
+			<div>
+				<input v-model.trim="article.article_title" class="input" type="text" name="title" placeholder="请输入至少三个字标题">
+			</div>
+			<div id="articleContent" contenteditable="true" class="Mtp10 article_content" v-html="article.article_content"></div>
+			<div class="Mtp20">
+				<button v-show="!articleId" @click="commit(article)" class="button">提 交</button>
+				<button v-show="articleId" @click="save(article)" class="button" style="display:none;">保 存</button>
+			</div>
+		</div>
+	</div>
+	<script>
+		var articleId = '<%=articleId%>';
+	    require("/webApp/mobile/static/js/article/create.js");
+	</script>
+</body>
+</html>

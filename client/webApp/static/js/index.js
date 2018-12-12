@@ -1,6 +1,6 @@
 /**
- * @require /webApp/static/js/plugin/swiper/swiper-4.3.3.min.css
- * @require /webApp/static/js/plugin/swiper/swiper-4.3.3.min.js
+ * @require /webApp/static/js/plugin/swiper/swiper.min.css
+ * @require /webApp/static/js/plugin/swiper/swiper.min.js
  */
 
 var Vue = require("vue");

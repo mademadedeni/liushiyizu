@@ -73,10 +73,10 @@ var vm = new Vue({
             }
 
             if (that.article.article_id) {
-                /*if (that.user.user_id !== that.article.user_id || that.user.user_permistion !== 1) {
+                if (that.user.user_id !== that.article.user_id || that.user.user_permistion !== 1) {
                     that.$message.error("没有权限！");
                     return;
-                }*/
+                }
                 $.post('/api/articles/edit/' + that.article.article_id, that.article, function(res) {
                     if (res.message == "success") {
                         that.$message.success("保存成功！");
@@ -89,7 +89,7 @@ var vm = new Vue({
                 $.post('/api/articles/edit', that.article, function(res) {
                     if (res.message == "success") {
                         that.$message.success("保存成功！");
-                        window.location.href = "/article";
+                        window.location.href = "/articles";
                     } else {
                         that.$message.error("保存失败!");
                         console.log(res.message);

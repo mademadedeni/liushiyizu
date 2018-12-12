@@ -5,34 +5,33 @@
   "description": "liushiyizu is a library web.",
   "main": "service/app.js",
   "dependencies": {
+    "axios": "^0.18.0",
     "debug": "^2.6.3",
-    "jquery": "^3.3.1",
     "koa": "^2.3.0",
     "koa-body": "^2.5.0",
     "koa-json": "^2.0.2",
-    "koa-onerror": "^1.2.1",
-    "koa-router": "^7.1.1",
+    "koa-onerror": "^4.1.0",
+    "koa-router": "^7.4.0",
     "koa-static": "^3.0.0",
     "koa-views": "^5.2.1",
-    "lodash": "^4.17.4",
-    "log4js": "^2.4.1",
-    "request": "^2.85.0",
-    "request-promise": "^4.2.2",
+    "lodash": "^4.17.11",
+    "log4js": "^3.0.6",
     "vue": "^2.5.16",
     "vue-server-renderer": "^2.5.16"
   },
   "devDependencies": {
     "fis3-hook-commonjs": "^0.1.26",
-    "fis3-postpackager-loader": "^2.1.11",
     "fis3-hook-module": "^1.2.2",
-    "nodemon": "^1.8.1"
+    "fis3-postpackager-loader": "^2.1.11",
+    "nodemon": "^1.18.7"
   },
   "scripts": {
     "debug": "node --inspect bin/www",
     "start": "node bin/www",
     "nodemon": "./node_modules/.bin/nodemon bin/www",
     "dev": "fis3 release -d ./dist -w",
-    "prod":"fis3 release -d ./dist",
+    "prod": "fis3 release -d ./dist",
+    "prod_start": "pm2 start -n client bin/www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

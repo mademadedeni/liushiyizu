@@ -1,13 +1,12 @@
 const router = require('koa-router')();
-const proxy = require("../../utils/proxy");
+const axios = require('axios');
 
 router.get("/user/private", async (ctx, next) => {
-	await proxy.request({
-			uri:'/api/users/checkLogin',
+	await axios({
+			url:'/api/users/checkLogin',
 			headers:ctx.headers
 		})
-	    .then(function (res) {
-	    	var data = JSON.parse(res);
+	    .then(function ({data}) {
 	        if(data.message !== "success"){
 	        	ctx.redirect("/");
 	        }

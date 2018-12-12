@@ -1,0 +1,16 @@
+.liu_user_header{height:220px;background:url(/static/images/article/temp1.jpg)no-repeat center;background-size:cover;}
+.liu_user_header .auto_box{padding-top:15px;}
+.liu_user_header .head_box{position:relative;width:188px;height:188px;border-radius:50%;overflow:hidden;}
+.liu_user_header .head_box .set_head{position:absolute;bottom:-40px;width:100%;height:40px;background-color:rgba(0,0,0,0.4);left:0;text-align:center;color:#fff;line-height:40px;
+-webkit-transition:bottom 0.3s ease;
+-moz-transition:bottom 0.3s ease;
+-ms-transition:bottom 0.3s ease;
+-o-transition:bottom 0.3s ease;
+transition:bottom 0.3s ease;
+}
+.liu_user_header .head_box:hover .set_head{bottom:0;}
+.liu_user_header .head_box .img{width:180px;height:180px;border:4px solid rgba(255,255,255,0.3);border-radius:50%;background-color:rgba(255,255,255,0.3)}
+.liu_user_header .info_box{margin-left:40px;color:#fff;margin-top:30px;width: 800px;}
+.liu_user_header .info_box .name{font-size:32px}
+.liu_user_header .info_box .glory{font-size:14px;margin-top:10px;}
+.liu_user_header .info_box .signature{font-size:14px;opacity:0.5;margin-top:20px;height: 38px;overflow: hidden;}

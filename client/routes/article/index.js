@@ -1,5 +1,5 @@
 const router = require("koa-router")();
-const proxy = require("../../utils/proxy");
+const axios = require('axios');
 
 router.get("/articles", async (ctx, next) => {
 	await ctx.render("./html/article/index.html");
@@ -7,15 +7,14 @@ router.get("/articles", async (ctx, next) => {
 router.get("/articles/:article_id", async (ctx, next) => {
 	await ctx.render("./html/article/article.html",{article_id:ctx.params.article_id});
 });
-router.get(["/articles/editor","/articles/editor/:article_id"], async (ctx, next) => {
+router.get(["/article/editor","/article/editor/:article_id"], async (ctx, next) => {
 	var isLogin = false;
-	await proxy.request({
-			uri:'/api/users/checkLogin',
+	await axios({
+			url:'/api/users/checkLogin',
 			headers:ctx.headers
 		})
 	    .then(function (res) {
-	    	var data = JSON.parse(res);
-	        if(data.message !== "success"){
+	        if(res.data.message !== "success"){
 	        	isLogin = true;
 	        }
 	    })

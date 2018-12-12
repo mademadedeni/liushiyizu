@@ -15,31 +15,6 @@
 /*note*/
 .note_main_box{}
 
-/*article*/
-.private_top_box{height:220px;background:url(/static/images/article/temp1.jpg)no-repeat center;background-size:cover;}
-.private_top_box .auto_box{padding-top:15px;}
-.private_top_box .head_box{position:relative;width:188px;height:188px;border-radius:50%;overflow:hidden;}
-.private_top_box .head_box .set_head{position:absolute;bottom:-40px;width:100%;height:40px;background-color:rgba(0,0,0,0.4);left:0;text-align:center;color:#fff;line-height:40px;
--webkit-transition:bottom 0.3s ease;
--moz-transition:bottom 0.3s ease;
--ms-transition:bottom 0.3s ease;
--o-transition:bottom 0.3s ease;
-transition:bottom 0.3s ease;
-}
-.private_top_box .head_box:hover .set_head{bottom:0;}
-.private_top_box .head_box .img{width:180px;height:180px;border:4px solid rgba(255,255,255,0.3);border-radius:50%;background-color:rgba(255,255,255,0.3)}
-.private_top_box .info_box{margin-left:40px;color:#fff;margin-top:30px;width: 800px;}
-.private_top_box .info_box .name{font-size:32px}
-.private_top_box .info_box .glory{font-size:14px;margin-top:10px;}
-.private_top_box .info_box .signature{font-size:14px;opacity:0.5;margin-top:20px;height: 38px;overflow: hidden;}
-
-.private_menu_box{margin-top:30px;display:inline-block;vertical-align:top;width:160px;}
-.private_menu_box .option{position: relative;display: block;height: 48px;font-size: 16px;line-height: 48px;color: #666;padding-left: 64px;text-align: left;margin-bottom:10px;position:relative;}
-.private_menu_box .option:hover{color:#333;}
-.private_menu_box .option .icon-user{font-size:24px;position:absolute;left:20px;}
-.private_menu_box .option.active{color: #fff;background: rgba(240,20,20,.8);border-radius: 8px 0 0 8px;}
-.private_menu_box .option.active:after{display: block;content: "";position: absolute;bottom: 0;right: 0;width: 0;height: 0;border-top: 24px solid #fff;border-bottom: 24px solid #fff;border-left: 15px solid transparent;}
-
 .user_main_box{min-height:80vh;padding-bottom: 40px;}
 .user_content_box{margin-top:30px;width: 980px;padding-left: 55px;}
 .user_content_title{border-bottom:1px solid #CFD5D8;height: 47px;line-height: 46px;}

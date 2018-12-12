@@ -1,0 +1,25 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover">
+<meta name="renderer" content="webkit">
+<meta name="force-rendering" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="shortcut icon" href="/webApp/static/images/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" href="/webApp/static/font/iconfont.css">
+<link rel="stylesheet" type="text/css" href="/webApp/mobile/static/css/common.css">
+<link rel="stylesheet" type="text/css" href="/webApp/mobile/static/css/main.css">
+<script data-loader src="/webApp/static/js/common/mod.js"></script>
+<script data-loader src="/webApp/static/js/common/utils.js"></script>
+<script data-loader src="/webApp/static/js/plugin/axios.min.js"></script>
+<script data-loader type="text/javascript">
+	window.addEventListener('resize', function () {
+		var dpi = Math.round(document.body.clientWidth/320*12);
+		if (dpi>34) {
+			dpi = 34;
+		}
+		document.querySelector('html').style.fontSize = dpi + 'px';
+	});
+	window.dispatchEvent(new Event('resize'));
+	var config = {
+		ctx:"http://10.0.0.126",
+	}
+</script>

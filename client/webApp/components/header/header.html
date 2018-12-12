@@ -10,7 +10,7 @@
 		</div>
 		<div class="right">
 			<div class="p_ibt search_box">
-				<input v-model.trim="searchValue" class="input0" type="text" name="search" maxlength="30">
+				<input v-model.trim="searchValue" class="input0" type="text" name="search" maxlength="30" placeholder="你想知道什么？">
 				<a class="iconfont icon-search" :href="searchUrl+searchValue" target="_blank"></a>
 			</div>
 			<div v-if="user.user_id" class="p_ibt liu_header_box">

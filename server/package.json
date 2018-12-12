@@ -33,7 +33,7 @@
     "debug": "node --inspect bin/www",
     "start": "node bin/www",
     "dev": "./node_modules/.bin/nodemon bin/www",
-    "prd": "pm2 start bin/www",
+    "prod": "pm2 start -n server bin/www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

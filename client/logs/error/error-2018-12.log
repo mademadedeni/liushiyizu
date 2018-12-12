@@ -1,0 +1,2225 @@
+[2018-12-06T12:56:25.407] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 10539
+err name: Error
+err message: ENOENT: no such file or directory, open '/dist/mobile/html/index_content.html'
+err stack: Error: ENOENT: no such file or directory, open '/dist/mobile/html/index_content.html'
+    at Object.openSync (fs.js:443:3)
+    at Object.readFileSync (fs.js:348:35)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:47:31)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+*************** error log end ***************
+
+[2018-12-06T12:59:30.381] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 24685
+err name: Error
+err message: Cannot find module '/dist/mobile/js/index.js'
+err stack: Error: Cannot find module '/dist/mobile/js/index.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:50:17)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2018-12-06T13:01:05.791] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 85
+err name: Error
+err message: Content placeholder not found in template.
+err stack: Error: Content placeholder not found in template.
+    at parseTemplate (C:\work\liushiyizu\client\node_modules\vue-server-renderer\build.js:7883:11)
+    at new TemplateRenderer (C:\work\liushiyizu\client\node_modules\vue-server-renderer\build.js:7965:7)
+    at createRenderer (C:\work\liushiyizu\client\node_modules\vue-server-renderer\build.js:8196:26)
+    at Object.createRenderer$1 [as createRenderer] (C:\work\liushiyizu\client\node_modules\vue-server-renderer\build.js:8624:10)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:46:53)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2018-12-06T13:01:07.702] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+err name: Error
+err message: Content placeholder not found in template.
+err stack: Error: Content placeholder not found in template.
+    at parseTemplate (C:\work\liushiyizu\client\node_modules\vue-server-renderer\build.js:7883:11)
+    at new TemplateRenderer (C:\work\liushiyizu\client\node_modules\vue-server-renderer\build.js:7965:7)
+    at createRenderer (C:\work\liushiyizu\client\node_modules\vue-server-renderer\build.js:8196:26)
+    at Object.createRenderer$1 [as createRenderer] (C:\work\liushiyizu\client\node_modules\vue-server-renderer\build.js:8624:10)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:46:53)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2018-12-06T13:01:15.347] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+err name: Error
+err message: Content placeholder not found in template.
+err stack: Error: Content placeholder not found in template.
+    at parseTemplate (C:\work\liushiyizu\client\node_modules\vue-server-renderer\build.js:7883:11)
+    at new TemplateRenderer (C:\work\liushiyizu\client\node_modules\vue-server-renderer\build.js:7965:7)
+    at createRenderer (C:\work\liushiyizu\client\node_modules\vue-server-renderer\build.js:8196:26)
+    at Object.createRenderer$1 [as createRenderer] (C:\work\liushiyizu\client\node_modules\vue-server-renderer\build.js:8624:10)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:46:53)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2018-12-06T13:01:18.057] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+err name: Error
+err message: Content placeholder not found in template.
+err stack: Error: Content placeholder not found in template.
+    at parseTemplate (C:\work\liushiyizu\client\node_modules\vue-server-renderer\build.js:7883:11)
+    at new TemplateRenderer (C:\work\liushiyizu\client\node_modules\vue-server-renderer\build.js:7965:7)
+    at createRenderer (C:\work\liushiyizu\client\node_modules\vue-server-renderer\build.js:8196:26)
+    at Object.createRenderer$1 [as createRenderer] (C:\work\liushiyizu\client\node_modules\vue-server-renderer\build.js:8624:10)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:46:53)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2018-12-06T13:01:24.267] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 3885
+err name: Error
+err message: Content placeholder not found in template.
+err stack: Error: Content placeholder not found in template.
+    at parseTemplate (C:\work\liushiyizu\client\node_modules\vue-server-renderer\build.js:7883:11)
+    at new TemplateRenderer (C:\work\liushiyizu\client\node_modules\vue-server-renderer\build.js:7965:7)
+    at createRenderer (C:\work\liushiyizu\client\node_modules\vue-server-renderer\build.js:8196:26)
+    at Object.createRenderer$1 [as createRenderer] (C:\work\liushiyizu\client\node_modules\vue-server-renderer\build.js:8624:10)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:46:53)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2018-12-06T13:03:15.211] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 19528
+err name: Error
+err message: ENOENT: no such file or directory, open '../dist/mobile/html/index_content.html'
+err stack: Error: ENOENT: no such file or directory, open '../dist/mobile/html/index_content.html'
+    at Object.openSync (fs.js:443:3)
+    at Object.readFileSync (fs.js:348:35)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:47:31)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+*************** error log end ***************
+
+[2018-12-06T13:15:35.591] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 89500
+err name: Error
+err message: ENOENT: no such file or directory, open '../dist/mobile/html/index_content.html'
+err stack: Error: ENOENT: no such file or directory, open '../dist/mobile/html/index_content.html'
+    at Object.openSync (fs.js:443:3)
+    at Object.readFileSync (fs.js:348:35)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:47:31)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+*************** error log end ***************
+
+[2018-12-06T13:17:00.374] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 32500
+err name: Error
+err message: Content placeholder not found in template.
+err stack: Error: Content placeholder not found in template.
+    at parseTemplate (C:\work\liushiyizu\client\node_modules\vue-server-renderer\build.js:7883:11)
+    at new TemplateRenderer (C:\work\liushiyizu\client\node_modules\vue-server-renderer\build.js:7965:7)
+    at createRenderer (C:\work\liushiyizu\client\node_modules\vue-server-renderer\build.js:8196:26)
+    at Object.createRenderer$1 [as createRenderer] (C:\work\liushiyizu\client\node_modules\vue-server-renderer\build.js:8624:10)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:46:53)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2018-12-06T13:17:44.568] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 26267
+err name: Error
+err message: Content placeholder not found in template.
+err stack: Error: Content placeholder not found in template.
+    at parseTemplate (C:\work\liushiyizu\client\node_modules\vue-server-renderer\build.js:7883:11)
+    at new TemplateRenderer (C:\work\liushiyizu\client\node_modules\vue-server-renderer\build.js:7965:7)
+    at createRenderer (C:\work\liushiyizu\client\node_modules\vue-server-renderer\build.js:8196:26)
+    at Object.createRenderer$1 [as createRenderer] (C:\work\liushiyizu\client\node_modules\vue-server-renderer\build.js:8624:10)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:46:53)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2018-12-06T13:18:04.803] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 10556
+err name: Error
+err message: Content placeholder not found in template.
+err stack: Error: Content placeholder not found in template.
+    at parseTemplate (C:\work\liushiyizu\client\node_modules\vue-server-renderer\build.js:7883:11)
+    at new TemplateRenderer (C:\work\liushiyizu\client\node_modules\vue-server-renderer\build.js:7965:7)
+    at createRenderer (C:\work\liushiyizu\client\node_modules\vue-server-renderer\build.js:8196:26)
+    at Object.createRenderer$1 [as createRenderer] (C:\work\liushiyizu\client\node_modules\vue-server-renderer\build.js:8624:10)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:46:53)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2018-12-06T13:18:25.955] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 19588
+err name: Error
+err message: Content placeholder not found in template.
+err stack: Error: Content placeholder not found in template.
+    at parseTemplate (C:\work\liushiyizu\client\node_modules\vue-server-renderer\build.js:7883:11)
+    at new TemplateRenderer (C:\work\liushiyizu\client\node_modules\vue-server-renderer\build.js:7965:7)
+    at createRenderer (C:\work\liushiyizu\client\node_modules\vue-server-renderer\build.js:8196:26)
+    at Object.createRenderer$1 [as createRenderer] (C:\work\liushiyizu\client\node_modules\vue-server-renderer\build.js:8624:10)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:46:53)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2018-12-06T13:21:31.480] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 10173
+err name: Error
+err message: Cannot find module 'dist/mobile/js/index.js'
+err stack: Error: Cannot find module 'dist/mobile/js/index.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:49:17)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2018-12-06T13:22:31.262] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 68
+err name: Error
+err message: Cannot find module '../dist/mobile/js/index.js'
+err stack: Error: Cannot find module '../dist/mobile/js/index.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:49:17)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2018-12-06T13:22:42.951] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 8514
+err name: Error
+err message: Cannot find module '../dist/mobile/js/index.js'
+err stack: Error: Cannot find module '../dist/mobile/js/index.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:49:17)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2018-12-06T13:24:15.858] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 41891
+err name: Error
+err message: Cannot find module 'C:\work\liushiyizu\client\dist\mobile\js\index.js'
+err stack: Error: Cannot find module 'C:\work\liushiyizu\client\dist\mobile\js\index.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:49:17)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2018-12-06T13:24:39.019] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 22283
+err name: Error
+err message: Cannot find module 'C:\work\liushiyizu\client\dist\mobile\js\index.js'
+err stack: Error: Cannot find module 'C:\work\liushiyizu\client\dist\mobile\js\index.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:49:17)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2018-12-06T13:30:19.415] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 20779
+err name: ReferenceError
+err message: define is not defined
+err stack: ReferenceError: define is not defined
+    at Object.<anonymous> (C:\work\liushiyizu\client\dist\mobile\components\header\header.js:1:63)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:49:17)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+*************** error log end ***************
+
+[2018-12-06T13:30:50.671] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 7690
+err name: ReferenceError
+err message: define is not defined
+err stack: ReferenceError: define is not defined
+    at Object.<anonymous> (C:\work\liushiyizu\client\dist\mobile\components\header\header.js:1:63)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:49:17)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+*************** error log end ***************
+
+[2018-12-06T13:31:05.009] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 3417
+err name: ReferenceError
+err message: define is not defined
+err stack: ReferenceError: define is not defined
+    at Object.<anonymous> (C:\work\liushiyizu\client\dist\mobile\components\header\header.js:1:63)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:49:17)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+*************** error log end ***************
+
+[2018-12-06T13:33:04.479] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 9147
+err name: Error
+err message: Cannot find module 'login'
+err stack: Error: Cannot find module 'login'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\work\liushiyizu\client\dist\mobile\components\header\header.js:7:13)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:49:17)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+*************** error log end ***************
+
+[2018-12-06T13:33:56.272] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 38816
+err name: Error
+err message: Cannot find module 'login'
+err stack: Error: Cannot find module 'login'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\work\liushiyizu\client\dist\mobile\components\header\header.js:7:13)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:49:17)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+*************** error log end ***************
+
+[2018-12-06T13:45:07.091] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 153683
+err name: Error
+err message: Cannot find module 'C:\work\liushiyizu\client\dist\mobile\js\index.js'
+err stack: Error: Cannot find module 'C:\work\liushiyizu\client\dist\mobile\js\index.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:49:17)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2018-12-06T13:46:36.969] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 19068
+err name: Error
+err message: Cannot find module 'C:\work\liushiyizu\client\dist\mobile\js\index.js'
+err stack: Error: Cannot find module 'C:\work\liushiyizu\client\dist\mobile\js\index.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:49:17)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2018-12-06T13:47:51.599] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 4949
+err name: Error
+err message: Cannot find module 'C:\work\liushiyizu\client\dist\mobile\js\index.js'
+err stack: Error: Cannot find module 'C:\work\liushiyizu\client\dist\mobile\js\index.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:49:17)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2018-12-06T13:49:07.178] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 20071
+err name: Error
+err message: Cannot find module 'C:\work\liushiyizu\client\dist\mobile\js\index.js'
+err stack: Error: Cannot find module 'C:\work\liushiyizu\client\dist\mobile\js\index.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:49:17)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2018-12-06T14:16:09.267] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 7768
+err name: ReferenceError
+err message: define is not defined
+err stack: ReferenceError: define is not defined
+    at Object.<anonymous> (C:\work\liushiyizu\client\dist\mobile\static\js\index.js:1:63)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:50:17)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+*************** error log end ***************
+
+[2018-12-06T14:18:09.277] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 61368
+err name: ReferenceError
+err message: define is not defined
+err stack: ReferenceError: define is not defined
+    at Object.<anonymous> (C:\work\liushiyizu\client\dist\mobile\static\js\index.js:2:1)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:50:17)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+*************** error log end ***************
+
+[2018-12-06T14:18:57.418] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 44939
+err name: ReferenceError
+err message: define is not defined
+err stack: ReferenceError: define is not defined
+    at Object.<anonymous> (C:\work\liushiyizu\client\dist\mobile\static\js\index.js:2:1)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:50:17)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+*************** error log end ***************
+
+[2018-12-06T14:33:57.125] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 15670
+err name: Error
+err message: Cannot find module 'C:\work\liushiyizu\client\dist\mobile\static\js\index_module.js'
+err stack: Error: Cannot find module 'C:\work\liushiyizu\client\dist\mobile\static\js\index_module.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:51:17)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2018-12-06T14:34:12.615] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 3163
+err name: Error
+err message: Cannot find module 'C:\work\liushiyizu\client\dist\mobile\static\js\index_module.js'
+err stack: Error: Cannot find module 'C:\work\liushiyizu\client\dist\mobile\static\js\index_module.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:51:17)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2018-12-06T14:36:20.090] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 38072
+err name: Error
+err message: Cannot find module 'C:\work\liushiyizu\client\dist\mobile\static\js\index_module.js'
+err stack: Error: Cannot find module 'C:\work\liushiyizu\client\dist\mobile\static\js\index_module.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:51:17)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2018-12-06T18:01:08.551] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 56
+err name: Error
+err message: ENOENT: no such file or directory, open 'C:\work\liushiyizu\client\dist\mobile\html\index.html'
+err stack: Error: ENOENT: no such file or directory, open 'C:\work\liushiyizu\client\dist\mobile\html\index.html'
+    at Object.openSync (fs.js:443:3)
+    at Object.readFileSync (fs.js:348:35)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:45:31)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+*************** error log end ***************
+
+[2018-12-07T08:54:52.892] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 74
+err name: Error
+err message: Cannot find module 'utils/utils'
+err stack: Error: Cannot find module 'utils/utils'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\work\liushiyizu\client\dist\mobile\ssr\index\index.js:2:13)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:48:17)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+*************** error log end ***************
+
+[2018-12-07T08:54:55.563] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+err name: Error
+err message: Cannot find module 'utils/utils'
+err stack: Error: Cannot find module 'utils/utils'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\work\liushiyizu\client\dist\mobile\ssr\index\index.js:2:13)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:48:17)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+*************** error log end ***************
+
+[2018-12-07T08:54:57.491] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+err name: Error
+err message: Cannot find module 'utils/utils'
+err stack: Error: Cannot find module 'utils/utils'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\work\liushiyizu\client\dist\mobile\ssr\index\index.js:2:13)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:48:17)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+*************** error log end ***************
+
+[2018-12-07T08:55:12.631] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+err name: Error
+err message: Cannot find module 'utils/utils'
+err stack: Error: Cannot find module 'utils/utils'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\work\liushiyizu\client\dist\mobile\ssr\index\index.js:2:13)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:48:17)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+*************** error log end ***************
+
+[2018-12-07T08:56:11.428] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 85
+err name: Error
+err message: Cannot find module 'utils/utils'
+err stack: Error: Cannot find module 'utils/utils'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\work\liushiyizu\client\dist\mobile\ssr\index\index.js:2:13)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:48:17)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+*************** error log end ***************
+
+[2018-12-07T08:56:12.931] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 4
+err name: Error
+err message: Cannot find module 'utils/utils'
+err stack: Error: Cannot find module 'utils/utils'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\work\liushiyizu\client\dist\mobile\ssr\index\index.js:2:13)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:48:17)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+*************** error log end ***************
+
+[2018-12-07T08:56:24.618] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 4
+err name: Error
+err message: Cannot find module 'utils/utils'
+err stack: Error: Cannot find module 'utils/utils'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\work\liushiyizu\client\dist\mobile\ssr\index\index.js:2:13)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:48:17)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+*************** error log end ***************
+
+[2018-12-07T08:56:51.199] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 82
+err name: Error
+err message: Cannot find module 'utils/utils'
+err stack: Error: Cannot find module 'utils/utils'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\work\liushiyizu\client\dist\mobile\ssr\index\index.js:2:13)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:48:17)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+*************** error log end ***************
+
+[2018-12-07T08:57:20.553] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 26868
+err name: Error
+err message: Cannot find module 'utils/utils'
+err stack: Error: Cannot find module 'utils/utils'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\work\liushiyizu\client\dist\mobile\ssr\index\index.js:2:13)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:48:17)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+*************** error log end ***************
+
+[2018-12-07T08:58:08.536] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2146
+err name: Error
+err message: Cannot find module 'utils/utils'
+err stack: Error: Cannot find module 'utils/utils'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\work\liushiyizu\client\dist\mobile\ssr\index\index.js:2:13)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:48:17)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+*************** error log end ***************
+
+[2018-12-07T09:00:46.281] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1604
+err name: Error
+err message: Cannot find module 'utils/utils'
+err stack: Error: Cannot find module 'utils/utils'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\work\liushiyizu\client\dist\mobile\ssr\index\index.js:2:13)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:48:17)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+*************** error log end ***************
+
+[2018-12-07T09:01:16.188] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2196
+err name: Error
+err message: Cannot find module 'utils/utils'
+err stack: Error: Cannot find module 'utils/utils'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (C:\work\liushiyizu\client\dist\mobile\ssr\index\index.js:2:13)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:48:17)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+*************** error log end ***************
+
+[2018-12-07T09:04:46.699] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1636
+err name: ReferenceError
+err message: reuqire is not defined
+err stack: ReferenceError: reuqire is not defined
+    at Object.<anonymous> (C:\work\liushiyizu\client\dist\mobile\ssr\index\index.js:2:13)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:48:17)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+*************** error log end ***************
+
+[2018-12-07T09:05:58.230] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 26672
+err name: ReferenceError
+err message: reuqire is not defined
+err stack: ReferenceError: reuqire is not defined
+    at Object.<anonymous> (C:\work\liushiyizu\client\dist\mobile\ssr\index\index.js:2:13)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:48:17)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+*************** error log end ***************
+
+[2018-12-07T09:13:01.679] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 92
+err name: SyntaxError
+err message: Unexpected identifier
+err stack: C:\work\liushiyizu\client\dist\mobile\ssr\index\index.js:3
+import u from "../../../../utils/utils.js";
+       ^
+
+SyntaxError: Unexpected identifier
+    at new Script (vm.js:74:7)
+    at createScript (vm.js:246:10)
+    at Object.runInThisContext (vm.js:298:10)
+    at Module._compile (internal/modules/cjs/loader.js:657:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:48:17)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2018-12-07T09:13:13.952] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 10
+err name: SyntaxError
+err message: Unexpected identifier
+err stack: C:\work\liushiyizu\client\dist\mobile\ssr\index\index.js:3
+import u from "../../../../utils/utils.js";
+       ^
+
+SyntaxError: Unexpected identifier
+    at new Script (vm.js:74:7)
+    at createScript (vm.js:246:10)
+    at Object.runInThisContext (vm.js:298:10)
+    at Module._compile (internal/modules/cjs/loader.js:657:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:48:17)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2018-12-07T09:13:14.579] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 3
+err name: SyntaxError
+err message: Unexpected identifier
+err stack: C:\work\liushiyizu\client\dist\mobile\ssr\index\index.js:3
+import u from "../../../../utils/utils.js";
+       ^
+
+SyntaxError: Unexpected identifier
+    at new Script (vm.js:74:7)
+    at createScript (vm.js:246:10)
+    at Object.runInThisContext (vm.js:298:10)
+    at Module._compile (internal/modules/cjs/loader.js:657:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:48:17)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2018-12-07T09:13:14.983] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 6
+err name: SyntaxError
+err message: Unexpected identifier
+err stack: C:\work\liushiyizu\client\dist\mobile\ssr\index\index.js:3
+import u from "../../../../utils/utils.js";
+       ^
+
+SyntaxError: Unexpected identifier
+    at new Script (vm.js:74:7)
+    at createScript (vm.js:246:10)
+    at Object.runInThisContext (vm.js:298:10)
+    at Module._compile (internal/modules/cjs/loader.js:657:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:48:17)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2018-12-07T09:13:15.252] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 4
+err name: SyntaxError
+err message: Unexpected identifier
+err stack: C:\work\liushiyizu\client\dist\mobile\ssr\index\index.js:3
+import u from "../../../../utils/utils.js";
+       ^
+
+SyntaxError: Unexpected identifier
+    at new Script (vm.js:74:7)
+    at createScript (vm.js:246:10)
+    at Object.runInThisContext (vm.js:298:10)
+    at Module._compile (internal/modules/cjs/loader.js:657:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:48:17)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2018-12-07T09:13:15.489] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 6
+err name: SyntaxError
+err message: Unexpected identifier
+err stack: C:\work\liushiyizu\client\dist\mobile\ssr\index\index.js:3
+import u from "../../../../utils/utils.js";
+       ^
+
+SyntaxError: Unexpected identifier
+    at new Script (vm.js:74:7)
+    at createScript (vm.js:246:10)
+    at Object.runInThisContext (vm.js:298:10)
+    at Module._compile (internal/modules/cjs/loader.js:657:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:48:17)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2018-12-07T09:13:15.683] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+err name: SyntaxError
+err message: Unexpected identifier
+err stack: C:\work\liushiyizu\client\dist\mobile\ssr\index\index.js:3
+import u from "../../../../utils/utils.js";
+       ^
+
+SyntaxError: Unexpected identifier
+    at new Script (vm.js:74:7)
+    at createScript (vm.js:246:10)
+    at Object.runInThisContext (vm.js:298:10)
+    at Module._compile (internal/modules/cjs/loader.js:657:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:48:17)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2018-12-07T09:13:28.623] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 5273
+err name: SyntaxError
+err message: Unexpected identifier
+err stack: C:\work\liushiyizu\client\dist\mobile\ssr\index\index.js:3
+import u from "../../../../utils/utils.js";
+       ^
+
+SyntaxError: Unexpected identifier
+    at new Script (vm.js:74:7)
+    at createScript (vm.js:246:10)
+    at Object.runInThisContext (vm.js:298:10)
+    at Module._compile (internal/modules/cjs/loader.js:657:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:48:17)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2018-12-07T09:14:02.804] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2543
+err name: SyntaxError
+err message: Unexpected identifier
+err stack: C:\work\liushiyizu\client\dist\mobile\ssr\index\index.js:1
+(function (exports, require, module, __filename, __dirname) { import u from "../../../../utils/utils.js";
+                                                                     ^
+
+SyntaxError: Unexpected identifier
+    at new Script (vm.js:74:7)
+    at createScript (vm.js:246:10)
+    at Object.runInThisContext (vm.js:298:10)
+    at Module._compile (internal/modules/cjs/loader.js:657:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:48:17)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2018-12-07T09:14:25.869] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1766
+err name: SyntaxError
+err message: Unexpected identifier
+err stack: C:\work\liushiyizu\client\dist\mobile\ssr\index\index.js:1
+(function (exports, require, module, __filename, __dirname) { import u from "../../../../utils/utils.js";
+                                                                     ^
+
+SyntaxError: Unexpected identifier
+    at new Script (vm.js:74:7)
+    at createScript (vm.js:246:10)
+    at Object.runInThisContext (vm.js:298:10)
+    at Module._compile (internal/modules/cjs/loader.js:657:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:48:17)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2018-12-07T09:17:38.698] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2347
+err name: SyntaxError
+err message: Unexpected identifier
+err stack: C:\work\liushiyizu\client\dist\mobile\ssr\index\index.js:1
+(function (exports, require, module, __filename, __dirname) { import u from "vue";
+                                                                     ^
+
+SyntaxError: Unexpected identifier
+    at new Script (vm.js:74:7)
+    at createScript (vm.js:246:10)
+    at Object.runInThisContext (vm.js:298:10)
+    at Module._compile (internal/modules/cjs/loader.js:657:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:48:17)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2018-12-07T15:38:24.708] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 70
+err name: SyntaxError
+err message: Invalid or unexpected token
+err stack: C:\work\liushiyizu\client\dist\mobile\ssr\header\header.js:17
+				'index':'首页'，
+				            ^
+
+SyntaxError: Invalid or unexpected token
+    at new Script (vm.js:74:7)
+    at createScript (vm.js:246:10)
+    at Object.runInThisContext (vm.js:298:10)
+    at Module._compile (internal/modules/cjs/loader.js:657:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:47:5)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2018-12-07T15:38:31.120] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+err name: SyntaxError
+err message: Invalid or unexpected token
+err stack: C:\work\liushiyizu\client\dist\mobile\ssr\header\header.js:17
+				'index':'首页'，
+				            ^
+
+SyntaxError: Invalid or unexpected token
+    at new Script (vm.js:74:7)
+    at createScript (vm.js:246:10)
+    at Object.runInThisContext (vm.js:298:10)
+    at Module._compile (internal/modules/cjs/loader.js:657:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:47:5)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2018-12-07T15:44:50.891] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 64
+err name: SyntaxError
+err message: Invalid or unexpected token
+err stack: C:\work\liushiyizu\client\dist\mobile\ssr\header\header.js:17
+				'index':'首页'，
+				            ^
+
+SyntaxError: Invalid or unexpected token
+    at new Script (vm.js:74:7)
+    at createScript (vm.js:246:10)
+    at Object.runInThisContext (vm.js:298:10)
+    at Module._compile (internal/modules/cjs/loader.js:657:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:47:5)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2018-12-07T15:44:53.769] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+err name: SyntaxError
+err message: Invalid or unexpected token
+err stack: C:\work\liushiyizu\client\dist\mobile\ssr\header\header.js:17
+				'index':'首页'，
+				            ^
+
+SyntaxError: Invalid or unexpected token
+    at new Script (vm.js:74:7)
+    at createScript (vm.js:246:10)
+    at Object.runInThisContext (vm.js:298:10)
+    at Module._compile (internal/modules/cjs/loader.js:657:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:47:5)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2018-12-07T15:44:53.952] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+err name: SyntaxError
+err message: Invalid or unexpected token
+err stack: C:\work\liushiyizu\client\dist\mobile\ssr\header\header.js:17
+				'index':'首页'，
+				            ^
+
+SyntaxError: Invalid or unexpected token
+    at new Script (vm.js:74:7)
+    at createScript (vm.js:246:10)
+    at Object.runInThisContext (vm.js:298:10)
+    at Module._compile (internal/modules/cjs/loader.js:657:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:47:5)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2018-12-07T15:50:14.793] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 203323
+err name: SyntaxError
+err message: Invalid or unexpected token
+err stack: C:\work\liushiyizu\client\dist\mobile\ssr\header\header.js:17
+				'index':'首页'，
+				            ^
+
+SyntaxError: Invalid or unexpected token
+    at new Script (vm.js:74:7)
+    at createScript (vm.js:246:10)
+    at Object.runInThisContext (vm.js:298:10)
+    at Module._compile (internal/modules/cjs/loader.js:657:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at router.get (C:\work\liushiyizu\client\routes\index.js:47:5)
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\client\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\client\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2018-12-10T16:08:33.383] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile/login
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 5
+err name: Error
+err message: ENOENT: no such file or directory, stat 'C:\work\liushiyizu\client\dist\mobile\html\misc\login.html'
+err stack: Error: ENOENT: no such file or directory, stat 'C:\work\liushiyizu\client\dist\mobile\html\misc\login.html'
+*************** error log end ***************
+
+[2018-12-10T16:09:04.471] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile/login
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 10739
+err name: Error
+err message: ENOENT: no such file or directory, stat 'C:\work\liushiyizu\client\dist\mobile\html\misc\login.html'
+err stack: Error: ENOENT: no such file or directory, stat 'C:\work\liushiyizu\client\dist\mobile\html\misc\login.html'
+*************** error log end ***************
+
+[2018-12-11T15:37:32.207] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile/article/create
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 4
+err name: ReferenceError
+err message: articleId is not defined
+err stack: ReferenceError: articleId is not defined
+    at eval (lodash.templateSources[23]:9:10)
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:780:16
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:144:5
+    at Promise._execute (C:\work\liushiyizu\client\node_modules\bluebird\js\release\debuggability.js:303:9)
+    at Promise._resolveFromExecutor (C:\work\liushiyizu\client\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (C:\work\liushiyizu\client\node_modules\bluebird\js\release\promise.js:79:10)
+    at promisify (C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:137:10)
+    at Function.exports.lodash.render (C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:776:10)
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:165:27
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:99:5
+    at FSReqWrap.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:53:3)
+*************** error log end ***************
+
+[2018-12-11T16:20:59.652] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile/articles/23
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 363
+err name: ReferenceError
+err message: articleId is not defined
+err stack: ReferenceError: articleId is not defined
+    at eval (lodash.templateSources[1]:9:10)
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:780:16
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:144:5
+    at Promise._execute (C:\work\liushiyizu\client\node_modules\bluebird\js\release\debuggability.js:303:9)
+    at Promise._resolveFromExecutor (C:\work\liushiyizu\client\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (C:\work\liushiyizu\client\node_modules\bluebird\js\release\promise.js:79:10)
+    at promisify (C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:137:10)
+    at Function.exports.lodash.render (C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:776:10)
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:165:27
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:99:5
+    at FSReqWrap.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:53:3)
+*************** error log end ***************
+
+[2018-12-11T16:21:04.929] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile/articles/23
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 342
+err name: ReferenceError
+err message: articleId is not defined
+err stack: ReferenceError: articleId is not defined
+    at eval (lodash.templateSources[5]:9:10)
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:780:16
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:144:5
+    at Promise._execute (C:\work\liushiyizu\client\node_modules\bluebird\js\release\debuggability.js:303:9)
+    at Promise._resolveFromExecutor (C:\work\liushiyizu\client\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (C:\work\liushiyizu\client\node_modules\bluebird\js\release\promise.js:79:10)
+    at promisify (C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:137:10)
+    at Function.exports.lodash.render (C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:776:10)
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:165:27
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:99:5
+    at FSReqWrap.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:53:3)
+*************** error log end ***************
+
+[2018-12-11T16:21:14.747] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile/articles/23
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 342
+err name: ReferenceError
+err message: articleId is not defined
+err stack: ReferenceError: articleId is not defined
+    at eval (lodash.templateSources[9]:9:10)
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:780:16
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:144:5
+    at Promise._execute (C:\work\liushiyizu\client\node_modules\bluebird\js\release\debuggability.js:303:9)
+    at Promise._resolveFromExecutor (C:\work\liushiyizu\client\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (C:\work\liushiyizu\client\node_modules\bluebird\js\release\promise.js:79:10)
+    at promisify (C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:137:10)
+    at Function.exports.lodash.render (C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:776:10)
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:165:27
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:99:5
+    at FSReqWrap.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:53:3)
+*************** error log end ***************
+
+[2018-12-11T16:22:29.515] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile/articles/23
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 11609
+err name: ReferenceError
+err message: articleId is not defined
+err stack: ReferenceError: articleId is not defined
+    at eval (lodash.templateSources[0]:9:10)
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:780:16
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:144:5
+    at Promise._execute (C:\work\liushiyizu\client\node_modules\bluebird\js\release\debuggability.js:303:9)
+    at Promise._resolveFromExecutor (C:\work\liushiyizu\client\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (C:\work\liushiyizu\client\node_modules\bluebird\js\release\promise.js:79:10)
+    at promisify (C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:137:10)
+    at Function.exports.lodash.render (C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:776:10)
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:165:27
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:99:5
+    at FSReqWrap.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:53:3)
+*************** error log end ***************
+

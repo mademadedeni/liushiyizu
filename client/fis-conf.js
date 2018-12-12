@@ -25,6 +25,9 @@ fis.match('::packager', {
 fis.match('/webApp/static/js/{**/*.js,*.js}', {
   isMod: true,
 });
+fis.match('/webApp/mobile/static/js/{**/*.js,*.js}', {
+  isMod: true,
+});
 
 fis.match('/webApp/static/js/plugin/{**/*.js,*.js}', {
   useHash: false,
@@ -63,6 +66,10 @@ fis.match('/webApp/static/js/plugin/lodash.js', {
 
 fis.match('/webApp/components/**/(*).js', {
   id: "$1",
+  isMod: true,
+});
+fis.match('/webApp/mobile/components/**/(*).js', {
+  id: "mobile-"+"$1",
   isMod: true,
 });
 

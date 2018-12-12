@@ -101,8 +101,8 @@ exports.login = async(ctx, next) => {
         }
         return;
     }
-    if (user.user_seven !== "false" && user.user_seven !== 'true') {
-        user.user_seven = 'false';
+    if (user.user_seven !== false && user.user_seven !== true) {
+        user.user_seven = false;
     }
 
     await user_sql.selectUserByName(user.user_name)
@@ -131,7 +131,7 @@ exports.login = async(ctx, next) => {
                 ctx.body = {
                     message: 'success'
                 }
-                if (user.user_seven === 'true') {
+                if (user.user_seven === true) {
                     ctx.cookies.set('reid', user.user_name+'='+data.user_password,{
                         maxAge:1000*3600*24*7,
                         // signed:'',
@@ -186,7 +186,7 @@ exports.keepLogin = async(ctx, next) => {
                     user_name: data.user_name,
                     user_nickname: data.user_nickname,
                     user_password: data.user_password,
-                    user_seven: 'true',
+                    user_seven: true,
                     user_permission: data.user_permission,
                     user_head_img: data.user_head_img
                 }

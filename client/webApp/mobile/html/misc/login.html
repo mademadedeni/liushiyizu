@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>登录-刘氏一族</title>
+	<link rel="import" href="../common.html?__inline">
+</head>
+<body>
+	<div id="app">
+		<liu-header></liu-header>
+		<div class="login_main">
+			<div class="banner">
+			</div>
+			<div class="Mtp10">
+				<input v-model.trim="userName" class="input user_name" type="text" name="userName" placeholder="用户名">
+			</div>
+			<div>
+				<input v-model.trim="userPassword" class="input user_password" type="password" name="userPassword" placeholder="密码">
+			</div>
+			<div class="Ptp10 Pbm10">
+				<el-checkbox v-model="keepLogin">七天登录</el-checkbox>
+			</div>
+			<div class="Ptp10 Pbm10">
+				<button @click="onlogin" class="button">登 录</button>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		require("/webApp/mobile/static/js/misc/login.js");
+	</script>
+</body>
+</html>

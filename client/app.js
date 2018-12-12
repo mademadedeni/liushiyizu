@@ -18,6 +18,9 @@ const index = require('./routes/index');
 // error handler
 onerror(app);
 
+// 在app.use(router)之前调用
+app.use(urlFilter);
+
 app.use(koastatic(__dirname + '/dist'));
 
 const map = {
@@ -28,8 +31,6 @@ const map = {
 app.use(views(__dirname + '/dist', map));
 //log4
 app.use(logUtil.logs);
-// 在app.use(router)之前调用
-app.use(urlFilter);
 
 app.use(routers.routes(), routers.allowedMethods());
 

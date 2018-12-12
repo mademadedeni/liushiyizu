@@ -1,0 +1,29 @@
+#app{min-width:320px;}
+/*首页*/
+.index_banner_box{height:10rem;margin-top: 0.5rem;}
+.index_banner_box img{max-height:100%;}
+.index_banner_box .swiper-container{height:100%;}
+.index_banner_box .swiper-container .banner{display:block;height:100%;background-size: cover;margin:0 0.5rem;}
+.index_banner_box .swiper-container .swiper-pagination-bullet{width:0.5rem;height:0.5rem;}
+.index_banner_box .swiper-container .swiper-pagination-bullet-active{background:#fff;}
+
+.article_list{padding:0 1.5rem;}
+.article_list .item_box{padding:1rem 0;border-bottom: 1px solid #efefef;}
+.article_list .item_box a.show:visited{color:#999;}
+.article_list .item_box .h3{font-size:1.33rem;overflow:hidden;max-height:2.6rem;}
+.article_list .item_box .content{max-height:4rem;overflow:hidden;margin:1rem 0;font-size:1.16rem;}
+.article_list .item_box .option_box{font-size:1rem;color:#999;}
+
+/*登录*/
+.login_main{padding:0 2.5rem;}
+.login_main .banner{height:6rem;background:url("/static/images/article/temp1.jpg");background-size:cover;margin-top:1rem;}
+.login_main .user_name,.login_main .user_password{border:none;border-bottom:1px solid #ccc;}
+
+/*写文章*/
+.write_article_main{padding:1rem 2rem;}
+.write_article_main .article_content{min-height:50vh;}
+
+.read_article_main{padding:1rem 2rem;}
+.read_article_main .h2{margin:1rem 0;}
+.read_article_main .user_box .head{width:3.5rem;height:3.5rem;border-radius:50%;}
+.read_article_main .textarea{border:none;margin-top:2rem;height:60vh;}

@@ -180,7 +180,7 @@ exports.editArticle = async(ctx, next) => {
         return ctx.body = {
             code: 1,
             message: "not login",
-            data: false
+            data: true
         }
     }
 
