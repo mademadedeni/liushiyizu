@@ -5,7 +5,6 @@ blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,
 input{outline: none;border:none;}textarea,div,a{outline:none;}
 input,textarea,select{font:14px "Microsoft Yahei", "Hiragino Sans GB", Helvetica, "Helvetica Neue", "微软雅黑", Tahoma, Arial, sans-serif;outline: none;}
 body{font: 14px "Microsoft Yahei", "Hiragino Sans GB", Helvetica, "Helvetica Neue", "微软雅黑", Tahoma, Arial, sans-serif;color:#425c72;min-width:1200px;min-height:100vh;}
-ul,ol,li{display:block;list-style:none}
 img{vertical-align:top;border:none;display:inline-block;font-size:14px;}
 a{text-decoration:none;color:inherit;}
 a:hover{color:#09f;}
