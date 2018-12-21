@@ -26,7 +26,7 @@
                             <a :href="'/articles/'+article.article_id" class="title">{{article.article_title}}</a>
                             <div v-if="article.user_id == user.user_id || user.user_permission == 1" class="right">
                                 <a @click="delArticle(article.article_id,article.user_id)" href="javascript:;">删除</a>
-                                <a class="Mlf20" :href="'/articles/editor/'+article.article_id" target="_blank">编辑</a>
+                                <a class="Mlf20" :href="'/article/editor/'+article.article_id" target="_blank">编辑</a>
                             </div>
                         </div>
                         <div class="content" v-html="article.article_content"></div>

@@ -73,7 +73,7 @@ var vm = new Vue({
             }
 
             if (that.article.article_id) {
-                if (that.user.user_id !== that.article.user_id || that.user.user_permistion !== 1) {
+                if (that.user.user_id !== that.article.user_id && that.user.user_permission !== 1) {
                     that.$message.error("没有权限！");
                     return;
                 }
