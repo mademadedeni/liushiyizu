@@ -51,7 +51,7 @@ var vm = new Vue({
             axios.post(that.$api+'/articles/edit', article).then(function(res) {
                 if (res.data.message == "success") {
                     that.$message.success("保存成功！");
-                    window.location.href = that.ctx+"/mobile/articles";
+                    window.location.href = that.$ctx+"/mobile/articles";
                 } else {
                     that.$message.error(res.data.message);
                     console.log(res.data.message);
@@ -90,7 +90,7 @@ var vm = new Vue({
                 if (res.data.message == "success") {
                     that.$message.success("保存成功！");
                     setTimeout(function () {
-                        window.location.href = that.ctx+"/mobile/articles";
+                        window.location.href = that.$ctx+"/mobile/articles";
                     },1000);
                 } else {
                     that.$message.error("保存失败!");

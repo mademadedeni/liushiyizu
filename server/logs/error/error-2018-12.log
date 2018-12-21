@@ -138,3 +138,4 @@ err stack: Error: connect ETIMEDOUT
     at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
 *************** error log end ***************
 
+[2018-12-21T21:15:47.166] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - read ECONNRESET
