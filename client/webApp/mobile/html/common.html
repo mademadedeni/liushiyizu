@@ -19,7 +19,10 @@
 		document.querySelector('html').style.fontSize = dpi + 'px';
 	});
 	window.dispatchEvent(new Event('resize'));
-	var config = {
-		ctx:"http://10.0.0.126",
-	}
+	(function () {
+		var ctx = "http://10.0.0.126";
+		var api = "http://10.0.0.126/api";
+		Vue.prototype.$ctx = ctx;
+		Vue.prototype.$api = api;
+	})()
 </script>

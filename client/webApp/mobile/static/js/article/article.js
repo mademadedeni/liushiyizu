@@ -1,12 +1,11 @@
 var Vue = require("vue");
 require("element_ui");
 require("mobile-header");
-
+var axios = require("axios");
 var vm = new Vue({
     // el: "#app",
     template: __inline("webApp/mobile/ssr/article/article.html"),
     data: {
-        ctx:config.ctx,
         articles: [],
         pageSize:10,
         pageNum:1,
@@ -24,7 +23,7 @@ var vm = new Vue({
         },
         initArticle: function() {
             var that = this;
-            axios.get(that.ctx+'/api/articles', {params:{ pageSize: that.pageSize, pageNum: that.pageNum, orderBy: 'article_edit_date' }}).then(function(res) {
+            axios.get(that.$api+'/articles', {params:{ pageSize: that.pageSize, pageNum: that.pageNum, orderBy: 'article_edit_date' }}).then(function(res) {
                 if (res.data.message == 'success') {
                     that.articles = res.data.data.articles;
                 }
@@ -42,7 +41,7 @@ var vm = new Vue({
             }
             that.isLoading = true;
             that.pageNum +=1;
-            axios.get(that.ctx+'/api/articles', {params:{ pageSize: that.pageSize, pageNum: that.pageNum, orderBy: 'article_edit_date' }}).then(function(res) {
+            axios.get(that.$api+'/articles', {params:{ pageSize: that.pageSize, pageNum: that.pageNum, orderBy: 'article_edit_date' }}).then(function(res) {
                 if (res.data.message == 'success') {
                     var arr = that.articles.concat(res.data.data.articles);
                     that.articles = arr;

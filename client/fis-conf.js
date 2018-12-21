@@ -63,6 +63,10 @@ fis.match('/webApp/static/js/plugin/jquery/*.js', {
 fis.match('/webApp/static/js/plugin/lodash.js', {
   id: "lodash"
 });
+fis.match('/webApp/static/js/plugin/axios.min.js', {
+  id: "axios",
+  isMod:true
+});
 
 fis.match('/webApp/components/**/(*).js', {
   id: "$1",

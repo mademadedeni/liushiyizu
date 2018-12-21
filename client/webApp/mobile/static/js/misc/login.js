@@ -1,11 +1,11 @@
 var Vue = require("vue");
 require("element_ui");
 require("mobile-header");
+var axios = require("axios");
 
 var vm = new Vue({
 	el: "#app",
 	data: {
-		ctx:config.ctx,
 		mode: 'login',
 		userName: "",
 		userPassword: "",
@@ -27,13 +27,13 @@ var vm = new Vue({
 				that.$message.error("密码不能为空！");
 				return;
 			}
-			axios.post('/api/users/login', {
+			axios.post(that.$api+'/users/login', {
 				user_name: that.userName,
 				user_password: that.userPassword,
 				user_seven: that.keepLogin
 			}).then(function(res) {
 				if (res.data.message == 'success') {
-					window.location.href = "/mobile";
+					window.location.href = that.$ctx+"/mobile";
 				}else{
 					that.$message.error(res.data.message);
 				}

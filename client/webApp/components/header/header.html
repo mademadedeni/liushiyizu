@@ -1,12 +1,12 @@
 <header id="liuHeader" class="liu_header">
 	<div class="content_box">
-		<a class="p_ibt logo" href="/"></a>
+		<a class="p_ibt logo" :href="$ctx"></a>
 		<div class="p_ibt nav_box">
-			<a :class="{on:tabId == 1}" class="p_ibt nav" href="/">首页</a>
-			<a v-if="user.user_permission == 1" :class="{on:tabId == 2}" class="p_ibt nav" href="/notes">笔记</a>
-			<a :class="{on:tabId == 3}" class="p_ibt nav" href="/games">游戏</a>
-			<a :class="{on:tabId == 4}" class="p_ibt nav" href="/articles">文章</a>
-			<a :class="{on:tabId == 5}" class="p_ibt nav" href="/travelNotes">游记</a>
+			<a :class="{on:tabId == 1}" class="p_ibt nav" :href="$ctx">首页</a>
+			<a v-if="user.user_permission == 1" :class="{on:tabId == 2}" class="p_ibt nav" :href="$ctx+'/notes'">笔记</a>
+			<a :class="{on:tabId == 3}" class="p_ibt nav" :href="$ctx+'/games'">游戏</a>
+			<a :class="{on:tabId == 4}" class="p_ibt nav" :href="$ctx+'/articles'">文章</a>
+			<a :class="{on:tabId == 5}" class="p_ibt nav" :href="$ctx+'/travelNotes'">游记</a>
 		</div>
 		<div class="right">
 			<div class="p_ibt search_box">
@@ -15,15 +15,12 @@
 			</div>
 			<div v-if="user.user_id" class="p_ibt liu_header_box">
 				<div class="menu_box">
-					<a class="p_ibt head" href="/user/private">
-						<img :src="user.user_head_img" :title="user.user_name">
+					<a class="p_ibt head" :href="$ctx+'/user/private'">
+						<img :src="$ctx+user.user_head_img" :title="user.user_name">
 					</a>
 					<div class="menu_conent">
 						<div>
-							<a href="">menu1</a>
-							<a href="">menu2</a>
-							<a href="">menu3</a>
-							<a href="">menu4</a>
+							<a :href="$ctx+'/user/private'">个人中心</a>
 						</div>
 						<div class="Tright">
 							<a @click="onExit" class="p_ibt exit_btn" href="javascript:;">安全退出</a>

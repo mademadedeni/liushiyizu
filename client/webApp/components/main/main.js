@@ -30,9 +30,9 @@ module.exports = Vue.component("liu-main", {
 	},
 	mounted: function() {
 		this.$nextTick(function () {
-			var headerHeight = document.getElementById("liuHeader");
-			var footerHeight = document.getElementById("liuFooter");
-			this.$el.style.minHeight = window.innerHeight - headerHeight.clientHeight - footerHeight.clientHeight + 'px';
+			var headerHeight = document.getElementById("liuHeader").clientHeight;
+			var footerHeight = document.getElementById("liuFooter").clientHeight;
+			this.$el.style.minHeight = window.innerHeight - headerHeight - footerHeight + 'px';
 		});
 	},
 	methods: {

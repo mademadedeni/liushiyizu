@@ -2,6 +2,7 @@
  * @require header.css
  */
 var Vue = require("vue");
+var axios = require("axios");
 module.exports = Vue.component("liu-header", {
 	name:'liuHeader',
 	template: __inline("header.html"),
@@ -13,7 +14,6 @@ module.exports = Vue.component("liu-header", {
 	},
 	data: function() {
 		return {
-			ctx:config.ctx,
 			isShowNav:false,
 			navMap:{
 				'index':{
@@ -48,7 +48,7 @@ module.exports = Vue.component("liu-header", {
 	methods: {
 		init:function () {
 			var that = this;
-			axios.get(this.ctx+"/api/users/checkLogin").then(function (res) {
+			axios.get(that.$api+"/users/checkLogin").then(function (res) {
 				if (res.data.message == "success") {
 					that.user = res.data.data;
 					that.$emit("get-user",that.user);
@@ -59,7 +59,7 @@ module.exports = Vue.component("liu-header", {
 		},
 		onHref:function(nav){
 			this.isShowNav = false;
-			window.location.href = this.ctx + nav.url;
+			window.location.href = this.$ctx + nav.url;
 		}
 		
 	}

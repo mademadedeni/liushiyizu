@@ -1,6 +1,6 @@
 <header id="liuHeader" class="liu_header">
 	<div class="content_box">
-		<a class="p_ibt logo" :href="ctx+'/mobile'"></a>
+		<a class="p_ibt logo" :href="$ctx+'/mobile'"></a>
 		<div @focus="isShowNav=true" @blur="isShowNav=false" class="p_ibt nav_box" tabindex="9">
 			<div class="p_ibt value">{{navMap[active].value}}</div>
 			<ul class="ul" v-show="isShowNav" style="display:none;">
@@ -8,12 +8,12 @@
 			</ul>
 		</div>
 		<div v-if="!user" class="right">
-			<a :href="ctx+'/mobile/login'">登录</a>
-			<a :href="ctx+'/mobile/signUp'">注册</a>
+			<a :href="$ctx+'/mobile/login'">登录</a>
+			<a :href="$ctx+'/mobile/signUp'">注册</a>
 		</div>
 		<div v-if="user" class="right user_head">
-			<a :href="ctx+'/user/private'">
-				<img class="head" :src="ctx+user.user_head_img">
+			<a :href="$ctx+'/user/private'">
+				<img class="head" :src="$ctx+user.user_head_img">
 			</a>
 		</div>
 	</div>

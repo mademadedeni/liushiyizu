@@ -1,11 +1,11 @@
 var Vue = require("vue");
 require("element_ui");
 require("mobile-header");
+var axios = require("axios");
 
 var vm = new Vue({
     el: "#app",
     data: {
-        ctx:config.ctx,
         articleId:articleId,
         article: {
             article_title:"",
@@ -22,7 +22,7 @@ var vm = new Vue({
         init: function() {
             var that = this;
             if (that.articleId != "") {
-                axios.get('/api/articles/' + that.articleId).then(function (res) {
+                axios.get(that.$api+'/api/articles/' + that.articleId).then(function (res) {
                     if (res.data.message == "success") {
                         that.article.article_title = res.data.data.article_title;
                         that.article.article_content = res.data.data.article_content;
@@ -48,7 +48,7 @@ var vm = new Vue({
                 return;
             }
             article.article_content = document.getElementById("articleContent").innerHTML;
-            axios.post('/api/articles/edit', article).then(function(res) {
+            axios.post(that.$api+'/articles/edit', article).then(function(res) {
                 if (res.data.message == "success") {
                     that.$message.success("±£´æ³É¹¦£¡");
                     window.location.href = that.ctx+"/mobile/articles";
@@ -81,7 +81,7 @@ var vm = new Vue({
                 return;
             }
             article.article_content = document.getElementById("articleContent").innerHTML;
-            axios.post('/api/articles/edit/' + that.articleId, {
+            axios.post(that.$api+'/articles/edit/' + that.articleId, {
                 article_id: that.articleId,
                 article_title: article.article_title,
                 article_content:article.article_content,

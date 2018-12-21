@@ -2223,3 +2223,606 @@ err stack: ReferenceError: articleId is not defined
     at FSReqWrap.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:53:3)
 *************** error log end ***************
 
+[2018-12-21T19:43:12.204] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile/articles/31
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 778
+err name: ReferenceError
+err message: content is not defined
+err stack: ReferenceError: content is not defined
+    at router.get (C:\work\liushiyizu\client\routes\mobile\index.js:63:82)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+*************** error log end ***************
+
+[2018-12-21T19:43:35.844] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile/articles/31
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 336
+err name: ReferenceError
+err message: content is not defined
+err stack: ReferenceError: content is not defined
+    at router.get (C:\work\liushiyizu\client\routes\mobile\index.js:63:82)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+*************** error log end ***************
+
+[2018-12-21T19:47:08.763] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile/articles/31
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 382
+err name: ReferenceError
+err message: content is not defined
+err stack: ReferenceError: content is not defined
+    at router.get (C:\work\liushiyizu\client\routes\mobile\index.js:63:82)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+*************** error log end ***************
+
+[2018-12-21T19:47:15.563] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile/articles/31
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 339
+err name: ReferenceError
+err message: content is not defined
+err stack: ReferenceError: content is not defined
+    at router.get (C:\work\liushiyizu\client\routes\mobile\index.js:63:82)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+*************** error log end ***************
+
+[2018-12-21T19:47:58.822] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile/articles/31
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 361
+err name: ReferenceError
+err message: content is not defined
+err stack: ReferenceError: content is not defined
+    at router.get (C:\work\liushiyizu\client\routes\mobile\index.js:63:82)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+*************** error log end ***************
+
+[2018-12-21T19:49:25.957] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile/articles/31
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 333
+err name: ReferenceError
+err message: content is not defined
+err stack: ReferenceError: content is not defined
+    at router.get (C:\work\liushiyizu\client\routes\mobile\index.js:63:82)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+*************** error log end ***************
+
+[2018-12-21T19:50:34.337] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile/articles/31
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 9533
+err name: ReferenceError
+err message: content is not defined
+err stack: ReferenceError: content is not defined
+    at router.get (C:\work\liushiyizu\client\routes\mobile\index.js:63:82)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+*************** error log end ***************
+
+[2018-12-21T19:51:43.966] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile/articles/31
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 5174
+err name: ReferenceError
+err message: content is not defined
+err stack: ReferenceError: content is not defined
+    at router.get (C:\work\liushiyizu\client\routes\mobile\index.js:63:82)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+*************** error log end ***************
+
+[2018-12-21T19:52:14.485] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile/articles/31
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 19929
+err name: ReferenceError
+err message: content is not defined
+err stack: ReferenceError: content is not defined
+    at router.get (C:\work\liushiyizu\client\routes\mobile\index.js:63:82)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+*************** error log end ***************
+
+[2018-12-21T19:52:43.853] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile/articles/31
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 23818
+err name: ReferenceError
+err message: content is not defined
+err stack: ReferenceError: content is not defined
+    at router.get (C:\work\liushiyizu\client\routes\mobile\index.js:63:82)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+*************** error log end ***************
+
+[2018-12-21T19:52:54.681] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile/articles/31
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 5846
+err name: ReferenceError
+err message: content is not defined
+err stack: ReferenceError: content is not defined
+    at router.get (C:\work\liushiyizu\client\routes\mobile\index.js:63:82)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+*************** error log end ***************
+
+[2018-12-21T19:53:42.327] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile/articles/31
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 10974
+err name: ReferenceError
+err message: content is not defined
+err stack: ReferenceError: content is not defined
+    at router.get (C:\work\liushiyizu\client\routes\mobile\index.js:63:82)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+*************** error log end ***************
+
+[2018-12-21T19:54:10.310] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile/articles/31
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 23717
+err name: ReferenceError
+err message: content is not defined
+err stack: ReferenceError: content is not defined
+    at router.get (C:\work\liushiyizu\client\routes\mobile\index.js:63:82)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+*************** error log end ***************
+
+[2018-12-21T19:55:14.484] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile/articles/31
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 414
+err name: ReferenceError
+err message: content is not defined
+err stack: ReferenceError: content is not defined
+    at eval (lodash.templateSources[0]:29:10)
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:780:16
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:144:5
+    at Promise._execute (C:\work\liushiyizu\client\node_modules\bluebird\js\release\debuggability.js:303:9)
+    at Promise._resolveFromExecutor (C:\work\liushiyizu\client\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (C:\work\liushiyizu\client\node_modules\bluebird\js\release\promise.js:79:10)
+    at promisify (C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:137:10)
+    at Function.exports.lodash.render (C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:776:10)
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:165:27
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:99:5
+    at FSReqWrap.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:53:3)
+*************** error log end ***************
+
+[2018-12-21T19:55:32.134] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile/articles/31
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 352
+err name: ReferenceError
+err message: content is not defined
+err stack: ReferenceError: content is not defined
+    at eval (lodash.templateSources[6]:29:10)
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:780:16
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:144:5
+    at Promise._execute (C:\work\liushiyizu\client\node_modules\bluebird\js\release\debuggability.js:303:9)
+    at Promise._resolveFromExecutor (C:\work\liushiyizu\client\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (C:\work\liushiyizu\client\node_modules\bluebird\js\release\promise.js:79:10)
+    at promisify (C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:137:10)
+    at Function.exports.lodash.render (C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:776:10)
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:165:27
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:99:5
+    at FSReqWrap.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:53:3)
+*************** error log end ***************
+
+[2018-12-21T19:55:34.731] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile/articles/31
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 339
+err name: ReferenceError
+err message: content is not defined
+err stack: ReferenceError: content is not defined
+    at eval (lodash.templateSources[10]:29:10)
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:780:16
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:144:5
+    at Promise._execute (C:\work\liushiyizu\client\node_modules\bluebird\js\release\debuggability.js:303:9)
+    at Promise._resolveFromExecutor (C:\work\liushiyizu\client\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (C:\work\liushiyizu\client\node_modules\bluebird\js\release\promise.js:79:10)
+    at promisify (C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:137:10)
+    at Function.exports.lodash.render (C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:776:10)
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:165:27
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:99:5
+    at FSReqWrap.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:53:3)
+*************** error log end ***************
+
+[2018-12-21T19:55:36.515] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile/articles/31
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 358
+err name: ReferenceError
+err message: content is not defined
+err stack: ReferenceError: content is not defined
+    at eval (lodash.templateSources[14]:29:10)
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:780:16
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:144:5
+    at Promise._execute (C:\work\liushiyizu\client\node_modules\bluebird\js\release\debuggability.js:303:9)
+    at Promise._resolveFromExecutor (C:\work\liushiyizu\client\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (C:\work\liushiyizu\client\node_modules\bluebird\js\release\promise.js:79:10)
+    at promisify (C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:137:10)
+    at Function.exports.lodash.render (C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:776:10)
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:165:27
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:99:5
+    at FSReqWrap.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:53:3)
+*************** error log end ***************
+
+[2018-12-21T19:55:45.675] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile/articles/31
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 339
+err name: ReferenceError
+err message: content is not defined
+err stack: ReferenceError: content is not defined
+    at eval (lodash.templateSources[18]:29:10)
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:780:16
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:144:5
+    at Promise._execute (C:\work\liushiyizu\client\node_modules\bluebird\js\release\debuggability.js:303:9)
+    at Promise._resolveFromExecutor (C:\work\liushiyizu\client\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (C:\work\liushiyizu\client\node_modules\bluebird\js\release\promise.js:79:10)
+    at promisify (C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:137:10)
+    at Function.exports.lodash.render (C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:776:10)
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:165:27
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:99:5
+    at FSReqWrap.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:53:3)
+*************** error log end ***************
+
+[2018-12-21T19:56:04.771] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile/articles/31
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 385
+err name: ReferenceError
+err message: content is not defined
+err stack: ReferenceError: content is not defined
+    at eval (lodash.templateSources[0]:29:10)
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:780:16
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:144:5
+    at Promise._execute (C:\work\liushiyizu\client\node_modules\bluebird\js\release\debuggability.js:303:9)
+    at Promise._resolveFromExecutor (C:\work\liushiyizu\client\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (C:\work\liushiyizu\client\node_modules\bluebird\js\release\promise.js:79:10)
+    at promisify (C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:137:10)
+    at Function.exports.lodash.render (C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:776:10)
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:165:27
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:99:5
+    at FSReqWrap.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:53:3)
+*************** error log end ***************
+
+[2018-12-21T19:56:16.442] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile/articles/31
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 356
+err name: ReferenceError
+err message: content is not defined
+err stack: ReferenceError: content is not defined
+    at eval (lodash.templateSources[4]:29:10)
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:780:16
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:144:5
+    at Promise._execute (C:\work\liushiyizu\client\node_modules\bluebird\js\release\debuggability.js:303:9)
+    at Promise._resolveFromExecutor (C:\work\liushiyizu\client\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (C:\work\liushiyizu\client\node_modules\bluebird\js\release\promise.js:79:10)
+    at promisify (C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:137:10)
+    at Function.exports.lodash.render (C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:776:10)
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:165:27
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:99:5
+    at FSReqWrap.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:53:3)
+*************** error log end ***************
+
+[2018-12-21T19:56:28.568] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile/articles/31
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 359
+err name: ReferenceError
+err message: content is not defined
+err stack: ReferenceError: content is not defined
+    at eval (lodash.templateSources[8]:29:10)
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:780:16
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:144:5
+    at Promise._execute (C:\work\liushiyizu\client\node_modules\bluebird\js\release\debuggability.js:303:9)
+    at Promise._resolveFromExecutor (C:\work\liushiyizu\client\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (C:\work\liushiyizu\client\node_modules\bluebird\js\release\promise.js:79:10)
+    at promisify (C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:137:10)
+    at Function.exports.lodash.render (C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:776:10)
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:165:27
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:99:5
+    at FSReqWrap.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:53:3)
+*************** error log end ***************
+
+[2018-12-21T19:56:30.977] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile/articles/31
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 350
+err name: ReferenceError
+err message: content is not defined
+err stack: ReferenceError: content is not defined
+    at eval (lodash.templateSources[12]:29:10)
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:780:16
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:144:5
+    at Promise._execute (C:\work\liushiyizu\client\node_modules\bluebird\js\release\debuggability.js:303:9)
+    at Promise._resolveFromExecutor (C:\work\liushiyizu\client\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (C:\work\liushiyizu\client\node_modules\bluebird\js\release\promise.js:79:10)
+    at promisify (C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:137:10)
+    at Function.exports.lodash.render (C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:776:10)
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:165:27
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:99:5
+    at FSReqWrap.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:53:3)
+*************** error log end ***************
+
+[2018-12-21T19:57:38.362] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile/articles/31
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 60051
+err name: ReferenceError
+err message: content is not defined
+err stack: ReferenceError: content is not defined
+    at eval (lodash.templateSources[16]:29:10)
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:780:16
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:144:5
+    at Promise._execute (C:\work\liushiyizu\client\node_modules\bluebird\js\release\debuggability.js:303:9)
+    at Promise._resolveFromExecutor (C:\work\liushiyizu\client\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (C:\work\liushiyizu\client\node_modules\bluebird\js\release\promise.js:79:10)
+    at promisify (C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:137:10)
+    at Function.exports.lodash.render (C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:776:10)
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:165:27
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:99:5
+    at FSReqWrap.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:53:3)
+*************** error log end ***************
+
+[2018-12-21T19:57:45.289] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile/articles/31
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 3974
+err name: ReferenceError
+err message: content is not defined
+err stack: ReferenceError: content is not defined
+    at eval (lodash.templateSources[19]:29:10)
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:780:16
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:144:5
+    at Promise._execute (C:\work\liushiyizu\client\node_modules\bluebird\js\release\debuggability.js:303:9)
+    at Promise._resolveFromExecutor (C:\work\liushiyizu\client\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (C:\work\liushiyizu\client\node_modules\bluebird\js\release\promise.js:79:10)
+    at promisify (C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:137:10)
+    at Function.exports.lodash.render (C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:776:10)
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:165:27
+    at C:\work\liushiyizu\client\node_modules\consolidate\lib\consolidate.js:99:5
+    at FSReqWrap.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:53:3)
+*************** error log end ***************
+
+[2018-12-21T19:59:02.578] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile/articles/31
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 391
+err name: ReferenceError
+err message: content is not defined
+err stack: ReferenceError: content is not defined
+    at router.get (C:\work\liushiyizu\client\routes\mobile\index.js:63:82)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+*************** error log end ***************
+
+[2018-12-21T19:59:14.798] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile/articles/31
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 349
+err name: ReferenceError
+err message: content is not defined
+err stack: ReferenceError: content is not defined
+    at router.get (C:\work\liushiyizu\client\routes\mobile\index.js:63:82)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+*************** error log end ***************
+
+[2018-12-21T19:59:43.435] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile/articles/31
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 385
+err name: ReferenceError
+err message: article_content is not defined
+err stack: ReferenceError: article_content is not defined
+    at router.get (C:\work\liushiyizu\client\routes\mobile\index.js:63:90)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+*************** error log end ***************
+
+[2018-12-21T19:59:45.496] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile/articles/31
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 348
+err name: ReferenceError
+err message: article_content is not defined
+err stack: ReferenceError: article_content is not defined
+    at router.get (C:\work\liushiyizu\client\routes\mobile\index.js:63:90)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+*************** error log end ***************
+
+[2018-12-21T19:59:47.037] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile/articles/31
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 345
+err name: ReferenceError
+err message: article_content is not defined
+err stack: ReferenceError: article_content is not defined
+    at router.get (C:\work\liushiyizu\client\routes\mobile\index.js:63:90)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+*************** error log end ***************
+
+[2018-12-21T19:59:47.422] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile/articles/31
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 337
+err name: ReferenceError
+err message: article_content is not defined
+err stack: ReferenceError: article_content is not defined
+    at router.get (C:\work\liushiyizu\client\routes\mobile\index.js:63:90)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+*************** error log end ***************
+
+[2018-12-21T20:00:22.197] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile/articles/31
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 385
+err name: ReferenceError
+err message: article_content is not defined
+err stack: ReferenceError: article_content is not defined
+    at router.get (C:\work\liushiyizu\client\routes\mobile\index.js:63:90)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+*************** error log end ***************
+
+[2018-12-21T20:00:24.311] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile/articles/31
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 354
+err name: ReferenceError
+err message: article_content is not defined
+err stack: ReferenceError: article_content is not defined
+    at router.get (C:\work\liushiyizu\client\routes\mobile\index.js:63:90)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+*************** error log end ***************
+
+[2018-12-21T20:00:25.085] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile/articles/31
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 342
+err name: ReferenceError
+err message: article_content is not defined
+err stack: ReferenceError: article_content is not defined
+    at router.get (C:\work\liushiyizu\client\routes\mobile\index.js:63:90)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+*************** error log end ***************
+
+[2018-12-21T20:00:25.466] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile/articles/31
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 335
+err name: ReferenceError
+err message: article_content is not defined
+err stack: ReferenceError: article_content is not defined
+    at router.get (C:\work\liushiyizu\client\routes\mobile\index.js:63:90)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+*************** error log end ***************
+
+[2018-12-21T20:01:36.857] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile/articles/31
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 372
+err name: ReferenceError
+err message: article_content is not defined
+err stack: ReferenceError: article_content is not defined
+    at router.get (C:\work\liushiyizu\client\routes\mobile\index.js:63:90)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+*************** error log end ***************
+
+[2018-12-21T20:01:47.970] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /mobile/articles/31
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 337
+err name: ReferenceError
+err message: article_content is not defined
+err stack: ReferenceError: article_content is not defined
+    at router.get (C:\work\liushiyizu\client\routes\mobile\index.js:63:90)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+*************** error log end ***************
+

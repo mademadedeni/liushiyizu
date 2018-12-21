@@ -1,11 +1,11 @@
 <div id="app">
 	<liu-header :active="'article'"></liu-header>
 	<div class="Ptp10">
-		<a class="F12 co_999" :href="ctx+'/mobile/article/create'">写文章</a>
+		<a class="F12 co_999" :href="$ctx+'/mobile/article/create'">写文章</a>
 	</div>
 	<div class="article_list Ptp30">
 		<div v-for="article in articles" class="item_box">
-		    <a class="show" :href="ctx+'/mobile/articles/'+article.article_id">
+		    <a class="show" :href="$ctx+'/mobile/articles/'+article.article_id">
 		        <h3 class="h3">{{article.article_title}}</h3>
 		        <div class="content" v-html="article.article_content"></div>
 		        <div class="option_box">

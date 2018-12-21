@@ -4,7 +4,7 @@ require("header");
 require("main");
 require("footer");
 require("login");
-var $ = require("jquery");
+var axios = require("axios");
 
 var vm = new Vue({
     el: "#app",
@@ -31,9 +31,9 @@ var vm = new Vue({
         },
         initArticles: function() {
             var that = this;
-            $.get('/api/articles', { pageNum: 1, pageSize: 10,orderBy:"article_edit_date" }, function(res) {
-                if (res.message == 'success') {
-                    that.articles = res.data.articles;
+            axios.get(that.$api+'/articles', {params:{ pageNum: 1, pageSize: 10,orderBy:"article_edit_date" }}).then(function(res) {
+                if (res.data.message == 'success') {
+                    that.articles = res.data.data.articles;
                 }
             });
         },
@@ -53,12 +53,12 @@ var vm = new Vue({
         		that.$message.error("只能删除自己的文章！");
         		return false;
         	}
-        	$.get('/api/articles/delete/'+articles_id,{},function (res) {
-        		if (res.message == 'success') {
-        			that.$message.success("删除成功！");
-        			that.initArticles();
-        		}
-        	});
+        	axios.get(that.$api+'/articles/delete/'+articles_id).then(function (res) {
+                if (res.data.message == 'success') {
+                    that.$message.success("删除成功！");
+                    that.initArticles();
+                }
+            });
         }
     }
 });

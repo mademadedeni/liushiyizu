@@ -15,7 +15,7 @@
                 <div class="Ptp30">
                     <h1 class="p_ibt co_333">{{article.article_title}}</h1>
                     <div class="article_author">
-                        <img class="img" :src="article.user_head_img">
+                        <img class="img" :src="$ctx+article.user_head_img">
                         <div class="p_ibt Mlf20">
                             <span class="p_ibt Mtp10">{{article.user_nickname}}</span>
                             <div class="signature">{{article.user_signature}}</div>
@@ -25,7 +25,7 @@
                             <span>{{dateFormat(article.article_create_date)}}</span>
                             <span class="Mlf20">修改时间：</span>
                             <span>{{dateFormat(article.article_edit_date)}}</span>
-                            <a v-if="user.user_id == article.user_id || user.user_permission == 1" class="Mlf20" :href="'/articles/editor/'+article.article_id" target="_blank">编辑</a>
+                            <a v-if="user.user_id == article.user_id || user.user_permission == 1" class="Mlf20" :href="$ctx+'/article/editor/'+article.article_id" target="_blank">编辑</a>
                         </div>
                     </div>
                 </div>

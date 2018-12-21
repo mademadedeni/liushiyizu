@@ -3,7 +3,7 @@ const axios = require('axios');
 const fs = require('fs');
 const router = require('koa-router')();
 
-router.get("/mobile/games",async (ctx,next)=>{
+router.get(["/mobile/games","/mobile/travelNotes"],async (ctx,next)=>{
 	ctx.redirect("/");
 });
 
@@ -45,6 +45,7 @@ router.get(["/mobile/article/create","/mobile/article/edit/:articleId"],async (c
 
 router.get("/mobile/articles/:articleId",async (ctx,next)=>{
 	var article = {};
+	var content1 = "";
 	await axios({
 	      url: '/api/articles/'+ctx.params.articleId,
 	      headers: ctx.headers,
@@ -52,13 +53,14 @@ router.get("/mobile/articles/:articleId",async (ctx,next)=>{
 	    .then(function({data}) {
 	        if (data.message == "success") {
 	            article = data.data;
-	            article.article = JSON.stringify(data.data);
+	            article.article = JSON.stringify(article);
+	            article.article = article.article.replace(/\\/g,'\\\\');
 	        }
 	    })
 	    .catch(function(err) {
 	        console.log(err)
 	    });
-	await ctx.render("./mobile/html/article/read.html",{'article':article});
+	await ctx.render("./mobile/html/article/read.html",{'article':article,'content1':content1});
 });
 
 module.exports = router

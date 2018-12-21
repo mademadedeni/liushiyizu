@@ -100,3 +100,41 @@ err stack: TypeError: Cannot read property 'user' of null
 [2018-12-12T09:36:36.306] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
 [2018-12-12T09:36:37.678] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
 [2018-12-12T09:36:39.302] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2018-12-21T18:02:59.718] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/travelNotes/update
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 10011
+err name: Error
+err message: connect ETIMEDOUT
+err stack: Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (C:\work\liushiyizu\server\node_modules\mysql\lib\Connection.js:419:13)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at Socket._onTimeout (net.js:447:8)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+    --------------------
+    at Protocol._enqueue (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:145:48)
+    at Protocol.handshake (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:52:23)
+    at PoolConnection.connect (C:\work\liushiyizu\server\node_modules\mysql\lib\Connection.js:130:18)
+    at Pool.getConnection (C:\work\liushiyizu\server\node_modules\mysql\lib\Pool.js:48:16)
+    at Promise (C:\work\liushiyizu\server\lib\mysql.js:15:12)
+    at new Promise (<anonymous>)
+    at query (C:\work\liushiyizu\server\lib\mysql.js:14:11)
+    at Object.updateTravelNotes (C:\work\liushiyizu\server\lib\travelNotes_sql.js:16:9)
+    at exports.updateTravelNotes (C:\work\liushiyizu\server\controllers\travelNotes_contolller.js:80:27)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (C:\work\liushiyizu\server\node_modules\koa-router\lib\router.js:406:12)
+    at dispatch (C:\work\liushiyizu\server\node_modules\koa-compose\index.js:44:32)
+*************** error log end ***************
+

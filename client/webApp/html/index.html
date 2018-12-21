@@ -46,7 +46,7 @@
                             </div>
                             <% }); %>
                         </div>
-                        <div v-for="article in articles" class="p_ibt item_box">
+                        <div v-for="article in articles" class="p_ibt item_box" v-cloak>
                             <a :href="'/articles/'+article.article_id" target="_blank">
                                 <h3 class="h3">{{article.article_title}}</h3>
                                 <div class="content" v-html="article.article_content"></div>
@@ -65,7 +65,12 @@
         <liu-footer></liu-footer>
     </div>
     <script>
-        require('jquery')('.hidden_tag').remove();
+        (function () {
+            var nodes = document.querySelectorAll('.hidden_tag');
+            for (var i = 0; i < nodes.length; i++) {
+                nodes[i].remove();
+            }
+        })()
         require("/webApp/static/js/index");
     </script>
 </body>

@@ -5,7 +5,7 @@ require("element_ui");
 require("header");
 require("main");
 require("footer");
-var $ = require("jquery");
+var axios = require("axios");
 
 window.vm = new Vue({
 	el: "#app",
@@ -36,18 +36,18 @@ window.vm = new Vue({
 	methods: {
 		init:function () {
 			var that = this;
-			$.get("/api/note/permission",function (res) {
-				if (res.message == "success") {
-					that.permission = res.data;
+			axios.get(that.$api+"/note/permission").then(function (res) {
+				if (res.data.message == "success") {
+					that.permission = res.data.data;
 				}else{
-					console.log(res.message)
+					console.log(res.data.message)
 				}
 			});
-			$.get("/api/note/getNote/0/0",function (res) {
-				if (res.message == "success") {
-					that.noteList = res.data;
+			axios.get(that.$api+"/note/getNote/0/0").then(function (res) {
+				if (res.data.message == "success") {
+					that.noteList = res.data.data;
 				}else{
-					console.log(res.message)
+					console.log(res.data.message)
 				}
 			});
 		},
@@ -140,23 +140,22 @@ window.vm = new Vue({
 				user_email :that.currentNote.user_email,
 				user_address :that.currentNote.user_address
 			}
-			$.post("/api/note/addNote",params,function (res) {
-				if (res.message == 'success') {
-					console.log(res)
-					$.get("/api/note/getNote/0/0",function (res) {
-						if (res.message == "success") {
-							that.noteList = res.data;
+			axios.post(that.$api+"/note/addNote",params).then(function (res) {
+				if (res.data.message == 'success') {
+					axios.get(that.$api+"/note/getNote/0/0").then(function (res) {
+						if (res.data.message == "success") {
+							that.noteList = res.data.data;
 							that.isCommit = false;
 							that.$message.success("保存成功!");
 							that.onResetBtn();
 						}else{
 							that.$message("获取数据失败，请手动刷新页面!");
-							console.log(res.message)
+							console.log(res.data.message)
 						}
 					});
 				}else{
 					that.isCommit = false;
-					console.log(res.message)
+					console.log(res.data.message)
 					that.$message.error("保存失败!");
 				}
 			});
@@ -184,21 +183,21 @@ window.vm = new Vue({
 				user_email :that.currentNote.user_email,
 				user_address :that.currentNote.user_address
 			}
-			$.post("/api/note/updateNote",params,function (res) {
-				if (res.message == 'success') {
-					$.get("/api/note/getNote/0/0",function (res) {
-						if (res.message == "success") {
-							that.noteList = res.data;
+			axios.post(that.$api+"/note/updateNote",params).then(function (res) {
+				if (res.data.message == 'success') {
+					axios.get(that.$api+"/note/getNote/0/0").then(function (res) {
+						if (res.data.message == "success") {
+							that.noteList = res.data.data;
 							that.isUpdate = true;
 							that.$message.success("更新成功!");
 						}else{
-							console.log(res.message)
+							console.log(res.data.message)
 							that.$message("获取数据失败，请手动刷新页面!");
 						}
 					});
 				}else{
 					that.isUpdate = true;
-					console.log(res.message)
+					console.log(res.data.message)
 					that.$message.error("更新失败!");
 				}
 			});
@@ -228,21 +227,21 @@ window.vm = new Vue({
 			var params = {
 				user_id:[note.user_id]
 			}
-			$.post("/api/note/deleteNote",params,function (res) {
-				if (res.message == 'success') {
-					$.get("/api/note/getNote/0/0",function (res) {
-						if (res.message == "success") {
-							that.noteList = res.data;
+			axios.post(that.$api+"/note/deleteNote",params).then(function (res) {
+				if (res.data.message == 'success') {
+					axios.get(that.$api+"/note/getNote/0/0").then(function (res) {
+						if (res.data.message == "success") {
+							that.noteList = res.data.data;
 							that.isDelete = false;
 							that.$message.success("删除成功!");
 						}else{
 							that.$message("获取数据失败，请手动刷新页面!");
-							console.log(res.message)
+							console.log(res.data.message)
 						}
 					});
 				}else{
 					that.isDelete = false;
-					console.log(res.message)
+					console.log(res.data.message)
 					that.$message.error("删除失败!");
 				}
 			});

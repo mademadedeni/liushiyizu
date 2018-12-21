@@ -11,7 +11,6 @@ module.exports = Vue.component("liu-header", {
 	},
 	data: function() {
 		return {
-			ctx:config.ctx,
 			isShowNav:false,
 			navMap:{
 				'index':{

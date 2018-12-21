@@ -4,8 +4,8 @@ var utils = require(require('path').join(__dirname,"../../../../utils/utils.js")
 var vm = new Vue({
     template: __inline("article.html"),
     data: {
-    	ctx:config.ctx,
-        articles: []
+        articles: [],
+        isLoading:false
     },
     methods:{
     	dateFormat:utils.dateFormat

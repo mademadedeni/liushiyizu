@@ -3,7 +3,8 @@
  * @require element_ui
  */
 var Vue = require("vue");
-var $ = require("jquery");
+var axios = require("axios");
+
 module.exports = Vue.component("liu-login", {
 	name:"liuLogin",
 	template: __inline("login.html"),
@@ -41,12 +42,14 @@ module.exports = Vue.component("liu-login", {
 		},
 		userExit: function() {
 			var that = this;
-			$.get('/api/users/exit',function (res) {
-				if (res.message == "success") {
+			axios.get(that.$api+'/users/exit').then(function(res) {
+				if (res.data.message == "success") {
 					window.location.reload();
-				}else{
+				} else {
 					that.$message.error("退出失败！");
 				}
+			}).catch(function(error) {
+				window.location.reload();
 			});
 		},
 		onLogin:function () {
@@ -70,11 +73,13 @@ module.exports = Vue.component("liu-login", {
 				that.isLogin = false;
 				return;
 			}
-			$.post('/api/users/login',param,function (res) {
-				if (res.message == "success") {
+			axios.post(that.$api+'/users/login',param).then(function(res) {
+				if (res.data.message == "success") {
 					window.location.reload();
 				}
 				that.isLogin = false;
+			}).catch(function(error) {
+				window.location.reload();
 			});
 		},
 		onClose:function () {
@@ -128,22 +133,24 @@ module.exports = Vue.component("liu-login", {
 				that.getCaptcha();
 				return;
 			}
-			$.post('/api/users/signIn',param,function (res) {
-				if (res.code == 0) {
+			axios.post(that.$api+'/users/signIn',param).then(function(res) {
+				if (res.data.code == 0) {
 					that.$alert('恭喜你注册成功，快去登录吧！', '提示', {
 						confirmButtonText: '好的',
 						callback: action => {
 							window.location.reload();
 						}
 					});
-				}else if (res.code == 1) {
+				}else if (res.data.code == 1) {
 					that.$message.error("用户名或密码不合法！");
-				}else if(res.code == 2){
+				}else if(res.data.code == 2){
 					that.$message.error("用户已存在！");
-				}else if(res.code == 3){
+				}else if(res.data.code == 3){
 					that.$message.error("验证码不正确！");
 				}
 				that.isSignIn = false;
+			}).catch(function(error) {
+				window.location.reload();
 			});
 		},
 		getCaptcha:function () {

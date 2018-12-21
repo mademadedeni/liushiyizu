@@ -6,7 +6,7 @@ require("liu-user-nav");
 require("main");
 require("footer");
 require("login");
-var $ = require("jquery");
+var axios = require("axios");
 var _ = require("lodash");
 
 window.vm = new Vue({
@@ -105,15 +105,7 @@ window.vm = new Vue({
       },
       onCommitEidt: function() {
          var that = this;
-         var param = {
-            nickname: that.editUser.user_nickname,
-            sex: that.editUser.user_sex,
-            age: that.editUser.user_age,
-            phone: that.editUser.user_phone,
-            email: that.editUser.user_email,
-            address: that.editUser.user_address,
-            signature: that.editUser.user_signature
-         }
+         var param = that.editUser;
          if (param.user_nickname !== "" && (param.user_nickname.toString().split(" ").length > 1 || !/[a-zA-Z0-9_\.@]/.test(param.user_nickname))) {
             that.nicknameError = "昵称规则2-16位中英文、数字及下划线！";
             return;
@@ -145,13 +137,13 @@ window.vm = new Vue({
             that.signatureError = "";
          }
 
-         $.post("/api/users/eidtInfo", param, function(res) {
-            if (res.message == "success") {
+         axios.post(that.$api+"/users/eidtInfo", param).then(function(res) {
+            if (res.data.message == "success") {
                that.onCloseUserEdit();
                that.$message.success("修改成功！");
                setTimeout("window.location.reload()", 1500);
             } else {
-               that.$message.success(res.message);
+               that.$message.success(res.data.message);
             }
          });
       },

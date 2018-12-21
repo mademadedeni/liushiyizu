@@ -5,7 +5,6 @@ require("header");
 require("main");
 require("footer");
 require("login");
-require("jquery");
 
 var vm = new Vue({
 	el: "#app",

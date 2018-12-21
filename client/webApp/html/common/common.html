@@ -6,3 +6,12 @@
 <link rel="stylesheet" type="text/css" href="/webApp/static/css/main.css">
 <script data-loader src="/webApp/static/js/common/mod.js"></script>
 <script data-loader src="/webApp/static/js/common/utils.js"></script>
+<script type="text/javascript">
+	(function() {
+		var Vue = require("vue");
+		var ctx = "http://10.0.0.126";
+		var api = "http://10.0.0.126/api";
+		Vue.prototype.$ctx = ctx;
+		Vue.prototype.$api = api;
+	})();
+</script>

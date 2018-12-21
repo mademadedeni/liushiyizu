@@ -6,13 +6,12 @@
 var Vue = require("vue");
 require("element_ui");
 require("mobile-header");
-var $ = require("jquery");
+var axios = require("axios");
 
 var vm = new Vue({
     // el: "#app",
     template: __inline("webApp/mobile/ssr/index/index.html"),
     data: {
-        ctx:config.ctx,
         articles: []
     },
     mounted: function() {
@@ -36,9 +35,9 @@ var vm = new Vue({
         },
         initArticle: function() {
             var that = this;
-            $.get('/api/articles', { pageSize: 8, pageNum: 1, orderBy: 'article_edit_date' }, function(res) {
-                if (res.message == 'success') {
-                    that.articles = res.data.articles;
+            axios.get('/api/articles', {params:{ pageSize: 8, pageNum: 1, orderBy: 'article_edit_date' }}).then(function(res) {
+                if (res.data.message == 'success') {
+                    that.articles = res.data.data.articles;
                 }
             });
         },

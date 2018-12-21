@@ -5,7 +5,7 @@ require("header");
 require("main");
 require("footer");
 require("login");
-var $ = require("jquery");
+var axios = require("axios");
 
 var vm = new Vue({
 	el: "#app",
@@ -27,11 +27,11 @@ var vm = new Vue({
 			var that = this;
 			//获取文章内容
 			if (article_id) {
-				$.get('/api/articles/'+article_id,{},function (res) {
-					if (res.message == 'success') {
-						that.article = res.data;
+				axios.get(that.$api+'/articles/'+article_id).then(function (res) {
+					if (res.data.message == 'success') {
+						that.article = res.data.data;
 					}
-				})
+				});
 			}
 		},
         toLogin:function (i) {

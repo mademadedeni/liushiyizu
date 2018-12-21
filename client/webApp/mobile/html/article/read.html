@@ -10,16 +10,16 @@
 		<liu-header :active="'article'" @get-user="getUser"></liu-header>
 		<div class="read_article_main">
 			<div class="F12 co_999">
-				<a :href="ctx+'/mobile/articles'">返回</a>
+				<a :href="$ctx+'/mobile/articles'">返回</a>
 				<div class="right">
-					<a v-show="user.user_id == <%=article.user_id%>" :href="ctx+'/mobile/article/edit/<%=article.article_id%>'" style="display:none;">编辑</a>
+					<a v-show="user.user_id == <%=article.user_id%>" :href="$ctx+'/mobile/article/edit/<%=article.article_id%>'" style="display:none;">编辑</a>
 					<a @click="deleteArticle" v-show="user.user_id == <%=article.user_id%>" href="javascript:;" style="display:none;">删除</a>
 				</div>
 			</div>
 			<h2 class="h2"><%=article.article_title%></h2>
 			<div class="user_box">
 				<div class="p_ibt">
-					<img class="head" :src="ctx+'<%=article.user_head_img%>'">
+					<img class="head" :src="$ctx+'<%=article.user_head_img%>'">
 				</div>
 				<div class="p_ibt wido70">
 					<div><%=article.user_nickname%></div>
@@ -30,7 +30,12 @@
 		</div>
 	</div>
 	<script>
-		var article = JSON.parse('<%=article.article%>');
+		try {
+			var article = JSON.parse('<%=article.article%>');
+		} catch(e) {
+			var article = {};
+			console.log(e);
+		}
 	    require("/webApp/mobile/static/js/article/read.js");
 	</script>
 </body>

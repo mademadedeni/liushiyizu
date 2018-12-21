@@ -3,7 +3,7 @@
  */
 var Vue = require("vue");
 var login = require("login");
-var $ = require("jquery");
+var axios = require("axios");
 module.exports = Vue.component("liu-header", {
 	name:'liuHeader',
 	template: __inline("header.html"),
@@ -17,7 +17,7 @@ module.exports = Vue.component("liu-header", {
 	data: function() {
 		return {
 			searchValue:"",//搜索内容
-			searchUrl:"/search?value=",
+			searchUrl:this.$ctx+"/search?value=",
 			user:{
 				user_id:null,
 				user_name:"",
@@ -47,20 +47,20 @@ module.exports = Vue.component("liu-header", {
 	methods: {
 		init:function () {
 			var that = this;
-			$.get('/api/users/checkLogin',function (res) {
-				if (res.message == "success") {
+			axios.get(that.$api+'/api/users/checkLogin').then(function (res) {
+				if (res.data.message == "success") {
 					that.isLogin = true;
-					that.user = res.data;
-					that.$emit("get-user",res.data);
+					that.user = res.data.data;
+					that.$emit("get-user",that.user);
 				}
 			});
 		},
 		onExit: function() {
-			$.get("/api/users/exit",function (res) {
-				if (res.message == "success") {
-					window.location.href = "/";
+			axios.get(that.$api+"/api/users/exit").then(function (res) {
+				if (res.data.message == "success") {
+					window.location.reload();
 				}
-			})
+			});
 		},
 		toLoginBtn:function (i) {
 			this.login.isShow = i;
