@@ -69,6 +69,17 @@ exports.checkLogin = async(ctx, next) => {
                         user_signature: data.user_signature
                     }
                 }
+                ctx.session.user = {
+                    user_id: data.user_id,
+                    user_name: data.user_name,
+                    user_nickname: data.user_nickname,
+                    user_password: data.user_password,
+                    user_permission: data.user_permission,
+                    user_head_img: data.user_head_img
+                }
+                ctx.cookies.set("koaID",'1',{
+                    maxAge:1000*3600*0.5
+                });
             } else {
                 ctx.body = {
                     message: 'failed'

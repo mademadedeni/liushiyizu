@@ -12,6 +12,7 @@ a:hover{color:#09f;}
 table{border-collapse:collapse;}
 template{display:none;}
 iframe{width: 100%;border: none;}
+pre{word-break:break-all;word-wrap: break-word;white-space: pre-wrap;}
 /*misc*/
 .clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
 .clearfix{*zoom:1;}

@@ -47,7 +47,7 @@ module.exports = Vue.component("liu-header", {
 	methods: {
 		init:function () {
 			var that = this;
-			axios.get(that.$api+'/api/users/checkLogin').then(function (res) {
+			axios.get(that.$api+'/users/checkLogin').then(function (res) {
 				if (res.data.message == "success") {
 					that.isLogin = true;
 					that.user = res.data.data;
@@ -56,7 +56,7 @@ module.exports = Vue.component("liu-header", {
 			});
 		},
 		onExit: function() {
-			axios.get(that.$api+"/api/users/exit").then(function (res) {
+			axios.get(that.$api+"/users/exit").then(function (res) {
 				if (res.data.message == "success") {
 					window.location.reload();
 				}

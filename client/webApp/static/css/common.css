@@ -1,5 +1,6 @@
+/*@require ../font/iconfont.css*/
 @charset "utf-8";
-[v-cloak]{display:none;}
+[v-cloak]{display:none !important;}
 /* CSS Document */
 blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul {margin:0; padding:0 }
 input{outline: none;border:none;}textarea,div,a{outline:none;}
@@ -11,6 +12,7 @@ a:hover{color:#09f;}
 table{border-collapse:collapse;}
 template{display:none;}
 iframe{width: 100%;border: none;}
+pre{word-break:break-all;word-wrap: break-word;white-space: pre-wrap;}
 /*misc*/
 .clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
 .clearfix{*zoom:1;}

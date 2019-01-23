@@ -42,7 +42,7 @@ var vm = new Vue({
         },
         initArticle: function() {
             var that = this;
-            axios.get('/api/articles', {params:{ pageSize: 8, pageNum: 1, orderBy: 'article_edit_date' }}).then(function(res) {
+            axios.get(that.$api+'/articles', {params:{ pageSize: 8, pageNum: 1, orderBy: 'article_edit_date' }}).then(function(res) {
                 if (res.data.message == 'success') {
                     that.articles = res.data.data.articles;
                 }

@@ -1,5 +1,5 @@
 var Vue = require("vue");
-require("element_ui");
+require("elementUI");
 require("mobile-header");
 var axios = require("axios");
 

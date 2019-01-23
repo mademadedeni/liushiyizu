@@ -4,6 +4,15 @@
   "private": true,
   "description": "liushiyizu is a library web.",
   "main": "service/app.js",
+  "scripts": {
+    "debug": "node --inspect bin/www",
+    "start": "node bin/www",
+    "nodemon": "./node_modules/.bin/nodemon bin/www",
+    "dev": "fis3 release -d ./dist -w",
+    "prod": "fis3 release prod -d ../dist",
+    "prod_start": "pm2 start -n client bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "axios": "^0.18.0",
     "debug": "^2.6.3",
@@ -20,19 +29,11 @@
     "vue-server-renderer": "^2.5.16"
   },
   "devDependencies": {
+    "fis-parser-babel-6.x": "^6.24.1",
     "fis3-hook-commonjs": "^0.1.26",
     "fis3-hook-module": "^1.2.2",
     "fis3-postpackager-loader": "^2.1.11",
     "nodemon": "^1.18.7"
-  },
-  "scripts": {
-    "debug": "node --inspect bin/www",
-    "start": "node bin/www",
-    "nodemon": "./node_modules/.bin/nodemon bin/www",
-    "dev": "fis3 release -d ./dist -w",
-    "prod": "fis3 release -d ./dist",
-    "prod_start": "pm2 start -n client bin/www",
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",

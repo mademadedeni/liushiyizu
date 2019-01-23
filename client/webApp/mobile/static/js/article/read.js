@@ -1,13 +1,13 @@
 var Vue = require("vue");
 require("mobile-header");
-require("element_ui");
+require("elementUI");
 var axios = require("axios");
 
 var vm = new Vue({
     el: "#app",
     data: {
-        article:article,
-        user:{}
+        article: article,
+        user: {}
     },
     mounted: function() {
         this.$nextTick(function() {
@@ -17,12 +17,12 @@ var vm = new Vue({
     methods: {
         init: function() {
             var that = this;
-            
+
         },
-        getUser:function (user) {
+        getUser: function(user) {
             this.user = user;
         },
-        deleteArticle:function () {
+        deleteArticle: function() {
             var that = this;
             if (!that.user.user_id) {
                 that.showLogin = 1;
@@ -32,17 +32,21 @@ var vm = new Vue({
                 that.$message.error("只能删除自己的文章！");
                 return false;
             }
-            axios.get(that.$api+'/articles/delete/'+article.article_id).then(function (res) {
-                if (res.data.message == 'success') {
-                    that.$message.success("删除成功！");
-                    setTimeout(function () {
-                        window.location.href = that.$ctx+"/mobile/articles";
-                    },1000);
-                }else{
-                    that.$message.success(res.data.message);
-                }
-            }).catch(function (error) {
-                that.$message.success("删除失败！");
+            that.$confirm('确定要删除该文章吗?', '提示', {
+                type: 'warning'
+            }).then(function() {
+                axios.get(that.$api + '/articles/delete/' + article.article_id).then(function(res) {
+                    if (res.data.message == 'success') {
+                        that.$message.success("删除成功！");
+                        setTimeout(function() {
+                            window.location.href = that.$ctx + "/mobile/articles";
+                        }, 1000);
+                    } else {
+                        that.$message.success(res.data.message);
+                    }
+                }).catch(function(error) {
+                    that.$message.success("删除失败！");
+                });
             });
         }
     }

@@ -53,12 +53,24 @@ var vm = new Vue({
         		that.$message.error("只能删除自己的文章！");
         		return false;
         	}
-        	axios.get(that.$api+'/articles/delete/'+articles_id).then(function (res) {
-                if (res.data.message == 'success') {
-                    that.$message.success("删除成功！");
-                    that.initArticles();
-                }
-            });
+            this.$confirm('此操作将永久删除该文件, 是否继续?', '提示', {
+                      confirmButtonText: '确定',
+                      cancelButtonText: '取消',
+                      type: 'warning'
+                    }).then(() => {
+                        axios.get(that.$api+'/articles/delete/'+articles_id).then(function (res) {
+                              if (res.data.message == 'success') {
+                                  that.$message.success("删除成功！");
+                                  that.initArticles();
+                              }else{
+                                that.$message.success("删除失败！");
+                              }
+                          }).catch(function (err) {
+                              that.$message.success(err);
+                          });
+                    }).catch(() => {
+
+                    });
         }
     }
 });

@@ -1,5 +1,5 @@
 var Vue = require("vue");
-require("element_ui");
+require("elementUI");
 require("mobile-header");
 var axios = require("axios");
 
@@ -22,7 +22,7 @@ var vm = new Vue({
         init: function() {
             var that = this;
             if (that.articleId != "") {
-                axios.get(that.$api+'/api/articles/' + that.articleId).then(function (res) {
+                axios.get(that.$api+'/articles/' + that.articleId).then(function (res) {
                     if (res.data.message == "success") {
                         that.article.article_title = res.data.data.article_title;
                         that.article.article_content = res.data.data.article_content;

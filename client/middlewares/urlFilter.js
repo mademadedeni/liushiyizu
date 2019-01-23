@@ -12,8 +12,10 @@ var url_filter = async (ctx, next) => {
 
         //禁止访问html文件
         if (/^\/html|\.html$/.test(ctx.originalUrl)) {
-            ctx.redirect('/404');
-            return false;
+            if (ctx.originalUrl.indexOf('js/plugin')<1) {
+                ctx.redirect('/404');
+                return false;
+            }
         }
         //先去执行路由
         await next();

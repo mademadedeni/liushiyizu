@@ -24,7 +24,7 @@ module.exports = Vue.component("liu-login", {
 			isLogin:false,
 			isSignIn:false,
 			captcha:"",
-			ccapImg:"/api/captcha?norepeat=",
+			ccapImg:this.$api+"/captcha?norepeat=",
 			isShow:0
 		}
 	},
@@ -137,7 +137,7 @@ module.exports = Vue.component("liu-login", {
 				if (res.data.code == 0) {
 					that.$alert('恭喜你注册成功，快去登录吧！', '提示', {
 						confirmButtonText: '好的',
-						callback: action => {
+						callback: function(action) {
 							window.location.reload();
 						}
 					});
@@ -155,7 +155,7 @@ module.exports = Vue.component("liu-login", {
 		},
 		getCaptcha:function () {
 			var that = this;
-			that.ccapImg = "/api/captcha?norepeat=" +new Date().getTime();
+			that.ccapImg = that.$api+"/captcha?norepeat=" +new Date().getTime();
 		}
 	}
 })
