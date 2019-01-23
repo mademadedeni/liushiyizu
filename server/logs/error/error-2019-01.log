@@ -1,0 +1,168 @@
+[2019-01-21T11:28:27.340] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2019-01-21T11:28:28.554] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2019-01-21T11:28:29.901] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2019-01-21T11:28:31.489] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2019-01-21T11:28:33.477] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2019-01-21T11:28:36.154] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2019-01-21T11:28:40.002] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2019-01-21T17:56:29.440] [ERROR] errorLogger - Error Error: Redis connection to 127.0.0.1:6379 failed - read ECONNRESET
+[2019-01-22T18:06:31.995] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/travelNotes/update
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 341
+err name: Error
+err message: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+err stack: Error: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (C:\work\liushiyizu\server\node_modules\mysql\lib\Connection.js:103:28)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at TCP.onread (net.js:638:20)
+    --------------------
+    at Protocol._enqueue (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:145:48)
+    at PoolConnection.query (C:\work\liushiyizu\server\node_modules\mysql\lib\Connection.js:208:25)
+    at C:\work\liushiyizu\server\lib\mysql.js:19:24
+    at Ping.onOperationComplete [as _callback] (C:\work\liushiyizu\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:88:24)
+    at Ping.Sequence.OkPacket (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:97:8)
+    at Protocol._parsePacket (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (C:\work\liushiyizu\server\node_modules\mysql\lib\Connection.js:103:28)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at TCP.onread (net.js:638:20)
+*************** error log end ***************
+
+[2019-01-22T18:08:46.876] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/travelNotes/update
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 331
+err name: Error
+err message: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+err stack: Error: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (C:\work\liushiyizu\server\node_modules\mysql\lib\Connection.js:103:28)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at TCP.onread (net.js:638:20)
+    --------------------
+    at Protocol._enqueue (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:145:48)
+    at PoolConnection.query (C:\work\liushiyizu\server\node_modules\mysql\lib\Connection.js:208:25)
+    at C:\work\liushiyizu\server\lib\mysql.js:19:24
+    at Ping.onOperationComplete [as _callback] (C:\work\liushiyizu\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:88:24)
+    at Ping.Sequence.OkPacket (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:97:8)
+    at Protocol._parsePacket (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (C:\work\liushiyizu\server\node_modules\mysql\lib\Connection.js:103:28)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at TCP.onread (net.js:638:20)
+*************** error log end ***************
+
+[2019-01-22T18:12:01.618] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/travelNotes/update
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 330
+err name: Error
+err message: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+err stack: Error: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (C:\work\liushiyizu\server\node_modules\mysql\lib\Connection.js:103:28)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at TCP.onread (net.js:638:20)
+    --------------------
+    at Protocol._enqueue (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:145:48)
+    at PoolConnection.query (C:\work\liushiyizu\server\node_modules\mysql\lib\Connection.js:208:25)
+    at C:\work\liushiyizu\server\lib\mysql.js:19:24
+    at Ping.onOperationComplete [as _callback] (C:\work\liushiyizu\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:88:24)
+    at Ping.Sequence.OkPacket (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:97:8)
+    at Protocol._parsePacket (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (C:\work\liushiyizu\server\node_modules\mysql\lib\Connection.js:103:28)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at TCP.onread (net.js:638:20)
+*************** error log end ***************
+
+[2019-01-22T18:17:45.492] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/travelNotes/update
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 360
+err name: Error
+err message: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+err stack: Error: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (C:\work\liushiyizu\server\node_modules\mysql\lib\Connection.js:103:28)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at TCP.onread (net.js:638:20)
+    --------------------
+    at Protocol._enqueue (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:145:48)
+    at PoolConnection.query (C:\work\liushiyizu\server\node_modules\mysql\lib\Connection.js:208:25)
+    at C:\work\liushiyizu\server\lib\mysql.js:19:24
+    at Ping.onOperationComplete [as _callback] (C:\work\liushiyizu\server\node_modules\mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:88:24)
+    at Ping.Sequence.OkPacket (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\sequences\Sequence.js:97:8)
+    at Protocol._parsePacket (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\work\liushiyizu\server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (C:\work\liushiyizu\server\node_modules\mysql\lib\Connection.js:103:28)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at TCP.onread (net.js:638:20)
+*************** error log end ***************
+
