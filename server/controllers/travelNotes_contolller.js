@@ -2,6 +2,7 @@ const ApiError = require('../error/ApiError');
 const ApiErrorNames = require('../error/ApiErrorNames');
 const travelNotes_sql = require('../lib/travelNotes_sql');
 const travelNotesModel = require('../models/travelNotes_model');
+const config = require('../config/index.js');
 
 // 获取游记列表
 exports.getList = async (ctx, next) => {
@@ -33,6 +34,7 @@ exports.addTravelNotes = async (ctx, next) => {
     var user = ctx.session.user;
     if (!user) {
         ctx.body = {
+            code:config.CODE_NOT_LOGIN,
             message:'not login'
         }
         return;
@@ -43,7 +45,7 @@ exports.addTravelNotes = async (ctx, next) => {
             console.log(res)
             if (res.affectedRows > 0) {
                 ctx.body = {
-                    code:1,
+                    code:config.CODE_SUCCESS,
                     message:"success",
                     data:{
                         tId:res.insertId
@@ -68,6 +70,7 @@ exports.updateTravelNotes = async (ctx, next) => {
     var user = ctx.session.user;
     if (!user) {
         ctx.body = {
+            code:config.CODE_NOT_LOGIN,
             message:'not login'
         }
         return;
@@ -97,6 +100,7 @@ exports.updateTravelNotes = async (ctx, next) => {
 exports.upload = async (ctx, next) => {
     if (!ctx.session.user) {
         ctx.body = {
+            code:config.CODE_NOT_LOGIN,
             message:"not login!"
         }
         return;

@@ -5,6 +5,7 @@ require("main");
 require("footer");
 require("login");
 var axios = require("axios");
+var vuexStore = require("vuexStore");
 
 var vm = new Vue({
     el: "#app",
@@ -13,12 +14,12 @@ var vm = new Vue({
             article_id: article_id,
             article_title: '',
             article_content: '',
-            user_id:undefined
+            user_id: undefined
         },
         showLogin: 0,
         showUploadHead: true,
         um: {},
-        user:{},
+        user: {},
     },
     mounted: function() {
         this.$nextTick(function() {
@@ -28,21 +29,21 @@ var vm = new Vue({
     methods: {
         init: function() {
             var that = this;
-            // ³õÊ¼»¯±à¼­Æ÷
+            // åˆå§‹åŒ–ç¼–è¾‘å™¨
             that.um = UE.getEditor('container', {
                 toolbars: [
-                    ['forecolor','bold','italic','|','inserttitle','blockquote','insertcode','insertorderedlist','insertunorderedlist','|','link','unlink','simpleupload','underline','horizontal','|','removeformat']
+                    ['forecolor', 'bold', 'italic', '|', 'inserttitle', 'blockquote', 'insertcode', 'insertorderedlist', 'insertunorderedlist', '|', 'link', 'unlink', 'simpleupload', 'underline', 'horizontal', '|', 'removeformat']
                 ],
                 zIndex: 0,
-                maximumWords:5000,
-                elementPathEnabled:false,
-                initialFrameHeight:300
+                maximumWords: 5000,
+                elementPathEnabled: false,
+                initialFrameHeight: 300
             });
 
             that.um.ready(function() {
-                //»ñÈ¡ÎÄÕÂÄÚÈİ
+                //è·å–æ–‡ç« å†…å®¹
                 if (that.article.article_id) {
-                    axios.get(that.$api+'/articles/' + article_id).then(function(res) {
+                    axios.get(that.$api + '/articles/' + article_id).then(function(res) {
                         if (res.data.message == 'success') {
                             that.article.article_id = res.data.data.article_id;
                             that.article.article_title = res.data.data.article_title;
@@ -63,43 +64,59 @@ var vm = new Vue({
         onCommit: function() {
             var that = this;
             if (that.article.article_title.length < 3 || that.article.article_title.length > 30) {
-                that.$message.error("ÇëÊäÈë3-30¸ö×ÖµÄ±êÌâ£¡");
+                that.$message.error("è¯·è¾“å…¥3-30ä¸ªå­—çš„æ ‡é¢˜ï¼");
                 return;
             }
 
             that.article.article_content = that.um.getContent();
 
             if (that.article.article_content.length < 9 || that.article.article_content.length > 5000) {
-                that.$message.error("ÇëÊäÈë9-5000¸ö×ÖµÄÄÚÈİ£¡");
+                that.$message.error("è¯·è¾“å…¥9-5000ä¸ªå­—çš„å†…å®¹ï¼");
                 return;
             }
 
             if (that.article.article_id) {
                 if (that.user.user_id !== that.article.user_id && that.user.user_permission !== 1) {
-                    that.$message.error("Ã»ÓĞÈ¨ÏŞ£¡");
+                    that.$message.error("æ²¡æœ‰æƒé™ï¼");
                     return;
                 }
-                axios.post(that.$api+'/articles/edit/' + that.article.article_id, that.article).then(function(res) {
+                axios.post(that.$api + '/articles/edit/?token=1' + that.article.article_id, that.article, {
+                    cancelToken: vuexStore.source.token
+                }).then(function(res) {
                     if (res.data.message == "success") {
-                        that.$message.success("±£´æ³É¹¦£¡");
+                        that.$message.success("ä¿å­˜æˆåŠŸï¼");
                     } else {
-                        that.$message.error("±£´æÊ§°Ü!");
+                        that.$message.error("ä¿å­˜å¤±è´¥ï¼");
                         console.log(res.data.message);
+                    }
+                }).catch(function(error) {
+                    if (axios.isCancel(thrown)) {
+                        console.log('Request canceled', thrown.message);
+                    } else {
+                        console.log(error);
                     }
                 });
             } else {
-                axios.post(that.$api+'/articles/edit', that.article).then(function(res) {
+                axios.post(that.$api + '/articles/edit?token=1', that.article, {
+                    cancelToken: vuexStore.source.token
+                }).then(function(res) {
                     if (res.data.message == "success") {
-                        that.$message.success("±£´æ³É¹¦£¡");
+                        that.$message.success("ä¿å­˜æˆåŠŸï¼");
                         window.location.href = "/articles";
                     } else {
-                        that.$message.error("±£´æÊ§°Ü!");
+                        that.$message.error("ä¿å­˜å¤±è´¥ï¼");
                         console.log(res.data.message);
+                    }
+                }).catch(function(error) {
+                    if (axios.isCancel(thrown)) {
+                        console.log('Request canceled', thrown.message);
+                    } else {
+                        console.log(error);
                     }
                 });
             }
         },
-        getUser:function (user) {
+        getUser: function(user) {
             this.user = user;
         }
     }

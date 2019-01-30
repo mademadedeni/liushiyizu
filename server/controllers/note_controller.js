@@ -4,6 +4,7 @@ const md5 = require('md5');
 const utils = require('../utils/utils');
 const codeMd = require('../utils/codeMd');
 const _ = require('lodash');
+const config = require('../config/index.js');
 
 //add note
 exports.addNote = async (ctx, next) => {
@@ -60,7 +61,8 @@ exports.deleteNote = async (ctx, next) => {
     for (var i = 0; i < user_id.length; i++) {
         if (!utils.isInteger(user_id[i])) {
             ctx.body = {
-                message:'user_id illegal'
+                message:'user_id illegal',
+                code:config.CODE_FIELD_ILLEGAL
             }
         }
     }

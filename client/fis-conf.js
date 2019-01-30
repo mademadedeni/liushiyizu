@@ -64,6 +64,7 @@ fis.match('/webApp/static/js/plugin/axios.min.js', {
   isMod: true
 });
 
+
 fis.match('/webApp/components/**/(*).js', {
   id: "$1",
   isMod: true,
@@ -71,6 +72,10 @@ fis.match('/webApp/components/**/(*).js', {
 fis.match('/webApp/mobile/components/**/(*).js', {
   id: "mobile-" + "$1",
   isMod: true,
+});
+fis.match('/webApp/static/js/vuexStore.js', {
+  id: "vuexStore",
+  isMod: true
 });
 
 fis.match('/webApp/views',{

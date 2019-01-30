@@ -42,6 +42,11 @@ var vm = new Vue({
         },
         initArticle: function() {
             var that = this;
+            var initData = JSON.parse(document.getElementById("initialData").text);
+            if (initData && initData.length>0) {
+                that.articles = initData;
+                return;
+            }
             axios.get(that.$api+'/articles', {params:{ pageSize: 8, pageNum: 1, orderBy: 'article_edit_date' }}).then(function(res) {
                 if (res.data.message == 'success') {
                     that.articles = res.data.data.articles;

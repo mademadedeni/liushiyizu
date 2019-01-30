@@ -8,6 +8,7 @@ const md5 = require('md5');
 const codeMd = require('../utils/codeMd');
 const upload_controller = require('./upload_controller');
 const path = require('path');
+const config = require('../config/index.js');
 
 //检查登录
 exports.checkLogin = async(ctx, next) => {
@@ -24,11 +25,13 @@ exports.checkLogin = async(ctx, next) => {
     } else if (user && !ctx.cookies.get('koaID')) {
         clearCookie(ctx, next);
         ctx.body = {
+            code:config.CODE_SUCCESS,
             message: 'not login'
         }
         return;
     }else if(!user){
         ctx.body = {
+            code:config.CODE_SUCCESS,
             message: 'not login'
         }
         return;
@@ -37,7 +40,8 @@ exports.checkLogin = async(ctx, next) => {
     if (!userModel.checkField(userModel.user_name.name, user.user_name)) {
         clearCookie(ctx, next);
         ctx.body = {
-            message: 'user is illegal'
+            message: 'user is illegal',
+            code:config.CODE_FIELD_ILLEGAL
         }
         return;
     }
@@ -108,7 +112,8 @@ exports.login = async(ctx, next) => {
     }
     if (!userModel.checkField(userModel.user_name.name, user.user_name) || !userModel.checkField(userModel.user_password.name, user.user_password)) {
         ctx.body = {
-            message: 'user illegal'
+            message: 'user illegal',
+            code:config.CODE_FIELD_ILLEGAL
         }
         return;
     }
@@ -262,14 +267,14 @@ exports.signIn = async(ctx, next) => {
     if (!userModel.checkField(userModel.user_name.name, user.user_name)) {
         ctx.body = {
             message: "name or password illegal",
-            code: 1
+            code:config.CODE_FIELD_ILLEGAL
         }
         return;
     }
     if (!userModel.checkField(userModel.user_password.name, user.user_password)) {
         ctx.body = {
             message: "name or password illegal",
-            code: 1
+            code:config.CODE_FIELD_ILLEGAL
         }
         return;
     }
@@ -399,6 +404,7 @@ exports.eidtInfo = async(ctx, next) => {
 exports.uploadHead = async(ctx, next) => {
     if (!ctx.session.user) {
         ctx.body = {
+            code:config.CODE_NOT_LOGIN,
             message: "not login!"
         }
         return;

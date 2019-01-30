@@ -36,10 +36,10 @@ router.get('/', async(ctx, next) => {
             }
         })
         .catch(function(err) {
-            console.log(err)
+            console.error(err);
         });
 
-    await ctx.render("./html/index.html", {"articles":articles,"dateFormat":utils.dateFormat});
+    await ctx.render("./html/index.html", {"articles":articles,"dateFormat":utils.dateFormat,"initialData":JSON.stringify(articles)});
 });
 
 router.get('/mobile', async(ctx, next) => {

@@ -7,7 +7,7 @@
   "scripts": {
     "debug": "node --inspect bin/www",
     "start": "node bin/www",
-    "nodemon": "./node_modules/.bin/nodemon bin/www",
+    "nodemon": "./node_modules/.bin/nodemon node --inspect bin/www",
     "dev": "fis3 release -d ./dist -w",
     "prod": "fis3 release prod -d ../dist",
     "prod_start": "pm2 start -n client bin/www",
@@ -16,6 +16,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "debug": "^2.6.3",
+    "ejs": "^2.6.1",
     "koa": "^2.3.0",
     "koa-body": "^2.5.0",
     "koa-json": "^2.0.2",

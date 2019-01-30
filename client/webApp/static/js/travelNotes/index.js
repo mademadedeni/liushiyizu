@@ -7,7 +7,7 @@ require("login");
 var axios = require("axios");
 var _ = require("lodash");
 
-window.vm = new Vue({
+new Vue({
     el: "#app",
     data: {
 

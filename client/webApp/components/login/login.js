@@ -1,9 +1,10 @@
 /**
  * @require login.css
- * @require element_ui
  */
 var Vue = require("vue");
 var axios = require("axios");
+require('element_ui');
+var vuexStore = require("vuexStore");
 
 module.exports = Vue.component("liu-login", {
 	name:"liuLogin",
@@ -16,8 +17,8 @@ module.exports = Vue.component("liu-login", {
 	},
 	data: function() {
 		return {
-			userName:"liu",
-			userPwd:"123456",
+			userName:"",
+			userPwd:"",
 			user_seven:false,
 			signInName:"",
 			signInPwd:"",
@@ -25,11 +26,15 @@ module.exports = Vue.component("liu-login", {
 			isSignIn:false,
 			captcha:"",
 			ccapImg:this.$api+"/captcha?norepeat=",
-			isShow:0
+			isShow:0,
 		}
 	},
 	mounted: function() {
 		this.init();
+		vuexStore.login = {
+			onShow:this.onShow,
+			onClose:this.onClose
+		};
 	},
 	watch:{
 		visible:function (val) {
@@ -44,12 +49,13 @@ module.exports = Vue.component("liu-login", {
 			var that = this;
 			axios.get(that.$api+'/users/exit').then(function(res) {
 				if (res.data.message == "success") {
+					localStorage.removeItem("userInfo");
 					window.location.reload();
 				} else {
 					that.$message.error("退出失败！");
 				}
 			}).catch(function(error) {
-				window.location.reload();
+				that.$message.error("退出失败！");
 			});
 		},
 		onLogin:function () {
@@ -87,6 +93,7 @@ module.exports = Vue.component("liu-login", {
 			this.$emit("update:visible",0);
 		},
 		onShow:function (i) {
+			if (i===undefined) {i=1;}
 			this.isShow = i;
 			this.$emit("update:visible",i);
 		},

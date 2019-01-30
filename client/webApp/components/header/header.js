@@ -9,9 +9,8 @@ module.exports = Vue.component("liu-header", {
 	template: __inline("header.html"),
 	props: {
 		tabId:[String, Number],
-		isShowLogin:{
-			type:Number,
-			default:0
+		userData:{
+			type:Object
 		}
 	},
 	data: function() {
@@ -30,8 +29,7 @@ module.exports = Vue.component("liu-header", {
 				user_email:"",
 				user_address:"",
 				user_signatrue:""
-			},
-			login:{},
+			}
 		}
 	},
 	mounted: function() {
@@ -41,29 +39,31 @@ module.exports = Vue.component("liu-header", {
 			document.body.appendChild(el);
 			this.login = new login();
 			this.login.$mount(el);
-			this.login.isShow = this.isShowLogin;
+			this.toLoginBtn = this.login.onShow;
+			this.onExit = this.login.userExit;
 		});
 	},
 	methods: {
 		init:function () {
 			var that = this;
+			if (that.userData) {
+				that.user = that.userData;
+				that.$emit("get-user",that.user);
+				return;
+			}
+			var userInfo = localStorage.getItem("userInfo");
+			if (userInfo) {
+				that.user = JSON.parse(userInfo);
+				that.$emit("get-user",that.user);
+				return;
+			}
 			axios.get(that.$api+'/users/checkLogin').then(function (res) {
 				if (res.data.message == "success") {
-					that.isLogin = true;
 					that.user = res.data.data;
+					localStorage.setItem("userInfo",JSON.stringify(that.user));
 					that.$emit("get-user",that.user);
 				}
 			});
-		},
-		onExit: function() {
-			axios.get(that.$api+"/users/exit").then(function (res) {
-				if (res.data.message == "success") {
-					window.location.reload();
-				}
-			});
-		},
-		toLoginBtn:function (i) {
-			this.login.isShow = i;
 		},
 		onSearchBtn:function () {
 			

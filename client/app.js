@@ -25,7 +25,7 @@ app.use(koastatic(__dirname + '/dist'));
 
 const map = {
    map: {
-      html: 'lodash'
+      html: 'ejs'
    }
 }
 app.use(views(__dirname + '/dist', map));

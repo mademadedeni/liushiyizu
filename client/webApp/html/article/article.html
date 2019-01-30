@@ -13,6 +13,30 @@
         <liu-main>
             <div class="auto_box">
                 <div class="Ptp30">
+                    <h1 class="p_ibt co_333"><%=article.article_title%></h1>
+                    <div class="article_author">
+                        <img class="img" src="<%=article.user_head_img%>">
+                        <div class="p_ibt Mlf20">
+                            <span class="p_ibt Mtp10"><%=article.user_nickname%></span>
+                            <div class="signature"><%=article.user_signature%></div>
+                        </div>
+                        <div class="date_box">
+                            <span>创建时间：</span>
+                            <span><%=article.article_create_date%></span>
+                            <span class="Mlf20">修改时间：</span>
+                            <span><%=article.article_edit_date%></span>
+                            <% if (article.isCreator) { %>
+                                <a class="Mlf20" href="<%= '/article/editor/'+article.article_id %>" target="_blank">编辑</a>
+                            <% } %>
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="article_content_main"><%-article.article_content%></div>
+                </div>
+            </div>
+            <!-- <div class="auto_box">
+                <div class="Ptp30">
                     <h1 class="p_ibt co_333">{{article.article_title}}</h1>
                     <div class="article_author">
                         <img class="img" :src="$ctx+article.user_head_img">
@@ -32,13 +56,14 @@
                 <div class="">
                     <div class="article_content_main" v-html="article.article_content"></div>
                 </div>
-            </div>
+            </div> -->
         </liu-main>
         <liu-footer></liu-footer>
     </div>
 </body>
+<script type="text/json"><%-articleData%></script>
 <script>
-    var article_id = <%=article_id%>
+    var article_id = '<%article.article_id%>';
 require("/webApp/static/js/article/article");
 </script>
 

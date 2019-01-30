@@ -1,5 +1,6 @@
 var ApiError = require('../error/ApiError');
 var user_controller = require('../controllers/user_controller.js');
+const config = require('../config/index.js');
 /**
  * 在app.use(router)之前调用
  */
@@ -16,20 +17,20 @@ var response_formatter = (ctx) => {
             }
         } else if (ctx.body.message) {
             ctx.body = {
-                code: 0,
+                code: config.CODE_SUCCESS,
                 message: ctx.body.message,
                 data: ctx.body.data
             }
         } else if (ctx.type !== "image/jpg") { // 验证码过滤
             ctx.body = {
-                code: 0,
+                code: config.CODE_SUCCESS,
                 message: 'success',
                 data: ctx.body
             }
         }
     } else {
         ctx.body = {
-            code: 0,
+            code: config.CODE_SUCCESS,
             message: 'success'
         }
     }

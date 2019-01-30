@@ -7,9 +7,10 @@ require("main");
 require("footer");
 require("login");
 var axios = require("axios");
+var vuexStore = require("vuexStore");
 var _ = require("lodash");
 
-window.vm = new Vue({
+new Vue({
    el: "#app",
    data: {
       user: {
@@ -137,7 +138,9 @@ window.vm = new Vue({
             that.signatureError = "";
          }
 
-         axios.post(that.$api+"/users/eidtInfo", param).then(function(res) {
+         axios.post(that.$api+"/users/eidtInfo?token=1", param,{
+            cancelToken: vuexStore.source.token
+         }).then(function(res) {
             if (res.data.message == "success") {
                that.onCloseUserEdit();
                that.$message.success("修改成功！");

@@ -5,7 +5,7 @@
 module.exports = {
     env: 'test', //环境名称
     port: 3000,  //服务端口号
-    sql_host: '10.0.0.173',    //数据库地址
+    sql_host: 'localhost',    //数据库地址
     sql_port: '3306',    //数据库端口
     sql_user:"root", //数据库用户名
     sql_password:"root", //数据库密码

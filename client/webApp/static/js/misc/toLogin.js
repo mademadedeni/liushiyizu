@@ -4,23 +4,19 @@ require("header");
 require("main");
 require("footer");
 require("login");
+var vuexStore = require("vuexStore");
 
 var vm = new Vue({
 	el: "#app",
 	data: {
-		showLogin:1,
+		
 	},
 	mounted:function () {
 		this.$nextTick(function () {
-			
+			vuexStore.login.onShow();
 		});
 	},
 	methods: {
-        toLogin:function (i) {
-        	this.showLogin = i;
-        },
-        closeLogin:function () {
-        	this.showLogin = 0;
-        }
+        
 	}
 });

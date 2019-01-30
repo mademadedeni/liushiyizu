@@ -2,6 +2,7 @@ const article_sql = require('../lib/article_sql.js');
 const utils = require('../utils/utils.js');
 const article_model = require('../models/article_model.js');
 const _ = require('lodash');
+const config = require('../config/index.js');
 
 /**
  * 通过ID查询文章
@@ -178,16 +179,16 @@ exports.editArticle = async(ctx, next) => {
     //验证标题和内容
     if (!user) {
         return ctx.body = {
-            code: 1,
+            code: config.CODE_NOT_LOGIN,
             message: "not login",
-            data: true
+            data: false
         }
     }
 
     //权限验证 是否编辑，是否编辑自己文章||是否管理员
     if (article_id && (user.user_id != article.user_id && user.user_permission !==1)) {
         return ctx.body = {
-            code:2,
+            code:config.CODE_NOT_PERMISSION,
             message:"not permission",
             data:false
         }
@@ -196,14 +197,14 @@ exports.editArticle = async(ctx, next) => {
     //如果是更新验证id
     if (article_id && !article_model.checkField(article_model.article_id.name, article_id)) {
         return ctx.body = {
-            code: 4,
+            code: config.CODE_UNKNOWN_ERROR,
             message: "unkown error",
             data: false
         }
     }
     if (!article_model.checkField(article_model.article_title.name, article.article_title) || !article_model.checkField(article_model.article_content.name, article.article_content)) {
         return ctx.body = {
-            code: 3,
+            code: 4,
             message: "content error",
             data: false
         }
@@ -237,8 +238,8 @@ exports.editArticle = async(ctx, next) => {
                 var res = JSON.parse(JSON.stringify(result));
                 if (res.affectedRows > 0) {
                     ctx.body = {
+                        code: config.CODE_SUCCESS,
                         message: "success",
-                        code: 0
                     }
                 }
             }).catch(err => {
@@ -256,7 +257,7 @@ exports.deleteArticle = async(ctx, next) => {
     var user = ctx.session.user;
     if (!user) {
         return ctx.body = {
-            code: 1,
+            code: config.CODE_NOT_LOGIN,
             message: "not login",
             data: false
         }
@@ -332,7 +333,7 @@ exports.deleteArticles = async(ctx, next) => {
     var user = ctx.session.user;
     if (!user) {
         return ctx.body = {
-            code: 1,
+            code: config.CODE_NOT_LOGIN,
             message: "not login",
             data: false
         }
@@ -341,7 +342,8 @@ exports.deleteArticles = async(ctx, next) => {
 
     if (user.permission >= 3) {
         return ctx.body = {
-            message: '没有权限'
+            message: '没有权限',
+            code:config.CODE_NOT_PERMISSION
         }
     }
 

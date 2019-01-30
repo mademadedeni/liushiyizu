@@ -7,7 +7,7 @@ require("main");
 require("footer");
 var axios = require("axios");
 
-window.vm = new Vue({
+new Vue({
 	el: "#app",
 	data: {
 		currentNote:{

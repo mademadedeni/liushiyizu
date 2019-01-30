@@ -26,7 +26,6 @@ var url_filter = async (ctx, next) => {
             }
             switch (ctx.response.status) {
                 case 200:
-
                     break;
                 case 404:
                     await ctx.render("./html/error/404.html");
@@ -37,7 +36,7 @@ var url_filter = async (ctx, next) => {
             }
         }
     } catch (error) {
-        console.log(error);
+        console.log('urlFilter:',error);
     }
 }
 

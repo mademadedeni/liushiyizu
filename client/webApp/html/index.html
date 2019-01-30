@@ -31,8 +31,7 @@
                     <h2>最新文章</h2>
                     <div class="article_list Ptp30">
                         <div class="hidden_tag">
-                            <% _.forEach(articles, function(article) { %>
-                            <div class="p_ibt item_box">
+                            <% articles.forEach(function(article) { %><div class="p_ibt item_box">
                                 <a href="/articles/<%= article.article_id %>" target="_blank">
                                     <h3 class="h3"><%= article.article_title %></h3>
                                     <div class="content"><%= article.article_content %></div>
@@ -43,8 +42,7 @@
                                         <span><%= dateFormat(article.article_edit_date) %></span>
                                     </div>
                                 </a>
-                            </div>
-                            <% }); %>
+                            </div><% }); %>
                         </div>
                         <div v-for="article in articles" class="p_ibt item_box" v-cloak>
                             <a :href="'/articles/'+article.article_id" target="_blank">
@@ -64,6 +62,7 @@
         </liu-main>
         <liu-footer></liu-footer>
     </div>
+    <script id="initialData" type="text/json"><%-initialData%></script>
     <script>
         (function () {
             var nodes = document.querySelectorAll('.hidden_tag');
