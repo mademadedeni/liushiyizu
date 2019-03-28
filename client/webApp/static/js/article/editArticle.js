@@ -80,7 +80,7 @@ var vm = new Vue({
                     that.$message.error("没有权限！");
                     return;
                 }
-                axios.post(that.$api + '/articles/edit/?token=1' + that.article.article_id, that.article, {
+                axios.post(that.$api + '/articles/edit/'+that.article.article_id+'?token=1', that.article, {
                     cancelToken: vuexStore.source.token
                 }).then(function(res) {
                     if (res.data.message == "success") {
@@ -101,10 +101,10 @@ var vm = new Vue({
                     cancelToken: vuexStore.source.token
                 }).then(function(res) {
                     if (res.data.message == "success") {
-                        that.$message.success("保存成功！");
+                        that.$message.success("创建成功！");
                         window.location.href = "/articles";
                     } else {
-                        that.$message.error("保存失败！");
+                        that.$message.error("创建失败！");
                         console.log(res.data.message);
                     }
                 }).catch(function(error) {

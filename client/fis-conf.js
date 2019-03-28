@@ -160,7 +160,9 @@ fis.media("prod").match('**/**', {
 })
 .match("/webApp/static/js/plugin/element_ui/*.js", {
   useCompile: true,
-  optimizer:false
+})
+.match("/webApp/static/js/plugin/axios.min.js", {
+  useCompile: true,
 })
 .match('{/webApp/static/css/(*.css),/webApp/static/js/plugin/element_ui/(*.css)}', {
   packTo:'/dist/static/css/common.css',

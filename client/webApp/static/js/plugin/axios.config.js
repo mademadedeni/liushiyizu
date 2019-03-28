@@ -4,7 +4,7 @@ window.addEventListener("load", function () {
 
     // 添加一个请求拦截器
     axios.interceptors.request.use(function(config) {
-        if (!localStorage.getItem("userInfo")&&config.url.indexOf('token')>0) {
+        if (!sessionStorage.getItem("userData")&&config.url.indexOf('token')>0) {
             vuexStore.source.cancel();
             vuexStore.login.onShow(1);
         }
@@ -17,7 +17,7 @@ window.addEventListener("load", function () {
     // 添加一个响应拦截器
     axios.interceptors.response.use(function(response) {
         if (response.data.code == 1) {
-            localStorage.removeItem("userInfo");
+            sessionStorage.removeItem("userData");
             vuexStore.login.onShow(1);
         }
         return response;

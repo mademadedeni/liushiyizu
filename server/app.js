@@ -9,6 +9,7 @@ const session = require('koa-session-minimal');
 const koastatic = require('koa-static');
 const router = require('./routes');
 const upload_router = require('./routes/api/upload_router');
+const config = require('./config/index.js');
 
 //log工具
 const logUtil = require('./utils/log_util');
@@ -58,8 +59,7 @@ app.use(session({
          }
       }else if(ctx.cookies.get('koaID')){
          ctx.cookies.set("koaID",'1',{
-             maxAge:1000*3600*0.5
-             // maxAge:1000*3600*0.5
+             maxAge:config.sessionTimeout
          });
       }
       return {

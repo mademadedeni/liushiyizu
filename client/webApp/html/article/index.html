@@ -9,7 +9,7 @@
 <body>
     <div id="app">
         <!-- header -->
-        <liu-header @get-user="getUser" :tab-id="4" @to-login="toLogin"></liu-header>
+        <liu-header @get-user="getUser" :tab-id="4" @to-login="toLogin" :user-data="userData"></liu-header>
         <liu-main>
             <div class="auto_box">
                 <div class="Ptp30">
@@ -42,9 +42,10 @@
         </liu-main>
         <liu-footer></liu-footer>
     </div>
+    <script id="userData" type="text/json"><%-userData%></script>
+    <script id="articles" type="text/json"><%-articles%></script>
+    <script>
+        require("/webApp/static/js/article/index");
+    </script>
 </body>
-<script>
-require("/webApp/static/js/article/index");
-</script>
-
 </html>

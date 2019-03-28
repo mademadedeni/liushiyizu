@@ -15,7 +15,8 @@ var vm = new Vue({
     data: {
         list: [],
         showLogin: 0,
-        articles: []
+        articles: [],
+        userData:document.getElementById("userData").text,
     },
     mounted: function() {
         this.$nextTick(function() {

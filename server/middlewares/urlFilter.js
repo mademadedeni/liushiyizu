@@ -9,29 +9,16 @@ var response_formatter = (ctx) => {
         return;
     }
     if (ctx.body) {
-        if (ctx.body.code) {
-            ctx.body = {
-                code: ctx.body.code,
-                message: ctx.body.message,
-                data: ctx.body.data
-            }
-        } else if (ctx.body.message) {
-            ctx.body = {
-                code: config.CODE_SUCCESS,
-                message: ctx.body.message,
-                data: ctx.body.data
-            }
-        } else if (ctx.type !== "image/jpg") { // 验证码过滤
-            ctx.body = {
-                code: config.CODE_SUCCESS,
-                message: 'success',
-                data: ctx.body
+        if (ctx.type !== "image/jpg"){
+            if (!ctx.body.code) {
+                ctx.body.code = config.CODE_SUCCESS;
             }
         }
     } else {
         ctx.body = {
-            code: config.CODE_SUCCESS,
-            message: 'success'
+            code: config.CODE_UNKNOWN_ERROR,
+            message: 'success',
+            success:false
         }
     }
 }
@@ -47,15 +34,17 @@ var response_dispose = (ctx) => {
 var url_filter = async (ctx, next) => {
 
     var regApi = new RegExp("/api");
-    var regs = ['/api/users', '/api/note'];
-    var unRegs = ['/api/users/login'];
+    var regs = ['/api/users', '/api/note'];//需要登录
+    var unRegs = ['/api/users/login','/api/users/checkLogin'];//不需要登录
     var isNeedLogin = false;
+    //检查需要登录的接口
     for (var i = 0; i < regs.length; i++) {
         var reg = new RegExp(regs[i]);
         if (reg.test(ctx.originalUrl)) {
             isNeedLogin = true;
         }
     }
+    //排除不需要登录的接口
     for(var i = 0;i<unRegs.length;i++){
         var reg = new RegExp(unRegs[i]);
         if (reg.test(ctx.originalUrl)) {
@@ -63,6 +52,7 @@ var url_filter = async (ctx, next) => {
             break;
         }
     }
+    // 需要登录的检查登录
     if (isNeedLogin) {
         await new Promise((resolve, reject) => {
             user_controller.checkLogin(ctx, next).then(function (result) {

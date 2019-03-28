@@ -11,37 +11,48 @@ const path = require('path');
 const config = require('../config/index.js');
 
 //检查登录
-exports.checkLogin = async(ctx, next) => {
+exports.checkLogin = async (ctx, next) => {
     var user = ctx.session.user;
-    var cookie = ctx.cookies.get('reid');//记住我
+    var reid = ctx.cookies.get('reid'); //记住我
 
-    if (cookie = cookie?cookie.split("="):cookie) {
-        if (!user) {
+    if (user && !ctx.cookies.get('koaID')) {
+        if (cookie = reid ? reid.split("=") : reid) {
             user = {
                 user_name: cookie[0],
                 user_password: cookie[1]
             }
+        } else {
+            clearCookie(ctx, next);
+            ctx.body = {
+                code: config.CODE_NOT_LOGIN,
+                message: 'not login',
+                success: false
+            }
+            return;
         }
-    } else if (user && !ctx.cookies.get('koaID')) {
-        clearCookie(ctx, next);
+    } else if (user) {
         ctx.body = {
-            code:config.CODE_SUCCESS,
-            message: 'not login'
+            message: 'success',
+            data: user,
+            success: true
         }
         return;
-    }else if(!user){
+    } else {
+        clearCookie(ctx, next);
         ctx.body = {
-            code:config.CODE_SUCCESS,
-            message: 'not login'
+            code: config.CODE_NOT_LOGIN,
+            message: 'not login',
+            success: false
         }
         return;
     }
-    
+
     if (!userModel.checkField(userModel.user_name.name, user.user_name)) {
         clearCookie(ctx, next);
         ctx.body = {
             message: 'user is illegal',
-            code:config.CODE_FIELD_ILLEGAL
+            code: config.CODE_FIELD_ILLEGAL,
+            success: false
         }
         return;
     }
@@ -63,30 +74,26 @@ exports.checkLogin = async(ctx, next) => {
                         user_id: data.user_id,
                         user_name: data.user_name,
                         user_nickname: data.user_nickname,
-                        user_head_img: data.user_head_img,
                         user_permission: data.user_permission,
+                        user_head_img: data.user_head_img,
                         user_sex: data.user_sex,
                         user_age: data.user_age,
                         user_phone: data.user_phone,
                         user_email: data.user_email,
                         user_address: data.user_address,
                         user_signature: data.user_signature
-                    }
+                    },
+                    success: true,
                 }
-                ctx.session.user = {
-                    user_id: data.user_id,
-                    user_name: data.user_name,
-                    user_nickname: data.user_nickname,
-                    user_password: data.user_password,
-                    user_permission: data.user_permission,
-                    user_head_img: data.user_head_img
-                }
-                ctx.cookies.set("koaID",'1',{
-                    maxAge:1000*3600*0.5
+                ctx.session.user = ctx.body.data;
+                ctx.cookies.set("koaID", '1', {
+                    maxAge: config.sessionTimeout
                 });
             } else {
                 ctx.body = {
-                    message: 'failed'
+                    code: config.CODE_NOT_LOGIN,
+                    message: 'not login',
+                    success: false
                 }
             }
         }).catch(err => {
@@ -102,7 +109,7 @@ exports.checkLogin = async(ctx, next) => {
 }
 
 //登录
-exports.login = async(ctx, next) => {
+exports.login = async (ctx, next) => {
     var user = ctx.request.body;
     if (ctx.session.user) {
         ctx.body = {
@@ -113,7 +120,7 @@ exports.login = async(ctx, next) => {
     if (!userModel.checkField(userModel.user_name.name, user.user_name) || !userModel.checkField(userModel.user_password.name, user.user_password)) {
         ctx.body = {
             message: 'user illegal',
-            code:config.CODE_FIELD_ILLEGAL
+            code: config.CODE_FIELD_ILLEGAL
         }
         return;
     }
@@ -136,30 +143,35 @@ exports.login = async(ctx, next) => {
                     user_id: data.user_id,
                     user_name: data.user_name,
                     user_nickname: data.user_nickname,
-                    user_password: data.user_password,
+                    // user_password: data.user_password,
                     user_permission: data.user_permission,
-                    user_head_img: data.user_head_img
+                    user_head_img: data.user_head_img,
+                    user_sex: data.user_sex,
+                    user_age: data.user_age,
+                    user_phone: data.user_phone,
+                    user_email: data.user_email,
+                    user_address: data.user_address,
+                    user_signature: data.user_signature
                 }
-                ctx.cookies.set("koaID",'1',{
-                    maxAge:1000*3600*0.5
-                    // maxAge:1000*3600*0.5
+                ctx.cookies.set("koaID", '1', {
+                    maxAge: config.sessionTimeout
                 });
                 ctx.body = {
                     message: 'success'
                 }
                 if (user.user_seven === true) {
-                    ctx.cookies.set('reid', user.user_name+'='+data.user_password,{
-                        maxAge:1000*3600*24*7,
+                    ctx.cookies.set('reid', user.user_name + '=' + data.user_password, {
+                        maxAge: config.reidTimeout,
                         // signed:'',
                         // expires:new Date('2018-11-26 18:22:00'),
-                        path:'/',
+                        path: '/',
                         // domain:'',
-                        secure:false,
-                        httpOnly:true,
-                        overwrite:false,
+                        secure: false,
+                        httpOnly: true,
+                        overwrite: false,
                     });
                 }
-                
+
             } else {
                 ctx.body = {
                     message: 'failed'
@@ -178,14 +190,14 @@ exports.login = async(ctx, next) => {
 }
 
 //保持登录
-exports.keepLogin = async(ctx, next) => {
+exports.keepLogin = async (ctx, next) => {
     var cookie = ctx.cookies.get('reid').split('=');
     var userName = cookie[0];
     var userPwd = cookie[1];
-    
+
     if (!userName || !userPwd) {
         ctx.redirect('back');
-        return ;
+        return;
     }
 
     await user_sql.selectUserByName(userName)
@@ -224,9 +236,9 @@ exports.keepLogin = async(ctx, next) => {
 }
 
 //获取用户
-exports.getUser = async(ctx, next) => {
+exports.getUser = async (ctx, next) => {
 
-    
+
     var user_id = ctx.query.user_id;
     if (typeof user_id == "undefined") {
         throw new ApiError(ApiErrorNames.USER_NOT_EXIST);
@@ -249,32 +261,33 @@ exports.getUser = async(ctx, next) => {
         })
 }
 //退出
-var clearCookie = function (ctx,next) {
+var clearCookie = function(ctx, next) {
     ctx.session = null;
-    ctx.cookies.set('reid',null);
-    ctx.cookies.set('koaID',null);
+    ctx.cookies.set('reid', null);
+    ctx.cookies.set('koaID', null);
 }
-exports.exit = async(ctx, next) => {
+exports.exit = async (ctx, next) => {
     clearCookie(ctx, next);
     ctx.body = {
-        message: 'success'
+        message: 'success',
+        success:true
     }
 }
 
 //用户注册
-exports.signIn = async(ctx, next) => {
+exports.signIn = async (ctx, next) => {
     var user = ctx.request.body;
     if (!userModel.checkField(userModel.user_name.name, user.user_name)) {
         ctx.body = {
             message: "name or password illegal",
-            code:config.CODE_FIELD_ILLEGAL
+            code: config.CODE_FIELD_ILLEGAL
         }
         return;
     }
     if (!userModel.checkField(userModel.user_password.name, user.user_password)) {
         ctx.body = {
             message: "name or password illegal",
-            code:config.CODE_FIELD_ILLEGAL
+            code: config.CODE_FIELD_ILLEGAL
         }
         return;
     }
@@ -322,7 +335,7 @@ exports.signIn = async(ctx, next) => {
         });
 }
 
-exports.eidtInfo = async(ctx, next) => {
+exports.eidtInfo = async (ctx, next) => {
     var user = ctx.request.body;
     user = {
         user_id: ctx.session.user.user_id,
@@ -401,10 +414,10 @@ exports.eidtInfo = async(ctx, next) => {
 }
 
 //上传头像
-exports.uploadHead = async(ctx, next) => {
+exports.uploadHead = async (ctx, next) => {
     if (!ctx.session.user) {
         ctx.body = {
-            code:config.CODE_NOT_LOGIN,
+            code: config.CODE_NOT_LOGIN,
             message: "not login!"
         }
         return;
@@ -445,7 +458,9 @@ exports.uploadHead = async(ctx, next) => {
             }
             return;
         }
-        await user_sql.updateUser(user.user_id, userModel.updateUser({ user_head_img: imgPath }))
+        await user_sql.updateUser(user.user_id, userModel.updateUser({
+                user_head_img: imgPath
+            }))
             .then(resolve => {
                 var res = JSON.parse(JSON.stringify(resolve));
                 if (res.affectedRows > 0) {

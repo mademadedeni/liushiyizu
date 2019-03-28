@@ -10,7 +10,7 @@ module.exports = Vue.component("liu-header", {
 	props: {
 		tabId:[String, Number],
 		userData:{
-			type:Object
+			type:String
 		}
 	},
 	data: function() {
@@ -46,24 +46,26 @@ module.exports = Vue.component("liu-header", {
 	methods: {
 		init:function () {
 			var that = this;
-			if (that.userData) {
-				that.user = that.userData;
+			var userData = JSON.parse(that.userData);
+			if (userData) {
+				that.user = userData;
 				that.$emit("get-user",that.user);
 				return;
+			}else{
+				axios.get(that.$api+'/users/checkLogin').then(function (res) {
+					if (res.data.success) {
+						that.user = res.data.data;
+						sessionStorage.setItem("userData",JSON.stringify(that.user));
+						that.$emit("get-user",that.user);
+					}
+				});
 			}
-			var userInfo = localStorage.getItem("userInfo");
-			if (userInfo) {
-				that.user = JSON.parse(userInfo);
+			/*var userData = sessionStorage.getItem("userData");
+			if (userData) {
+				that.user = JSON.parse(userData);
 				that.$emit("get-user",that.user);
 				return;
-			}
-			axios.get(that.$api+'/users/checkLogin').then(function (res) {
-				if (res.data.message == "success") {
-					that.user = res.data.data;
-					localStorage.setItem("userInfo",JSON.stringify(that.user));
-					that.$emit("get-user",that.user);
-				}
-			});
+			}*/
 		},
 		onSearchBtn:function () {
 			

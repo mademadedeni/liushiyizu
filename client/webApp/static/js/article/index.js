@@ -13,7 +13,8 @@ var vm = new Vue({
         articles: [],
         showLogin: 0,
         showUploadHead: true,
-        user: {}
+        user: {},
+        userData:document.getElementById("userData").text,
     },
     mounted: function() {
         this.$nextTick(function() {
@@ -32,6 +33,11 @@ var vm = new Vue({
         },
         initArticles: function() {
             var that = this;
+            var articles = JSON.parse(document.getElementById("articles").text);
+            if (articles) {
+                this.articles = articles;
+                return;
+            }
             axios.get(that.$api + '/articles', {
                 params: {
                     pageNum: 1,

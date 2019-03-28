@@ -49,7 +49,7 @@ module.exports = Vue.component("liu-login", {
 			var that = this;
 			axios.get(that.$api+'/users/exit').then(function(res) {
 				if (res.data.message == "success") {
-					localStorage.removeItem("userInfo");
+					sessionStorage.removeItem("userData");
 					window.location.reload();
 				} else {
 					that.$message.error("退出失败！");

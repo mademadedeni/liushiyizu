@@ -57,7 +57,7 @@ exports.selectArticleById = async(ctx, next) => {
 }
 
 /**
- * 查询文章
+ * 获取文章
  * @param  {[type]}   ctx  [description]
  * @param  {Function} next [description]
  * @return {[type]}        [description]

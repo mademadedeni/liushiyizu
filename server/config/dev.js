@@ -13,6 +13,8 @@ module.exports = {
     sql_timeout:30000,  //请求超时30s
     redis_url:'127.0.0.1',       //redis地址
     redis_port: '6379',      //redis端口号
+    sessionTimeout:1000*3600*0.5,
+    reidTimeout:1000*3600*24*7,
 
     CODE_SUCCESS:0, //正常
     CODE_NOT_LOGIN:1,// 未登录

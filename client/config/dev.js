@@ -14,6 +14,6 @@ module.exports = {
     sql_timeout:30000,  //请求超时30s
     redis_url:'127.0.0.1',       //redis地址
     redis_port: '6379',      //redis端口号
-    ctx:"http://10.0.0.126",
-    api:"http://10.0.0.126/api",
+    ctx:"http://www.10.0.0.126",
+    api:"http://www.10.0.0.126/api",
 }

@@ -19,7 +19,7 @@ var vm = new Vue({
 	},
 	mounted:function () {
 		this.$nextTick(function () {
-		    this.init();
+		    // this.init();
 		});
 	},
 	methods: {

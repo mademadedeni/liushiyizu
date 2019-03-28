@@ -9,7 +9,7 @@
 
 <body>
     <div id="app">
-        <liu-header :tab-id="1"></liu-header>
+        <liu-header :tab-id="1" :user-data="userData"></liu-header>
         <liu-main>
             <div class="index_banner_box">
                 <div id="swiper" class="swiper-container">
@@ -63,6 +63,7 @@
         <liu-footer></liu-footer>
     </div>
     <script id="initialData" type="text/json"><%-initialData%></script>
+    <script id="userData" type="text/json"><%-userData%></script>
     <script>
         (function () {
             var nodes = document.querySelectorAll('.hidden_tag');
