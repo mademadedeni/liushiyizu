@@ -37,6 +37,15 @@
                             <span>{{dateFormat(article.article_edit_date)}}</span>
                         </div>
                     </div>
+                    <div v-show="totalCount>pageSize" class="Ptp20 Center Pbm20">
+                        <el-pagination class="el_pagination"
+                            background
+                            @current-change="handleCurrentChange"
+                            layout="total,prev, pager, next"
+                            :page-size="pageSize"
+                            :total="totalCount">
+                        </el-pagination>
+                    </div>
                 </div>
             </div>
         </liu-main>

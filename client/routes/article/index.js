@@ -19,18 +19,17 @@ router.get("/articles", async (ctx, next) => {
 			console.log(err)
 			ctx.redirect("/error/500");
 		});
-	await axios({
-			url: '/api/articles',
+	await axios.get('/api/articles',{
 			headers: ctx.headers,
-			data: {
-				pageSize: 8,
+			params: {
+				pageSize: 10,
 				pageNum: 1,
 				orderBy: 'article_edit_date'
 			}
 		})
 		.then(function(res) {
 			if (res.data.message == "success") {
-				articles = res.data.data.articles;
+				articles = res.data.data;
 			}
 		})
 		.catch(function(err) {

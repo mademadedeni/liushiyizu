@@ -9,9 +9,7 @@ module.exports = Vue.component("liu-header", {
 	template: __inline("header.html"),
 	props: {
 		tabId:[String, Number],
-		userData:{
-			type:String
-		}
+		userData:''
 	},
 	data: function() {
 		return {
@@ -46,8 +44,8 @@ module.exports = Vue.component("liu-header", {
 	methods: {
 		init:function () {
 			var that = this;
-			var userData = JSON.parse(that.userData);
-			if (userData) {
+			if (that.userData) {
+				var userData = JSON.parse(that.userData);
 				that.user = userData;
 				that.$emit("get-user",that.user);
 				return;

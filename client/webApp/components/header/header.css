@@ -13,8 +13,12 @@
 .liu_header_box .menu_box{position:absolute;z-index:2;right:0;width:40px;top:0px;height:40px;}
 .liu_header_box .menu_box:hover{height:60px;padding-left:90px;}
 .liu_header_box .menu_box:hover .menu_conent{visibility:visible;}
-.liu_header_box .menu_box .menu_conent{position:absolute;z-index:2;background-color:#fff;width:200px;height:300px;border-radius:5px;right:0px;top:50px;box-shadow: 0px 0px 6px 0px rgba(9,9,9,0.3);visibility:hidden;}
-.liu_header_box .menu_box .menu_conent .exit_btn{margin-right:20px;padding:10px 0;}
+.liu_header_box .menu_box .menu_conent{position:absolute;z-index:2;background-color:#fff;width:200px;border-radius:5px;right:0px;top:50px;box-shadow: 0px 0px 6px 0px rgba(9,9,9,0.3);visibility:hidden;}
+.liu_header_box .menu_box .menu_conent .item_box{padding:15px 10px;text-align:center;}
+.liu_header_box .menu_box .menu_conent .item{line-height:30px;width:80px;border-radius:3px;}
+.liu_header_box .menu_box .menu_conent .item:hover{color:#09f;background-color: #f5f7fa;}
+.liu_header_box .menu_box .menu_conent .exit_box{text-align:center;border-top:1px solid #ccc;}
+.liu_header_box .menu_box .menu_conent .exit_box .exit_btn{padding:10px 0;}
 .liu_header .content_box .sign_box{font-size:16px;margin-right:20px;margin-top: 8px;}
 .liu_header .content_box .sign_box .sign_btn{padding:0px 10px;}
 .liu_header .content_box .sign_box .sign_btn:hover{color:#09f;}

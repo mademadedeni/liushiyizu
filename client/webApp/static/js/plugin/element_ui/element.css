@@ -1,0 +1,7 @@
+.liu_dialog{}
+.liu_dialog .el-dialog__body{padding:20px;}
+.liu_dialog .el-dialog__headerbtn{top:10px;font-size:28px;}
+
+/*分页*/
+.el_pagination.is-background .el-pager li{border-radius:50%;}
+.el_pagination.is-background .btn-next,.el_pagination.is-background .btn-prev{border-radius:50%;}

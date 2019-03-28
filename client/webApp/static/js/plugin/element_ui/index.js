@@ -1,6 +1,6 @@
 /**
  * @require index.css
- * @require my.css
+ * @require element.css
  */
 var Vue = require("vue");
 define('element_ui', function(require, exports, module) {

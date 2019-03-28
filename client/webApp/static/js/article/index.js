@@ -15,6 +15,9 @@ var vm = new Vue({
         showUploadHead: true,
         user: {},
         userData:document.getElementById("userData").text,
+        totalCount:0,
+        pageNum:1,
+        pageSize:10,
     },
     mounted: function() {
         this.$nextTick(function() {
@@ -33,20 +36,26 @@ var vm = new Vue({
         },
         initArticles: function() {
             var that = this;
-            var articles = JSON.parse(document.getElementById("articles").text);
-            if (articles) {
-                this.articles = articles;
+            var data = JSON.parse(document.getElementById("articles").text);
+            if (data.articles) {
+                this.articles = data.articles;
+                this.totalCount = data.totalCount;
                 return;
             }
+            this.getArticles();
+        },
+        getArticles:function () {
+            var that = this;
             axios.get(that.$api + '/articles', {
                 params: {
-                    pageNum: 1,
-                    pageSize: 10,
+                    pageNum: that.pageNum,
+                    pageSize: that.pageSize,
                     orderBy: "article_edit_date"
                 }
             }).then(function(res) {
                 if (res.data.message == 'success') {
                     that.articles = res.data.data.articles;
+                    that.totalCount = res.data.data.totalCount;
                 }
             });
         },
@@ -86,6 +95,10 @@ var vm = new Vue({
             }).catch(() => {
 
             });
+        },
+        handleCurrentChange:function (val) {
+            this.pageNum = val;
+            this.getArticles();
         }
     }
 });
