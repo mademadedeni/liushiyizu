@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>私人空间</title>
+	<link rel="import" href="../common/common.html?__inline">
+</head>
+<body>
+	<div id="app">
+		<liu-header @get-user="getUser" :tab-id="0"></liu-header>
+		<liu-main>
+			<!-- top -->
+			<liu-user-header :user="user"></liu-user-header>
+			<!-- content -->
+			<div class="auto_box user_main_box">
+				<liu-user-nav active="article"></liu-user-nav>
+				<div class="p_ibt user_content_box">
+					<div class="user_content_title">
+						<span class="title">我的文章</span>
+						<div class="right">
+							<a class="iconfont icon-edit" :href="$ctx+'/article/editor'"> 写文章</a>
+						</div>
+					</div>
+					<div class="user_base_box">
+						<div v-for="article in articles" class="article_list_box" v-cloak>
+							<div class="head_box">
+								<img class="img" :src="$ctx+article.user_head_img">
+								<span class="p_ibt Mtp10 Mlf20">{{article.user_nickname}}</span>
+							</div>
+							<div class="title_box">
+								<a :href="$ctx+'/articles/'+article.article_id" class="title">{{article.article_title}}</a>
+								<div v-if="article.user_id == user.user_id || user.user_permission == 1" class="right">
+									<a @click="delArticle(article.article_id,article.user_id)" href="javascript:;">删除</a>
+									<a class="Mlf20" :href="$ctx+'/article/editor/'+article.article_id" target="_blank">编辑</a>
+								</div>
+							</div>
+							<div class="content" v-html="article.article_content"></div>
+							<div class="date_box">
+								<span>创建时间：</span>
+								<span>{{dateFormat(article.article_create_date)}}</span>
+								<span class="Mlf20">修改时间：</span>
+								<span>{{dateFormat(article.article_edit_date)}}</span>
+							</div>
+						</div>
+						<div v-show="totalCount>pageSize" class="Ptp20 Center Pbm20">
+							<el-pagination class="el_pagination"
+								background
+								@current-change="handleCurrentChange"
+								layout="total,prev, pager, next"
+								:page-size="pageSize"
+								:total="totalCount">
+							</el-pagination>
+						</div>
+					</div>
+				</div>
+			</div>
+		</liu-main>
+		<liu-footer></liu-footer>
+	</div>
+	<script type="text/javascript">
+		require("/webApp/static/js/user/article.js");
+	</script>
+</body>
+</html>

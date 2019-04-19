@@ -44,8 +44,12 @@ module.exports = Vue.component("liu-header", {
 	methods: {
 		init:function () {
 			var that = this;
-			if (that.userData) {
-				var userData = JSON.parse(that.userData);
+			var userData = document.getElementById("userData");
+			if (!that.userData&&userData) {
+				userData = userData.text;
+			}
+			if (that.userData || userData) {
+				var userData = JSON.parse(that.userData||userData);
 				that.user = userData;
 				that.$emit("get-user",that.user);
 				return;

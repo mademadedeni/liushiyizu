@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>朋友圈</title>
+	<link rel="import" href="../common.html?__inline">
+</head>
+<body>
+	<div id="app">
+		<div class="friends_main">
+			<div class="cover_box">
+				<div class="cover_img" :style="{'backgroundImage':'url('+coverImg+')'}"></div>
+				<div class="content_box">
+					<div class="top_box">
+						<span class="iconfont icon-direction_left"></span>
+						
+						<el-upload
+						  action="https://jsonplaceholder.typicode.com/posts/"
+						  multiple
+						  :show-file-list="false">
+						  <span class="iconfont icon-camera"></span>
+						</el-upload>
+					</div>
+					<div class="head_box">
+						<span class="nickname">{{userData.user_nickname}}</span>
+						<img class="head" :src="$ctx+userData.user_head_img">
+					</div>
+				</div>
+			</div>
+			<div class="friends_list">
+				<div class="friend_item">
+					<div class="head_box">
+						<img class="head" :src="$ctx+userData.user_head_img">
+					</div>
+					<div class="content_txt">
+						<div class="nickname">{{userData.user_nickname}}</div>
+						<div class="content nowrap">{{content}}</div>
+						<div class="imgs_box">
+							<template v-if="images.length>1">
+								<div v-for="img in images" class="img" :style="{'backgroundImage':'url('+img+')'}"></div>
+							</template>
+							<template v-else>
+								<img v-for="img in images" class="image" :src="img">
+							</template>
+						</div>
+						<div class="data_box">
+							<span class="date">1分钟前</span>
+							<span class="delete">删除</span>
+							<div class="comment_btn">
+								<span class="btn">
+									<span class="icon"></span>
+									<span class="icon"></span>
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="friend_item">
+					<div class="head_box">
+						<img class="head" :src="$ctx+userData.user_head_img">
+					</div>
+					<div class="content_txt">
+						<div class="nickname">{{userData.user_nickname}}</div>
+						<div class="content">{{content}}</div>
+						<div class="imgs_box">
+							<img class="image" src="/mobile/static/images/20190402160237.jpg">
+						</div>
+						<div class="data_box">
+							<span class="date">1分钟前</span>
+							<span class="delete">删除</span>
+							<div class="comment_btn">
+								<span class="btn">
+									<span class="icon"></span>
+									<span class="icon"></span>
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script id="userData" type="text/json"><%-userData%></script>
+	<script type="text/javascript">
+		require("/webApp/mobile/static/js/friends/friend.js");
+	</script>
+</body>
+</html>

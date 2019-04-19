@@ -9,13 +9,14 @@ const codeMd = require('../utils/codeMd');
 const upload_controller = require('./upload_controller');
 const path = require('path');
 const config = require('../config/index.js');
+const _ = require('lodash');
 
 //检查登录
 exports.checkLogin = async (ctx, next) => {
     var user = ctx.session.user;
     var reid = ctx.cookies.get('reid'); //记住我
 
-    if (user && !ctx.cookies.get('koaID')) {
+    if (!ctx.cookies.get('koaID')) {
         if (cookie = reid ? reid.split("=") : reid) {
             user = {
                 user_name: cookie[0],
@@ -243,7 +244,7 @@ exports.getUser = async (ctx, next) => {
     if (typeof user_id == "undefined") {
         throw new ApiError(ApiErrorNames.USER_NOT_EXIST);
     }
-    await userModel.selectUserByName(user_id)
+    await userModel.selectUserById(user_id)
         .then(result => {
 
             var res = JSON.parse(JSON.stringify(result))
@@ -253,6 +254,7 @@ exports.getUser = async (ctx, next) => {
                     name: res[0]['name'],
                     user_id: res[0]['id']
                 }
+                return res[0];
             }
         }).catch(err => {
             ctx.body = 'false'
@@ -270,7 +272,7 @@ exports.exit = async (ctx, next) => {
     clearCookie(ctx, next);
     ctx.body = {
         message: 'success',
-        success:true
+        success: true
     }
 }
 
@@ -337,6 +339,12 @@ exports.signIn = async (ctx, next) => {
 
 exports.eidtInfo = async (ctx, next) => {
     var user = ctx.request.body;
+    if (!ctx.session.user) {
+        ctx.body = {
+            message: "未登录！"
+        }
+        return;
+    }
     user = {
         user_id: ctx.session.user.user_id,
         user_nickname: user.user_nickname,
@@ -347,9 +355,7 @@ exports.eidtInfo = async (ctx, next) => {
         user_address: user.user_address,
         user_signature: user.user_signature
     }
-    if (user.user_id === 0 || !user.user_id) {
-        ctx.redirect("/");
-    }
+
     if (!userModel.checkField(userModel.user_nickname.name, user.user_nickname)) {
         ctx.body = {
             message: "昵称错误！"
@@ -395,14 +401,18 @@ exports.eidtInfo = async (ctx, next) => {
         }
         return;
     }
-
     await user_sql.updateUser(user.user_id, userModel.updateUser(user))
         .then(result => {
             var res = JSON.parse(JSON.stringify(result));
             if (res.affectedRows > 0) {
-                ctx.session.user.user_nickname = user.user_nickname;
                 ctx.body = {
-                    message: "success"
+                    message: 'success',
+                    success: true
+                }
+            }else{
+                ctx.body = {
+                    message: "faild",
+                    success:false
                 }
             }
         }).catch(err => {

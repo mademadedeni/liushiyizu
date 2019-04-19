@@ -72,7 +72,7 @@
 				<img class="img" :src="uploadHeadImg">
 				<el-upload
 				   ref="upload"
-				   action="/api/users/upload"
+				   :action="$api+'/users/upload'"
 				   :show-file-list="false"
 				   :auto-upload="false"
 				   :on-success="onSuccess"

@@ -1,8 +1,5 @@
-var development_env = require('./dev');
-var test_env = require('./test');
-
-//根据不同的NODE_ENV，输出不同的配置对象，默认输出development的配置对象
-module.exports = {
-    development: development_env,
-    test: test_env
-}[process.env.NODE_ENV || 'development']
+if (process.env.NODE_ENV === 'production') {
+ module.exports = require('./prod.js')
+} else {
+ module.exports = require('./dev.js')
+}

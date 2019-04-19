@@ -10,8 +10,7 @@
     "nodemon": "./node_modules/.bin/nodemon node --inspect bin/www",
     "dev": "fis3 release -d ./dist -w",
     "prod": "fis3 release prod -d ../dist",
-    "prod_start": "pm2 start -n client bin/www",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prod_start": "set NODE_ENV=production & pm2 -n client start bin/www"
   },
   "dependencies": {
     "axios": "^0.18.0",

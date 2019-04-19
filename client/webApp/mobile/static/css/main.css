@@ -27,3 +27,33 @@
 .read_article_main .h2{margin:1rem 0;}
 .read_article_main .user_box .head{width:3.5rem;height:3.5rem;border-radius:50%;}
 .read_article_main .textarea{border:none;margin-top:2rem;height:60vh;}
+
+
+/*朋友圈*/
+.friends_main{}
+.friends_main .cover_box{position: relative;height: 21.7rem;}
+.friends_main .cover_box .cover_img{position: absolute;left: 0;right: 0;top: 0;bottom: 0;background: url(/mobile/static/images/friends_cover.jpg) no-repeat center;background-size: cover;height: calc(100%);/*box-shadow: 0px -30px 1rem -17px rgba(43, 43, 43, 0.5) inset;*/}
+.friends_main .cover_box .content_box{height: 100%;position: relative;z-index: 2;}
+.friends_main .cover_box .content_box .top_box{color: #fff;position: fixed;padding: 1rem 0.6rem;left: 0;right: 0;z-index: 3;}
+.friends_main .cover_box .content_box .top_box .icon-direction_left{font-size: 20px;}
+.friends_main .cover_box .content_box .top_box .icon-camera{font-size:20px;float: right;margin-right: 4px;}
+.friends_main .cover_box .content_box .head_box{position: absolute;right: 0.85rem;bottom: -2.4rem;}
+.friends_main .cover_box .content_box .head_box .nickname{color: #fff;font-size: 15px;margin-right: 0.6rem;margin-top: 1.6rem;display: inline-block;}
+.friends_main .cover_box .content_box .head_box .head{height: 6.29rem;border-radius: 0.4rem;}
+.friends_list{padding: 3rem 0.85rem 1rem;}
+.friends_list .friend_item{border-bottom: 1px solid #EEEEED;padding: 0.8rem 0;}
+.friends_list .friend_item .head_box{float: left;}
+.friends_list .friend_item .head_box .head{width:3rem;border-radius: 0.3rem;}
+.friends_list .friend_item .content_txt{margin-left: 3.55rem;}
+.friends_list .friend_item .content_txt .nickname{font-size: 17px;font-weight: bold;color: #56618C;}
+.friends_list .friend_item .content_txt .content{font-size: 1.28rem;margin-top: 3px;color: #212121;}
+.friends_list .friend_item .content_txt .content.nowrap{background-color:#f6f6f6;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;padding:2px 0;}
+.friends_list .friend_item .content_txt .imgs_box{margin-top:10px;}
+.friends_list .friend_item .content_txt .imgs_box .img{width:6rem;height:6rem;display:inline-block;vertical-align:top;background-size:cover;background-position:center;margin-bottom:4px;margin-right:4px;}
+.friends_list .friend_item .content_txt .imgs_box .image{max-width:14.3rem;max-height:14.3rem;width:auto;height:auto;}
+.friends_list .friend_item .content_txt .data_box{font-size: 12px;margin-top:1.2rem;padding-bottom:0.4rem;}
+.friends_list .friend_item .content_txt .data_box .date{color:#777;}
+.friends_list .friend_item .content_txt .data_box .delete{color:#485B80;margin-left: 1.3rem;}
+.friends_list .friend_item .content_txt .data_box .comment_btn{float: right;}
+.friends_list .friend_item .content_txt .data_box .comment_btn .btn{display: inline-block;vertical-align: top;width: 1rem;height: 0.5rem;border-radius: 0.3rem;background-color: #F7F7F7;text-align: center;padding: 7px 8px 5px;line-height: 0;}
+.friends_list .friend_item .content_txt .data_box .comment_btn .btn .icon{display: inline-block;vertical-align: middle;width: 4px;height: 4px;border-radius: 50%;background-color: #405C7C;line-height: normal;}

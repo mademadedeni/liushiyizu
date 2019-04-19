@@ -78,14 +78,6 @@ fis.match('/webApp/static/js/vuexStore.js', {
   isMod: true
 });
 
-fis.match('/webApp/views',{
-  release:false,
-});
-
-
-fis.match('/webApp/static/js/common/config.dev.js', {
-  release:"/webApp/static/js/common/config.js"
-});
 fis.match('/webApp/static/js/common/config.prod.js', {
   release:false
 });
@@ -94,8 +86,12 @@ fis.match('/webApp/(**)', {
   release: "$1",
   useCompile: true
 });
-
-
+fis.match('/webApp/(static/js/common)/config.dev.js', {
+  release:"$1/config.js",
+});
+fis.match('/webApp/views',{
+  release:false,
+});
 
 // ---------   生产模式   ------------
 fis.media("prod").match('**/**', {
@@ -206,10 +202,7 @@ fis.media("prod").match('**/**', {
 .match('/webApp/static/js/plugin/vue/vue.js',{
   release:false,
 })
-.match('/webApp/static/js/common/config.dev.js', {
-  release:false,
-})
-.match('{/webApp/static/js/common/(*.js),/webApp/static/js/common/config.prod.js,/webApp/static/js/plugin/vue/(vue.min.js),/webApp/static/js/plugin/(axios.min.js)}', {
+.match('{/webApp/static/js/common/(*.js),/webApp/static/js/plugin/vue/(vue.min.js),/webApp/static/js/plugin/(axios.min.js),/webApp/static/js/(vuexStore.js)}', {
   packTo:"/dist/static/js/common.js",
   release:'/ignore/$1'
 })
@@ -217,6 +210,6 @@ fis.media("prod").match('**/**', {
   url:"/static/js/common.js",
   query: '?t=' + Date.now(),
 })
-.match('/webApp/static/js/common/{config.prod.js,config.dev.js}', {
+.match('/webApp/static/js/common/config.prod.js', {
   packOrder:10
 })

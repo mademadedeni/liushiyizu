@@ -10,6 +10,7 @@
     <div id="app">
         <!-- header -->
         <liu-header @get-user="getUser" :tab-id="4" @to-login="toLogin" :user-data="userData"></liu-header>
+        <div class="hidden_tag"> <%-LiuHeader%> </div>
         <liu-main>
             <div class="auto_box">
                 <div class="Ptp30">
@@ -17,7 +18,27 @@
                     <a class="right" :href="$ctx+'/article/editor'" target="_blank">我也写一篇</a>
                 </div>
                 <div class="Ptp20">
-                    <div v-for="article in articles" class="article_list_box">
+                    <div class="hidden_tag">
+                        <% data.articles.forEach(function(article) { %>
+                            <div v-for="article in articles" class="article_list_box">
+                                <div class="head_box">
+                                    <img class="img" src="<%= ctx+article.user_head_img %>">
+                                    <span class="p_ibt Mtp10 Mlf20"><%=article.user_nickname%></span>
+                                </div>
+                                <div class="title_box">
+                                    <a href="<%= ctx+'/articles/'+article.article_id %>" class="title"><%=article.article_title%></a>
+                                </div>
+                                <div class="content"><%-article.article_content%></div>
+                                <div class="date_box">
+                                    <span>创建时间：</span>
+                                    <span><%=dateFormat(article.article_create_date)%></span>
+                                    <span class="Mlf20">修改时间：</span>
+                                    <span><%=dateFormat(article.article_edit_date)%></span>
+                                </div>
+                            </div>
+                        <% }); %>
+                    </div>
+                    <div v-for="article in articles" class="article_list_box" v-cloak>
                         <div class="head_box">
                             <img class="img" :src="$ctx+article.user_head_img">
                             <span class="p_ibt Mtp10 Mlf20">{{article.user_nickname}}</span>
@@ -52,8 +73,14 @@
         <liu-footer></liu-footer>
     </div>
     <script id="userData" type="text/json"><%-userData%></script>
-    <script id="articles" type="text/json"><%-articles%></script>
+    <script id="articles" type="text/json"><%-JSON.stringify(data)%></script>
     <script>
+        (function () {
+            var nodes = document.querySelectorAll('.hidden_tag');
+            for (var i = 0; i < nodes.length; i++) {
+                nodes[i].remove();
+            }
+        })()
         require("/webApp/static/js/article/index");
     </script>
 </body>

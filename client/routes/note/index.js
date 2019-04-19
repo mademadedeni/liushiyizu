@@ -12,8 +12,7 @@ router.get('/notes', async (ctx, next) => {
 	        }
 	    })
 	    .catch(function (err) {
-	        console.log(err)
-	        ctx.redirect("/error/500");
+	        console.log(err.Error,err.config.url);
 	    });
 	await ctx.render("./html/note/index.html");
 });

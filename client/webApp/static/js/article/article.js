@@ -14,7 +14,6 @@ var vm = new Vue({
 			article_create_date:Date.now(),
 			article_edit_date:Date.now()
 		},
-		showLogin:0,
 		user:{},
 	},
 	mounted:function () {
@@ -34,12 +33,6 @@ var vm = new Vue({
 				});
 			}
 		},
-        toLogin:function (i) {
-        	this.showLogin = i;
-        },
-        closeLogin:function () {
-        	this.showLogin = 0;
-        },
         dateFormat:function (date) {
         	return utils.dateFormat(date);
         },

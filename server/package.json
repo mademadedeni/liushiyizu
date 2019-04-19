@@ -5,7 +5,7 @@
   "description": "liushiyizu is a library web.",
   "main": "service/app.js",
   "dependencies": {
-    "debug": "^2.6.3",
+    "debug": "^2.6.9",
     "is-generator-function": "^1.0.6",
     "koa": "^2.3.0",
     "koa-body": "^2.5.0",
@@ -20,7 +20,7 @@
     "log4js": "^3.0.6",
     "md5": "^2.2.1",
     "mysql": "^2.15.0",
-    "pug": "^2.0.0-rc.1",
+    "pug": "^2.0.3",
     "redis": "^2.8.0",
     "ueditor": "^1.2.3",
     "vue": "^2.5.2"

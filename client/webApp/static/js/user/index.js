@@ -47,7 +47,10 @@ new Vue({
       emailError: "",
       addressError: "",
       signatureError: "",
-      imgData:{'a':1,'b':'fff'}
+      imgData: {
+         'a': 1,
+         'b': 'fff'
+      }
    },
    mounted: function() {
       this.$nextTick(function() {
@@ -85,12 +88,15 @@ new Vue({
 
          if (!isJPG) {
             this.$message.error('上传头像图片只能是 JPG或PNG 格式!');
+            this.$refs.upload.uploadFiles.pop();
             return;
          }
          if (!isLt2M) {
             this.$message.error('上传头像图片大小不能超过 500KB!');
+            this.$refs.upload.uploadFiles.pop();
             return;
          }
+         this.$refs.upload.uploadFiles = [file];
          this.uploadHeadImg = file.url;
       },
       uploadHeadbtn: function() {
@@ -107,47 +113,50 @@ new Vue({
       onCommitEidt: function() {
          var that = this;
          var param = that.editUser;
-         if (param.user_nickname !== "" && (param.user_nickname.toString().split(" ").length > 1 || !/[a-zA-Z0-9_\.@]/.test(param.user_nickname))) {
+         if (!_.isNil(param.user_nickname) && param.user_nickname !== '' && (_.size(param.user_nickname) == 1 || _.size(param.user_nickname) > 16 || !/^(?!_)(?!.*?_$)[a-zA-Z0-9_\u4e00-\u9fa5]+$/.test(param.user_nickname))) {
             that.nicknameError = "昵称规则2-16位中英文、数字及下划线！";
             return;
          } else {
             that.nicknameError = "";
          }
-         if (param.user_age !== "" && (param.user_age.toString().split(" ").length > 1 || !utils.isInteger(param.user_age))) {
+         if (!_.isNil(param.user_age) && param.user_age !== '' && !utils.isInteger(param.user_age)) {
             that.ageError = "年龄不符合规则！";
             return;
          } else {
             that.ageError = "";
          }
-         if (!utils.isPhone(param.user_phone)) {
+         if (!_.isNil(param.user_phone) && param.user_phone !== '' && !utils.isPhone(param.user_phone)) {
             that.phoneError = "手机号不符合规则！";
             return;
          } else {
             that.phoneError = "";
          }
-         if (!utils.isEmail(param.user_email)) {
+         if (!_.isNil(param.user_email) && param.user_email !== '' && !utils.isEmail(param.user_email)) {
             that.emailError = "邮箱不符合规则！";
             return;
          } else {
             that.emailError = "";
          }
-         if (/\n/g.test(param.user_signature)) {
+         if (!_.isNil(param.user_signature) && param.user_signature !== '' && /\n/g.test(param.user_signature)) {
             that.signatureError = "个性签名不符合规则！";
             return;
          } else {
             that.signatureError = "";
          }
 
-         axios.post(that.$api+"/users/eidtInfo?token=1", param,{
+         axios.post(that.$api + "/users/eidtInfo?token=1", param, {
             cancelToken: vuexStore.source.token
          }).then(function(res) {
-            if (res.data.message == "success") {
+            if (res.data.success) {
                that.onCloseUserEdit();
                that.$message.success("修改成功！");
                setTimeout("window.location.reload()", 1500);
             } else {
-               that.$message.success(res.data.message);
+               that.$message.error(res.data.message);
             }
+         }).catch(function (err) {
+            console.log(err);
+            that.$message.error('服务器错误！');
          });
       },
       editUserInfoBtn: function() {

@@ -9,7 +9,8 @@
 <body>
     <div id="app">
         <!-- header -->
-        <liu-header @get-user="getUser" :tab-id="4" @to-login="toLogin"></liu-header>
+        <liu-header @get-user="getUser" :tab-id="4"></liu-header>
+        <div class="hidden_tag"> <%-LiuHeader%> </div>
         <liu-main>
             <div class="auto_box">
                 <div class="Ptp30">
@@ -60,11 +61,17 @@
         </liu-main>
         <liu-footer></liu-footer>
     </div>
-</body>
-<script type="text/json"><%-articleData%></script>
+<script id="userData" type="text/json"><%-userData%></script>
+<script id="articleData" type="text/json"><%-articleData%></script>
 <script>
+    (function () {
+        var nodes = document.querySelectorAll('.hidden_tag');
+        for (var i = 0; i < nodes.length; i++) {
+            nodes[i].remove();
+        }
+    })()
     var article_id = '<%article.article_id%>';
-require("/webApp/static/js/article/article");
+    require("/webApp/static/js/article/article");
 </script>
-
+</body>
 </html>

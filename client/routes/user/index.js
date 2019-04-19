@@ -1,7 +1,7 @@
 const router = require('koa-router')();
 const axios = require('axios');
 
-router.get("/user/private", async (ctx, next) => {
+router.get(["/user/private","/user/userInfo"], async (ctx, next) => {
 	var isLogin = true;
 	await axios({
 			url: '/api/users/checkLogin',
@@ -13,8 +13,7 @@ router.get("/user/private", async (ctx, next) => {
 			}
 		})
 		.catch(function(err) {
-			console.log(err)
-			ctx.redirect("/error/500");
+			console.log(err.Error,err.config.url);
 		});
 
 	if (!isLogin) {
@@ -23,6 +22,29 @@ router.get("/user/private", async (ctx, next) => {
 	}
 
 	await ctx.render("./html/user/index.html");
+});
+
+router.get("/user/article",async (ctx, next) => {
+	var isLogin = true;
+	await axios({
+			url: '/api/users/checkLogin',
+			headers: ctx.headers
+		})
+		.then(function({data}) {
+			if (data.message !== "success") {
+				isLogin = false;
+			}
+		})
+		.catch(function(err) {
+			console.log(err.Error,err.config.url);
+		});
+
+	if (!isLogin) {
+		await ctx.render("./html/misc/login.html");
+		return;
+	}
+
+	await ctx.render("./html/user/article.html");
 });
 
 module.exports = router

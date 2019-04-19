@@ -37,7 +37,7 @@ router.get('/', async (ctx, next) => {
          }
       })
       .catch(function(err) {
-         console.error(err);
+         console.log(err.Error,err.config.url);
       });
    await axios({
          url: '/api/users/checkLogin',
@@ -49,7 +49,7 @@ router.get('/', async (ctx, next) => {
          }
       })
       .catch(function(err) {
-         console.log(err)
+         console.log(err.Error,err.config.url);
          ctx.redirect("/error/500");
       });
 
@@ -82,13 +82,13 @@ router.get('/mobile', async (ctx, next) => {
          }
       })
       .catch(function(err) {
-         console.log(err)
+         console.log(err.Error,err.config.url);
       });
    // 在 2.5.0+，如果没有传入回调函数，则会返回 Promise：
    renderer.renderToString(app).then(html => {
       ctx.body = html;
    }).catch(err => {
-      console.error(err)
+      console.log(err.Error,err.config.url);
    });
 
    // await ctx.render("./mobile/html/index.html");

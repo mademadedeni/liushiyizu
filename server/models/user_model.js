@@ -1,4 +1,5 @@
 const utils = require('../utils/utils');
+const _ = require('lodash');
 
 let t_user = {
 	user_id: {
@@ -103,9 +104,15 @@ let t_user = {
 				continue;
 			}
 			if (this[key].type === "string") {
-				data += key + "=" + "'" + t_user[key] + "'" + ",";
+				if (_.isNil(t_user[key])) {
+					t_user[key] = '';
+				}
+				data += `${key} = '${t_user[key]}',`;
 			} else {
-				data += key + "=" + t_user[key] + ",";
+				if (_.isNil(t_user[key])) {
+					t_user[key] = '';
+				}
+				data += `${key} = ${t_user[key]},`;
 			}
 		}
 		return data.substring(0, data.length - 1);
@@ -187,13 +194,6 @@ let t_user = {
 			}
 			return true;
 		}
-		//nickname
-		if (field === this.user_nickname.name) {
-			if (!value || value.toString().length > this.user_name.length || value.split(' ').length > 1 || !/[a-zA-Z0-9_\.@]/.test(value)) {
-				return false;
-			}
-			return true;
-		}
 		//password
 		if (field === this.user_password.name) {
 			if (!value || value.toString().length > this.user_password.length || value.toString().length < 6 || value.split(' ').length > 1) {
@@ -201,9 +201,19 @@ let t_user = {
 			}
 			return true;
 		}
+		//nickname
+		if (field === this.user_nickname.name) {
+			if (this.user_nickname.isNull && (_.isNil(value) || value === "")) {
+				return true;
+			}else if (value.toString().length > this.user_name.length || value.split(' ').length > 1 || !/^(?!_)(?!.*?_$)[a-zA-Z0-9_\u4e00-\u9fa5]+$/.test(value)) {
+				return false;
+			}
+			return true;
+		}
+		
 		// permission
 		if (field === this.user_permission.name) {
-			if (this.user_permission.isNull && (value === '' || value === null || typeof value === "undefined")) {
+			if (this.user_permission.isNull && (_.isNil(value) || value === "")) {
 				return true;
 			} else if (this.user_permission.enum.indexOf(value) < 0) {
 				return false;
@@ -212,7 +222,7 @@ let t_user = {
 		}
 		// sex
 		if (field === this.user_sex.name) {
-			if (this.user_sex.isNull && (value === '' || value === null || typeof value === "undefined")) {
+			if (this.user_sex.isNull && (_.isNil(value) || value === "")) {
 				return true;
 			} else if (this.user_sex.enum.indexOf(value) < 0) {
 				return false;
@@ -221,7 +231,7 @@ let t_user = {
 		}
 		// age
 		if (field === this.user_age.name) {
-			if (this.user_age.isNull && (value === '' || value === null || typeof value === "undefined")) {
+			if (this.user_age.isNull && (_.isNil(value) || value === "")) {
 				return true;
 			} else if (!utils.isInteger(value) || value.toString().length > this.user_age.length) {
 				return false;
@@ -230,7 +240,7 @@ let t_user = {
 		}
 		// phone
 		if (field === this.user_phone.name) {
-			if (this.user_phone.isNull && (value === '' || value === null || typeof value === "undefined")) {
+			if (this.user_phone.isNull && (_.isNil(value) || value === "")) {
 				return true;
 			} else if (!utils.isPhone(value)) {
 				return false;
@@ -239,7 +249,7 @@ let t_user = {
 		}
 		// email
 		if (field === this.user_email.name) {
-			if (this.user_email.isNull && (value === '' || value === null || typeof value === "undefined")) {
+			if (this.user_email.isNull && (_.isNil(value) || value === "")) {
 				return true;
 			} else if (!utils.isEmail(value)) {
 				return false;
@@ -248,7 +258,7 @@ let t_user = {
 		}
 		// address
 		if (field === this.user_address.name) {
-			if (this.user_email.isNull && (value === '' || value === null || typeof value === "undefined")) {
+			if (this.user_email.isNull && (_.isNil(value) || value === "")) {
 				return true;
 			} else if (value.toString().length > this.user_address.length) {
 				return false;
@@ -257,7 +267,7 @@ let t_user = {
 		}
 		// signature
 		if (field === this.user_signature.name) {
-			if (this.user_email.isNull && (value === '' || value === null || typeof value === "undefined")) {
+			if (this.user_email.isNull && (_.isNil(value) || value === "")) {
 				return true;
 			} else if (value.toString().length > this.user_address.length) {
 				return false;
