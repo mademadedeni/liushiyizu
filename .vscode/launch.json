@@ -11,11 +11,16 @@
             "name": "Launch Program",
             "program": "${workspaceFolder}/server/bin/www"
         },
+        
         // {
         //     "type": "node",
         //     "request": "launch",
         //     "name": "Electron Main",
-        //     "program": "${workspaceFolder}/client/bin/www"
+        //     "program": "${workspaceFolder}/client/bin/www",
+        //     "env": {
+        //         "NODE_ENV": "development"
+        //         // "NODE_ENV":'production'
+        //     }
         // }
         
     ]

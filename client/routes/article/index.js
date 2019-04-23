@@ -4,6 +4,7 @@ const config = require('../../config');
 const axios = require('axios');
 const path = require('path');
 
+
 router.get("/articles", async (ctx, next) => {
 	var articles = {};//返回结果data.articles
 	var userData = '';
@@ -55,6 +56,7 @@ router.get("/articles", async (ctx, next) => {
 	});
 });
 router.get("/articles/:article_id", async (ctx, next) => {
+	console.log(config.ctx,process.env.NODE_ENV);
 	var article = {};
 	var userData = '';
 	var LiuHeader = "";
@@ -71,7 +73,7 @@ router.get("/articles/:article_id", async (ctx, next) => {
 			}
 		})
 		.catch(function(err) {
-			console.log(err.Error,err.config.url);
+			console.log("article router:",err.Error,err.config.url);
 		});
 	header.user = userData;
 	renderer.renderToString(header, (err, html) => {
@@ -97,7 +99,7 @@ router.get("/articles/:article_id", async (ctx, next) => {
 			}
 		})
 		.catch(function(err) {
-			console.log(err.Error,err.config.url);
+			console.log("article router:",err.Error,err.config.url);
 		});
 	await ctx.render("./html/article/article.html", {
 		"article": article,
@@ -118,7 +120,7 @@ router.get(["/article/editor", "/article/editor/:article_id"], async (ctx, next)
 			}
 		})
 		.catch(function(err) {
-			console.log(err.Error,err.config.url);
+			console.log("article router:",err.Error,err.config.url);
 		});
 	if (isLogin) {
 		await ctx.render("./html/misc/login.html");

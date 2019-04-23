@@ -14,15 +14,16 @@ let query = function(sql, values) {
    return new Promise((resolve, reject) => {
       pool.getConnection(function(err, connection) {
          if (err) {
-            reject(err)
+            reject(err);
          } else {
             connection.query({sql:sql, timeout:config.sql_timeout, values:values}, (err, rows) => {
                if (err) {
-                  reject(err)
+                  console.log("sql:",err);
+                  reject(err);
                } else {
-                  resolve(rows)
+                  resolve(rows);
                }
-               connection.release()
+               connection.release();
             })
          }
       })

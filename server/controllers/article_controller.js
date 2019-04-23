@@ -47,7 +47,7 @@ exports.selectArticleById = async(ctx, next) => {
         }).catch(err => {
             if (err) {
                 ctx.response.status = 500;
-                console.log(err)
+                console.log("article_controller:",err)
                 ctx.body = {
                     message: err,
                     data: false
@@ -137,7 +137,7 @@ exports.selectArticle = async(ctx, next) => {
         }).catch(err => {
             if (err) {
                 ctx.response.status = 500;
-                console.log(err)
+                console.log("article_controller:",err)
                 ctx.body = {
                     message: err,
                     data: false
@@ -156,7 +156,7 @@ exports.selectArticle = async(ctx, next) => {
         }).catch(err => {
             if (err) {
                 ctx.response.status = 500;
-                console.log(err)
+                console.log("article_controller:",err)
                 ctx.body = {
                     message: err,
                     data: false
@@ -229,6 +229,7 @@ exports.editArticle = async(ctx, next) => {
             }).catch(err => {
                 ctx.response.status = 500;
                 if (err) {
+                    console.log("article_controller:",err)
                     throw err;
                 }
             });
@@ -245,6 +246,7 @@ exports.editArticle = async(ctx, next) => {
             }).catch(err => {
                 ctx.response.status = 500;
                 if (err) {
+                    console.log("article_controller:",err)
                     throw err;
                 }
             });

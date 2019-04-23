@@ -11,6 +11,30 @@ const path = require('path');
 const config = require('../config/index.js');
 const _ = require('lodash');
 
+let updateSession = function(ctx,user){
+    ctx.body = {
+        message: 'success',
+        data: {
+            user_id: user.user_id,
+            user_name: user.user_name,
+            user_nickname: user.user_nickname,
+            user_permission: user.user_permission,
+            user_head_img: user.user_head_img,
+            user_sex: user.user_sex,
+            user_age: user.user_age,
+            user_phone: user.user_phone,
+            user_email: user.user_email,
+            user_address: user.user_address,
+            user_signature: user.user_signature
+        },
+        success: true,
+    }
+    ctx.session.user = ctx.body.data;
+    ctx.cookies.set("koaID", '1', {
+        maxAge: config.sessionTimeout
+    });
+}
+
 //检查登录
 exports.checkLogin = async (ctx, next) => {
     var user = ctx.session.user;
@@ -69,27 +93,7 @@ exports.checkLogin = async (ctx, next) => {
                     }
                     return;
                 }
-                ctx.body = {
-                    message: 'success',
-                    data: {
-                        user_id: data.user_id,
-                        user_name: data.user_name,
-                        user_nickname: data.user_nickname,
-                        user_permission: data.user_permission,
-                        user_head_img: data.user_head_img,
-                        user_sex: data.user_sex,
-                        user_age: data.user_age,
-                        user_phone: data.user_phone,
-                        user_email: data.user_email,
-                        user_address: data.user_address,
-                        user_signature: data.user_signature
-                    },
-                    success: true,
-                }
-                ctx.session.user = ctx.body.data;
-                ctx.cookies.set("koaID", '1', {
-                    maxAge: config.sessionTimeout
-                });
+                updateSession(ctx,data);
             } else {
                 ctx.body = {
                     code: config.CODE_NOT_LOGIN,
@@ -244,7 +248,7 @@ exports.getUser = async (ctx, next) => {
     if (typeof user_id == "undefined") {
         throw new ApiError(ApiErrorNames.USER_NOT_EXIST);
     }
-    await userModel.selectUserById(user_id)
+    await user_sql.selectUserById(user_id)
         .then(result => {
 
             var res = JSON.parse(JSON.stringify(result))
@@ -421,6 +425,17 @@ exports.eidtInfo = async (ctx, next) => {
                 throw err;
             }
         });
+    if(ctx.body.success){
+        await user_sql.selectUserById(user.user_id)
+            .then(result => {
+                var res = JSON.parse(JSON.stringify(result))
+                if (res.length > 0) {
+                    updateSession(ctx,res[0]);
+                }
+            }).catch(err => {
+                console.log('error', err)
+            });
+    }
 }
 
 //上传头像
